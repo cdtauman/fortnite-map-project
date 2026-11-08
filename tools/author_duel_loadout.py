@@ -60,15 +60,17 @@ def main():
     clear = author("PCL_Duel_LoadoutClear", WOOD, 1, True, 0, ledger)
     paths = [author("PCL_Duel_Weapon_%02d" % i, w["path"], 1, False, i + 1, ledger) for i, w in enumerate(weapons)]
     device = {"refPath": PORTAL}
-    call("ValkyrieFortniteToolset.DeviceToolset", "SetDeviceProperty",
-         {"device": device, "propertyName": "WeaponGranters", "value": json.dumps([{"refPath": p} for p in paths])})
+    # Arrays of device references cannot be assigned by the tool, so the portal has one field per weapon.
+    for i, p in enumerate(paths):
+        call("ValkyrieFortniteToolset.DeviceToolset", "SetDeviceProperty",
+             {"device": device, "propertyName": "WeaponGranter%02d" % i, "value": json.dumps({"refPath": p})})
     call("ValkyrieFortniteToolset.DeviceToolset", "SetDeviceProperty",
          {"device": device, "propertyName": "LoadoutClear", "value": json.dumps({"refPath": clear})})
     call("ValkyrieFortniteToolset.DeviceToolset", "SetDeviceProperty",
          {"device": device, "propertyName": "DuelLoadoutConfigured", "value": "true"})
     call("EditorToolset.LevelToolset", "SaveActor", {"actor": device})
     back = call("ValkyrieFortniteToolset.DeviceToolset", "GetDeviceProperties",
-                {"device": device, "propertyNames": ["WeaponGranters", "LoadoutClear", "DuelLoadoutConfigured"]})
+                {"device": device, "propertyNames": ["WeaponGranter%02d" % i for i in range(len(paths))] + ["LoadoutClear", "DuelLoadoutConfigured"]})
     ledger["portal_readback"] = back
     json.dump(ledger, open(LEDGER, "w", encoding="utf-8"), indent=1)
     print("portal wired:", str(back)[:400])

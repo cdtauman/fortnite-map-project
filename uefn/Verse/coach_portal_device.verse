@@ -32,8 +32,57 @@ coach_portal_device := class(creative_device):
     @editable
     LoadoutGranter : item_granter_device = item_granter_device{}
     # One granter per CoachWeaponCatalog entry (same order) plus a "Clear Items" granter.
+    # Separate fields because the editor tools cannot assign arrays of device references.
     @editable
-    WeaponGranters : []item_granter_device = array{}
+    WeaponGranter00 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter01 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter02 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter03 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter04 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter05 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter06 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter07 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter08 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter09 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter10 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter11 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter12 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter13 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter14 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter15 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter16 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter17 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter18 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter19 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter20 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter21 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter22 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter23 : item_granter_device = item_granter_device{}
+    @editable
+    WeaponGranter24 : item_granter_device = item_granter_device{}
     @editable
     LoadoutClear : item_granter_device = item_granter_device{}
     @editable
@@ -443,12 +492,16 @@ coach_portal_device := class(creative_device):
 
     # Clears the previous round's items (resources stay), then grants each chosen slot.
     # Falls back to the original fixed loadout until the granters are wired in the editor.
+    WeaponGranters()<transacts>:[]item_granter_device =
+        array{WeaponGranter00, WeaponGranter01, WeaponGranter02, WeaponGranter03, WeaponGranter04, WeaponGranter05, WeaponGranter06, WeaponGranter07, WeaponGranter08, WeaponGranter09, WeaponGranter10, WeaponGranter11, WeaponGranter12, WeaponGranter13, WeaponGranter14, WeaponGranter15, WeaponGranter16, WeaponGranter17, WeaponGranter18, WeaponGranter19, WeaponGranter20, WeaponGranter21, WeaponGranter22, WeaponGranter23, WeaponGranter24}
+
     GrantDuelLoadout(Player : player):void =
-        if (not DuelLoadoutConfigured? or WeaponGranters.Length <> CoachWeaponCatalog.Length):
+        Granters := WeaponGranters()
+        if (not DuelLoadoutConfigured? or Granters.Length <> CoachWeaponCatalog.Length):
             LoadoutGranter.GrantItem(Player)
             return
         LoadoutClear.GrantItem(Player)
-        for (Choice : DuelLoadout(Player), Granter := WeaponGranters[Choice]):
+        for (Choice : DuelLoadout(Player), Granter := Granters[Choice]):
             Granter.GrantItem(Player)
 
     ShowDuelLoadout(Player : player):void =
