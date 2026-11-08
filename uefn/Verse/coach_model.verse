@@ -38,7 +38,7 @@ coach_round_record := class<final><persistable>:
     Challenge : float = 0.45
 
 coach_profile := class<final><persistable>:
-    SchemaVersion : int = 2
+    SchemaVersion : int = 3
     CompletedRounds : int = 0
     WonRounds : int = 0
     Challenge : float = 0.45
@@ -46,7 +46,7 @@ coach_profile := class<final><persistable>:
     RightEvidence : float = 0.0
     Personality : int = 0
     Timing : int = 0
-    TextLanguage : int = 1
+    TextLanguage : int = 0
     VoiceEnabled : logic = true
     CompletedLessons : int = 0
     OpponentStyle : int = 0
@@ -194,7 +194,7 @@ coach_training_session := class:
     var Style : coach_style = coach_style.Balanced
     var Personality : coach_personality = coach_personality.Supportive
     var Timing : coach_timing = coach_timing.DuringAndAfter
-    var HebrewText : logic = true
+    var HebrewText : logic = false
     var LastRoundWon : logic = false
     var LastRoundInterrupted : logic = false
     var AwaitingNextRound : logic = false
@@ -236,9 +236,10 @@ coach_training_session := class:
 
     Initialize():void =
         set Profile = LoadCoachProfile(Owner)
-        # Version one stored English even when the player had made no language choice.
-        if (Profile.SchemaVersion < 2):
-            set Profile = coach_profile{SchemaVersion := 2, TextLanguage := 1, CopyCoachProfile<constructor>(Profile)}
+        # Spec v1 (2026-11-09): English is the default UI language and Hebrew is opt-in.
+        # Versions before 3 stored a language the player never chose, so they restart in English.
+        if (Profile.SchemaVersion < 3):
+            set Profile = coach_profile{SchemaVersion := 3, TextLanguage := 0, CopyCoachProfile<constructor>(Profile)}
         Tactics.Initialize(Profile.TacticTrials, Profile.TacticValues)
         set Challenge = Clamp(Profile.Challenge, 0.1, 0.9)
         set Habits.Left = Clamp(Profile.LeftEvidence, 0.0, 25.0)
@@ -445,7 +446,7 @@ coach_training_session := class:
         else if (Style = coach_style.Patient):
             set StyleIndex = 2
         set Profile = coach_profile:
-            SchemaVersion := 2
+            SchemaVersion := 3
             Challenge := Challenge
             LeftEvidence := Habits.Left
             RightEvidence := Habits.Right

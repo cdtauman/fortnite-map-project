@@ -1,5 +1,5 @@
 {
-  "scope": "Prepared sign hierarchy; final gameplay appearance and native prompt Hebrew rendering unverified.",
+  "scope": "Sign hierarchy; spec v1 (2026-11-09): English primary, Hebrew secondary line. Gameplay appearance unverified.",
   "panels": [
     {
       "name": "PCL_Wayfinding_Gate_Personal",
@@ -108,10 +108,10 @@
     }
   ],
   "prompts": {
-    "PCL_Menu_Personal": "מאמן אישי",
-    "PCL_Menu_Duel": "אחד על אחד",
-    "PCL_Menu_Free": "בנייה חופשית",
-    "PCL_Menu_Edits": "אימון עריכות"
+    "PCL_Menu_Personal": "Personal Coach",
+    "PCL_Menu_Duel": "1V1 Arena",
+    "PCL_Menu_Free": "Free Build",
+    "PCL_Menu_Edits": "Edit Training"
   },
   "restoration_record": ".local/wayfinding166-authoring.json"
 }

@@ -1,56 +1,72 @@
-"""Sync reviewed Verse sources to a discovered editor mount, then compile."""
+"""Push local uefn/Verse sources into the open UEFN project and compile.
 
-import argparse
-import asyncio
-import hashlib
-import json
-import sys
-from datetime import datetime, timezone
-from pathlib import Path
+Usage: python tools/sync_verse.py coach_model.verse [more.verse ...] [--check-only]
 
-from mcp import Client
-from uefn_mcp import json_value, local_endpoint
+For each file: reads the native copy through MCP, verifies it matches the committed
+(HEAD) version (ignoring line endings / trailing newline) so no unseen editor-side change is
+overwritten, writes the local version, then runs one BuildAll and prints diagnostics.
+"""
+import json, os, subprocess, sys, tempfile
 
-
-async def run(args):
-    source = Path(args.source).resolve()
-    if not source.is_dir() or not args.mount.startswith('/'):
-        raise ValueError('An existing source directory and discovered absolute Verse mount are required')
-    async with Client(local_endpoint(args.url), mode='legacy') as client:
-        snapshot = []
-        for path in sorted(source.glob('*.verse')):
-            content = path.read_text(encoding='utf-8-sig')
-            result = json_value(await client.call_tool('call_tool', {
-                'toolset_name': 'VerseToolset.VerseToolset', 'tool_name': 'WriteFile',
-                'arguments': {'path': args.mount.rstrip('/') + '/' + path.name,
-                              'content': content, 'bCreateIfMissing': True}}))
-            if result.get('isError'):
-                raise RuntimeError('Editor rejected source: ' + path.name)
-            print('synced', path.name, flush=True)
-            snapshot.append({'file': path.name, 'sha256_utf8_lf': hashlib.sha256(content.encode('utf-8')).hexdigest()})
-        result = json_value(await client.call_tool('call_tool', {
-            'toolset_name': 'VerseToolset.VerseToolset', 'tool_name': 'BuildAll', 'arguments': {}}))
-        result['syncEvidence'] = {'mount': args.mount, 'sourceSnapshot': snapshot, 'buildObservedAtUtc': datetime.now(timezone.utc).isoformat(), 'scope': 'Files sent before this BuildAll result. Compilation is separate from runtime and publication.'}
-        Path(args.result).write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding='utf-8')
-        for item in result.get('content', []):
-            if item.get('type') == 'text':
-                print(item['text'], flush=True)
-                decoded = json.loads(item['text'])
-                if isinstance(decoded, dict) and decoded.get('returnValue'):
-                    raise RuntimeError('Build diagnostics require review')
-        if result.get('isError'):
-            raise RuntimeError('Editor reported a build error')
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PY = os.path.join(ROOT, ".venv-uefn", "Scripts", "python.exe")
+VERSE_ROOT = "/eda26a53-42c0-4b9e-8f62-31719aef6889/"
 
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--url', required=True)
-    parser.add_argument('--mount', required=True)
-    parser.add_argument('--source', required=True)
-    parser.add_argument('--result', required=True)
-    args = parser.parse_args()
-    try:
-        asyncio.run(run(args))
-    except Exception:
-        print('Sync/build did not complete. Inspect the saved result and editor state before retrying.', file=sys.stderr)
-        raise SystemExit(1)
+def call(toolset, tool, args, timeout="300"):
+    payload = {"toolset_name": toolset, "tool_name": tool, "arguments": args}
+    with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8") as f:
+        json.dump(payload, f)
+    p = subprocess.run([PY, os.path.join(ROOT, "tools", "uefn_mcp.py"), "--url", "http://127.0.0.1:8000/mcp",
+                        "--timeout", timeout, "call", "call_tool", "--arguments-file", f.name],
+                       capture_output=True, text=True, encoding="utf-8", errors="replace",
+                       env={**os.environ, "PYTHONIOENCODING": "utf-8", "PYTHONUTF8": "1"})
+    os.unlink(f.name)
+    if p.returncode != 0:
+        raise RuntimeError(f"{tool} failed: {p.stdout[-1500:]} {p.stderr[-1500:]}")
+    d = json.loads(p.stdout)
+    text = d["result"]["content"][0]["text"]
+    return json.loads(text).get("returnValue")
+
+
+def norm(s):
+    return s.replace("\r\n", "\n").rstrip("\n")
+
+
+def head_text(name):
+    p = subprocess.run(["git", "show", f"HEAD:uefn/Verse/{name}"], cwd=ROOT, capture_output=True)
+    return p.stdout.decode("utf-8") if p.returncode == 0 else None
+
+
+def main():
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    check_only = "--check-only" in sys.argv
+    for name in args:
+        local = open(os.path.join(ROOT, "uefn", "Verse", name), encoding="utf-8").read()
+        try:
+            native = call("VerseToolset.VerseToolset", "ReadFile", {"path": VERSE_ROOT + name})
+        except RuntimeError:
+            native = None
+        base = head_text(name)
+        if native is not None and base is not None and norm(native) != norm(base) and norm(native) != norm(local):
+            print(f"STOP {name}: native copy differs from HEAD and from local; not overwriting")
+            sys.exit(2)
+        if check_only:
+            print(f"{name}: native {'missing' if native is None else 'ok'}")
+            continue
+        call("VerseToolset.VerseToolset", "WriteFile", {"path": VERSE_ROOT + name, "content": local, "bCreateIfMissing": True})
+        print(f"wrote {name}")
+    if check_only:
+        return
+    diags = call("VerseToolset.VerseToolset", "BuildAll", {})
+    errors = [d for d in diags or [] if d.get("severity") == "Error"]
+    for d in diags or []:
+        sp = d.get("span", {})
+        print(f"{d.get('severity')} {d.get('filePath')}:{sp.get('startLine')}: {d.get('message')}")
+    print(f"BUILD {'FAILED' if errors else 'OK'} ({len(diags or [])} diagnostics)")
+    sys.exit(1 if errors else 0)
+
+
+if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8")
+    main()

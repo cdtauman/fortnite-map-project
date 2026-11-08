@@ -17,9 +17,10 @@ def main():
         draw.line([(56,52),(968,52)],fill=accent,width=4)
         draw.line([(56,456),(968,456)],fill=(40,59,68),width=2)
         if number:draw.text((512,130),number,font=font(40),fill=accent,anchor='mm')
-        title_size=min(98,int(875/max(1,len(hebrew))/.56))
-        draw.text((512,239),hebrew[::-1],font=font(title_size),fill=(242,246,246),anchor='mm')
-        draw.text((512,346),english,font=font(35),fill=accent,anchor='mm')
+        # Spec v1: English is the primary language; Hebrew is the secondary line.
+        title_size=min(98,int(875/max(1,len(english))/.62))
+        draw.text((512,239),english,font=font(title_size),fill=(242,246,246),anchor='mm')
+        draw.text((512,346),hebrew[::-1],font=font(40),fill=accent,anchor='mm')
         filename='PCL_Sign_'+kind+'.png';im.save(FOLDER/filename)
         specs.append({'name':'PCL_Sign_'+kind,'mode':kind,'file':filename,'hebrew':hebrew,'english':english})
     (FOLDER/'signs.json').write_text(json.dumps(specs,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
