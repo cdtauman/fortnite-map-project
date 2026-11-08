@@ -1,0 +1,206 @@
+{
+  "scope": "Native-parent course layer candidate. Editing, destroyed/edited actor restoration and publication remain unverified in gameplay.",
+  "layer": {
+    "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/CourseRuntime/PCL_DL_EditCourse.PCL_DL_EditCourse"
+  },
+  "sequences": {
+    "Unload": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/CourseRuntime/PCL_LS_CourseUnload.PCL_LS_CourseUnload"
+    },
+    "Load": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/CourseRuntime/PCL_LS_CourseLoad.PCL_LS_CourseLoad"
+    }
+  },
+  "controllers": {
+    "Unload": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CinematicSequence_C_UAID_30E3A4101075C41203_1131334686"
+    },
+    "Load": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CinematicSequence_C_UAID_30E3A4101075C41203_1174611687"
+    }
+  },
+  "course": {
+    "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075491203_1885040772"
+  },
+  "parts": [
+    {
+      "label": "PCL_Triple_Wall",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseWall.PCL_BP_CourseWall_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A41010754E1203_1087764676"
+    },
+    {
+      "label": "PCL_Edit_Grid_Wall_03",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseWall.PCL_BP_CourseWall_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A41010754D1203_2140583494"
+    },
+    {
+      "label": "PCL_Edit_Grid_Wall_02",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseWall.PCL_BP_CourseWall_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A41010754D1203_2137283493"
+    },
+    {
+      "label": "PCL_Edit_Grid_Wall_05",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseWall.PCL_BP_CourseWall_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A41010754E1203_1075074672"
+    },
+    {
+      "label": "PCL_Edit_Grid_Wall_01",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseWall.PCL_BP_CourseWall_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A41010754D1203_2129977492"
+    },
+    {
+      "label": "PCL_Edit_Grid_Wall_04",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseWall.PCL_BP_CourseWall_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A41010754D1203_2145631495"
+    },
+    {
+      "label": "PCL_Triple_Ramp",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseRamp.PCL_BP_CourseRamp_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseRamp_C_UAID_30E3A41010754E1203_1078177673"
+    },
+    {
+      "label": "PCL_Triple_Landing",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseFloor.PCL_BP_CourseFloor_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseFloor_C_UAID_30E3A41010754E1203_1090944677"
+    },
+    {
+      "label": "PCL_Triple_Floor",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseFloor.PCL_BP_CourseFloor_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseFloor_C_UAID_30E3A41010754E1203_1081335674"
+    },
+    {
+      "label": "PCL_Triple_Cone",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseCone.PCL_BP_CourseCone_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseCone_C_UAID_30E3A41010754E1203_1084551675"
+    },
+    {
+      "label": "PCL_Chain_1_Ramp",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseRamp.PCL_BP_CourseRamp_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseRamp_C_UAID_30E3A4101075D21203_1292879207"
+    },
+    {
+      "label": "PCL_Chain_1_Floor",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseFloor.PCL_BP_CourseFloor_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseFloor_C_UAID_30E3A4101075D21203_1293708208"
+    },
+    {
+      "label": "PCL_Chain_1_Cone",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseCone.PCL_BP_CourseCone_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseCone_C_UAID_30E3A4101075D21203_1293850209"
+    },
+    {
+      "label": "PCL_Chain_1_Wall",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseWall.PCL_BP_CourseWall_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A4101075D21203_1293975210"
+    },
+    {
+      "label": "PCL_Chain_1_Landing",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseFloor.PCL_BP_CourseFloor_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseFloor_C_UAID_30E3A4101075D21203_1294123211"
+    },
+    {
+      "label": "PCL_Chain_2_Ramp",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseRamp.PCL_BP_CourseRamp_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseRamp_C_UAID_30E3A4101075D21203_1294217212"
+    },
+    {
+      "label": "PCL_Chain_2_Floor",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseFloor.PCL_BP_CourseFloor_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseFloor_C_UAID_30E3A4101075D21203_1294296213"
+    },
+    {
+      "label": "PCL_Chain_2_Cone",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseCone.PCL_BP_CourseCone_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseCone_C_UAID_30E3A4101075D21203_1294387214"
+    },
+    {
+      "label": "PCL_Chain_2_Wall",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseWall.PCL_BP_CourseWall_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A4101075D21203_1294464215"
+    },
+    {
+      "label": "PCL_Chain_2_Landing",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseFloor.PCL_BP_CourseFloor_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseFloor_C_UAID_30E3A4101075D21203_1294532216"
+    },
+    {
+      "label": "PCL_Chain_3_Ramp",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseRamp.PCL_BP_CourseRamp_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseRamp_C_UAID_30E3A4101075D21203_1294607217"
+    },
+    {
+      "label": "PCL_Chain_3_Floor",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseFloor.PCL_BP_CourseFloor_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseFloor_C_UAID_30E3A4101075D21203_1294669218"
+    },
+    {
+      "label": "PCL_Chain_3_Cone",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseCone.PCL_BP_CourseCone_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseCone_C_UAID_30E3A4101075D21203_1294731219"
+    },
+    {
+      "label": "PCL_Chain_3_Wall",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseWall.PCL_BP_CourseWall_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A4101075D21203_1294785220"
+    },
+    {
+      "label": "PCL_Chain_3_Landing",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_CourseFloor.PCL_BP_CourseFloor_C"
+      },
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseFloor_C_UAID_30E3A4101075D21203_1294849221"
+    }
+  ],
+  "unload_seconds": 3,
+  "load_seconds": 3,
+  "initial_state": "Activated",
+  "persistent_part_references": false
+}

@@ -1,0 +1,52 @@
+{
+  "run": "50",
+  "classification": "No runtime trial; startup/observer orchestration interrupted",
+  "compiled_build": "npc-managed-loadout-fixed-build.json",
+  "observer": {
+    "run": "50",
+    "scope": "Production coach_equipment NPC-only loadout initialization and cleanup, using the private attack-isolation fixture. Park original ranged items with successful public Unequip/RemoveItem results; require0remaining before adding the owned rifle. Initialize stationary hostile guard5000HP before measurement, require native hostile detection/LOS, sample2s without requested attack,12s native Attack after template equip,then12s Attack plus public BeginFire. Native damage/fire rate/shot cost unchanged; source-attributed target damage and exact rifle equip/holster/fire states separated. Restore parked items before despawning owned actors. No player inventory/position changes, direct Damage/Explode, computer input or build acceptance changes.",
+    "source_preparation": "final-run-50-preparation.json",
+    "started_at_utc": "2026-11-07T03:15:34.956236+00:00",
+    "started_game_by_tool": false,
+    "sequence_finished": false,
+    "keep_edit_session_requested": true,
+    "initial_session_state": "Disconnected",
+    "readiness_observations": [
+      {
+        "at_utc": "2026-11-07T03:15:35.261535+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:15:36.265849+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:15:37.288971+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:15:38.504980+00:00",
+        "session": "Connecting"
+      },
+      {
+        "at_utc": "2026-11-07T03:15:39.529776+00:00",
+        "session": "Connecting"
+      },
+      {
+        "at_utc": "2026-11-07T03:15:40.551391+00:00",
+        "session": "Connected"
+      }
+    ],
+    "ready_session_state": "Connected",
+    "initial_game_state": "CanStart",
+    "observer_error": "{'content': [{'type': 'text', 'text': 'The Start Game command is not currently available.'}], 'isError': True, 'resultType': 'complete'}",
+    "observations": []
+  },
+  "starter_completed_artifact_present": false,
+  "observed_start_error": "Start Game command not currently available",
+  "observed_launch_error": "Failed: canceled by user",
+  "editor_log_exit": "StaticShutdownAfterError followed by RequestExitWithStatus; internal cause not established",
+  "correction": "Observer now refuses all editor access unless startup/upload artifact reports Completed. Root must await starter terminal completion.",
+  "guard_check": "Run50 missing completion artifact rejected before any editor calls",
+  "gates_accepted": false
+}

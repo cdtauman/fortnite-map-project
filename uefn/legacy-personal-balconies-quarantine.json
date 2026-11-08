@@ -1,0 +1,140 @@
+{
+  "scope": "Reversible isolation of three unused stock balconies protruding across the personal arena boundary. No gameplay or deletion.",
+  "offset_xyz_cm": [
+    0,
+    -60000,
+    0
+  ],
+  "course_members_protected": 25,
+  "actors": [
+    {
+      "label": "PBWA_W1_BalconyI_C",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_BalconyI_C_2147482646"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_BalconyI.PBWA_W1_BalconyI_C",
+      "original": {
+        "location": {
+          "x": 1024.0,
+          "y": 3328.0,
+          "z": 1152.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 180.0,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "quarantine": {
+        "location": {
+          "x": 1024.0,
+          "y": -56672.0,
+          "z": 1152.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 180.0,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true
+    },
+    {
+      "label": "PBWA_W1_BalconyI_C2",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_BalconyI_C_2147482645"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_BalconyI.PBWA_W1_BalconyI_C",
+      "original": {
+        "location": {
+          "x": 512.0,
+          "y": 3328.0,
+          "z": 1536.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 180.0,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "quarantine": {
+        "location": {
+          "x": 512.0,
+          "y": -56672.0,
+          "z": 1536.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 180.0,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true
+    },
+    {
+      "label": "PBWA_W1_BalconyI_C3",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_BalconyI_C_2147482644"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_BalconyI.PBWA_W1_BalconyI_C",
+      "original": {
+        "location": {
+          "x": 5.684341886080802e-14,
+          "y": 3328.0,
+          "z": 1920.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 180.0,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "quarantine": {
+        "location": {
+          "x": 5.684341886080802e-14,
+          "y": -56672.0,
+          "z": 1920.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 180.0,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true
+    }
+  ]
+}

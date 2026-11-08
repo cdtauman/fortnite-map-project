@@ -1,0 +1,478 @@
+{
+  "recorded_at_utc": "2026-11-06T23:55:09.587337+00:00",
+  "run": "automatic-33",
+  "build": "UEFN43.00CL59596594",
+  "scope": "Failed connection before a captured character-target gameplay trial. No successful rifle/target/placement/damage result is claimed.",
+  "preparation": {
+    "prepared_at_utc": "2026-11-06T23:22:04.930099+00:00",
+    "source_build": "health-probe-character-target-confirmed-build.json",
+    "source_build_sha256": "4560d65996a79f45627fa5e29e6c07ad12aed2eed749396d52a742304df257f0",
+    "probe": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567"
+    },
+    "probe_label": "PCL_Health_Probe",
+    "log_pattern": "PCL\\|health_probe",
+    "test_flags": {
+      "Enabled": true,
+      "AutoRun": true
+    },
+    "combat_gates": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "input_requested": false,
+    "connection_reused": false,
+    "calibration_native_timer": false,
+    "calibration_blast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075661203_1497102807"
+    },
+    "calibration_objective": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+    },
+    "weapon_calibration": true,
+    "character_target_control": true,
+    "calibration_shooter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075671203_1509093984"
+    },
+    "calibration_player_teleporter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Teleporter_V2_C_UAID_30E3A4101075711203_1580237745"
+    },
+    "calibration_no_fire_zone": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MutatorVolume_V2_C_UAID_30E3A4101075491203_1921501775"
+    },
+    "source_archive": {
+      "path": ".local\\evidence\\health-33\\sources.zip",
+      "sha256": "e79c7094c30e6994ec605b65431eb854f825d5a31c2148a00f61288a084c811d"
+    },
+    "fixture_archive": {
+      "path": ".local\\evidence\\health-33\\health-probe-layout.json",
+      "sha256": "b3517051a816f592305f4ea4a734c3b93d92e6fab22651a3c5439599ec2b4d81"
+    }
+  },
+  "start_session": "Completed",
+  "observer": {
+    "run": "33",
+    "scope": "Exact owned trace rifle transferred from guard carrier to player, aimed at a stationary hostile native guard with5000HP initialized before measurement. Carrier and target share a team; no native guard Attack request. Two-second baseline, native/zero shot costs, actual firing/aim/position, target health and player-attributed damage are separate. Restore player vulnerability/equipment/position and native teams/stasis. No direct Damage/Explode, computer input or acceptance-gate change.",
+    "source_preparation": "final-run-33-preparation.json",
+    "started_at_utc": "2026-11-06T23:28:37.689000+00:00",
+    "started_game_by_tool": false,
+    "sequence_finished": false,
+    "keep_edit_session_requested": true,
+    "initial_session_state": "Disconnected",
+    "readiness_observations": [
+      {
+        "at_utc": "2026-11-06T23:28:39.125898+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:28:40.457979+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:28:41.791895+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:28:43.122537+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:28:44.455724+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:28:45.790028+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:28:47.122998+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:28:48.455336+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:28:49.791971+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:28:51.122775+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:28:52.455463+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:28:53.789123+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:28:55.122441+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:28:56.453524+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:28:57.790927+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:28:59.122366+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:00.457327+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:01.795012+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:03.124216+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:04.457983+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:05.789783+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:07.122214+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:08.454999+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:09.788007+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:11.120188+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:12.455570+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:13.785719+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:15.121174+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:16.456911+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:17.800933+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:19.120326+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:20.458395+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:21.788174+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:23.121574+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:24.456657+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:25.787184+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:27.121786+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:28.456274+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:29.789159+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:31.122808+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:32.455454+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:33.788237+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:35.123513+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:36.455637+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:37.790115+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:39.120965+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:40.456465+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:41.789582+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:43.122262+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:44.456038+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:45.791299+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:47.124382+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:48.458288+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:49.803195+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:51.125450+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:52.456753+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:53.495572+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:54.788863+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:56.128983+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:57.456065+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:29:58.788516+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:00.122342+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:01.465358+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:02.794626+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:04.122191+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:05.455087+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:06.789558+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:08.131971+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:09.465254+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:10.787082+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:12.120777+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:13.455271+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:14.795423+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:16.122312+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:17.459068+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:18.796713+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:20.121644+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:21.456229+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:22.786795+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:24.123468+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:25.456701+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:26.788740+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:28.122988+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:29.456155+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:30.802649+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:32.122211+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:33.454611+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:34.789941+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:36.126147+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:37.459121+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:38.793751+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T23:30:40.123228+00:00",
+        "session": "Disconnected"
+      }
+    ],
+    "observer_error": "Session is not connected: Disconnected",
+    "observations": [],
+    "combat_gates_after_run": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "restored_flags": {
+      "Enabled": false,
+      "AutoRun": false,
+      "UseCharacterTargetControl": false,
+      "UseWeaponCalibration": false
+    },
+    "final_game_state": "Unconnected",
+    "final_session_state": "Disconnected",
+    "kept_edit_session": false,
+    "ended_at_utc": "2026-11-06T23:30:46.429083+00:00"
+  },
+  "client_snapshots": {
+    "run": "33",
+    "read_only": true,
+    "snapshots": [],
+    "ended_at_utc": "2026-11-06T23:30:49.280583+00:00"
+  },
+  "late_verse_output_fetch_completed": false,
+  "late_fetch_note": "Independent fetch failed during MCP initialization while editor was unresponsive. Empty observer output is a capture limit, not proof no server log existed.",
+  "ui_observation": {
+    "session_inspector": "The server shut down because no game clients are connected.",
+    "input_sent": false,
+    "control_runtime_reset": true
+  },
+  "editor_recovery": {
+    "saved_backup": ".local/backups/ProCoachLab_saved_recovery_20261106_233930",
+    "unsaved_user_state_question_pending": true,
+    "native_regex_reader_retired": true,
+    "root_cause": "Not established; editor became unresponsive during a heavy unanchored native log-regex request. Cancelling the caller did not restore observed responsiveness."
+  },
+  "invalid_diagnostic_artifacts": [
+    ".local\\final-run-33-local-client-log-20261106_234401.json"
+  ],
+  "invalid_artifacts_note": "First local PowerShell log-tail version misparsed an automatically converted JSON date and included older entries. Do not treat those artifacts as run33 evidence. Corrected reader extracts the literal ISO timestamp and found zero recent matching entries.",
+  "current_repo_edits": "New lane/query/cleanup edits remain offline and uncompiled; they are not the archived run33 build.",
+  "gates_accepted": false
+}

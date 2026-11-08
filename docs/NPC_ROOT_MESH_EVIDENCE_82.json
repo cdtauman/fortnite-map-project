@@ -1,0 +1,78 @@
+{
+  "run": "82",
+  "source_build": "npc-root-mesh82-build.json",
+  "runtime_evidence_sha256": "980b848544f979b8cce794b27f61e9cc55ce043e4c6b16f3d268c9f793801ce6",
+  "single_asset_field_control": {
+    "root_mesh_visible_before": false,
+    "root_mesh_visible_during": true,
+    "root_mesh_visible_after": false,
+    "backup_and_readback": ".local/root-mesh82-control.json"
+  },
+  "runtime_components": {
+    "tool": {
+      "samples": 40,
+      "states": {
+        "visible=1,enabled=1,map_pose=1": 40
+      }
+    },
+    "rifle": {
+      "samples": 8,
+      "states": {
+        "visible=1,enabled=0,map_pose=1": 8
+      }
+    }
+  },
+  "views": [
+    {
+      "phase": "tool",
+      "image": "docs\\images\\npc-root-mesh-tool-82.png",
+      "sha256": "e9be91b38a40140b0f679492602f834e09cbc9483a4451eb23d80b060abc3e2f",
+      "metadata": ".local\\visual-evidence82\\tool.json",
+      "source_ready": "2026-11-07T08:23:22.922Z",
+      "source_finished": "2026-11-07T08:24:02.996Z",
+      "capture_requested_at": "2026-11-07T08:23:28.626281+00:00",
+      "request_in_source_window": true,
+      "ready_age_at_scheduling_seconds": 5.145426,
+      "remaining_at_scheduling_seconds": 34.854574,
+      "metadata_caveat": "Current framebuffer; originating GPU frame/camera not separately identified."
+    },
+    {
+      "phase": "rifle",
+      "image": "docs\\images\\npc-root-mesh-rifle-82.png",
+      "sha256": "d486b02320d003aace840e717f05a875047a3732e87ea2b255026350d5d59704",
+      "metadata": ".local\\visual-evidence82\\rifle.json",
+      "source_ready": "2026-11-07T08:24:05.868Z",
+      "source_finished": "2026-11-07T08:24:13.883Z",
+      "capture_requested_at": "2026-11-07T08:24:07.383201+00:00",
+      "request_in_source_window": true,
+      "ready_age_at_scheduling_seconds": 0.972123,
+      "remaining_at_scheduling_seconds": 7.027877,
+      "metadata_caveat": "Current framebuffer; originating GPU frame/camera not separately identified."
+    }
+  ],
+  "visual_observation": {
+    "tool": "Cyan plan geometry visible near waist, arms lowered and rifle down in right hand. Proper map-reading grip/pose not observed. Stock torch not clearly identified.",
+    "rifle": "Managed rifle held with both arms; plan geometry absent in this static frame."
+  },
+  "interpretation": "Root visibility is a concrete configuration dependency for authored child appearance in this comparison. Map pose component exists and property reads map at runtime; property state does not prove NPC animation applied. Remaining geometry/pivot/pose/weapon presentation must be separated.",
+  "scope": "One controlled owned-root visibility field plus read-only diagnostic logging; no native building, temporal continuity, pro-quality or publication acceptance.",
+  "scoped_equipment_checks": "NPC_TOOL_INTENT_CHECKS_82.json",
+  "rendered_tool_grip_accepted": false,
+  "native_build_gates_accepted": false,
+  "current_editor_differs_from_cooked82": true,
+  "recook_required_for_restored_asset": true,
+  "next_control": "Isolate initial explicit outgoing-rifle release versus implicit replacement while retaining map pose; keep all main experimental flags off. Separate default torch pose control if needed.",
+  "source_refresh": [
+    {
+      "url": "https://dev.epicgames.com/documentation/fortnite/fort-item-owner-pose-modifier-component-in-fortnite",
+      "inspected": "2026-11-07",
+      "scope": "Held template, runtime pose setting; player-oriented language, no claimed NPC acceptance."
+    },
+    {
+      "url": "https://dev.epicgames.com/documentation/fortnite/weapon-templates-in-fortnite",
+      "inspected": "2026-11-07",
+      "scope": "Root mesh replacement and grip pivot guidance, not proof of held NPC map pose."
+    }
+  ],
+  "project_complete": false
+}

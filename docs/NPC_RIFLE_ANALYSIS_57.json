@@ -1,0 +1,75 @@
+{
+  "run": "57",
+  "evidence_sha256": "555665e25a2797ace43a8d5f6f50d1acbadbac269b8c8e69fe34d77fa9fe0d98",
+  "build": "UEFN 43.00 CL-59596594",
+  "scope": "Private production-equipment native aiming control. One exact equipped assault-rifle template after checked original-item parking; idempotent initialization and selection. Initialize hostile target5000HP in stationary stasis before measurement; capture exact npc_awareness_component.DetectedTargets entry Target and log equality to agent/body. Use this exact detected entity for12s Attack, then12s concurrent Focus and Attack, matching coach_opponent_behavior target selection. Log Focus return explicitly; no explicit BeginFire in the combined phase. Sample rifle equip/holster/fire, source-attributed damage, both body positions and view alignment (not a ballistic ray). Rifle damage/fire rate/shot cost unchanged; original-item restoration and repeat cleanup checked. No player inventory/position changes, direct Damage/Explode, computer input or build-gate changes. Target-stationarity, shooter motion and actual sampled phase length are measured. Shared CoachFocusCompanion is used in the combined phase and in main attack/peek/movement/obstacle windows: a completed Focus request logs and yields until its parent race is canceled, so Focus completion alone cannot terminate the action window. This is a lifetime fix, not proof that native focus itself remains active.",
+  "phases": {
+    "detected_baseline": {
+      "samples": 8,
+      "hp_start": 5000.0,
+      "hp_end": 4965.0,
+      "source_attributed_hits": 1,
+      "equipped_samples": 8,
+      "holstered_samples": 0,
+      "firing_samples": 4,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 280.44730352083155,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.986647,
+        0.99587
+      ]
+    },
+    "native_attack_after_equip": {
+      "samples": 48,
+      "hp_start": 4965.0,
+      "hp_end": 4790.0,
+      "source_attributed_hits": 5,
+      "equipped_samples": 48,
+      "holstered_samples": 0,
+      "firing_samples": 38,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 1163.924853533084,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.979804,
+        0.997916
+      ]
+    },
+    "focus_entity_plus_attack": {
+      "samples": 48,
+      "hp_start": 4790.0,
+      "hp_end": 4615.0,
+      "source_attributed_hits": 5,
+      "equipped_samples": 48,
+      "holstered_samples": 0,
+      "firing_samples": 28,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 1861.7704107950851,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.982124,
+        0.997406
+      ]
+    }
+  },
+  "finished": "PCL|health_probe|npc_equipped_finished|target_health=4580.000000|source_hits=12|no_direct_damage_or_legacy_attack_phase",
+  "cleanup": "PCL|health_probe|npc_equipped_cleanup|parked=2|restored=2|original_ranged_items_returned_before_despawn|managed_rifle_removed=1|idempotent_cleanup=1",
+  "observed_damage": 420.0,
+  "positive_source_attributed_hits": 12,
+  "damage_after_last_sample": 35.0,
+  "source_hits_after_last_sample": 1,
+  "requested_phases_without_samples": [],
+  "limits": [
+    "Detection baseline contains firing before the explicit Attack request; do not attribute unholstering solely to Attack.",
+    "One native rifle was available, equipped and sampled firing; exact per-hit weapon-causer identity was not separately read.",
+    "Stationary private NPC target; no pro cadence, moving-player accuracy, occlusion, reload, build/edit, multiplayer or publication acceptance."
+  ],
+  "native_build_gates_accepted": false
+}

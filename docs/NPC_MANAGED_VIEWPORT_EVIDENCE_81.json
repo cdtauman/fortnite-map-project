@@ -1,0 +1,85 @@
+{
+  "run": "81",
+  "source_build": "npc-managed-viewport80-build.json",
+  "content_upload_performed": false,
+  "warm_restart_from_runtime": "80",
+  "observer_started_game": true,
+  "start_game_requested": "2026-11-07T07:56:05.211228+00:00",
+  "start_game_returned": "2026-11-07T07:56:05.431492+00:00",
+  "late_requests_skipped": [],
+  "views": [
+    {
+      "phase": "tool",
+      "image": "docs\\images\\npc-managed-tool-fresh-viewport-81.png",
+      "sha256": "e3ff0bbadd4bd127aabeaae98a21a4752122df113bb88953b60a6e4212c0e167",
+      "capture_metadata": {
+        "path": "GameViewport",
+        "world": {
+          "world": {
+            "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+          },
+          "worldType": "Game",
+          "mapPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport",
+          "pIEInstance": -1,
+          "bCanCapture": true
+        },
+        "viewSource": "",
+        "mode": "",
+        "visualizationSubMode": "",
+        "requestFrameNumber": 271497,
+        "worldTimeSeconds": 14268.588306389749
+      },
+      "source_ready_timestamp": "2026-11-07T07:56:15.077Z",
+      "ready_age_at_request_seconds": 0.642928,
+      "remaining_at_request_seconds": 39.357072,
+      "capture_request_seconds_before_source_window_end": 39.102606,
+      "requested_phase_live": true,
+      "local_pawn_position_unchanged_during_capture": true
+    },
+    {
+      "phase": "rifle",
+      "image": "docs\\images\\npc-managed-rifle-fresh-viewport-81.png",
+      "sha256": "33fabce0513f93dd43afbc6115a8c3554acfec5ea1f0bf6efab710a70a785be7",
+      "capture_metadata": {
+        "path": "GameViewport",
+        "world": {
+          "world": {
+            "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+          },
+          "worldType": "Game",
+          "mapPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport",
+          "pIEInstance": -1,
+          "bCanCapture": true
+        },
+        "viewSource": "",
+        "mode": "",
+        "visualizationSubMode": "",
+        "requestFrameNumber": 272249,
+        "worldTimeSeconds": 14311.645590044558
+      },
+      "source_ready_timestamp": "2026-11-07T07:56:58.023Z",
+      "ready_age_at_request_seconds": 0.856845,
+      "remaining_at_request_seconds": 7.143155,
+      "capture_request_seconds_before_source_window_end": 6.857287,
+      "requested_phase_live": true,
+      "local_pawn_position_unchanged_during_capture": true
+    }
+  ],
+  "visual_observations": {
+    "tool": "Guard visible in actual viewport during live tool window, arms lowered and rifle hanging downward; no clear build-plan mesh/reading pose visible. Do not accept native/custom build-tool appearance.",
+    "rifle": "Guard visible in actual viewport with the managed assault rifle, both arms holding it and a visible muzzle flash during the live rifle window. One static managed-rifle firing pose observed."
+  },
+  "native_original_static_reference": "NPC_NATIVE_VIEWPORT_EVIDENCE_79.json",
+  "managed_rifle_static_pose_observed": true,
+  "managed_build_tool_pose_accepted": false,
+  "owned_prefab_read_only_followup": ".local/held-plan82-prefab-inspection.json",
+  "prefab_scope": "Generated digest confirms PCL_BuildPlan derives held_item_template. Fresh owned-prefab readback finds root mesh Enabled=true/Visible=false; stored pose defaults fire_torch, while runtime PrepareBuildPlan attempts SetEquippedPose(map). Authored paper/frame/lines are child entities. Actual runtime pose/root visibility/mesh-parent behavior needs a discriminating test before assigning a platform limitation. No prefab mutation performed.",
+  "native_build_gates_accepted": false,
+  "pro_quality_verified": false,
+  "computer_input_used": false,
+  "limits": [
+    "One static managed-rifle firing frame; no animation continuity or pro/native-build acceptance.",
+    "Source event/request freshness verified; originating GPU-frame identity remains absent from the tool metadata.",
+    "Server equip/holster checks remain separate: scoped81checks fail58/60unholstered despite60/60equipped."
+  ]
+}

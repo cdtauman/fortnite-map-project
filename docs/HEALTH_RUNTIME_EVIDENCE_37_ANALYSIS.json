@@ -1,0 +1,13 @@
+{
+  "run": "37",
+  "objective_positive_events": 35,
+  "objective_damage_total": 1225,
+  "starting_health": 5000,
+  "final_health": 3775,
+  "first_damage_at_utc": "2026-11-07T00:58:41.229Z",
+  "first_capture_request_at_utc": "2026-11-07T00:58:42.443857+00:00",
+  "first_damage_precedes_capture_request": true,
+  "scope": "Actual objective HP loss in player-template firing phases, no direct Damage/Explode. Exact native instigator not logged by37 handler; attribution instrumentation added only afterward. No cause established for prior36 non-hits.",
+  "capture_limits": "Three framebuffer requests; only first requested during firing,23.6s response latency. Opening menu/onscreen diagnostic text obscure target; not continuous video or proof of exact GPU frame time. Captured UI shows native rifle and ammo count.",
+  "next_build": "health-probe-wall-occlusion-build.json"
+}

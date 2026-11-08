@@ -1,0 +1,23 @@
+{
+  "run": "89",
+  "build": "npc-native-build-visual89-build.json",
+  "runtime_evidence_sha256": "50f9fc17634627dfb3f9bb835279747f72d21ebfbc30c841a815c161998ebe05",
+  "source_ready": "2026-11-07T09:21:10.062Z",
+  "source_finished": "2026-11-07T09:21:50.136Z",
+  "observer_started_at": "2026-11-07T09:22:06.332327+00:00",
+  "observer_start_seconds_after_window_end": 16.196327,
+  "initial_game_state": "Running",
+  "capture_requests": 0,
+  "images": 0,
+  "visual_samples": 40,
+  "tool_equipped_samples": 0,
+  "parent_matching_samples": 40,
+  "short_lease_evidence": "NPC_NATIVE_BUILD_LEASE_89.json",
+  "extended_lease_evidence": "NPC_NATIVE_BUILD_LEASE_EXTENDED_89.json",
+  "interpretation": "Short8poll lease and14item restoration pass; all40visual-window tool equipped flags are0 while parent matches40/40. Focus/UI/camera phase followed short samples; no single cause established. Observer arrived after the entire visual window, so no image was requested; no render failure conclusion can be drawn.",
+  "scope_correction": "Initial10checks cover short8poll lease/restoration only. Extended11th check includes40s visual hold and fails; use EXTENDED evidence for extended holding scope.",
+  "next_control": "90removes Focus and frames from observed character forward; push observer chained after terminal upload; same native lease restoration. No90result asserted here.",
+  "native_tool_visual_accepted": false,
+  "native_build_gates_accepted": false,
+  "project_complete": false
+}

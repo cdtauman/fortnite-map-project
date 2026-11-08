@@ -1,0 +1,1188 @@
+{
+  "date": "2026-11-07",
+  "build": "UEFN 43.00 CL-59596594",
+  "scope": "Editor configuration, compilation and asset validation only. Automatic runtime experiments are recorded separately; these checks do not establish native build/edit interoperability.",
+  "academy_actor_count": 151,
+  "checked_at_utc": "2026-11-07T18:10:07.844477+00:00",
+  "scene_actor_count": 188,
+  "rejected_camera_focus_actors": [],
+  "course_transforms": [
+    {
+      "label": "PCL_Edit_Grid_Wall_01",
+      "transform": {
+        "location": {
+          "x": -8192,
+          "y": -768,
+          "z": 0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Edit_Grid_Wall_02",
+      "transform": {
+        "location": {
+          "x": -8192,
+          "y": -256,
+          "z": 0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Edit_Grid_Wall_03",
+      "transform": {
+        "location": {
+          "x": -8192,
+          "y": 256,
+          "z": 0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Edit_Grid_Wall_04",
+      "transform": {
+        "location": {
+          "x": -8192,
+          "y": 768,
+          "z": 0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Edit_Grid_Wall_05",
+      "transform": {
+        "location": {
+          "x": -8192,
+          "y": 1280,
+          "z": 0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Triple_Ramp",
+      "transform": {
+        "location": {
+          "x": -7168,
+          "y": -1280,
+          "z": 0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Triple_Floor",
+      "transform": {
+        "location": {
+          "x": -7168,
+          "y": -1280,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Triple_Cone",
+      "transform": {
+        "location": {
+          "x": -7168,
+          "y": -1280,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Triple_Wall",
+      "transform": {
+        "location": {
+          "x": -7168,
+          "y": -768,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Triple_Landing",
+      "transform": {
+        "location": {
+          "x": -7168,
+          "y": -768,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    }
+  ],
+  "portal": {
+    "opponentSpawner": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075341203_1976870016"
+    },
+    "baselineSpawner": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_GuardSpawner_V2_C_UAID_30E3A4101075311203_1704650468"
+    },
+    "useCustomNPC": true,
+    "speakerSpawner": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075371203_1277704559"
+    },
+    "voiceReady": true,
+    "loadoutGranter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ItemGranter_V2_C_UAID_30E3A4101075321203_1164712648"
+    },
+    "spawnPadOne": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.BP_Creative_Player_Spawner_Prop_C_1"
+    },
+    "spawnPadTwo": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.BP_Creative_Player_Spawner_Prop_C_3"
+    },
+    "menuButton": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Button_V2_C_UAID_30E3A4101075341203_1972129009"
+    },
+    "menuPersonal": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Button_V2_C_UAID_30E3A4101075341203_1972999010"
+    },
+    "menuDuel": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Button_V2_C_UAID_30E3A4101075341203_1973263011"
+    },
+    "menuFreeBuild": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Button_V2_C_UAID_30E3A4101075341203_1973558012"
+    },
+    "menuEdits": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Button_V2_C_UAID_30E3A4101075341203_1973823013"
+    },
+    "lessonButton": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Button_V2_C_UAID_30E3A4101075341203_1974081014"
+    },
+    "hubButton": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Button_V2_C_UAID_30E3A4101075341203_1974319015"
+    },
+    "structures": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075391203_2089996912"
+    },
+    "coachInput": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_InputTrigger_C_UAID_30E3A4101075391203_2091548913"
+    },
+    "personalReset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075391203_2093418914"
+    },
+    "duelReset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A41010753A1203_1434720093"
+    },
+    "freeReset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A41010753A1203_1442076094"
+    },
+    "editReset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A41010753A1203_1447534095"
+    },
+    "personalResetUpper": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A41010753B1203_1756054299"
+    },
+    "duelResetUpper": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A41010753B1203_1766050301"
+    },
+    "freeResetUpper": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A41010753B1203_1774662303"
+    },
+    "editResetUpper": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A41010753B1203_1782918305"
+    },
+    "course": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075491203_1885040772"
+    },
+    "commerce": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075501203_1406046030"
+    },
+    "demoOne": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075561203_1832929114"
+    },
+    "demoTwo": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075571203_1268369301"
+    }
+  },
+  "structures": {
+    "wallAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075391203_2089996912.coach_structure_device_0.Devices_creative_prop_asset_1"
+    },
+    "floorAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075391203_2089996912.coach_structure_device_0.Devices_creative_prop_asset_3"
+    },
+    "rampAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075391203_2089996912.coach_structure_device_0.Devices_creative_prop_asset_4"
+    },
+    "coneAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075391203_2089996912.coach_structure_device_0.Devices_creative_prop_asset_0"
+    },
+    "demoAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075391203_2089996912.coach_structure_device_0.Devices_creative_prop_asset_2"
+    },
+    "wallSolidMesh": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/GridKit/PCL_SM_GridWallSolid.PCL_SM_GridWallSolid"
+    },
+    "wallWindowMesh": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/GridKit/PCL_SM_GridWallWindow.PCL_SM_GridWallWindow"
+    },
+    "wallExitMesh": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/GridKit/PCL_SM_GridWallExit.PCL_SM_GridWallExit"
+    },
+    "demoOne": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_LessonWall_C_UAID_30E3A41010753A1203_1360315091"
+    },
+    "demoTwo": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_LessonWall_C_UAID_30E3A41010753A1203_1360646092"
+    },
+    "queryCoverageConfirmed": false,
+    "healthContinuityConfirmed": false,
+    "nativeSlotInteroperationConfirmed": false,
+    "candidateCombatEnabled": false,
+    "enforceResourceCosts": false,
+    "useNativePiecePool": false,
+    "nativeWallPool": [],
+    "nativeFloorPool": [],
+    "nativeRampPool": [],
+    "nativeConePool": []
+  },
+  "course": {
+    "wallAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075491203_1885040772.coach_course_device_0.PCL_WallAsset"
+    },
+    "floorAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075491203_1885040772.coach_course_device_0.PCL_FloorAsset"
+    },
+    "rampAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075491203_1885040772.coach_course_device_0.PCL_RampAsset"
+    },
+    "coneAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075491203_1885040772.coach_course_device_0.PCL_ConeAsset"
+    },
+    "courseReset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A41010753A1203_1447534095"
+    },
+    "upperReset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A41010753B1203_1782918305"
+    },
+    "courseBoundary": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Barrier_V2_Placed_C_UAID_30E3A4101075491203_1885669773"
+    },
+    "wall01": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A41010754D1203_2129977492"
+    },
+    "wall02": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A41010754D1203_2137283493"
+    },
+    "wall03": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A41010754D1203_2140583494"
+    },
+    "wall04": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A41010754D1203_2145631495"
+    },
+    "wall05": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A41010754E1203_1075074672"
+    },
+    "tripleRamp": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseRamp_C_UAID_30E3A41010754E1203_1078177673"
+    },
+    "tripleFloor": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseFloor_C_UAID_30E3A41010754E1203_1081335674"
+    },
+    "tripleCone": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseCone_C_UAID_30E3A41010754E1203_1084551675"
+    },
+    "tripleWall": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A41010754E1203_1087764676"
+    },
+    "tripleLanding": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseFloor_C_UAID_30E3A41010754E1203_1090944677"
+    }
+  },
+  "commerce": {
+    "enabled": false,
+    "offers": []
+  },
+  "spawn_asset_binding_object_tool_readback": {
+    "structures": {
+      "wallAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingWall.PCL_BP_TrainingWall_C"
+        }
+      },
+      "floorAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingFloor.PCL_BP_TrainingFloor_C"
+        }
+      },
+      "rampAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingRamp.PCL_BP_TrainingRamp_C"
+        }
+      },
+      "coneAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingCone.PCL_BP_TrainingCone_C"
+        }
+      },
+      "demoAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_LessonWall.PCL_BP_LessonWall_C"
+        }
+      }
+    },
+    "course": {
+      "wallAsset": {
+        "assetForEditor": {
+          "refPath": "/CR_Legacy/Playsets/PlaysetProps/PPID_CR_Legacy_PG_Cube_Glow_Pink.PPID_CR_Legacy_PG_Cube_Glow_Pink"
+        }
+      },
+      "floorAsset": {
+        "assetForEditor": {
+          "refPath": "/CR_Legacy/Playsets/PlaysetProps/PPID_CR_Legacy_PG_Cube_Glow_Pink.PPID_CR_Legacy_PG_Cube_Glow_Pink"
+        }
+      },
+      "rampAsset": {
+        "assetForEditor": {
+          "refPath": "/CR_Legacy/Playsets/PlaysetProps/PPID_CR_Legacy_PG_Cube_Glow_Pink.PPID_CR_Legacy_PG_Cube_Glow_Pink"
+        }
+      },
+      "coneAsset": {
+        "assetForEditor": {
+          "refPath": "/CR_Legacy/Playsets/PlaysetProps/PPID_CR_Legacy_PG_Cube_Glow_Pink.PPID_CR_Legacy_PG_Cube_Glow_Pink"
+        }
+      }
+    }
+  },
+  "spawn_asset_bindings": {
+    "structures": {
+      "wallAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingWall.PCL_BP_TrainingWall_C"
+        }
+      },
+      "floorAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingFloor.PCL_BP_TrainingFloor_C"
+        }
+      },
+      "rampAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingRamp.PCL_BP_TrainingRamp_C"
+        }
+      },
+      "coneAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingCone.PCL_BP_TrainingCone_C"
+        }
+      },
+      "demoAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_LessonWall.PCL_BP_LessonWall_C"
+        }
+      }
+    },
+    "course": {
+      "wallAsset": {
+        "assetForEditor": {
+          "refPath": "/CR_Legacy/Playsets/PlaysetProps/PPID_CR_Legacy_PG_Cube_Glow_Pink.PPID_CR_Legacy_PG_Cube_Glow_Pink"
+        }
+      },
+      "floorAsset": {
+        "assetForEditor": {
+          "refPath": "/CR_Legacy/Playsets/PlaysetProps/PPID_CR_Legacy_PG_Cube_Glow_Pink.PPID_CR_Legacy_PG_Cube_Glow_Pink"
+        }
+      },
+      "rampAsset": {
+        "assetForEditor": {
+          "refPath": "/CR_Legacy/Playsets/PlaysetProps/PPID_CR_Legacy_PG_Cube_Glow_Pink.PPID_CR_Legacy_PG_Cube_Glow_Pink"
+        }
+      },
+      "coneAsset": {
+        "assetForEditor": {
+          "refPath": "/CR_Legacy/Playsets/PlaysetProps/PPID_CR_Legacy_PG_Cube_Glow_Pink.PPID_CR_Legacy_PG_Cube_Glow_Pink"
+        }
+      }
+    }
+  },
+  "spawn_asset_binding_read_method": "Public SelectActors materializes saved Details values, followed by get_editor_property(AssetForEditor) on owned wrappers. No property assignments or saves. Read-only load/selection control is prop-bindings-details-control51.json; ObjectTool serialization recorded separately.",
+  "owned_prop_spawn_bindings_verified": true,
+  "native_build_spawn_bindings_accepted": false,
+  "demonstration_stations": [
+    {
+      "slot": "One",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075561203_1832929114"
+      },
+      "properties": {
+        "wall": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoWall_C_UAID_30E3A4101075561203_1834274116"
+        },
+        "floorPart": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoFloor_C_UAID_30E3A4101075561203_1838683117"
+        },
+        "cone": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoCone_C_UAID_30E3A4101075561203_1844714118"
+        },
+        "ramp": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoRamp_C_UAID_30E3A4101075561203_1850074119"
+        },
+        "landing": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoFloor_C_UAID_30E3A4101075561203_1855179120"
+        },
+        "targetMarker": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoMarker_C_UAID_30E3A4101075561203_1860552121"
+        },
+        "cursorMarker": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoMarker_C_UAID_30E3A4101075561203_1865875122"
+        },
+        "spawner": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075561203_1833597115"
+        },
+        "camera": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928"
+        },
+        "rate25": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MovementModulator_V2_C_UAID_30E3A4101075561203_1462952107"
+        },
+        "rate50": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MovementModulator_V2_C_UAID_30E3A4101075561203_1470077108"
+        },
+        "rate75": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MovementModulator_V2_C_UAID_30E3A4101075561203_1479306109"
+        },
+        "rate100": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MovementModulator_V2_C_UAID_30E3A4101075561203_1240734106"
+        },
+        "rate125": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MovementModulator_V2_C_UAID_30E3A4101075561203_1492261110"
+        },
+        "rate150": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MovementModulator_V2_C_UAID_30E3A4101075561203_1499042111"
+        },
+        "rate175": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MovementModulator_V2_C_UAID_30E3A4101075561203_1506066112"
+        },
+        "rate200": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MovementModulator_V2_C_UAID_30E3A4101075561203_1512753113"
+        }
+      }
+    },
+    {
+      "slot": "Two",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075571203_1268369301"
+      },
+      "properties": {
+        "wall": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoWall_C_UAID_30E3A4101075571203_1270536303"
+        },
+        "floorPart": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoFloor_C_UAID_30E3A4101075571203_1277870304"
+        },
+        "cone": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoCone_C_UAID_30E3A4101075571203_1283557305"
+        },
+        "ramp": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoRamp_C_UAID_30E3A4101075571203_1289169306"
+        },
+        "landing": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoFloor_C_UAID_30E3A4101075571203_1294670307"
+        },
+        "targetMarker": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoMarker_C_UAID_30E3A4101075571203_1300057308"
+        },
+        "cursorMarker": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoMarker_C_UAID_30E3A4101075571203_1305449309"
+        },
+        "spawner": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075571203_1269772302"
+        },
+        "camera": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075561203_1232751105"
+        },
+        "rate25": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MovementModulator_V2_C_UAID_30E3A4101075561203_1462952107"
+        },
+        "rate50": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MovementModulator_V2_C_UAID_30E3A4101075561203_1470077108"
+        },
+        "rate75": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MovementModulator_V2_C_UAID_30E3A4101075561203_1479306109"
+        },
+        "rate100": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MovementModulator_V2_C_UAID_30E3A4101075561203_1240734106"
+        },
+        "rate125": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MovementModulator_V2_C_UAID_30E3A4101075561203_1492261110"
+        },
+        "rate150": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MovementModulator_V2_C_UAID_30E3A4101075561203_1499042111"
+        },
+        "rate175": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MovementModulator_V2_C_UAID_30E3A4101075561203_1506066112"
+        },
+        "rate200": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MovementModulator_V2_C_UAID_30E3A4101075561203_1512753113"
+        }
+      }
+    }
+  ],
+  "structure_probe": {
+    "enabled": false,
+    "autoRun": false,
+    "structures": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075391203_2089996912"
+    },
+    "resetControl": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Button_V2_C_UAID_30E3A4101075311203_2007829469"
+    },
+    "shapeControl": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Button_V2_C_UAID_30E3A4101075311203_2008133470"
+    },
+    "preplacedWall": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A41010754D1203_2129977492"
+    },
+    "nativePoolControl": false,
+    "nativePoolWallOne": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561"
+    },
+    "nativePoolWallTwo": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1581664564"
+    },
+    "poolFixtureInitializer": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567"
+    }
+  },
+  "participant_behavior_binding": {
+    "nPCBehaviorScript": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate:CharacterModifier_GuardVerseBehavior_C_0.coach_participant_probe_behavior_0"
+    }
+  },
+  "participant_private_spawner": {
+    "definition": {
+      "nPCCharacterDefinition": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachDamageShooter.CoachDamageShooter"
+      },
+      "nPCCharacterModifiers": []
+    },
+    "behavior": {
+      "nPCBehaviorScript": null
+    },
+    "options": {
+      "spawnCount": 1,
+      "enabledAtGameStart": false,
+      "spawnOnEnabled": false,
+      "spawnOnTimer": false
+    }
+  },
+  "test_player_configuration_restored": {
+    "testPlayerDefinition": "None",
+    "testPlayersOnStart": "None",
+    "numberOfTestPlayers": 1,
+    "participantDefinition": null,
+    "bCanEverAffectNavigation": false
+  },
+  "spawned_wall_asset_binding": {
+    "health": {
+      "SpawnedWallAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_PlayerBuildablePropCandidate.PCL_BP_PlayerBuildablePropCandidate_C"
+        }
+      }
+    }
+  },
+  "native_wall_transition_editor_profile_restored": {
+    "profile_run": "118",
+    "after_runtime": "119",
+    "at_utc": "2026-11-07T15:38:47.016404+00:00",
+    "scope": "Restore only the private matched-trial editor profile after the automatic game ends. Runtime evidence/source archives remain immutable. No source/CDO/main binding changes.",
+    "walls": {
+      "Control": {
+        "bPlayerPlaced": true,
+        "team": "HumanPvP_Team2",
+        "bAllowTeamDamage": false,
+        "bIsPlayerBuildable": true,
+        "bRegisterWithStructuralGrid": true,
+        "bForciblyStructurallySupported": true
+      },
+      "Edited": {
+        "bPlayerPlaced": true,
+        "team": "HumanPvP_Team2",
+        "bAllowTeamDamage": true,
+        "bIsPlayerBuildable": true,
+        "bRegisterWithStructuralGrid": true,
+        "bForciblyStructurallySupported": true
+      }
+    },
+    "monitors": {
+      "Control": {
+        "target": {
+          "additionalPropsToManipulate": [
+            {
+              "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561"
+            }
+          ]
+        },
+        "options": {
+          "EnabledAtGameStart": "False",
+          "StartHidden": "False",
+          "AdditionalPropsToManipulate": "(\"/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_GridWallCandidate.PCL_BP_GridWallCandidate_C'/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561'\")",
+          "OverrideResources": "False",
+          "ResourceNodeAvailable": "25",
+          "ResourceNodeGiven": "1",
+          "ResourceNodeType": "None",
+          "ResourceNodeDepletionMode": "RestockOnDelay",
+          "ResourceNodeRestockTime": "15",
+          "Priority": "0",
+          "AffectAllObjectsInAZone": "False",
+          "ZoneWidth(Tiles)": "1.100000",
+          "ZoneDepth(Tiles)": "1.100000",
+          "ZoneHeight(Tiles)": "1.100000",
+          "ModifyPropHealth": "True",
+          "IsPropInvulnerable": "False",
+          "ModdedPropHealth": "200.000000"
+        }
+      },
+      "Edited": {
+        "target": {
+          "additionalPropsToManipulate": []
+        },
+        "options": {
+          "EnabledAtGameStart": "False",
+          "StartHidden": "False",
+          "AdditionalPropsToManipulate": "",
+          "OverrideResources": "False",
+          "ResourceNodeAvailable": "25",
+          "ResourceNodeGiven": "1",
+          "ResourceNodeType": "None",
+          "ResourceNodeDepletionMode": "RestockOnDelay",
+          "ResourceNodeRestockTime": "15",
+          "Priority": "0",
+          "AffectAllObjectsInAZone": "True",
+          "ZoneWidth(Tiles)": "1.100000",
+          "ZoneDepth(Tiles)": "1.100000",
+          "ZoneHeight(Tiles)": "1.100000",
+          "ModifyPropHealth": "False",
+          "IsPropInvulnerable": "False",
+          "ModdedPropHealth": "50.000000"
+        }
+      }
+    }
+  },
+  "team_wall_objective_control": {
+    "actor": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+    },
+    "options": {
+      "Mesh": "Cube",
+      "CustomMesh": "",
+      "Invulnerable": "False",
+      "Health": "5000.000000",
+      "Owning Team": "(TeamType=None,TeamIndex=1)",
+      "Blast Radius": "",
+      "Beacon": "Off",
+      "Beacon Color": "Direct Color",
+      "Custom Beacon Color": "(R=0.100000,G=0.300000,B=1.000000,A=1.000000)",
+      "Beacon Scale": "",
+      "CustomWidget": "",
+      "FriendlyBadgeVisibility": "Within Distance",
+      "HostileBadgeVisibility": "Within Distance",
+      "Badge Visibility Distance": "25.000000",
+      "ShowBadgeOnDamage": "No",
+      "Show On Damage Duration": "10.000000",
+      "BadgeHeight": "",
+      "ClampToScreen": "False",
+      "ShowOffscreenArrow": "False",
+      "Show In Objective HUD": "False",
+      "Objective Identifier": "(SmallIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\",LargeIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\")",
+      "Custom Objective Text": "",
+      "Display Damage Numbers": "True",
+      "Visible during games": "True",
+      "Show Destroy Messages": "False",
+      "CriticalNotificationThreshold": "",
+      "WarningNotificationThreshold": "",
+      "Play Audio / VFX": "On",
+      "Score": "0",
+      "Collision During Games": "On",
+      "Collides With": "Everything",
+      "Show Objective Pulse to Instigator Only": "True",
+      "Show Objective Pulse to Friendly Players": "True",
+      "Show Objective Pulse to Enemy Players": "True",
+      "DisplayScoreUpdateOnHUD": "False",
+      "ResetHUD MessageScore": "False",
+      "HUD Message": "NSLOCTEXT(\"\", \"7B7DD21D4309E37E740180BC942B32DD\", \"Score!\")",
+      "HUD MessageScoreColor": "(R=0.520000,G=0.830000,B=1.000000,A=1.000000)",
+      "HUD MessageColor": "(R=0.000000,G=0.490196,B=1.000000,A=1.000000)",
+      "Damage Event Cooldown": "0.000000"
+    },
+    "scope": "Saved neutral5000HP firing positive control, not runtime evidence."
+  },
+  "preplaced_team_wall_properties": {
+    "bPlayerPlaced": true,
+    "team": "HumanPvP_Team2",
+    "bAllowTeamDamage": false,
+    "bIsPlayerBuildable": true,
+    "bRegisterWithStructuralGrid": true,
+    "bForciblyStructurallySupported": true
+  },
+  "spawn_asset_expected_ref": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_PlayerBuildablePropCandidate.PCL_BP_PlayerBuildablePropCandidate_C",
+  "damage_spawn_baseline_defaults": {
+    "bCanBeDamaged": true,
+    "buildingType": "Prop",
+    "resourceType": "Wood",
+    "bRegisterWithStructuralGrid": false
+  },
+  "damage_spawn_baseline_health_keys": {
+    "asset": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_DamageSpawnWall",
+    "class": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_DamageSpawnWall.PCL_BP_DamageSpawnWall_C",
+    "can_be_damaged": true,
+    "allow_resource_drop": true,
+    "initialization_keys": [
+      {
+        "category": "PropWood",
+        "subcategory": "2"
+      },
+      {
+        "category": "PropWood",
+        "subcategory": "2"
+      }
+    ]
+  },
+  "spawned_wall_asset_defaults": {
+    "bIsPlayerBuildable": true,
+    "bPlayerPlaced": false,
+    "bRegisterWithStructuralGrid": true,
+    "bDestroyOnPlayerBuildingPlacement": false,
+    "buildingType": "Wall",
+    "team": "Spectator",
+    "bAllowTeamDamage": true
+  },
+  "spawned_wall_asset_defaults_scope": "Actual selected owned candidate profile single_flag106, separate from damage-spawn baseline; no ownership acceptance.",
+  "controlled_wall_health_initialization": {
+    "target_binding": {
+      "additionalPropsToManipulate": [
+        {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561"
+        }
+      ]
+    },
+    "options": {
+      "AffectAllObjectsInAZone": "False",
+      "ModifyPropHealth": "True",
+      "IsPropInvulnerable": "False",
+      "ModdedPropHealth": "200.000000"
+    },
+    "scope": "Saved editor initialization only; runtime damage/destruction and continuity require separate evidence."
+  },
+  "health_probe": {
+    "visualToolCaptureSeconds": 0,
+    "visualRifleCaptureSeconds": 0,
+    "visualNativeCaptureSeconds": 0,
+    "visualUseViewportCamera": false,
+    "visualCaptureCamera": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928"
+    },
+    "visualPortal": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075351203_1174112206"
+    },
+    "enabled": false,
+    "autoRun": false,
+    "learningObservationOnly": false,
+    "participantInventoryOnly": false,
+    "participantBuildAction": false,
+    "participantWoodGranter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ItemGranter_V2_C_UAID_30E3A4101075B01203_1319645818"
+    },
+    "participantSpawner": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075AD1203_1788162289"
+    },
+    "structures": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075391203_2089996912"
+    },
+    "controlWall": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561"
+    },
+    "editedWall": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1581664564"
+    },
+    "controlBlast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A41010755F1203_1560935562"
+    },
+    "editedBlast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A41010755F1203_1588718565"
+    },
+    "controlMonitor": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_PropManipulation_V2_C_UAID_30E3A41010755F1203_1572135563"
+    },
+    "editedMonitor": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_PropManipulation_V2_C_UAID_30E3A41010755F1203_1595904566"
+    },
+    "positiveWall": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DamageControl_C_UAID_30E3A4101075601203_1858903744"
+    },
+    "positiveBlast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075601203_1868043745"
+    },
+    "positiveMonitor": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_PropManipulation_V2_C_UAID_30E3A4101075601203_1874675746"
+    },
+    "calibrationObjective": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+    },
+    "calibrationBlast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075661203_1497102807"
+    },
+    "calibrationNativeTimer": false,
+    "useWeaponCalibration": false,
+    "useCharacterTargetControl": false,
+    "nPCEquippedAttackControl": false,
+    "nativeBuildToolReference": false,
+    "nativeBuildToolLease": false,
+    "nativeBuildCameraBypass": false,
+    "nativeBuildMenuOnly": false,
+    "calibrationAimOffset": {
+      "x": -220,
+      "y": 0,
+      "z": -32
+    },
+    "meshChangeAfterPlayerHits": 0,
+    "isolatedWallControl": false,
+    "spawnedWallControl": false,
+    "nativeTeamWallControl": false,
+    "nativeWallTransitionControl": false,
+    "nativeWallTransitionCase": 0,
+    "spawnedWallAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567.coach_health_probe_device_0.Devices_creative_prop_asset_0"
+    },
+    "calibrationShooter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075671203_1509093984"
+    },
+    "calibrationPlayerTeleporter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Teleporter_V2_C_UAID_30E3A4101075711203_1580237745"
+    },
+    "calibrationNoFireZone": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MutatorVolume_V2_C_UAID_30E3A4101075491203_1921501775"
+    }
+  },
+  "session_state": "Connected",
+  "game_state": "CanStart",
+  "edit_connection_intentionally_retained": true,
+  "island_damage_settings": {
+    "WeaponDestructionPreset": "Percentage",
+    "WeaponDestructionPercentage": "100.000000",
+    "EnvironmentDamagePreset": "All",
+    "TeamDamageFilter": "Default",
+    "PickaxeDestructionPreset": "Default"
+  },
+  "asset_validation": {
+    "numChecked": 56,
+    "numValid": 56,
+    "numInvalid": 0,
+    "numWarnings": 0,
+    "numSkipped": 0,
+    "bAssetLimitReached": false,
+    "errors": [],
+    "warnings": []
+  },
+  "level_dirty": false,
+  "opponent_loadout": {
+    "inventory": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075341203_1976870016.NPCCharacterDefinitionComponent.CoachInventoryInstance"
+    },
+    "properties": {
+      "items": [
+        {
+          "itemDefinition": {
+            "refPath": "/Game/Athena/Items/Weapons/WID_Assault_Auto_Athena_R_Ore_T03.WID_Assault_Auto_Athena_R_Ore_T03"
+          },
+          "itemQuantity": 1
+        },
+        {
+          "itemDefinition": {
+            "refPath": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_SR_Ore_T03.WID_Shotgun_Standard_Athena_SR_Ore_T03"
+          },
+          "itemQuantity": 1
+        },
+        {
+          "itemDefinition": {
+            "refPath": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData"
+          },
+          "itemQuantity": 500
+        },
+        {
+          "itemDefinition": {
+            "refPath": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium"
+          },
+          "itemQuantity": 500
+        }
+      ],
+      "canDropLoot": false
+    },
+    "scope": "Saved editor configuration only; reload and main-opponent runtime not verified."
+  },
+  "source_files": [
+    {
+      "file": "coach_building.verse",
+      "sha256": "dbe74a5110522f089ec1413921d25bf33d2f79bc27639637928bb1173aed1806",
+      "matches_editor": true
+    },
+    {
+      "file": "coach_commerce.verse",
+      "sha256": "5100ec94e41a912eeeb878cd7ec0cd5da700e1cad608e247dfdea3989d61ef80",
+      "matches_editor": true
+    },
+    {
+      "file": "coach_course_device.verse",
+      "sha256": "e3004e7305f4ec76b0a4203e088615094c079cd25da09920f7b69e12479402c4",
+      "matches_editor": true
+    },
+    {
+      "file": "coach_demonstration.verse",
+      "sha256": "28b58557d214e6cef9124bdb98ecbb8789537a2f88fcad8241877ae4b1bb34f4",
+      "matches_editor": true
+    },
+    {
+      "file": "coach_equipment.verse",
+      "sha256": "73d925338cecf3bcd4770851101d785df072595cdb9f3e031c2f5201c646d911",
+      "matches_editor": true
+    },
+    {
+      "file": "coach_geometry.verse",
+      "sha256": "fccb4bb713266ad9d85bdd1b2bfc96852a08eb6cae57f2b78fb9f850b3ea5056",
+      "matches_editor": true
+    },
+    {
+      "file": "coach_health_probe.verse",
+      "sha256": "4c52c423ad35a5d2c1110786a355e99e3520eebfc1ff3bd8b331145bddf1e169",
+      "matches_editor": true
+    },
+    {
+      "file": "coach_lab_device.verse",
+      "sha256": "4814473c661c33ed43d9ce96d7e4c5468c8b79fb3c948cc9be4ee6486a6f9d78",
+      "matches_editor": true
+    },
+    {
+      "file": "coach_learning.verse",
+      "sha256": "14e14984fecc0577b22c312ebecdbd75e4abc9404cb50dc502a350ae88597793",
+      "matches_editor": true
+    },
+    {
+      "file": "coach_lessons.verse",
+      "sha256": "f08fa3f55113f3f7427e5fa36c352c90a63053bd728daba67b10e953d5c1027d",
+      "matches_editor": true
+    },
+    {
+      "file": "coach_model.verse",
+      "sha256": "89ef2962fed400bd0219b0009cb7be2ee0db8666ca2f3b61a47d2c1602c87387",
+      "matches_editor": true
+    },
+    {
+      "file": "coach_opponent_behavior.verse",
+      "sha256": "b3348bbacd37697a47bad8ef5080a5da4266fbd44797e5289155ab1e22595944",
+      "matches_editor": true
+    },
+    {
+      "file": "coach_portal_device.verse",
+      "sha256": "9f11d47ddef9235bc1b0cbf95f17ca3d50de2270961c377adfe4f4da43c50711",
+      "matches_editor": true
+    },
+    {
+      "file": "coach_practice.verse",
+      "sha256": "e49b9484048a0df68ff53a7b92d7b2256f61c9c5732ff576abbdb42996ac09ad",
+      "matches_editor": true
+    },
+    {
+      "file": "coach_structure_probe.verse",
+      "sha256": "8b7b22e5de248a471cd4a919cbaefeefa1ebede07b943f7f0348d428c5eccd8e",
+      "matches_editor": true
+    },
+    {
+      "file": "coach_telemetry.verse",
+      "sha256": "90c4c7d6ba731aae199d946fc0bca515eb767822f11e85c23d01866d0f22a4d0",
+      "matches_editor": true
+    },
+    {
+      "file": "coach_ui.verse",
+      "sha256": "3677157c19932831c11ad0c6790e3abde100bf908495737458172b2e07c7f7c3",
+      "matches_editor": true
+    },
+    {
+      "file": "coach_voice.verse",
+      "sha256": "69a15f843a59cad448086a769777f77e9bed57697bbefc2131fcc5d9604b60e9",
+      "matches_editor": true
+    }
+  ],
+  "build_result_file": "participant131-commit-placement-build.json",
+  "build_result_sha256": "4a9e747c671ad4a4af55aab9ed4662fb0c6737341b32badf4f655b32c6a3199a",
+  "compile_snapshot": {
+    "mount": "/eda26a53-42c0-4b9e-8f62-31719aef6889",
+    "sourceSnapshot": [
+      {
+        "file": "coach_building.verse",
+        "sha256_utf8_lf": "dbe74a5110522f089ec1413921d25bf33d2f79bc27639637928bb1173aed1806"
+      },
+      {
+        "file": "coach_commerce.verse",
+        "sha256_utf8_lf": "5100ec94e41a912eeeb878cd7ec0cd5da700e1cad608e247dfdea3989d61ef80"
+      },
+      {
+        "file": "coach_course_device.verse",
+        "sha256_utf8_lf": "e3004e7305f4ec76b0a4203e088615094c079cd25da09920f7b69e12479402c4"
+      },
+      {
+        "file": "coach_demonstration.verse",
+        "sha256_utf8_lf": "28b58557d214e6cef9124bdb98ecbb8789537a2f88fcad8241877ae4b1bb34f4"
+      },
+      {
+        "file": "coach_equipment.verse",
+        "sha256_utf8_lf": "73d925338cecf3bcd4770851101d785df072595cdb9f3e031c2f5201c646d911"
+      },
+      {
+        "file": "coach_geometry.verse",
+        "sha256_utf8_lf": "fccb4bb713266ad9d85bdd1b2bfc96852a08eb6cae57f2b78fb9f850b3ea5056"
+      },
+      {
+        "file": "coach_health_probe.verse",
+        "sha256_utf8_lf": "4c52c423ad35a5d2c1110786a355e99e3520eebfc1ff3bd8b331145bddf1e169"
+      },
+      {
+        "file": "coach_lab_device.verse",
+        "sha256_utf8_lf": "4814473c661c33ed43d9ce96d7e4c5468c8b79fb3c948cc9be4ee6486a6f9d78"
+      },
+      {
+        "file": "coach_learning.verse",
+        "sha256_utf8_lf": "14e14984fecc0577b22c312ebecdbd75e4abc9404cb50dc502a350ae88597793"
+      },
+      {
+        "file": "coach_lessons.verse",
+        "sha256_utf8_lf": "f08fa3f55113f3f7427e5fa36c352c90a63053bd728daba67b10e953d5c1027d"
+      },
+      {
+        "file": "coach_model.verse",
+        "sha256_utf8_lf": "89ef2962fed400bd0219b0009cb7be2ee0db8666ca2f3b61a47d2c1602c87387"
+      },
+      {
+        "file": "coach_opponent_behavior.verse",
+        "sha256_utf8_lf": "b3348bbacd37697a47bad8ef5080a5da4266fbd44797e5289155ab1e22595944"
+      },
+      {
+        "file": "coach_portal_device.verse",
+        "sha256_utf8_lf": "9f11d47ddef9235bc1b0cbf95f17ca3d50de2270961c377adfe4f4da43c50711"
+      },
+      {
+        "file": "coach_practice.verse",
+        "sha256_utf8_lf": "e49b9484048a0df68ff53a7b92d7b2256f61c9c5732ff576abbdb42996ac09ad"
+      },
+      {
+        "file": "coach_structure_probe.verse",
+        "sha256_utf8_lf": "8b7b22e5de248a471cd4a919cbaefeefa1ebede07b943f7f0348d428c5eccd8e"
+      },
+      {
+        "file": "coach_telemetry.verse",
+        "sha256_utf8_lf": "90c4c7d6ba731aae199d946fc0bca515eb767822f11e85c23d01866d0f22a4d0"
+      },
+      {
+        "file": "coach_ui.verse",
+        "sha256_utf8_lf": "3677157c19932831c11ad0c6790e3abde100bf908495737458172b2e07c7f7c3"
+      },
+      {
+        "file": "coach_voice.verse",
+        "sha256_utf8_lf": "69a15f843a59cad448086a769777f77e9bed57697bbefc2131fcc5d9604b60e9"
+      }
+    ],
+    "buildObservedAtUtc": "2026-11-07T18:05:28.844567+00:00",
+    "scope": "Files sent before this BuildAll result. Compilation is separate from runtime and publication."
+  },
+  "custom_inventory_enabled": true,
+  "verse_diagnostics": []
+}

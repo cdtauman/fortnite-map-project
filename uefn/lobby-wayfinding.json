@@ -1,0 +1,117 @@
+{
+  "scope": "Prepared sign hierarchy; final gameplay appearance and native prompt Hebrew rendering unverified.",
+  "panels": [
+    {
+      "name": "PCL_Wayfinding_Gate_Personal",
+      "material": "PCL_Sign_Personal",
+      "transform": {
+        "location": {
+          "x": 1440,
+          "y": -8500,
+          "z": 500
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 6,
+          "y": 1,
+          "z": 3
+        }
+      }
+    },
+    {
+      "name": "PCL_Wayfinding_Gate_Duel",
+      "material": "PCL_Sign_Duel",
+      "transform": {
+        "location": {
+          "x": 1440,
+          "y": -7500,
+          "z": 500
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 6,
+          "y": 1,
+          "z": 3
+        }
+      }
+    },
+    {
+      "name": "PCL_Wayfinding_Gate_FreeBuild",
+      "material": "PCL_Sign_FreeBuild",
+      "transform": {
+        "location": {
+          "x": 1440,
+          "y": -6500,
+          "z": 500
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 6,
+          "y": 1,
+          "z": 3
+        }
+      }
+    },
+    {
+      "name": "PCL_Wayfinding_Gate_EditTraining",
+      "material": "PCL_Sign_EditTraining",
+      "transform": {
+        "location": {
+          "x": 1440,
+          "y": -5500,
+          "z": 500
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 6,
+          "y": 1,
+          "z": 3
+        }
+      }
+    },
+    {
+      "name": "PCL_Wayfinding_Overview",
+      "material": "PCL_Sign_Academy",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -4850,
+          "z": 520
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 180,
+          "roll": 0
+        },
+        "scale": {
+          "x": 14,
+          "y": 1,
+          "z": 7
+        }
+      }
+    }
+  ],
+  "prompts": {
+    "PCL_Menu_Personal": "מאמן אישי",
+    "PCL_Menu_Duel": "אחד על אחד",
+    "PCL_Menu_Free": "בנייה חופשית",
+    "PCL_Menu_Edits": "אימון עריכות"
+  },
+  "restoration_record": ".local/wayfinding166-authoring.json"
+}

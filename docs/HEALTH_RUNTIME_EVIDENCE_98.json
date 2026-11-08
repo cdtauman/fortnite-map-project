@@ -1,0 +1,2215 @@
+{
+  "date": "2026-11-07",
+  "build": "UEFN 43.00 CL-59596594",
+  "run": "automatic-98",
+  "scope": "Native build-tool inventory lease, same88transfer/Equip/8quarter-second polls and source/original Guard equipment restoration. Extra40sactual GameViewport reference: stop navigation+tether, NO Focus/Attack requests; camera from observed character forward, settled/reframed temporary existing camera+same-widget menu lease.1Hz native tool equipped/parent/destination samples; no placement/edit/reset. Source parent/unequipped rechecked after setup wait; untransferred source change is not forcibly unequipped by rollback. Native item source is diagnostic only; not a production allocation solution. No computer input/player teleport, firing request or direct damage;14original identities/parents/equipped checked and temporary hotbar0after cleanup. Forced game-end/death during lease remains separate. Control91adds read-only phase-state snapshots before/after StopNavigation,Tether,menu removal/restore,camera placement/activation/blend/reframe and a single native item ChangeEquippedEvent subscription. Logs current exact parent, equip, source/destination count and originally equipped Guard items; cancels subscription before native lease restoration. No gameplay timing/action change from90intended. Control95moves StopNavigation/Tether before native Tool.Equip, waits1.25s for navigation setup to settle, then releases original Guard gear, equips the native tool and runs the same8short/40long samples. No post-equip navigation setup. Held actions are unwound before native item restoration. Compare93same camera-stack bypass setup versus95ordering; menu-only94passed40/40. This tests ordering, not a universal cause or native build actuation. Control97adds temporary public inventory query guards: veto unequipping the borrowed native tool while in the exact destination, and veto equipping each original Guard ranged item while it remains under the observed Guard inventory. Same existing coach_tool_hold_component, no repeated equip or firing. Native lease Restore first unlocks/removes ALL added guards before item return, including OnEnd/retry paths; logs guard counts/vetoes and confirms no tool/ranged hold components after cleanup. Preexisting hold components refuse installation.96lost native tool during initial short window BEFORE camera, so95ordering alone is not established as robust; this tests public inventory arbitration on native items. Control98parks both original Guard ranged items, after successful Unequip, into one owned temporary inventory under the simulation root OUTSIDE Guard inventory. AddItem(no merge), checked original parents, partial-transfer restoration tracking BEFORE mutation. Require0ranged left under Guard before same97guards/tool equip/8short+40long frame. Restore removes query guards, returns native tool, returns exact original ranged items to original parents, removes only empty parking entity, restores original equipped gear; OnEnd/retry use same lease Restore. No copying/deleting original items or protected asset changes. Compare97versus98parking, not a universal native restriction or actuation result.",
+  "preparation": {
+    "prepared_at_utc": "2026-11-07T10:46:14.551985+00:00",
+    "source_build": "npc-native-build-ranged-parking98-observed-build.json",
+    "source_build_sha256": "43965a3d5f01781d9e1446dc505ae94c76385a35e5aee24f03734511cb3c7f3c",
+    "probe": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567"
+    },
+    "probe_label": "PCL_Health_Probe",
+    "log_pattern": "PCL\\|health_probe|PCL\\|combat_action|PCL\\|equipment",
+    "test_flags": {
+      "Enabled": true,
+      "AutoRun": true
+    },
+    "combat_gates": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "input_requested": false,
+    "connection_reused": true,
+    "wall_occlusion_control": true,
+    "wall_occlusion_scope": "Native Prop Manipulator initial-health control200 configured before gameplay; explicit AdditionalProps reference is the owned ControlWall and volume mode is off. No scripted health changes or synthetic damage during firing. This does not establish default Fortnite wall health or edit-health continuity.",
+    "mesh_change_after_player_hits": 0,
+    "native_viewport_capture": true,
+    "native_visual_camera": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928"
+    },
+    "native_visual_portal": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075351203_1174112206"
+    },
+    "visual_capture_seconds": {
+      "VisualNativeCaptureSeconds": 40,
+      "VisualToolCaptureSeconds": 0,
+      "VisualRifleCaptureSeconds": 0
+    },
+    "native_visual_capture": true,
+    "isolated_wall_control": false,
+    "spawned_wall_control": false,
+    "npc_equipped_attack_control": false,
+    "native_build_tool_reference": true,
+    "native_build_tool_lease": true,
+    "native_build_camera_bypass": false,
+    "native_build_menu_only": false,
+    "native_build_reference_scope": "Native build-tool inventory lease, same88transfer/Equip/8quarter-second polls and source/original Guard equipment restoration. Extra40sactual GameViewport reference: stop navigation+tether, NO Focus/Attack requests; camera from observed character forward, settled/reframed temporary existing camera+same-widget menu lease.1Hz native tool equipped/parent/destination samples; no placement/edit/reset. Source parent/unequipped rechecked after setup wait; untransferred source change is not forcibly unequipped by rollback. Native item source is diagnostic only; not a production allocation solution. No computer input/player teleport, firing request or direct damage;14original identities/parents/equipped checked and temporary hotbar0after cleanup. Forced game-end/death during lease remains separate. Control91adds read-only phase-state snapshots before/after StopNavigation,Tether,menu removal/restore,camera placement/activation/blend/reframe and a single native item ChangeEquippedEvent subscription. Logs current exact parent, equip, source/destination count and originally equipped Guard items; cancels subscription before native lease restoration. No gameplay timing/action change from90intended. Control95moves StopNavigation/Tether before native Tool.Equip, waits1.25s for navigation setup to settle, then releases original Guard gear, equips the native tool and runs the same8short/40long samples. No post-equip navigation setup. Held actions are unwound before native item restoration. Compare93same camera-stack bypass setup versus95ordering; menu-only94passed40/40. This tests ordering, not a universal cause or native build actuation. Control97adds temporary public inventory query guards: veto unequipping the borrowed native tool while in the exact destination, and veto equipping each original Guard ranged item while it remains under the observed Guard inventory. Same existing coach_tool_hold_component, no repeated equip or firing. Native lease Restore first unlocks/removes ALL added guards before item return, including OnEnd/retry paths; logs guard counts/vetoes and confirms no tool/ranged hold components after cleanup. Preexisting hold components refuse installation.96lost native tool during initial short window BEFORE camera, so95ordering alone is not established as robust; this tests public inventory arbitration on native items. Control98parks both original Guard ranged items, after successful Unequip, into one owned temporary inventory under the simulation root OUTSIDE Guard inventory. AddItem(no merge), checked original parents, partial-transfer restoration tracking BEFORE mutation. Require0ranged left under Guard before same97guards/tool equip/8short+40long frame. Restore removes query guards, returns native tool, returns exact original ranged items to original parents, removes only empty parking entity, restores original equipped gear; OnEnd/retry use same lease Restore. No copying/deleting original items or protected asset changes. Compare97versus98parking, not a universal native restriction or actuation result.",
+    "calibration_native_timer": false,
+    "calibration_blast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075661203_1497102807"
+    },
+    "calibration_objective": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+    },
+    "weapon_calibration": true,
+    "character_target_control": false,
+    "calibration_shooter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075671203_1509093984"
+    },
+    "calibration_player_teleporter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Teleporter_V2_C_UAID_30E3A4101075711203_1580237745"
+    },
+    "calibration_no_fire_zone": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MutatorVolume_V2_C_UAID_30E3A4101075491203_1921501775"
+    },
+    "source_archive": {
+      "path": ".local\\evidence\\health-98\\sources.zip",
+      "sha256": "0041cecd30b8c6e9c13960ec173bd2f368dcb2f2e3b6208322f04310750ade97"
+    },
+    "fixture_archive": {
+      "path": ".local\\evidence\\health-98\\health-probe-layout.json",
+      "sha256": "ae4033de1920ee859ff4aa8fae67599c2a40df79ae9974fadae65c796bd9f29f"
+    },
+    "owned_art_npc_asset_hashes": {
+      "Art/CoachTools/PCL_BuildPlan.uasset": "0e86bd6968165454236cde55069d4cf5fe60a20fa389a012630e162e9fb35f74",
+      "Art/CoachTools/PCL_SM_PlanLines.uasset": "f7a652c7a7e7f8d49b49a0f640dd3d70da9dcd6d2632b8a5e7a3997b7bd82680",
+      "Art/GridKit/PCL_MI_Board.uasset": "ced7ab4d05535bea550a715e17401665d092a830851d64b433e0a8729a8d1802",
+      "Art/GridKit/PCL_MI_Grain.uasset": "6cf132275a05a0b681463dc0c4b3d79a8dedb8d20e0baa41c9b09c97b0f56796",
+      "Art/GridKit/PCL_MI_Trim.uasset": "9cb43af626ff7211b3be3153f90b9d25d1fcc62600f52ac53b58df0dd8ac3896",
+      "Art/GridKit/PCL_SM_GridCone.uasset": "c1f461202c2f0fca4621a558cf3d7a6fd5fe8a6c586e0a1971da9fa7db0d103f",
+      "Art/GridKit/PCL_SM_GridFloor.uasset": "c29b7511e1dfea011fc53da79086b1cb51b23252ea3468a4b1c3657ae2c5761e",
+      "Art/GridKit/PCL_SM_GridFloorHalf.uasset": "b474f9e3e33d1ca36d9d7f7511de98b675af6cbcd5829c193962237f5c2e3822",
+      "Art/GridKit/PCL_SM_GridRamp.uasset": "3b95aac7a8cf23328a5ce8c35b1c0a44ac9fda4b46a48b7ecd398690fb5db43b",
+      "Art/GridKit/PCL_SM_GridWallExit.uasset": "ea9115a0302ccbdb29b2f5848d47d63b95e7da1d10642aa2911ed2187e025cee",
+      "Art/GridKit/PCL_SM_GridWallSolid.uasset": "84635026c0ca436f711ba75244b08be075c6ec8b77de05ad76183feb8d5980e8",
+      "Art/GridKit/PCL_SM_GridWallWindow.uasset": "16713e5a55cef6e41d9ad9d0fc887d18872ad28df49f527d6ebc33771135088d",
+      "Art/Investigations/PCL_BP_CourseCone.uasset": "f6e7d7aa3435e7c62baf9c8f05564f679f7fa3e109edc7c780c323d47c79696e",
+      "Art/Investigations/PCL_BP_CourseFloor.uasset": "69c7d09eef08301be6da9bf887c4e37e2993bf7157bb39f8c7268a5b970975a3",
+      "Art/Investigations/PCL_BP_CourseRamp.uasset": "98e91a6c24fa470b43e062688f3787e8fabec250eb270ea128ee35e6c40a924b",
+      "Art/Investigations/PCL_BP_CourseWall.uasset": "34c64cac560aa12968d2efb554e7a4af5e357752f6e55fab85b4d94b14833d3e",
+      "Art/Investigations/PCL_BP_DamageControl.uasset": "7942a644263fd2e15d9b5f5ba4c9c629b50419139ef5adfe52f0289d15066e69",
+      "Art/Investigations/PCL_BP_DamageSpawnWall.uasset": "035745531412982fa9e8fe2f76501f2f5ced9618608202246be7c25a5e78361c",
+      "Art/Investigations/PCL_BP_GridConeCandidate.uasset": "a1d1460d435acda616432740dd3af1cdc1cb92ad2bd7bae0174747c5570cf244",
+      "Art/Investigations/PCL_BP_GridFloorCandidate.uasset": "6b7a6ac2f27b12fbbaf271d1311454db86eecc69fd4f5c7674caedaef560f774",
+      "Art/Investigations/PCL_BP_GridRampCandidate.uasset": "684a039bf44763ad0fd63e547cdb91bc68b4f68a6272385f325fe76d440c5f31",
+      "Art/Investigations/PCL_BP_GridWallCandidate.uasset": "c011b10df2c1d90866aff98d1ebb6f9a52eafc12e1d4dd0dfc1e327afe89cd8f",
+      "Art/Investigations/PCL_BP_NativeVisualWallCandidate.uasset": "123ce537399e2a7874d83dc3ace37d3c392d1ac2289a2501619e77516e002b19",
+      "Art/PCL_M_Master.uasset": "63d6d2c2d120a9166133e13b8f43156173545afccd369c6eb5b6e79b9c09e8ff",
+      "Art/PCL_MI_Amber.uasset": "66bdfd5cc6a4aff21fe46669acf9e462e27a1c8c4ccb5fcf073fe89ab19ca355",
+      "Art/PCL_MI_Campus.uasset": "62d5f114df3b48c143dbc68dcd1e8506e0320ad237e1ca28181ba697d177d9f4",
+      "Art/PCL_MI_Cyan.uasset": "6a685b9d450b342f80ccff9df50442dc65c3e3b01476eb0685b1cdfb5f903d99",
+      "Art/PCL_MI_Lime.uasset": "086a7b25fc8bfcccba4a3c9c614de53701bde4caf89a240f1ce9f9e74b4b9690",
+      "Art/PCL_MI_Slate.uasset": "56ed95f84e8f8a9e4a519d0c5a58ada8031bb4c519923b4d56506a9cc3874a38",
+      "Art/PCL_MI_Violet.uasset": "500b317d45a603db44fca47a42b61becef5cb3bb65edc17d18abf6f2f707f18e",
+      "Art/PCL_MI_White.uasset": "93bbf9ef325f31378517da542934163de8ac693d18c7f2e19d5195b07cb046c2",
+      "Art/TeachingKit/PCL_BP_DemoCone.uasset": "a5a24085685e1a1d9dc0270773125db9ce89f1aad38e57fa09417b5246e686b8",
+      "Art/TeachingKit/PCL_BP_DemoFloor.uasset": "3bb2de88338f2f7b91ee0eece3fc20102a557c3e0c8edb679dae6ab5189a8330",
+      "Art/TeachingKit/PCL_BP_DemoMarker.uasset": "f04b742c85a8e804913d9402e4c9896713718cfef69f1825ab8e20ad49580bb5",
+      "Art/TeachingKit/PCL_BP_DemoRamp.uasset": "a652da20166c5d29ea64a75785a317b08a9c4999de2421770db99a24493ce789",
+      "Art/TeachingKit/PCL_BP_DemoWall.uasset": "d04ed7191dd554ff1d5f925c990b753dd3c379e35f49e04c6cc1f6012b3313df",
+      "Art/TeachingKit/PCL_SM_TeachingConeRaisedLeft.uasset": "ec21d3f62a6d642baea7fa06fb106abfa10f991b51a6171d7a67efa2e9b4374b",
+      "Art/TeachingKit/PCL_SM_TeachingWallSide.uasset": "6335e54ecf0503460f61e0f7ac6918f06f2f65387ed1c05dd7d17e1d8ee99024",
+      "Art/TrainingKit/PCL_BP_LessonWall.uasset": "4be07c70efff9029a475363b287a4e6c1d25b28d194b683993df176f6f80edc9",
+      "Art/TrainingKit/PCL_BP_TrainingCone.uasset": "eefa1e3679ee23e0a24f121250876f7784052fe4901891405690e47f9b3254cd",
+      "Art/TrainingKit/PCL_BP_TrainingFloor.uasset": "90cb983b41e1f7f0bdf9ed811cc9f2987394b502a8b7094917a178cc61dd7798",
+      "Art/TrainingKit/PCL_BP_TrainingRamp.uasset": "24ff4ec2725fd16d8d314199dbca555c1e34044a576370ac9bebcbb69f022ec7",
+      "Art/TrainingKit/PCL_BP_TrainingWall.uasset": "2cf5298711e35f916f0f159b9ffa0119efa4a5e3d13b0230e0594bc173cdda01",
+      "Art/TrainingKit/PCL_SM_Cone.uasset": "80a7a6696142ff416fee8eeb27be7ef882b5f20880a2cd37ecf3c3be0d6f5eac",
+      "Art/TrainingKit/PCL_SM_Floor.uasset": "217895ad3b83c112e1fa30ec0a74893a9999424340e25fcaee0dc6f021f5a962",
+      "Art/TrainingKit/PCL_SM_Ramp.uasset": "c1cf3d943dec71d818c58c92c47e5759a9b25a544d4a2feb387bd95f5042b092",
+      "Art/TrainingKit/PCL_SM_WallDoor.uasset": "4cc77b9ade9c1c19efe702755a12b8aa93bdd78801d9c3e92700bc0c4bebb466",
+      "Art/TrainingKit/PCL_SM_WallSolid.uasset": "718ce1d4ece4022c8df7c92abfc44e6c98539d0e3f685523bc741a4518117b73",
+      "Art/TrainingKit/PCL_SM_WallWindow.uasset": "4998aea9273e623f807c974decc6dac5f686d87a82eaea8c9b229e45361a5903",
+      "NPC/CoachDamageShooter.uasset": "c95c9da0f919306b75102bb4aa406ce5f12bf4381750439784168f41a7d389b7",
+      "NPC/CoachDemonstrator.uasset": "8567bf3e4e05f50b05936b4e283992b8bc5d794046f14ba01eb0e20ff18e492c",
+      "NPC/CoachOpponent.uasset": "3878699657e1b0115e6d2b2527397ee191218b8693231fb9b49ae71368fe7a3d",
+      "NPC/CoachSpeaker.uasset": "4ef5aad7a3ddaf83380de059ef93b8747467c6d3f1431c173c0544e65f2456a8"
+    }
+  },
+  "start_session": {
+    "operation": "PushChanges",
+    "bVerseOnly": false,
+    "result": "Completed",
+    "at_utc": "2026-11-07T10:48:10.591002+00:00"
+  },
+  "entries": [
+    {
+      "sequence": 6795,
+      "timestamp": "2026-11-07T10:48:11.442Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|ready|combat_gates=false|health_interface_probe=true|ordinary_prop_control_unvalidated=true",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6797,
+      "timestamp": "2026-11-07T10:48:11.816Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|private_behavior_started|owned_equipment_context",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6798,
+      "timestamp": "2026-11-07T10:48:12.223Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|weapon_shooter_spawned",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6799,
+      "timestamp": "2026-11-07T10:48:12.240Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|weapon_shooter_friendly_team_confirmed",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6800,
+      "timestamp": "2026-11-07T10:48:12.240Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|inventory_scope|name=character|direct=0|descendants=0|hotbars=0|items=0|trace_weapons=0|ranged_items=0|resources=0|resource_stacks=0|resource_quantity=0|resource_inventories=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6801,
+      "timestamp": "2026-11-07T10:48:12.241Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|inventory_scope|name=agent|direct=0|descendants=8|hotbars=0|items=4|trace_weapons=0|ranged_items=2|resources=1|resource_stacks=1|resource_quantity=500|resource_inventories=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6802,
+      "timestamp": "2026-11-07T10:48:12.241Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|initial_ranged_selection|selected=1|before_template_addition",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6803,
+      "timestamp": "2026-11-07T10:48:12.241Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_before|index=1|kind=inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6804,
+      "timestamp": "2026-11-07T10:48:12.241Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_before|index=2|kind=fort_inventory|items=1|equipped=0|parent_matches=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6805,
+      "timestamp": "2026-11-07T10:48:12.241Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_before|index=3|kind=build_hotbar|items=4|equipped=0|parent_matches=4",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6806,
+      "timestamp": "2026-11-07T10:48:12.241Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_before|index=4|kind=harvest_tool|items=1|equipped=1|parent_matches=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6807,
+      "timestamp": "2026-11-07T10:48:12.241Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_before|index=5|kind=weapon_hotbar|items=2|equipped=0|parent_matches=2",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6808,
+      "timestamp": "2026-11-07T10:48:12.241Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_before|index=6|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6809,
+      "timestamp": "2026-11-07T10:48:12.241Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_before|index=7|kind=resources|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6810,
+      "timestamp": "2026-11-07T10:48:12.241Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_before|index=8|kind=fort_inventory|items=2|equipped=0|parent_matches=2",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6811,
+      "timestamp": "2026-11-07T10:48:12.241Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_before|index=9|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6812,
+      "timestamp": "2026-11-07T10:48:12.241Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_before|index=10|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6813,
+      "timestamp": "2026-11-07T10:48:12.241Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_before|index=1|kind=inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6814,
+      "timestamp": "2026-11-07T10:48:12.241Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_before|index=2|kind=harvest_tool|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6815,
+      "timestamp": "2026-11-07T10:48:12.241Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_before|index=3|kind=fort_inventory|items=2|equipped=1|parent_matches=2",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6816,
+      "timestamp": "2026-11-07T10:48:12.241Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_before|index=4|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6817,
+      "timestamp": "2026-11-07T10:48:12.241Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_before|index=5|kind=resources|items=1|equipped=0|parent_matches=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6818,
+      "timestamp": "2026-11-07T10:48:12.241Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_before|index=6|kind=fort_inventory|items=1|equipped=0|parent_matches=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6819,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_before|index=7|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6820,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_before|index=8|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6821,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_topology|guard_direct_inventory_roots=1|query_only_no_items_moved",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6822,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_item_preflight|tool=1|destination=1|can_remove=1|parent_matches=1|can_add_distribute=1|add_errors=0|no_transfer_or_equip",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6823,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_item_preflight|tool=2|destination=1|can_remove=1|parent_matches=1|can_add_distribute=1|add_errors=0|no_transfer_or_equip",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6824,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_item_preflight|tool=3|destination=1|can_remove=1|parent_matches=1|can_add_distribute=1|add_errors=0|no_transfer_or_equip",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6825,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_item_preflight|tool=4|destination=1|can_remove=1|parent_matches=1|can_add_distribute=1|add_errors=0|no_transfer_or_equip",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6826,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_after|index=1|kind=inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6827,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_after|index=2|kind=fort_inventory|items=1|equipped=0|parent_matches=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6828,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_after|index=3|kind=build_hotbar|items=4|equipped=0|parent_matches=4",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6829,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_after|index=4|kind=harvest_tool|items=1|equipped=1|parent_matches=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6830,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_after|index=5|kind=weapon_hotbar|items=2|equipped=0|parent_matches=2",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6831,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_after|index=6|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6832,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_after|index=7|kind=resources|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6833,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_after|index=8|kind=fort_inventory|items=2|equipped=0|parent_matches=2",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6834,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_after|index=9|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6835,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=player_after|index=10|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6836,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_after|index=1|kind=inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6837,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_after|index=2|kind=harvest_tool|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6838,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_after|index=3|kind=fort_inventory|items=2|equipped=1|parent_matches=2",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6839,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_after|index=4|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6840,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_after|index=5|kind=resources|items=1|equipped=0|parent_matches=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6841,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_after|index=6|kind=fort_inventory|items=1|equipped=0|parent_matches=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6842,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_after|index=7|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6843,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_after|index=8|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6844,
+      "timestamp": "2026-11-07T10:48:12.242Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_reference_finished|source_hotbars=1|source_tools=4|snapshot_items=14|unchanged_identity_parent_equipped=14|inventory_queries_only|no_placement_edit_or_reset_requested",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6845,
+      "timestamp": "2026-11-07T10:48:12.497Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_lease_hotbar|items=0|under_guard_inventory_root",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6846,
+      "timestamp": "2026-11-07T10:48:12.498Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_lease_transferred|same_item_parent_matches=1|source_count=3|destination_count=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6847,
+      "timestamp": "2026-11-07T10:48:12.498Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=before_stop_navigation|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=1|source_count=3|destination_count=1|time=25838.113917|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6848,
+      "timestamp": "2026-11-07T10:48:12.498Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=after_stop_navigation|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=1|source_count=3|destination_count=1|time=25838.113917|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6849,
+      "timestamp": "2026-11-07T10:48:12.498Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=before_tether|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=1|source_count=3|destination_count=1|time=25838.113917|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6850,
+      "timestamp": "2026-11-07T10:48:12.498Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=after_tether|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=1|source_count=3|destination_count=1|time=25838.113917|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6851,
+      "timestamp": "2026-11-07T10:48:12.498Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=navigation_settle_before_tool_equip|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=1|source_count=3|destination_count=1|time=25838.113917|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6852,
+      "timestamp": "2026-11-07T10:48:13.772Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=navigation_settled_before_tool_equip|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=1|source_count=3|destination_count=1|time=25839.382961|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6853,
+      "timestamp": "2026-11-07T10:48:13.772Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parked|same_items=2|parking_count=2|parking_in_guard_hierarchy=0|outside_guard_inventory|no_item_deleted_or_copied",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6854,
+      "timestamp": "2026-11-07T10:48:13.772Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=original_ranged_parked_before_tool_equip|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25839.382961|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6855,
+      "timestamp": "2026-11-07T10:48:13.773Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_query_guards_installed|count=3|tool=1|ranged=2|public_inventory_query_veto|no_repeated_equip",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6856,
+      "timestamp": "2026-11-07T10:48:13.773Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_equipped_event|phase=original_ranged_parked_before_tool_equip|payload_equipped=1|time=25839.382961",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6857,
+      "timestamp": "2026-11-07T10:48:13.773Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=original_ranged_parked_before_tool_equip|reason=equipment_event|equipped=1|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25839.382961|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6858,
+      "timestamp": "2026-11-07T10:48:13.773Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_lease_equip_ok|native_build_tool|render_unverified",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6859,
+      "timestamp": "2026-11-07T10:48:13.773Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=short_window_start|reason=phase|equipped=1|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25839.382961|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6860,
+      "timestamp": "2026-11-07T10:48:13.929Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_equipped_event|phase=short_window_start|payload_equipped=0|time=25839.549933",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6861,
+      "timestamp": "2026-11-07T10:48:13.929Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=short_window_start|reason=equipment_event|equipped=0|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25839.549933|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6862,
+      "timestamp": "2026-11-07T10:48:14.029Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=short_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6863,
+      "timestamp": "2026-11-07T10:48:14.029Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_lease_sample|tick=1|equipped=0|parent_matches=1|source_count=3|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6864,
+      "timestamp": "2026-11-07T10:48:14.296Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=short_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6865,
+      "timestamp": "2026-11-07T10:48:14.296Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_lease_sample|tick=2|equipped=0|parent_matches=1|source_count=3|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6866,
+      "timestamp": "2026-11-07T10:48:14.563Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=short_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6867,
+      "timestamp": "2026-11-07T10:48:14.563Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_lease_sample|tick=3|equipped=0|parent_matches=1|source_count=3|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6868,
+      "timestamp": "2026-11-07T10:48:14.830Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=short_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6869,
+      "timestamp": "2026-11-07T10:48:14.830Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_lease_sample|tick=4|equipped=0|parent_matches=1|source_count=3|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6870,
+      "timestamp": "2026-11-07T10:48:15.099Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=short_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6871,
+      "timestamp": "2026-11-07T10:48:15.099Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_lease_sample|tick=5|equipped=0|parent_matches=1|source_count=3|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6872,
+      "timestamp": "2026-11-07T10:48:15.365Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=short_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6873,
+      "timestamp": "2026-11-07T10:48:15.365Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_lease_sample|tick=6|equipped=0|parent_matches=1|source_count=3|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6874,
+      "timestamp": "2026-11-07T10:48:15.632Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=short_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6875,
+      "timestamp": "2026-11-07T10:48:15.632Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_lease_sample|tick=7|equipped=0|parent_matches=1|source_count=3|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6876,
+      "timestamp": "2026-11-07T10:48:15.901Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=short_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6877,
+      "timestamp": "2026-11-07T10:48:15.901Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_lease_sample|tick=8|equipped=0|parent_matches=1|source_count=3|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6878,
+      "timestamp": "2026-11-07T10:48:15.901Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=short_window_end|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25841.520242|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6879,
+      "timestamp": "2026-11-07T10:48:15.901Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=before_menu_remove|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25841.520242|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6880,
+      "timestamp": "2026-11-07T10:48:15.901Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=after_menu_remove|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25841.520242|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6881,
+      "timestamp": "2026-11-07T10:48:15.901Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_menu_suspended|same_widget_retained",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6882,
+      "timestamp": "2026-11-07T10:48:15.901Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=before_settle_wait|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25841.520242|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6883,
+      "timestamp": "2026-11-07T10:48:16.170Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=after_settle_wait|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25841.787400|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6884,
+      "timestamp": "2026-11-07T10:48:16.170Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=before_initial_camera_placement|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25841.787400|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6885,
+      "timestamp": "2026-11-07T10:48:16.170Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_visual_camera_placed|phase=native_build_tool_initial|npc_x=-2838.028667|npc_y=-2981.282158|npc_z=77.150001|x=-2629.710583|y=-3120.291423|z=147.150001|yaw=146.285083|pitch=-11.290590|camera_from_character_facing=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6886,
+      "timestamp": "2026-11-07T10:48:16.170Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=after_initial_camera_placement|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25841.787400|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6887,
+      "timestamp": "2026-11-07T10:48:16.170Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=before_camera_add|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25841.787400|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6888,
+      "timestamp": "2026-11-07T10:48:16.170Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=after_camera_add|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25841.787400|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6889,
+      "timestamp": "2026-11-07T10:48:16.170Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=before_camera_blend_wait|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25841.787400|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6890,
+      "timestamp": "2026-11-07T10:48:17.169Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=after_camera_blend_wait|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25842.789231|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6891,
+      "timestamp": "2026-11-07T10:48:17.169Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_visual_camera_placed|phase=native_build_tool_reframed|npc_x=-2838.028667|npc_y=-2981.282158|npc_z=77.150001|x=-2629.710583|y=-3120.291423|z=147.150001|yaw=146.285083|pitch=-11.290590|camera_from_character_facing=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6892,
+      "timestamp": "2026-11-07T10:48:17.169Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=after_camera_reframe|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25842.789231|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6893,
+      "timestamp": "2026-11-07T10:48:17.435Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=before_visual_ready|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25843.056396|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6894,
+      "timestamp": "2026-11-07T10:48:17.435Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_visual_capture_ready|phase=native_build_tool|x=-2838.028667|y=-2981.282158|z=77.150001|target_x=0.000000|target_y=-7000.000000|target_z=110.974463|duration=40.000000|time=25843.056396|capture_route=game_viewport|native_item_inventory_lease|no_focus_or_attack|camera_from_body_facing",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6895,
+      "timestamp": "2026-11-07T10:48:18.437Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6896,
+      "timestamp": "2026-11-07T10:48:18.437Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=1.001842|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6897,
+      "timestamp": "2026-11-07T10:48:19.438Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6898,
+      "timestamp": "2026-11-07T10:48:19.438Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=2.003647|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6899,
+      "timestamp": "2026-11-07T10:48:20.439Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6900,
+      "timestamp": "2026-11-07T10:48:20.439Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=3.005413|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6901,
+      "timestamp": "2026-11-07T10:48:21.441Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6902,
+      "timestamp": "2026-11-07T10:48:21.441Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=4.007221|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6903,
+      "timestamp": "2026-11-07T10:48:22.443Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6904,
+      "timestamp": "2026-11-07T10:48:22.443Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=5.009090|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6905,
+      "timestamp": "2026-11-07T10:48:23.445Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6906,
+      "timestamp": "2026-11-07T10:48:23.445Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=6.010927|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6907,
+      "timestamp": "2026-11-07T10:48:24.446Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6908,
+      "timestamp": "2026-11-07T10:48:24.446Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=7.012784|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6909,
+      "timestamp": "2026-11-07T10:48:25.449Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6910,
+      "timestamp": "2026-11-07T10:48:25.449Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=8.014652|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6911,
+      "timestamp": "2026-11-07T10:48:26.450Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6912,
+      "timestamp": "2026-11-07T10:48:26.450Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=9.016512|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6913,
+      "timestamp": "2026-11-07T10:48:27.452Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6914,
+      "timestamp": "2026-11-07T10:48:27.452Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=10.018411|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6915,
+      "timestamp": "2026-11-07T10:48:28.454Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6916,
+      "timestamp": "2026-11-07T10:48:28.454Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=11.020222|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6917,
+      "timestamp": "2026-11-07T10:48:29.456Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6918,
+      "timestamp": "2026-11-07T10:48:29.456Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=12.022062|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6919,
+      "timestamp": "2026-11-07T10:48:30.458Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6920,
+      "timestamp": "2026-11-07T10:48:30.458Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=13.023902|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6921,
+      "timestamp": "2026-11-07T10:48:31.460Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6922,
+      "timestamp": "2026-11-07T10:48:31.460Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=14.025794|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6923,
+      "timestamp": "2026-11-07T10:48:32.462Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6924,
+      "timestamp": "2026-11-07T10:48:32.462Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=15.027698|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6925,
+      "timestamp": "2026-11-07T10:48:33.463Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6926,
+      "timestamp": "2026-11-07T10:48:33.463Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=16.029542|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6927,
+      "timestamp": "2026-11-07T10:48:34.465Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6928,
+      "timestamp": "2026-11-07T10:48:34.465Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=17.031430|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6929,
+      "timestamp": "2026-11-07T10:48:35.467Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6930,
+      "timestamp": "2026-11-07T10:48:35.467Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=18.033261|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6931,
+      "timestamp": "2026-11-07T10:48:36.469Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6932,
+      "timestamp": "2026-11-07T10:48:36.469Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=19.035128|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6933,
+      "timestamp": "2026-11-07T10:48:37.471Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6934,
+      "timestamp": "2026-11-07T10:48:37.471Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=20.037001|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6935,
+      "timestamp": "2026-11-07T10:48:38.472Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6936,
+      "timestamp": "2026-11-07T10:48:38.473Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=21.038867|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6937,
+      "timestamp": "2026-11-07T10:48:39.474Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6938,
+      "timestamp": "2026-11-07T10:48:39.475Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=22.040795|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6939,
+      "timestamp": "2026-11-07T10:48:40.476Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6940,
+      "timestamp": "2026-11-07T10:48:40.476Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=23.042674|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6941,
+      "timestamp": "2026-11-07T10:48:41.478Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6942,
+      "timestamp": "2026-11-07T10:48:41.479Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=24.044551|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6943,
+      "timestamp": "2026-11-07T10:48:42.480Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6944,
+      "timestamp": "2026-11-07T10:48:42.480Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=25.046435|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6945,
+      "timestamp": "2026-11-07T10:48:43.482Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6946,
+      "timestamp": "2026-11-07T10:48:43.482Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=26.048228|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6947,
+      "timestamp": "2026-11-07T10:48:44.484Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6948,
+      "timestamp": "2026-11-07T10:48:44.484Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=27.050080|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6949,
+      "timestamp": "2026-11-07T10:48:45.486Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6950,
+      "timestamp": "2026-11-07T10:48:45.486Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=28.051967|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6951,
+      "timestamp": "2026-11-07T10:48:46.488Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6952,
+      "timestamp": "2026-11-07T10:48:46.488Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=29.053865|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6953,
+      "timestamp": "2026-11-07T10:48:47.489Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6954,
+      "timestamp": "2026-11-07T10:48:47.489Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=30.055733|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6955,
+      "timestamp": "2026-11-07T10:48:48.491Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6956,
+      "timestamp": "2026-11-07T10:48:48.491Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=31.057557|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6957,
+      "timestamp": "2026-11-07T10:48:49.493Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6958,
+      "timestamp": "2026-11-07T10:48:49.494Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=32.059453|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6959,
+      "timestamp": "2026-11-07T10:48:50.495Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6960,
+      "timestamp": "2026-11-07T10:48:50.495Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=33.061373|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6961,
+      "timestamp": "2026-11-07T10:48:51.497Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6962,
+      "timestamp": "2026-11-07T10:48:51.497Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=34.063204|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6963,
+      "timestamp": "2026-11-07T10:48:52.499Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6964,
+      "timestamp": "2026-11-07T10:48:52.499Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=35.065078|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6965,
+      "timestamp": "2026-11-07T10:48:53.501Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6966,
+      "timestamp": "2026-11-07T10:48:53.501Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=36.066948|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6967,
+      "timestamp": "2026-11-07T10:48:54.503Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6968,
+      "timestamp": "2026-11-07T10:48:54.503Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=37.068864|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6969,
+      "timestamp": "2026-11-07T10:48:55.504Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6970,
+      "timestamp": "2026-11-07T10:48:55.505Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=38.070746|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6971,
+      "timestamp": "2026-11-07T10:48:56.506Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6972,
+      "timestamp": "2026-11-07T10:48:56.506Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=39.072627|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6973,
+      "timestamp": "2026-11-07T10:48:57.509Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_parking_status|phase=visual_hold|tracked=2|parent_matches=2|equipped=0|parking_count=2|no_inventory_mutation",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6974,
+      "timestamp": "2026-11-07T10:48:57.509Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_status|elapsed=40.074481|equipped=0|parent_matches=1|destination_count=1|no_placement_edit_or_reset",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6975,
+      "timestamp": "2026-11-07T10:48:57.509Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_visual_capture_finished|phase=native_build_tool|time=25883.130876",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6976,
+      "timestamp": "2026-11-07T10:48:57.509Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_visual_camera_restored|phase=native_build_tool|transform_restored=1|camera_activation_bypass=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6977,
+      "timestamp": "2026-11-07T10:48:57.510Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=before_menu_restore|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25883.130876|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6978,
+      "timestamp": "2026-11-07T10:48:57.511Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=after_menu_restore|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25883.130876|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6979,
+      "timestamp": "2026-11-07T10:48:57.511Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_visual_menu_restored|same_widget=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6980,
+      "timestamp": "2026-11-07T10:48:57.524Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_state|phase=cleanup_begin|reason=phase|equipped=0|parent_matches=1|original_guard_equipped_now=0|source_count=3|destination_count=1|time=25883.130876|read_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6981,
+      "timestamp": "2026-11-07T10:48:57.524Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_phase_trace_stopped|subscriptions=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6982,
+      "timestamp": "2026-11-07T10:48:57.524Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_query_guards_released|count=3|remaining=0|vetoes=0|equip_queries=1|before_native_item_return",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6983,
+      "timestamp": "2026-11-07T10:48:57.524Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_ranged_restored|same_items=2|parking_empty=1|parking_removed=1|remaining=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6984,
+      "timestamp": "2026-11-07T10:48:57.524Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_lease_restored|same_item_source_parent=1|source_count=4|temporary_inventory_empty_remove_requested=1|original_guard_equipment_restored=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6985,
+      "timestamp": "2026-11-07T10:48:57.524Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_tool_lease_snapshot|items=14|unchanged_identity_parent_equipped=14|source_count=4|cleanup_ok=1|repeat_cleanup_ok=1|guard_hotbars_after=0|tool_hold_guards_after=0|ranged_hold_guards_after=0|cleanup_checked_before_outer_despawn",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    },
+    {
+      "sequence": 6986,
+      "timestamp": "2026-11-07T10:48:57.530Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|automatic_sequence_finished|results_require_review",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 18
+    }
+  ],
+  "cleanup": {
+    "run": "98",
+    "scope": "Native build-tool inventory lease, same88transfer/Equip/8quarter-second polls and source/original Guard equipment restoration. Extra40sactual GameViewport reference: stop navigation+tether, NO Focus/Attack requests; camera from observed character forward, settled/reframed temporary existing camera+same-widget menu lease.1Hz native tool equipped/parent/destination samples; no placement/edit/reset. Source parent/unequipped rechecked after setup wait; untransferred source change is not forcibly unequipped by rollback. Native item source is diagnostic only; not a production allocation solution. No computer input/player teleport, firing request or direct damage;14original identities/parents/equipped checked and temporary hotbar0after cleanup. Forced game-end/death during lease remains separate. Control91adds read-only phase-state snapshots before/after StopNavigation,Tether,menu removal/restore,camera placement/activation/blend/reframe and a single native item ChangeEquippedEvent subscription. Logs current exact parent, equip, source/destination count and originally equipped Guard items; cancels subscription before native lease restoration. No gameplay timing/action change from90intended. Control95moves StopNavigation/Tether before native Tool.Equip, waits1.25s for navigation setup to settle, then releases original Guard gear, equips the native tool and runs the same8short/40long samples. No post-equip navigation setup. Held actions are unwound before native item restoration. Compare93same camera-stack bypass setup versus95ordering; menu-only94passed40/40. This tests ordering, not a universal cause or native build actuation. Control97adds temporary public inventory query guards: veto unequipping the borrowed native tool while in the exact destination, and veto equipping each original Guard ranged item while it remains under the observed Guard inventory. Same existing coach_tool_hold_component, no repeated equip or firing. Native lease Restore first unlocks/removes ALL added guards before item return, including OnEnd/retry paths; logs guard counts/vetoes and confirms no tool/ranged hold components after cleanup. Preexisting hold components refuse installation.96lost native tool during initial short window BEFORE camera, so95ordering alone is not established as robust; this tests public inventory arbitration on native items. Control98parks both original Guard ranged items, after successful Unequip, into one owned temporary inventory under the simulation root OUTSIDE Guard inventory. AddItem(no merge), checked original parents, partial-transfer restoration tracking BEFORE mutation. Require0ranged left under Guard before same97guards/tool equip/8short+40long frame. Restore removes query guards, returns native tool, returns exact original ranged items to original parents, removes only empty parking entity, restores original equipped gear; OnEnd/retry use same lease Restore. No copying/deleting original items or protected asset changes. Compare97versus98parking, not a universal native restriction or actuation result.",
+    "source_preparation": "final-run-98-preparation.json",
+    "started_at_utc": "2026-11-07T10:48:15.942399+00:00",
+    "started_game_by_tool": false,
+    "sequence_finished": true,
+    "keep_edit_session_requested": true,
+    "initial_session_state": "Connected",
+    "readiness_observations": [
+      {
+        "at_utc": "2026-11-07T10:48:16.792469+00:00",
+        "session": "Connected"
+      }
+    ],
+    "ready_session_state": "Connected",
+    "initial_game_state": "Running",
+    "native_visual_captures": {
+      "native_build_tool": {
+        "run": "98",
+        "requested_phase": "native_build_tool",
+        "ready_log": {
+          "phase": "native_build_tool",
+          "x": "-2838.028667",
+          "y": "-2981.282158",
+          "z": "77.150001",
+          "target_x": "0.000000",
+          "target_y": "-7000.000000",
+          "target_z": "110.974463",
+          "duration": "40.000000",
+          "time": "25843.056396",
+          "capture_route": "game_viewport",
+          "source_ready_timestamp": "2026-11-07T10:48:17.435Z",
+          "ready_age_at_request": "0.657873",
+          "remaining_at_request": "39.342127"
+        },
+        "arguments": {
+          "client_id": "5fe7f1e12c72481aaa07db52fe1f13d2",
+          "world": {
+            "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+          },
+          "maxResolution": 1280
+        },
+        "started_at_utc": "2026-11-07T10:48:18.412086+00:00",
+        "scope": "Actual current Game viewport framebuffer after temporary in-island fixed-point camera activation; not a diagnostic re-render. Native metadata does not identify originating GPU frame. No computer input/player teleport.",
+        "capture_route": "game_viewport",
+        "active_views_before_capture": [
+          {
+            "world": {
+              "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+            },
+            "name": "MinimapCaptureCamera",
+            "camera": {
+              "location": {
+                "x": 0,
+                "y": 0,
+                "z": 1060000
+              },
+              "rotation": {
+                "pitch": -90,
+                "yaw": 0,
+                "roll": 0
+              },
+              "projectionMode": "Perspective",
+              "fOV": 14.5,
+              "orthoWidth": 578987.5
+            },
+            "source": "ActorCamera",
+            "sourceActor": {
+              "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport:PersistentLevel.MinimapCaptureCamera"
+            },
+            "sourceDimensions": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "world": {
+              "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+            },
+            "name": "CameraActor_2147482646",
+            "camera": {
+              "location": {
+                "x": 122.99361738127715,
+                "y": -6675.313738177805,
+                "z": 195.84946060180664
+              },
+              "rotation": {
+                "pitch": 0,
+                "yaw": -110.0006103515625,
+                "roll": 0
+              },
+              "projectionMode": "Perspective",
+              "fOV": 90,
+              "orthoWidth": 512
+            },
+            "source": "ActorCamera",
+            "sourceActor": {
+              "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport:PersistentLevel.CameraActor_2147482646"
+            },
+            "sourceDimensions": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "world": {
+              "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+            },
+            "name": "Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928",
+            "camera": {
+              "location": {
+                "x": -2629.7105827453415,
+                "y": -3120.291422546874,
+                "z": 147.15000096945687
+              },
+              "rotation": {
+                "pitch": -11.290589797438656,
+                "yaw": 146.28508291535925,
+                "roll": -4.0541540961105837e-16
+              },
+              "projectionMode": "Perspective",
+              "fOV": 70,
+              "orthoWidth": 1024
+            },
+            "source": "ActorCamera",
+            "sourceActor": {
+              "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab_LevelInstance_84.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928"
+            },
+            "sourceDimensions": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "world": {
+              "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+            },
+            "name": "Device_CameraModes_FixedPoint_C_UAID_30E3A4101075561203_1232751105",
+            "camera": {
+              "location": {
+                "x": 7700,
+                "y": 5900,
+                "z": 900
+              },
+              "rotation": {
+                "pitch": -20,
+                "yaw": 35.000000000000014,
+                "roll": 8.461688990394199e-16
+              },
+              "projectionMode": "Perspective",
+              "fOV": 70,
+              "orthoWidth": 1024
+            },
+            "source": "ActorCamera",
+            "sourceActor": {
+              "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab_LevelInstance_84.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075561203_1232751105"
+            },
+            "sourceDimensions": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ],
+        "is_error": false,
+        "image": {
+          "path": "C:\\Users\\cdtauman\\Documents\\הפרויקטים שלי\\fortnite\\.local\\visual-evidence98\\native_build_tool-1.png",
+          "sha256": "b4eb9229cdfa09323106bfd33fb6ff885ddedc27e886dce83f5576887d91a00b"
+        },
+        "elapsed_wall_seconds": 17.75,
+        "finished_at_utc": "2026-11-07T10:48:36.621358+00:00"
+      }
+    },
+    "visual_capture_skipped": [],
+    "native_camera_views_after_sequence": [
+      {
+        "world": {
+          "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+        },
+        "name": "MinimapCaptureCamera",
+        "camera": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 1060000
+          },
+          "rotation": {
+            "pitch": -90,
+            "yaw": 0,
+            "roll": 0
+          },
+          "projectionMode": "Perspective",
+          "fOV": 14.5,
+          "orthoWidth": 578987.5
+        },
+        "source": "ActorCamera",
+        "sourceActor": {
+          "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport:PersistentLevel.MinimapCaptureCamera"
+        },
+        "sourceDimensions": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "world": {
+          "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+        },
+        "name": "CameraActor_2147482646",
+        "camera": {
+          "location": {
+            "x": 122.99361738127715,
+            "y": -6675.313738177805,
+            "z": 195.84946060180664
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": -110.0006103515625,
+            "roll": 0
+          },
+          "projectionMode": "Perspective",
+          "fOV": 90,
+          "orthoWidth": 512
+        },
+        "source": "ActorCamera",
+        "sourceActor": {
+          "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport:PersistentLevel.CameraActor_2147482646"
+        },
+        "sourceDimensions": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "world": {
+          "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+        },
+        "name": "Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928",
+        "camera": {
+          "location": {
+            "x": 4700,
+            "y": 5900,
+            "z": 900
+          },
+          "rotation": {
+            "pitch": -19.999999999999996,
+            "yaw": 35,
+            "roll": 1.1846364586551879e-14
+          },
+          "projectionMode": "Perspective",
+          "fOV": 70,
+          "orthoWidth": 1024
+        },
+        "source": "ActorCamera",
+        "sourceActor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab_LevelInstance_84.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928"
+        },
+        "sourceDimensions": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "world": {
+          "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+        },
+        "name": "Device_CameraModes_FixedPoint_C_UAID_30E3A4101075561203_1232751105",
+        "camera": {
+          "location": {
+            "x": 7700,
+            "y": 5900,
+            "z": 900
+          },
+          "rotation": {
+            "pitch": -20,
+            "yaw": 35.000000000000014,
+            "roll": 8.461688990394199e-16
+          },
+          "projectionMode": "Perspective",
+          "fOV": 70,
+          "orthoWidth": 1024
+        },
+        "source": "ActorCamera",
+        "sourceActor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab_LevelInstance_84.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075561203_1232751105"
+        },
+        "sourceDimensions": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "world": {
+          "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+        },
+        "name": "PlayerCamera(Athena_PlayerController_C_2147482646)",
+        "camera": {
+          "location": {
+            "x": 177.98535839872648,
+            "y": -7169.260782997267,
+            "z": 178.69936380162835
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": 146.2850788228768,
+            "roll": 0
+          },
+          "projectionMode": "Perspective",
+          "fOV": 80,
+          "orthoWidth": 512
+        },
+        "source": "PlayerCamera",
+        "sourceActor": {
+          "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport:PersistentLevel.Athena_PlayerController_C_2147482646"
+        },
+        "sourceDimensions": {
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "stop_game_result": "Completed",
+    "restored_visual_capture_seconds": {
+      "VisualNativeCaptureSeconds": 0,
+      "VisualToolCaptureSeconds": 0,
+      "VisualRifleCaptureSeconds": 0
+    },
+    "restored_viewport_capture_flag": {
+      "VisualUseViewportCamera": false
+    },
+    "restored_mesh_change_threshold": 0,
+    "combat_gates_after_run": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "restored_flags": {
+      "Enabled": false,
+      "AutoRun": false,
+      "UseWeaponCalibration": false,
+      "IsolatedWallControl": false,
+      "SpawnedWallControl": false,
+      "NPCEquippedAttackControl": false,
+      "NativeBuildToolReference": false,
+      "NativeBuildToolLease": false,
+      "NativeBuildCameraBypass": false,
+      "NativeBuildMenuOnly": false
+    },
+    "final_game_state": "CanStart",
+    "final_session_state": "Connected",
+    "kept_edit_session": true,
+    "ended_at_utc": "2026-11-07T10:49:04.880132+00:00"
+  },
+  "gates_accepted": false
+}

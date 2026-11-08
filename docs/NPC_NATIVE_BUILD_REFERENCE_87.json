@@ -1,0 +1,349 @@
+{
+  "run": "87",
+  "evidence_sha256": "7b785d1633a770e181d5af6d23ba595d2d6800be029a95f109466ee78f4afe93",
+  "scope": "Read-only native player/Guard inventory topology, build-hotbar source item queries and CanRemoveItem/CanAddItemDistribute preflight. Existing original Guard rifle selection only; no custom item creation, player item transfer/equip, added inventory, firing request, direct damage, camera or input change. Snapshot exact item identity/parent/equipped before/after; no placement/edit/reset or native-building acceptance. Normal private shooter despawn/disabled at outer cleanup.",
+  "checks": {
+    "sequence_finished": true,
+    "all_item_identity_parent_equipped_unchanged": true,
+    "player_topology_unchanged": true,
+    "guard_topology_unchanged": true,
+    "test_flags_off": true,
+    "native_build_gates_off": true
+  },
+  "inventory": {
+    "player": {
+      "inventory_components": 10,
+      "kinds": {
+        "inventory": 1,
+        "fort_inventory": 5,
+        "build_hotbar": 1,
+        "harvest_tool": 1,
+        "weapon_hotbar": 1,
+        "resources": 1
+      },
+      "items": 10,
+      "before": [
+        {
+          "index": "1",
+          "kind": "inventory",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        },
+        {
+          "index": "2",
+          "kind": "fort_inventory",
+          "items": "1",
+          "equipped": "0",
+          "parent_matches": "1"
+        },
+        {
+          "index": "3",
+          "kind": "build_hotbar",
+          "items": "4",
+          "equipped": "0",
+          "parent_matches": "4"
+        },
+        {
+          "index": "4",
+          "kind": "harvest_tool",
+          "items": "1",
+          "equipped": "1",
+          "parent_matches": "1"
+        },
+        {
+          "index": "5",
+          "kind": "weapon_hotbar",
+          "items": "2",
+          "equipped": "0",
+          "parent_matches": "2"
+        },
+        {
+          "index": "6",
+          "kind": "fort_inventory",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        },
+        {
+          "index": "7",
+          "kind": "resources",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        },
+        {
+          "index": "8",
+          "kind": "fort_inventory",
+          "items": "2",
+          "equipped": "0",
+          "parent_matches": "2"
+        },
+        {
+          "index": "9",
+          "kind": "fort_inventory",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        },
+        {
+          "index": "10",
+          "kind": "fort_inventory",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        }
+      ],
+      "after": [
+        {
+          "index": "1",
+          "kind": "inventory",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        },
+        {
+          "index": "2",
+          "kind": "fort_inventory",
+          "items": "1",
+          "equipped": "0",
+          "parent_matches": "1"
+        },
+        {
+          "index": "3",
+          "kind": "build_hotbar",
+          "items": "4",
+          "equipped": "0",
+          "parent_matches": "4"
+        },
+        {
+          "index": "4",
+          "kind": "harvest_tool",
+          "items": "1",
+          "equipped": "1",
+          "parent_matches": "1"
+        },
+        {
+          "index": "5",
+          "kind": "weapon_hotbar",
+          "items": "2",
+          "equipped": "0",
+          "parent_matches": "2"
+        },
+        {
+          "index": "6",
+          "kind": "fort_inventory",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        },
+        {
+          "index": "7",
+          "kind": "resources",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        },
+        {
+          "index": "8",
+          "kind": "fort_inventory",
+          "items": "2",
+          "equipped": "0",
+          "parent_matches": "2"
+        },
+        {
+          "index": "9",
+          "kind": "fort_inventory",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        },
+        {
+          "index": "10",
+          "kind": "fort_inventory",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        }
+      ]
+    },
+    "guard": {
+      "inventory_components": 8,
+      "kinds": {
+        "inventory": 1,
+        "harvest_tool": 1,
+        "fort_inventory": 5,
+        "resources": 1
+      },
+      "items": 4,
+      "before": [
+        {
+          "index": "1",
+          "kind": "inventory",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        },
+        {
+          "index": "2",
+          "kind": "harvest_tool",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        },
+        {
+          "index": "3",
+          "kind": "fort_inventory",
+          "items": "2",
+          "equipped": "1",
+          "parent_matches": "2"
+        },
+        {
+          "index": "4",
+          "kind": "fort_inventory",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        },
+        {
+          "index": "5",
+          "kind": "resources",
+          "items": "1",
+          "equipped": "0",
+          "parent_matches": "1"
+        },
+        {
+          "index": "6",
+          "kind": "fort_inventory",
+          "items": "1",
+          "equipped": "0",
+          "parent_matches": "1"
+        },
+        {
+          "index": "7",
+          "kind": "fort_inventory",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        },
+        {
+          "index": "8",
+          "kind": "fort_inventory",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        }
+      ],
+      "after": [
+        {
+          "index": "1",
+          "kind": "inventory",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        },
+        {
+          "index": "2",
+          "kind": "harvest_tool",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        },
+        {
+          "index": "3",
+          "kind": "fort_inventory",
+          "items": "2",
+          "equipped": "1",
+          "parent_matches": "2"
+        },
+        {
+          "index": "4",
+          "kind": "fort_inventory",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        },
+        {
+          "index": "5",
+          "kind": "resources",
+          "items": "1",
+          "equipped": "0",
+          "parent_matches": "1"
+        },
+        {
+          "index": "6",
+          "kind": "fort_inventory",
+          "items": "1",
+          "equipped": "0",
+          "parent_matches": "1"
+        },
+        {
+          "index": "7",
+          "kind": "fort_inventory",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        },
+        {
+          "index": "8",
+          "kind": "fort_inventory",
+          "items": "0",
+          "equipped": "0",
+          "parent_matches": "0"
+        }
+      ]
+    }
+  },
+  "topology": {
+    "guard_direct_inventory_roots": "1"
+  },
+  "finish": {
+    "source_hotbars": "1",
+    "source_tools": "4",
+    "snapshot_items": "14",
+    "unchanged_identity_parent_equipped": "14"
+  },
+  "preflight": [
+    {
+      "tool": "1",
+      "destination": "1",
+      "can_remove": "1",
+      "parent_matches": "1",
+      "can_add_distribute": "1",
+      "add_errors": "0"
+    },
+    {
+      "tool": "2",
+      "destination": "1",
+      "can_remove": "1",
+      "parent_matches": "1",
+      "can_add_distribute": "1",
+      "add_errors": "0"
+    },
+    {
+      "tool": "3",
+      "destination": "1",
+      "can_remove": "1",
+      "parent_matches": "1",
+      "can_add_distribute": "1",
+      "add_errors": "0"
+    },
+    {
+      "tool": "4",
+      "destination": "1",
+      "can_remove": "1",
+      "parent_matches": "1",
+      "can_add_distribute": "1",
+      "add_errors": "0"
+    }
+  ],
+  "native_tool_transfer_attempted": false,
+  "native_tool_equipped_on_npc": false,
+  "native_placement_edit_reset_requested": false,
+  "native_build_gates_accepted": false,
+  "limits": [
+    "CanAdd/CanRemove results are query observations in the current inventory context, not proof of a successful transfer/equip or of an unavailable platform route.",
+    "No native tool, inventory component or source-player equipment mutation was requested; original Guard rifle selection preceded the inventory snapshot.",
+    "Inventory component type counts do not by themselves prove native placement/edit/ownership/slot behavior."
+  ]
+}

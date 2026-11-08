@@ -1,0 +1,569 @@
+{
+  "date": "2026-11-07",
+  "run": "automatic-51",
+  "scope": "Compiled production-equipment control; no runtime observations. Startup operation returned Completed after cooking; server then ended without a connected game client. Observer waited120s and restored disabled flags with no StartGame request.",
+  "preparation": {
+    "prepared_at_utc": "2026-11-07T03:30:16.846629+00:00",
+    "source_build": "npc-managed-loadout-lifecycle-build.json",
+    "source_build_sha256": "b8c08d3595e882c8988add43cc8c2175dd209c152d7025ef2e26b7375ffff7e6",
+    "probe": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567"
+    },
+    "probe_label": "PCL_Health_Probe",
+    "log_pattern": "PCL\\|health_probe",
+    "test_flags": {
+      "Enabled": true,
+      "AutoRun": true
+    },
+    "combat_gates": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "input_requested": false,
+    "connection_reused": false,
+    "wall_occlusion_control": false,
+    "wall_occlusion_scope": "Native Prop Manipulator initial-health control200 configured before gameplay; explicit AdditionalProps reference is the owned ControlWall and volume mode is off. No scripted health changes or synthetic damage during firing. This does not establish default Fortnite wall health or edit-health continuity.",
+    "mesh_change_after_player_hits": 0,
+    "isolated_wall_control": false,
+    "spawned_wall_control": false,
+    "npc_equipped_attack_control": true,
+    "npc_equipped_attack_context": {
+      "at_utc": "2026-11-07T03:30:02.172261+00:00",
+      "scope": "Production coach_equipment NPC-only rifle loadout on private guard. Checked removal and parking of originals; native assault-rifle template add/equip; repeated initialization and SelectWeapon; require exactly one ranged item before measurement. Stationary detected hostile5000HP target,2s baseline,12s Attack,12s Attack plus BeginFire. Native rifle damage/fire rate/shot cost unchanged; exact rifle firing/equip/holster and source-attributed damage sampled separately. Cleanup removes managed rifle, restores original inventory count and repeats cleanup to check idempotence. No player inventory/position changes, direct Damage/Explode, computer input or build-gate changes.",
+      "properties": {
+        "Enabled": false,
+        "AutoRun": false,
+        "UseWeaponCalibration": true,
+        "UseCharacterTargetControl": false,
+        "NPCEquippedAttackControl": true,
+        "IsolatedWallControl": false,
+        "SpawnedWallControl": false,
+        "MeshChangeAfterPlayerHits": 0
+      }
+    },
+    "calibration_native_timer": false,
+    "calibration_blast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075661203_1497102807"
+    },
+    "calibration_objective": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+    },
+    "weapon_calibration": true,
+    "character_target_control": false,
+    "calibration_shooter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075671203_1509093984"
+    },
+    "calibration_player_teleporter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Teleporter_V2_C_UAID_30E3A4101075711203_1580237745"
+    },
+    "calibration_no_fire_zone": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MutatorVolume_V2_C_UAID_30E3A4101075491203_1921501775"
+    },
+    "source_archive": {
+      "path": ".local\\evidence\\health-51\\sources.zip",
+      "sha256": "843ae70e1a42747be09833cae3a8a05c809b47bd8e8d5e807433791647d4902b"
+    },
+    "fixture_archive": {
+      "path": ".local\\evidence\\health-51\\health-probe-layout.json",
+      "sha256": "843a264e7351fb7b8c0d0969dcfd24be971ff6da6ed51206520a5408535042ce"
+    }
+  },
+  "start_session": "Completed",
+  "observer": {
+    "run": "51",
+    "scope": "Production coach_equipment NPC-only rifle loadout on private guard. Checked removal and parking of originals; native assault-rifle template add/equip; repeated initialization and SelectWeapon; require exactly one ranged item before measurement. Stationary detected hostile5000HP target,2s baseline,12s Attack,12s Attack plus BeginFire. Native rifle damage/fire rate/shot cost unchanged; exact rifle firing/equip/holster and source-attributed damage sampled separately. Cleanup removes managed rifle, restores original inventory count and repeats cleanup to check idempotence. No player inventory/position changes, direct Damage/Explode, computer input or build-gate changes.",
+    "source_preparation": "final-run-51-preparation.json",
+    "started_at_utc": "2026-11-07T03:36:00.573302+00:00",
+    "started_game_by_tool": false,
+    "sequence_finished": false,
+    "keep_edit_session_requested": true,
+    "initial_session_state": "Disconnected",
+    "readiness_observations": [
+      {
+        "at_utc": "2026-11-07T03:36:01.633249+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:02.918532+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:03.952961+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:05.004438+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:06.059867+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:07.084313+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:08.132165+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:09.171967+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:10.193510+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:11.228757+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:12.265080+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:13.299942+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:14.395424+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:15.437760+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:16.463053+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:17.505106+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:18.531700+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:19.561795+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:20.603529+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:21.640144+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:22.808012+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:23.853164+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:24.896984+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:25.927628+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:26.967159+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:28.005234+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:29.029344+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:30.079589+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:31.118168+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:32.146287+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:33.189857+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:34.218924+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:35.244598+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:36.288399+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:37.324056+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:38.349612+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:39.371065+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:40.399679+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:41.524523+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:42.555717+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:43.607855+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:44.640867+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:45.776090+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:46.805455+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:47.840850+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:48.862343+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:49.901443+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:50.939504+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:51.988007+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:53.010758+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:54.041528+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:55.089836+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:56.147026+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:57.175885+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:58.355918+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:36:59.380884+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:00.435508+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:01.497579+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:02.533806+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:03.572432+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:04.604405+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:05.672502+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:06.718575+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:07.775572+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:08.800983+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:09.866811+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:10.880870+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:11.930407+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:12.957663+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:14.003511+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:15.087511+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:16.160685+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:17.224803+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:18.270014+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:19.299701+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:20.314601+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:21.368373+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:22.425786+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:23.459073+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:24.611926+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:25.769771+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:26.829119+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:27.843185+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:28.892576+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:29.922338+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:30.959106+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:32.137718+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:33.175863+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:34.227090+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:35.336357+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:36.373361+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:37.414273+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:38.447828+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:39.483643+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:40.525535+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:41.566702+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:42.673512+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:43.714746+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:44.750904+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:45.789859+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:46.836298+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:47.904767+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:49.009995+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:50.047874+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:51.357901+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:52.449979+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:53.490738+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:54.521943+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:55.580837+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:56.596295+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:57.631086+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:58.667845+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:37:59.718511+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:38:00.749273+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-07T03:38:01.801943+00:00",
+        "session": "Disconnected"
+      }
+    ],
+    "observer_error": "Session is not connected: Disconnected",
+    "observations": [],
+    "restored_mesh_change_threshold": 0,
+    "combat_gates_after_run": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "restored_flags": {
+      "Enabled": false,
+      "AutoRun": false,
+      "UseWeaponCalibration": false,
+      "IsolatedWallControl": false,
+      "SpawnedWallControl": false,
+      "NPCEquippedAttackControl": false
+    },
+    "final_game_state": "Unconnected",
+    "final_session_state": "Disconnected",
+    "kept_edit_session": false,
+    "ended_at_utc": "2026-11-07T03:38:04.830083+00:00"
+  },
+  "client_failure_cause": "Not yet established. Session Inspector reported no game clients connected.",
+  "gates_accepted": false
+}

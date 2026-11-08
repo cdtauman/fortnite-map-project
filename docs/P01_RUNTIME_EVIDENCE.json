@@ -1,0 +1,706 @@
+{
+  "date": "2026-11-06",
+  "project": "ProCoachLab",
+  "engine_build": "43.00 CL-59596594",
+  "mode": "observe and bounded_attack_probe",
+  "events": [
+    {
+      "sequence": 1,
+      "timestamp": "2026-11-06T04:07:31.667Z",
+      "severity": "Normal",
+      "message": "PCL|boot|probe=P01|version=1|mode=observe"
+    },
+    {
+      "sequence": 2,
+      "timestamp": "2026-11-06T04:07:32.665Z",
+      "severity": "Normal",
+      "message": "PCL|reset|generation=1"
+    },
+    {
+      "sequence": 3,
+      "timestamp": "2026-11-06T04:07:32.743Z",
+      "severity": "Normal",
+      "message": "PCL|spawn|generation=1|native_guard=true"
+    },
+    {
+      "sequence": 4,
+      "timestamp": "2026-11-06T04:07:32.820Z",
+      "severity": "Normal",
+      "message": "PCL|components|guard_actions=true|awareness=true"
+    },
+    {
+      "sequence": 5,
+      "timestamp": "2026-11-06T04:07:40.431Z",
+      "severity": "Normal",
+      "message": "PCL|perception|target_seen"
+    },
+    {
+      "sequence": 6,
+      "timestamp": "2026-11-06T04:07:44.740Z",
+      "severity": "Normal",
+      "message": "PCL|perception|guard_alerted"
+    },
+    {
+      "sequence": 7,
+      "timestamp": "2026-11-06T04:07:46.443Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=true"
+    },
+    {
+      "sequence": 8,
+      "timestamp": "2026-11-06T04:07:53.223Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=player|amount=33.000000"
+    },
+    {
+      "sequence": 9,
+      "timestamp": "2026-11-06T04:07:58.198Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=false"
+    },
+    {
+      "sequence": 10,
+      "timestamp": "2026-11-06T04:07:58.766Z",
+      "severity": "Normal",
+      "message": "PCL|perception|guard_target_lost"
+    },
+    {
+      "sequence": 11,
+      "timestamp": "2026-11-06T04:08:02.206Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=true"
+    },
+    {
+      "sequence": 12,
+      "timestamp": "2026-11-06T04:08:02.406Z",
+      "severity": "Normal",
+      "message": "PCL|perception|guard_alerted"
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-11-06T04:08:03.007Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=false"
+    },
+    {
+      "sequence": 14,
+      "timestamp": "2026-11-06T04:08:03.275Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=true"
+    },
+    {
+      "sequence": 15,
+      "timestamp": "2026-11-06T04:08:08.886Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=false"
+    },
+    {
+      "sequence": 16,
+      "timestamp": "2026-11-06T04:08:09.553Z",
+      "severity": "Normal",
+      "message": "PCL|perception|guard_target_lost"
+    },
+    {
+      "sequence": 17,
+      "timestamp": "2026-11-06T04:08:09.954Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=true"
+    },
+    {
+      "sequence": 18,
+      "timestamp": "2026-11-06T04:08:10.054Z",
+      "severity": "Normal",
+      "message": "PCL|perception|guard_alerted"
+    },
+    {
+      "sequence": 19,
+      "timestamp": "2026-11-06T04:08:10.388Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=opponent|amount=33.000000"
+    },
+    {
+      "sequence": 20,
+      "timestamp": "2026-11-06T04:08:10.656Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=player|amount=33.000000"
+    },
+    {
+      "sequence": 21,
+      "timestamp": "2026-11-06T04:08:12.358Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=false"
+    },
+    {
+      "sequence": 22,
+      "timestamp": "2026-11-06T04:08:12.960Z",
+      "severity": "Normal",
+      "message": "PCL|perception|guard_target_lost"
+    },
+    {
+      "sequence": 23,
+      "timestamp": "2026-11-06T04:08:15.564Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=true"
+    },
+    {
+      "sequence": 24,
+      "timestamp": "2026-11-06T04:08:15.832Z",
+      "severity": "Normal",
+      "message": "PCL|perception|guard_alerted"
+    },
+    {
+      "sequence": 25,
+      "timestamp": "2026-11-06T04:08:16.769Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=player|amount=33.000000"
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-11-06T04:08:16.936Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=player|amount=1.000000"
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-11-06T04:08:16.937Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=player|amount=32.000000"
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-11-06T04:08:17.134Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=opponent|amount=33.000000"
+    },
+    {
+      "sequence": 29,
+      "timestamp": "2026-11-06T04:08:17.138Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=player|amount=33.000000"
+    },
+    {
+      "sequence": 30,
+      "timestamp": "2026-11-06T04:08:17.302Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=player|amount=33.000000"
+    },
+    {
+      "sequence": 31,
+      "timestamp": "2026-11-06T04:08:17.335Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=opponent|amount=33.000000"
+    },
+    {
+      "sequence": 32,
+      "timestamp": "2026-11-06T04:08:17.535Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=opponent|amount=1.000000"
+    },
+    {
+      "sequence": 33,
+      "timestamp": "2026-11-06T04:08:17.536Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=opponent|amount=32.000000"
+    },
+    {
+      "sequence": 34,
+      "timestamp": "2026-11-06T04:08:18.503Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=false"
+    },
+    {
+      "sequence": 35,
+      "timestamp": "2026-11-06T04:08:19.071Z",
+      "severity": "Normal",
+      "message": "PCL|perception|guard_target_lost"
+    },
+    {
+      "sequence": 36,
+      "timestamp": "2026-11-06T04:08:22.778Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=true"
+    },
+    {
+      "sequence": 37,
+      "timestamp": "2026-11-06T04:08:22.879Z",
+      "severity": "Normal",
+      "message": "PCL|perception|guard_alerted"
+    },
+    {
+      "sequence": 38,
+      "timestamp": "2026-11-06T04:08:24.381Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=false"
+    },
+    {
+      "sequence": 39,
+      "timestamp": "2026-11-06T04:08:24.950Z",
+      "severity": "Normal",
+      "message": "PCL|perception|guard_target_lost"
+    },
+    {
+      "sequence": 40,
+      "timestamp": "2026-11-06T04:08:26.518Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=true"
+    },
+    {
+      "sequence": 41,
+      "timestamp": "2026-11-06T04:08:26.552Z",
+      "severity": "Normal",
+      "message": "PCL|perception|guard_alerted"
+    },
+    {
+      "sequence": 42,
+      "timestamp": "2026-11-06T04:08:27.854Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=false"
+    },
+    {
+      "sequence": 43,
+      "timestamp": "2026-11-06T04:08:28.455Z",
+      "severity": "Normal",
+      "message": "PCL|perception|guard_target_lost"
+    },
+    {
+      "sequence": 44,
+      "timestamp": "2026-11-06T04:08:33.732Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=true"
+    },
+    {
+      "sequence": 45,
+      "timestamp": "2026-11-06T04:08:33.900Z",
+      "severity": "Normal",
+      "message": "PCL|perception|guard_alerted"
+    },
+    {
+      "sequence": 46,
+      "timestamp": "2026-11-06T04:08:35.602Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=false"
+    },
+    {
+      "sequence": 47,
+      "timestamp": "2026-11-06T04:08:35.870Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=true"
+    },
+    {
+      "sequence": 48,
+      "timestamp": "2026-11-06T04:08:36.404Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=false"
+    },
+    {
+      "sequence": 49,
+      "timestamp": "2026-11-06T04:08:36.905Z",
+      "severity": "Normal",
+      "message": "PCL|perception|guard_target_lost"
+    },
+    {
+      "sequence": 50,
+      "timestamp": "2026-11-06T04:09:01.818Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=opponent|amount=33.000000"
+    },
+    {
+      "sequence": 51,
+      "timestamp": "2026-11-06T04:09:02.018Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=opponent|amount=33.000000"
+    },
+    {
+      "sequence": 52,
+      "timestamp": "2026-11-06T04:09:02.218Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=opponent|amount=33.000000"
+    },
+    {
+      "sequence": 53,
+      "timestamp": "2026-11-06T04:09:02.222Z",
+      "severity": "Normal",
+      "message": "PCL|actual_elimination"
+    },
+    {
+      "sequence": 54,
+      "timestamp": "2026-11-06T04:09:02.222Z",
+      "severity": "Normal",
+      "message": "PCL|perception|target_forgotten"
+    },
+    {
+      "sequence": 55,
+      "timestamp": "2026-11-06T04:09:18.414Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=player|amount=50.000000"
+    },
+    {
+      "sequence": 56,
+      "timestamp": "2026-11-06T04:09:18.416Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=player|amount=150.000000"
+    },
+    {
+      "sequence": 57,
+      "timestamp": "2026-11-06T04:16:18.354Z",
+      "severity": "Normal",
+      "message": "PCL|mode|bounded_attack_probe"
+    },
+    {
+      "sequence": 58,
+      "timestamp": "2026-11-06T04:16:18.521Z",
+      "severity": "Normal",
+      "message": "PCL|mode|observe"
+    },
+    {
+      "sequence": 59,
+      "timestamp": "2026-11-06T04:16:19.623Z",
+      "severity": "Normal",
+      "message": "PCL|mode|bounded_attack_probe"
+    },
+    {
+      "sequence": 60,
+      "timestamp": "2026-11-06T04:16:19.656Z",
+      "severity": "Normal",
+      "message": "PCL|mode|observe"
+    },
+    {
+      "sequence": 61,
+      "timestamp": "2026-11-06T04:16:19.723Z",
+      "severity": "Normal",
+      "message": "PCL|mode|bounded_attack_probe"
+    },
+    {
+      "sequence": 62,
+      "timestamp": "2026-11-06T04:16:19.823Z",
+      "severity": "Normal",
+      "message": "PCL|mode|observe"
+    },
+    {
+      "sequence": 63,
+      "timestamp": "2026-11-06T04:16:19.957Z",
+      "severity": "Normal",
+      "message": "PCL|mode|bounded_attack_probe"
+    },
+    {
+      "sequence": 64,
+      "timestamp": "2026-11-06T04:16:26.302Z",
+      "severity": "Normal",
+      "message": "PCL|reset|generation=2"
+    },
+    {
+      "sequence": 65,
+      "timestamp": "2026-11-06T04:16:26.378Z",
+      "severity": "Normal",
+      "message": "PCL|spawn|generation=2|native_guard=true"
+    },
+    {
+      "sequence": 66,
+      "timestamp": "2026-11-06T04:16:26.449Z",
+      "severity": "Normal",
+      "message": "PCL|components|guard_actions=true|awareness=true"
+    },
+    {
+      "sequence": 67,
+      "timestamp": "2026-11-06T04:16:27.422Z",
+      "severity": "Normal",
+      "message": "PCL|actual_elimination"
+    },
+    {
+      "sequence": 68,
+      "timestamp": "2026-11-06T04:16:27.422Z",
+      "severity": "Normal",
+      "message": "PCL|reset|generation=3"
+    },
+    {
+      "sequence": 69,
+      "timestamp": "2026-11-06T04:16:27.470Z",
+      "severity": "Normal",
+      "message": "PCL|spawn|generation=3|native_guard=true"
+    },
+    {
+      "sequence": 70,
+      "timestamp": "2026-11-06T04:16:27.552Z",
+      "severity": "Normal",
+      "message": "PCL|components|guard_actions=true|awareness=true"
+    },
+    {
+      "sequence": 71,
+      "timestamp": "2026-11-06T04:16:27.990Z",
+      "severity": "Normal",
+      "message": "PCL|actual_elimination"
+    },
+    {
+      "sequence": 72,
+      "timestamp": "2026-11-06T04:16:27.990Z",
+      "severity": "Normal",
+      "message": "PCL|reset|generation=4"
+    },
+    {
+      "sequence": 73,
+      "timestamp": "2026-11-06T04:16:28.036Z",
+      "severity": "Normal",
+      "message": "PCL|spawn|generation=4|native_guard=true"
+    },
+    {
+      "sequence": 74,
+      "timestamp": "2026-11-06T04:16:28.122Z",
+      "severity": "Normal",
+      "message": "PCL|actual_elimination"
+    },
+    {
+      "sequence": 75,
+      "timestamp": "2026-11-06T04:16:28.122Z",
+      "severity": "Normal",
+      "message": "PCL|reset|generation=5"
+    },
+    {
+      "sequence": 76,
+      "timestamp": "2026-11-06T04:16:28.126Z",
+      "severity": "Normal",
+      "message": "PCL|components|unverified|reason=component_lookup_failed"
+    },
+    {
+      "sequence": 77,
+      "timestamp": "2026-11-06T04:16:28.170Z",
+      "severity": "Normal",
+      "message": "PCL|spawn|generation=5|native_guard=true"
+    },
+    {
+      "sequence": 78,
+      "timestamp": "2026-11-06T04:16:28.253Z",
+      "severity": "Normal",
+      "message": "PCL|components|guard_actions=true|awareness=true"
+    },
+    {
+      "sequence": 79,
+      "timestamp": "2026-11-06T04:16:35.966Z",
+      "severity": "Normal",
+      "message": "PCL|perception|target_seen"
+    },
+    {
+      "sequence": 80,
+      "timestamp": "2026-11-06T04:16:36.000Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=true"
+    },
+    {
+      "sequence": 81,
+      "timestamp": "2026-11-06T04:16:36.000Z",
+      "severity": "Normal",
+      "message": "PCL|action_request|attack"
+    },
+    {
+      "sequence": 82,
+      "timestamp": "2026-11-06T04:16:36.634Z",
+      "severity": "Normal",
+      "message": "PCL|action_request|attack"
+    },
+    {
+      "sequence": 83,
+      "timestamp": "2026-11-06T04:16:37.269Z",
+      "severity": "Normal",
+      "message": "PCL|action_request|attack"
+    },
+    {
+      "sequence": 84,
+      "timestamp": "2026-11-06T04:16:37.903Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=false"
+    },
+    {
+      "sequence": 85,
+      "timestamp": "2026-11-06T04:16:38.437Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=true"
+    },
+    {
+      "sequence": 86,
+      "timestamp": "2026-11-06T04:16:38.437Z",
+      "severity": "Normal",
+      "message": "PCL|action_request|attack"
+    },
+    {
+      "sequence": 87,
+      "timestamp": "2026-11-06T04:16:38.771Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=opponent|amount=33.000000"
+    },
+    {
+      "sequence": 88,
+      "timestamp": "2026-11-06T04:16:38.805Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=opponent|amount=33.000000"
+    },
+    {
+      "sequence": 89,
+      "timestamp": "2026-11-06T04:16:38.972Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=opponent|amount=33.000000"
+    },
+    {
+      "sequence": 90,
+      "timestamp": "2026-11-06T04:16:39.038Z",
+      "severity": "Normal",
+      "message": "PCL|perception|guard_alerted"
+    },
+    {
+      "sequence": 91,
+      "timestamp": "2026-11-06T04:16:39.072Z",
+      "severity": "Normal",
+      "message": "PCL|action_request|attack"
+    },
+    {
+      "sequence": 92,
+      "timestamp": "2026-11-06T04:16:39.172Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=opponent|amount=1.000000"
+    },
+    {
+      "sequence": 93,
+      "timestamp": "2026-11-06T04:16:39.173Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=opponent|amount=32.000000"
+    },
+    {
+      "sequence": 94,
+      "timestamp": "2026-11-06T04:16:39.373Z",
+      "severity": "Normal",
+      "message": "PCL|actual_damage|victim=player|amount=33.000000"
+    },
+    {
+      "sequence": 95,
+      "timestamp": "2026-11-06T04:16:39.380Z",
+      "severity": "Normal",
+      "message": "PCL|perception|target_forgotten"
+    },
+    {
+      "sequence": 96,
+      "timestamp": "2026-11-06T04:16:39.380Z",
+      "severity": "Normal",
+      "message": "PCL|actual_elimination"
+    },
+    {
+      "sequence": 97,
+      "timestamp": "2026-11-06T04:16:57.907Z",
+      "severity": "Normal",
+      "message": "PCL|perception|target_seen"
+    },
+    {
+      "sequence": 98,
+      "timestamp": "2026-11-06T04:16:58.074Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=true"
+    },
+    {
+      "sequence": 99,
+      "timestamp": "2026-11-06T04:16:58.074Z",
+      "severity": "Normal",
+      "message": "PCL|action_request|attack"
+    },
+    {
+      "sequence": 100,
+      "timestamp": "2026-11-06T04:16:58.707Z",
+      "severity": "Normal",
+      "message": "PCL|action_request|attack"
+    },
+    {
+      "sequence": 101,
+      "timestamp": "2026-11-06T04:16:59.342Z",
+      "severity": "Normal",
+      "message": "PCL|action_request|attack"
+    },
+    {
+      "sequence": 102,
+      "timestamp": "2026-11-06T04:16:59.977Z",
+      "severity": "Normal",
+      "message": "PCL|action_request|attack"
+    },
+    {
+      "sequence": 103,
+      "timestamp": "2026-11-06T04:17:00.611Z",
+      "severity": "Normal",
+      "message": "PCL|action_request|attack"
+    },
+    {
+      "sequence": 104,
+      "timestamp": "2026-11-06T04:17:01.246Z",
+      "severity": "Normal",
+      "message": "PCL|action_request|attack"
+    },
+    {
+      "sequence": 105,
+      "timestamp": "2026-11-06T04:17:01.880Z",
+      "severity": "Normal",
+      "message": "PCL|perception|guard_alerted"
+    },
+    {
+      "sequence": 106,
+      "timestamp": "2026-11-06T04:17:01.880Z",
+      "severity": "Normal",
+      "message": "PCL|action_request|attack"
+    },
+    {
+      "sequence": 107,
+      "timestamp": "2026-11-06T04:17:02.514Z",
+      "severity": "Normal",
+      "message": "PCL|action_request|attack"
+    },
+    {
+      "sequence": 108,
+      "timestamp": "2026-11-06T04:17:03.149Z",
+      "severity": "Normal",
+      "message": "PCL|action_request|attack"
+    },
+    {
+      "sequence": 109,
+      "timestamp": "2026-11-06T04:17:03.783Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=false"
+    },
+    {
+      "sequence": 110,
+      "timestamp": "2026-11-06T04:17:03.884Z",
+      "severity": "Normal",
+      "message": "PCL|perception|guard_target_lost"
+    },
+    {
+      "sequence": 111,
+      "timestamp": "2026-11-06T04:17:06.188Z",
+      "severity": "Normal",
+      "message": "PCL|visibility|visible=true"
+    },
+    {
+      "sequence": 112,
+      "timestamp": "2026-11-06T04:17:06.188Z",
+      "severity": "Normal",
+      "message": "PCL|action_request|attack"
+    },
+    {
+      "sequence": 113,
+      "timestamp": "2026-11-06T04:17:06.389Z",
+      "severity": "Normal",
+      "message": "PCL|perception|guard_alerted"
+    },
+    {
+      "sequence": 114,
+      "timestamp": "2026-11-06T04:17:06.822Z",
+      "severity": "Normal",
+      "message": "PCL|action_request|attack"
+    },
+    {
+      "sequence": 115,
+      "timestamp": "2026-11-06T04:17:07.457Z",
+      "severity": "Normal",
+      "message": "PCL|action_request|attack"
+    },
+    {
+      "sequence": 116,
+      "timestamp": "2026-11-06T04:17:08.093Z",
+      "severity": "Normal",
+      "message": "PCL|action_request|attack"
+    }
+  ],
+  "scope": "Observed Verse events in one running private development session: native guard, awareness, two-way damage, button mode changes, reset/respawn and attack requests. Native guard AI remained active. Does not isolate the effect of Attack, prove occlusion correctness, pro-level behavior, native building/editing or adaptive learning.",
+  "source_revision": "Probe version 1; version 3 is a later compiled lifecycle/loadout correction, requiring fresh runtime evidence."
+}

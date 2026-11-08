@@ -1,0 +1,56 @@
+{
+  "at_utc": "2026-11-07T02:43:01.101066+00:00",
+  "scope": "Native Content Browser selection and Use Selected Asset buttons, followed by actual public AssetForEditor readback. No wrapper writes or class-filter bypass. Owned prop bindings, not native build/edit acceptance.",
+  "bindings": {
+    "structures": {
+      "WallAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingWall.PCL_BP_TrainingWall_C"
+        }
+      },
+      "FloorAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingFloor.PCL_BP_TrainingFloor_C"
+        }
+      },
+      "RampAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingRamp.PCL_BP_TrainingRamp_C"
+        }
+      },
+      "ConeAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingCone.PCL_BP_TrainingCone_C"
+        }
+      },
+      "DemoAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_LessonWall.PCL_BP_LessonWall_C"
+        }
+      }
+    }
+  },
+  "level_dirty": false,
+  "properties": {
+    "WallAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075391203_2089996912.coach_structure_device_0.Devices_creative_prop_asset_1"
+    },
+    "FloorAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075391203_2089996912.coach_structure_device_0.Devices_creative_prop_asset_3"
+    },
+    "RampAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075391203_2089996912.coach_structure_device_0.Devices_creative_prop_asset_4"
+    },
+    "ConeAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075391203_2089996912.coach_structure_device_0.Devices_creative_prop_asset_0"
+    },
+    "DemoAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075391203_2089996912.coach_structure_device_0.Devices_creative_prop_asset_2"
+    },
+    "CandidateCombatEnabled": false,
+    "QueryCoverageConfirmed": false,
+    "HealthContinuityConfirmed": false,
+    "NativeSlotInteroperationConfirmed": false
+  },
+  "computer_control_runtime_released": true
+}

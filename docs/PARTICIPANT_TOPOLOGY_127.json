@@ -1,0 +1,457 @@
+{
+  "run": "127",
+  "at_utc": "2026-11-07T17:19:58.808846+00:00",
+  "scope": "One configured native Test Player using user-saved Participant definition, compared with a fresh private Guard spawner control. Read-only character/action/inventory topology, no item grants/borrowing/equip, Attack/BeginFire, movement/build command, direct Damage, computer input or construction/publication acceptance. Guard despawned, game stopped and original Test Player/debug settings restored.",
+  "protocol_checks": {
+    "two_roles_eight_samples_each": true,
+    "all_subjects_active_character_entities": true,
+    "test_subject_registered_but_not_human_listed": true,
+    "owned_guard_cleanup_observed": true,
+    "no_input_inventory_damage_build_commands": true,
+    "no_abort_or_runtime_error": true,
+    "test_player_and_debug_settings_restored": true,
+    "probe_flags_and_gates_false": true,
+    "game_stopped_connected": true
+  },
+  "protocol_complete": true,
+  "observed_values": {
+    "guard_control": {
+      "character_entity": [
+        1
+      ],
+      "is_player": [
+        0
+      ],
+      "registered": [
+        0
+      ],
+      "human_listed": [
+        0
+      ],
+      "behavior": [
+        0
+      ],
+      "npc_actions": [
+        1
+      ],
+      "guard_actions": [
+        1
+      ],
+      "awareness": [
+        1
+      ],
+      "guard_awareness": [
+        1
+      ],
+      "inventories": [
+        8
+      ],
+      "items": [
+        2
+      ],
+      "parent_matches": [
+        2
+      ],
+      "build_hotbars": [
+        0
+      ],
+      "build_tools": [
+        0
+      ],
+      "resource_items": [
+        0
+      ],
+      "resource_total": [
+        0
+      ]
+    },
+    "test_participant": {
+      "character_entity": [
+        1
+      ],
+      "is_player": [
+        0
+      ],
+      "registered": [
+        1
+      ],
+      "human_listed": [
+        0
+      ],
+      "behavior": [
+        0
+      ],
+      "npc_actions": [
+        1
+      ],
+      "guard_actions": [
+        1
+      ],
+      "awareness": [
+        1
+      ],
+      "guard_awareness": [
+        1
+      ],
+      "inventories": [
+        10
+      ],
+      "items": [
+        6
+      ],
+      "parent_matches": [
+        6
+      ],
+      "build_hotbars": [
+        1
+      ],
+      "build_tools": [
+        4
+      ],
+      "resource_items": [
+        0
+      ],
+      "resource_total": [
+        0
+      ]
+    }
+  },
+  "samples": {
+    "guard_control": [
+      {
+        "role": "guard_control",
+        "tick": "1",
+        "character_entity": "1",
+        "is_player": "0",
+        "registered": "0",
+        "human_listed": "0",
+        "behavior": "0",
+        "npc_actions": "1",
+        "guard_actions": "1",
+        "awareness": "1",
+        "guard_awareness": "1",
+        "inventories": "8",
+        "items": "2",
+        "parent_matches": "2",
+        "build_hotbars": "0",
+        "build_tools": "0",
+        "resource_items": "0",
+        "resource_total": "0"
+      },
+      {
+        "role": "guard_control",
+        "tick": "2",
+        "character_entity": "1",
+        "is_player": "0",
+        "registered": "0",
+        "human_listed": "0",
+        "behavior": "0",
+        "npc_actions": "1",
+        "guard_actions": "1",
+        "awareness": "1",
+        "guard_awareness": "1",
+        "inventories": "8",
+        "items": "2",
+        "parent_matches": "2",
+        "build_hotbars": "0",
+        "build_tools": "0",
+        "resource_items": "0",
+        "resource_total": "0"
+      },
+      {
+        "role": "guard_control",
+        "tick": "3",
+        "character_entity": "1",
+        "is_player": "0",
+        "registered": "0",
+        "human_listed": "0",
+        "behavior": "0",
+        "npc_actions": "1",
+        "guard_actions": "1",
+        "awareness": "1",
+        "guard_awareness": "1",
+        "inventories": "8",
+        "items": "2",
+        "parent_matches": "2",
+        "build_hotbars": "0",
+        "build_tools": "0",
+        "resource_items": "0",
+        "resource_total": "0"
+      },
+      {
+        "role": "guard_control",
+        "tick": "4",
+        "character_entity": "1",
+        "is_player": "0",
+        "registered": "0",
+        "human_listed": "0",
+        "behavior": "0",
+        "npc_actions": "1",
+        "guard_actions": "1",
+        "awareness": "1",
+        "guard_awareness": "1",
+        "inventories": "8",
+        "items": "2",
+        "parent_matches": "2",
+        "build_hotbars": "0",
+        "build_tools": "0",
+        "resource_items": "0",
+        "resource_total": "0"
+      },
+      {
+        "role": "guard_control",
+        "tick": "5",
+        "character_entity": "1",
+        "is_player": "0",
+        "registered": "0",
+        "human_listed": "0",
+        "behavior": "0",
+        "npc_actions": "1",
+        "guard_actions": "1",
+        "awareness": "1",
+        "guard_awareness": "1",
+        "inventories": "8",
+        "items": "2",
+        "parent_matches": "2",
+        "build_hotbars": "0",
+        "build_tools": "0",
+        "resource_items": "0",
+        "resource_total": "0"
+      },
+      {
+        "role": "guard_control",
+        "tick": "6",
+        "character_entity": "1",
+        "is_player": "0",
+        "registered": "0",
+        "human_listed": "0",
+        "behavior": "0",
+        "npc_actions": "1",
+        "guard_actions": "1",
+        "awareness": "1",
+        "guard_awareness": "1",
+        "inventories": "8",
+        "items": "2",
+        "parent_matches": "2",
+        "build_hotbars": "0",
+        "build_tools": "0",
+        "resource_items": "0",
+        "resource_total": "0"
+      },
+      {
+        "role": "guard_control",
+        "tick": "7",
+        "character_entity": "1",
+        "is_player": "0",
+        "registered": "0",
+        "human_listed": "0",
+        "behavior": "0",
+        "npc_actions": "1",
+        "guard_actions": "1",
+        "awareness": "1",
+        "guard_awareness": "1",
+        "inventories": "8",
+        "items": "2",
+        "parent_matches": "2",
+        "build_hotbars": "0",
+        "build_tools": "0",
+        "resource_items": "0",
+        "resource_total": "0"
+      },
+      {
+        "role": "guard_control",
+        "tick": "8",
+        "character_entity": "1",
+        "is_player": "0",
+        "registered": "0",
+        "human_listed": "0",
+        "behavior": "0",
+        "npc_actions": "1",
+        "guard_actions": "1",
+        "awareness": "1",
+        "guard_awareness": "1",
+        "inventories": "8",
+        "items": "2",
+        "parent_matches": "2",
+        "build_hotbars": "0",
+        "build_tools": "0",
+        "resource_items": "0",
+        "resource_total": "0"
+      }
+    ],
+    "test_participant": [
+      {
+        "role": "test_participant",
+        "tick": "1",
+        "character_entity": "1",
+        "is_player": "0",
+        "registered": "1",
+        "human_listed": "0",
+        "behavior": "0",
+        "npc_actions": "1",
+        "guard_actions": "1",
+        "awareness": "1",
+        "guard_awareness": "1",
+        "inventories": "10",
+        "items": "6",
+        "parent_matches": "6",
+        "build_hotbars": "1",
+        "build_tools": "4",
+        "resource_items": "0",
+        "resource_total": "0"
+      },
+      {
+        "role": "test_participant",
+        "tick": "2",
+        "character_entity": "1",
+        "is_player": "0",
+        "registered": "1",
+        "human_listed": "0",
+        "behavior": "0",
+        "npc_actions": "1",
+        "guard_actions": "1",
+        "awareness": "1",
+        "guard_awareness": "1",
+        "inventories": "10",
+        "items": "6",
+        "parent_matches": "6",
+        "build_hotbars": "1",
+        "build_tools": "4",
+        "resource_items": "0",
+        "resource_total": "0"
+      },
+      {
+        "role": "test_participant",
+        "tick": "3",
+        "character_entity": "1",
+        "is_player": "0",
+        "registered": "1",
+        "human_listed": "0",
+        "behavior": "0",
+        "npc_actions": "1",
+        "guard_actions": "1",
+        "awareness": "1",
+        "guard_awareness": "1",
+        "inventories": "10",
+        "items": "6",
+        "parent_matches": "6",
+        "build_hotbars": "1",
+        "build_tools": "4",
+        "resource_items": "0",
+        "resource_total": "0"
+      },
+      {
+        "role": "test_participant",
+        "tick": "4",
+        "character_entity": "1",
+        "is_player": "0",
+        "registered": "1",
+        "human_listed": "0",
+        "behavior": "0",
+        "npc_actions": "1",
+        "guard_actions": "1",
+        "awareness": "1",
+        "guard_awareness": "1",
+        "inventories": "10",
+        "items": "6",
+        "parent_matches": "6",
+        "build_hotbars": "1",
+        "build_tools": "4",
+        "resource_items": "0",
+        "resource_total": "0"
+      },
+      {
+        "role": "test_participant",
+        "tick": "5",
+        "character_entity": "1",
+        "is_player": "0",
+        "registered": "1",
+        "human_listed": "0",
+        "behavior": "0",
+        "npc_actions": "1",
+        "guard_actions": "1",
+        "awareness": "1",
+        "guard_awareness": "1",
+        "inventories": "10",
+        "items": "6",
+        "parent_matches": "6",
+        "build_hotbars": "1",
+        "build_tools": "4",
+        "resource_items": "0",
+        "resource_total": "0"
+      },
+      {
+        "role": "test_participant",
+        "tick": "6",
+        "character_entity": "1",
+        "is_player": "0",
+        "registered": "1",
+        "human_listed": "0",
+        "behavior": "0",
+        "npc_actions": "1",
+        "guard_actions": "1",
+        "awareness": "1",
+        "guard_awareness": "1",
+        "inventories": "10",
+        "items": "6",
+        "parent_matches": "6",
+        "build_hotbars": "1",
+        "build_tools": "4",
+        "resource_items": "0",
+        "resource_total": "0"
+      },
+      {
+        "role": "test_participant",
+        "tick": "7",
+        "character_entity": "1",
+        "is_player": "0",
+        "registered": "1",
+        "human_listed": "0",
+        "behavior": "0",
+        "npc_actions": "1",
+        "guard_actions": "1",
+        "awareness": "1",
+        "guard_awareness": "1",
+        "inventories": "10",
+        "items": "6",
+        "parent_matches": "6",
+        "build_hotbars": "1",
+        "build_tools": "4",
+        "resource_items": "0",
+        "resource_total": "0"
+      },
+      {
+        "role": "test_participant",
+        "tick": "8",
+        "character_entity": "1",
+        "is_player": "0",
+        "registered": "1",
+        "human_listed": "0",
+        "behavior": "0",
+        "npc_actions": "1",
+        "guard_actions": "1",
+        "awareness": "1",
+        "guard_awareness": "1",
+        "inventories": "10",
+        "items": "6",
+        "parent_matches": "6",
+        "build_hotbars": "1",
+        "build_tools": "4",
+        "resource_items": "0",
+        "resource_total": "0"
+      }
+    ]
+  },
+  "not_run": [],
+  "cleanup_observations": [
+    {
+      "owned_agents": "0",
+      "guard_still_registered": "0",
+      "test_still_registered": "1"
+    }
+  ],
+  "forbidden_calls": [],
+  "acceptance_gates_changed": false,
+  "native_build_or_edit_verified": false,
+  "publication_verified": false
+}

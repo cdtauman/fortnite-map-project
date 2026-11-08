@@ -1,0 +1,221 @@
+{
+  "run": "94",
+  "evidence_sha256": "7c05be298c2b45c77c75c8f9cffa3ef797bc464433b29a05f3449429323b5f5e",
+  "scope": "Read-only item state and native ChangeEquippedEvent observations on90noFocus camera path. No independent causal replacement control in this report.",
+  "states": [
+    {
+      "phase": "lease_setup",
+      "reason": "equipment_event",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23858.589785",
+      "timestamp": "2026-11-07T10:15:12.145Z",
+      "sequence": 6311
+    },
+    {
+      "phase": "short_window_start",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23858.589785",
+      "timestamp": "2026-11-07T10:15:12.145Z",
+      "sequence": 6313
+    },
+    {
+      "phase": "short_window_end",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23860.727192",
+      "timestamp": "2026-11-07T10:15:14.276Z",
+      "sequence": 6322
+    },
+    {
+      "phase": "menu_only_before_remove",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23860.727192",
+      "timestamp": "2026-11-07T10:15:14.277Z",
+      "sequence": 6323
+    },
+    {
+      "phase": "menu_only_after_remove",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23860.727192",
+      "timestamp": "2026-11-07T10:15:14.277Z",
+      "sequence": 6324
+    },
+    {
+      "phase": "neutral_idle_wait",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23860.727192",
+      "timestamp": "2026-11-07T10:15:14.277Z",
+      "sequence": 6326
+    },
+    {
+      "phase": "neutral_idle_finished",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23900.802393",
+      "timestamp": "2026-11-07T10:15:54.349Z",
+      "sequence": 6368
+    },
+    {
+      "phase": "menu_only_before_restore",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23900.802393",
+      "timestamp": "2026-11-07T10:15:54.356Z",
+      "sequence": 6369
+    },
+    {
+      "phase": "menu_only_after_restore",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23900.802393",
+      "timestamp": "2026-11-07T10:15:54.356Z",
+      "sequence": 6370
+    },
+    {
+      "phase": "cleanup_begin",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23900.802393",
+      "timestamp": "2026-11-07T10:15:54.356Z",
+      "sequence": 6372
+    }
+  ],
+  "equipment_events": [
+    {
+      "phase": "lease_setup",
+      "payload_equipped": "1",
+      "time": "23858.589785",
+      "timestamp": "2026-11-07T10:15:12.145Z",
+      "sequence": 6310
+    }
+  ],
+  "last_equipped_before_first_loss": null,
+  "first_observed_loss": null,
+  "subscription_canceled_before_restoration": true,
+  "first_loss_phase": null,
+  "phase_markers": [
+    {
+      "phase": "short_window_start",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23858.589785",
+      "sequence": 6313
+    },
+    {
+      "phase": "short_window_end",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23860.727192",
+      "sequence": 6322
+    },
+    {
+      "phase": "menu_only_before_remove",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23860.727192",
+      "sequence": 6323
+    },
+    {
+      "phase": "menu_only_after_remove",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23860.727192",
+      "sequence": 6324
+    },
+    {
+      "phase": "neutral_idle_wait",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23860.727192",
+      "sequence": 6326
+    },
+    {
+      "phase": "neutral_idle_finished",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23900.802393",
+      "sequence": 6368
+    },
+    {
+      "phase": "menu_only_before_restore",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23900.802393",
+      "sequence": 6369
+    },
+    {
+      "phase": "menu_only_after_restore",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23900.802393",
+      "sequence": 6370
+    },
+    {
+      "phase": "cleanup_begin",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23900.802393",
+      "sequence": 6372
+    }
+  ],
+  "limits": [
+    "First observed transition narrows the boundary; asynchronous native processing or elapsed time still require a discriminating follow-up.",
+    "Inventory flags/event payloads do not prove render, native placement/edit/reset or production allocation.",
+    "Normal subscription cancellation observed here; interruption/death/disconnect case remains separate."
+  ],
+  "native_build_gates_accepted": false,
+  "project_complete": false
+}

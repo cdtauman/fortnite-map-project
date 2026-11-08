@@ -1,0 +1,9 @@
+{
+  "run": "65",
+  "stable_retention_regression_passed": false,
+  "explicit_public_unequip_veto_verified": true,
+  "cleanup_from_actual_held_locked_tool_verified": true,
+  "native_guard_autonomous_unequip_route": "not established",
+  "evidence": "NPC_BUILD_PLAN_ANALYSIS_65.json",
+  "native_build_gates_accepted": false
+}

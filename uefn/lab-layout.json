@@ -1,0 +1,223 @@
+{
+  "project": "ProCoachLab",
+  "coordinate_system": "Unreal XYZ, centimeters; API transforms are not converted to LUF",
+  "fixtures": [
+    {
+      "label": "PCL_CoverSolid",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "transform": {
+        "location": {
+          "x": -512,
+          "y": 512,
+          "z": 192
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.24,
+          "y": 5.12,
+          "z": 3.84
+        }
+      }
+    },
+    {
+      "label": "PCL_WindowLeft",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "transform": {
+        "location": {
+          "x": -512,
+          "y": -688,
+          "z": 192
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.24,
+          "y": 1.6,
+          "z": 3.84
+        }
+      }
+    },
+    {
+      "label": "PCL_WindowRight",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "transform": {
+        "location": {
+          "x": -512,
+          "y": -336,
+          "z": 192
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.24,
+          "y": 1.6,
+          "z": 3.84
+        }
+      }
+    },
+    {
+      "label": "PCL_WindowSill",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "transform": {
+        "location": {
+          "x": -512,
+          "y": -512,
+          "z": 64
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.24,
+          "y": 1.92,
+          "z": 1.28
+        }
+      }
+    },
+    {
+      "label": "PCL_WindowHeader",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "transform": {
+        "location": {
+          "x": -512,
+          "y": -512,
+          "z": 336
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.24,
+          "y": 1.92,
+          "z": 0.96
+        }
+      }
+    },
+    {
+      "label": "PCL_Ramp",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "transform": {
+        "location": {
+          "x": 512,
+          "y": -1024,
+          "z": 192
+        },
+        "rotation": {
+          "pitch": 36.86989765,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 6.4,
+          "y": 5.12,
+          "z": 0.24
+        }
+      }
+    },
+    {
+      "label": "PCL_Landing",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "transform": {
+        "location": {
+          "x": 1024,
+          "y": -1024,
+          "z": 372
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 5.12,
+          "y": 5.12,
+          "z": 0.24
+        }
+      }
+    },
+    {
+      "label": "PCL_CoverPillar",
+      "asset": "/Engine/BasicShapes/Cube.Cube",
+      "transform": {
+        "location": {
+          "x": 512,
+          "y": 1024,
+          "z": 192
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1.28,
+          "y": 1.28,
+          "z": 3.84
+        }
+      }
+    }
+  ],
+  "opponent": {
+    "kind": "guard_spawner_device",
+    "position_xyz_cm": [
+      1536,
+      0,
+      0
+    ],
+    "spawn_count": 1,
+    "spawn_on_timer": false,
+    "team_index": 2,
+    "health": 100,
+    "shield": 100,
+    "weapon": "WID_Assault_Auto_Athena_R_Ore_T03"
+  },
+  "player": {
+    "spawn_positions_xyz_cm": [
+      [
+        -1536,
+        0,
+        8
+      ],
+      [
+        -1536,
+        512,
+        8
+      ]
+    ],
+    "shield": 100,
+    "infinite_building_materials": true,
+    "infinite_reserve_ammo": true
+  },
+  "controls": [
+    {
+      "label": "Reset opponent",
+      "position_xyz_cm": [
+        -768,
+        -512,
+        32
+      ]
+    },
+    {
+      "label": "Toggle action probe",
+      "position_xyz_cm": [
+        -768,
+        512,
+        32
+      ]
+    }
+  ]
+}

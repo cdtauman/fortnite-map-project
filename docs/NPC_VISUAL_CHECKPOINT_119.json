@@ -1,0 +1,63 @@
+{
+  "checkpoint": "119",
+  "latest_runtime": "119",
+  "at_utc": "2026-11-07T15:39:28.925585+00:00",
+  "editor_evidence_sha256": "17ce588752816f131bffc101421868e7267416a5457815931c09310565ddd250",
+  "editor_build": "native-transition119-state-readiness-build.json",
+  "scope": "Editor verification after observed same-numbered runtime; compiled sources and owned Art/NPC hashes match run preparation.",
+  "flags": {
+    "enabled": false,
+    "autoRun": false,
+    "calibrationNativeTimer": false,
+    "useWeaponCalibration": false,
+    "useCharacterTargetControl": false,
+    "isolatedWallControl": false,
+    "spawnedWallControl": false,
+    "nPCEquippedAttackControl": false,
+    "visualUseViewportCamera": false,
+    "nativeBuildToolReference": false,
+    "nativeBuildToolLease": false,
+    "nativeBuildCameraBypass": false,
+    "nativeBuildMenuOnly": false,
+    "nativeTeamWallControl": false,
+    "nativeWallTransitionControl": false
+  },
+  "structure_probe_flags": {
+    "enabled": false,
+    "autoRun": false,
+    "nativePoolControl": false
+  },
+  "native_piece_pool_backend_enabled": false,
+  "scalars": {
+    "visualToolCaptureSeconds": 0,
+    "visualRifleCaptureSeconds": 0,
+    "visualNativeCaptureSeconds": 0,
+    "meshChangeAfterPlayerHits": 0,
+    "nativeWallTransitionCase": 0
+  },
+  "gates": {
+    "candidateCombatEnabled": false,
+    "queryCoverageConfirmed": false,
+    "healthContinuityConfirmed": false,
+    "nativeSlotInteroperationConfirmed": false
+  },
+  "session": "Connected",
+  "game": "CanStart",
+  "level_dirty": false,
+  "assets": {
+    "numChecked": 56,
+    "numValid": 56,
+    "numInvalid": 0,
+    "numWarnings": 0,
+    "numSkipped": 0,
+    "bAssetLimitReached": false,
+    "errors": [],
+    "warnings": []
+  },
+  "source_or_owned_asset_differs_from_cooked_runtime": false,
+  "full_content_push_required": false,
+  "computer_control_used": false,
+  "computer_control_field_scope": "Checkpoint collection only; preparation and recovery UI are recorded separately.",
+  "computer_control_active": false,
+  "full_goal_complete": false
+}

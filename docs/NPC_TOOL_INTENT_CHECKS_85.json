@@ -1,0 +1,31 @@
+{
+  "run": "85",
+  "checks": {
+    "three_tool_windows": true,
+    "all_sampled_tool_equipped_unholstered": false,
+    "no_sampled_rifle_equipped_unholstered_or_firing_during_tool": true,
+    "no_measured_tool_window_target_damage": true,
+    "forced_native_swap_succeeded": true,
+    "component_tick_control": true,
+    "native_reconciliation_recorded": true,
+    "bounded_attempts": true,
+    "all_three_rifle_returns": true,
+    "locks_released_for_rifle": true,
+    "rifle_hits_each_return": true,
+    "subscriptions_stopped": true,
+    "held_tool_cleanup": true,
+    "restore_and_repeat_cleanup": true,
+    "equipment_analysis_pass": true
+  },
+  "all_scoped_checks_pass": false,
+  "input_sha256": {
+    "intent": "d483df1014db57e56b8717bae907ea9d368bd7e5268f643aea7f6afe3f4f155e",
+    "plan": "1a66706205de098ffbd6a115e7106e2c728e178111366ab320a5ae85e60e8748",
+    "rifle": "b3753b68343ee85991d2f47d1c464832f3f23a3ec3ef013528da8758ebabcce8"
+  },
+  "scope": "Private native equip/holster/fire-flag and source-hit observations only; sampled checks do not exclude between-poll events.",
+  "rendered_pose_verified": false,
+  "native_build_gates_accepted": false,
+  "pro_quality_verified": false,
+  "publication_verified": false
+}

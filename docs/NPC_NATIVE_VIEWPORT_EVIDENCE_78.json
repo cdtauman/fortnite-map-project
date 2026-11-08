@@ -1,0 +1,125 @@
+{
+  "run": "78",
+  "image": "docs\\images\\npc-native-game-viewport-78.png",
+  "sha256": "6e693e9c39c9b7e1728811e7cf2777f387bb31a3f4e6796451e4c7470af3118a",
+  "capture_metadata": {
+    "path": "GameViewport",
+    "world": {
+      "world": {
+        "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+      },
+      "worldType": "Game",
+      "mapPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport",
+      "pIEInstance": -1,
+      "bCanCapture": true
+    },
+    "viewSource": "",
+    "mode": "",
+    "visualizationSubMode": "",
+    "requestFrameNumber": 236498,
+    "worldTimeSeconds": 12393.270719546825
+  },
+  "visual_observation": "Hub menu absent; foreground NPC only partly visible at the right edge. Native weapon/arm pose cannot be accepted from this framing. The active viewport changes, so no computer activation/input was needed.",
+  "native_scope_logs": [
+    "PCL|health_probe|native_visual_menu_suspended|same_widget_retained|subscriptions_retained",
+    "PCL|health_probe|native_visual_camera_added|x=-2960.000000|y=-2755.523327|z=147.150001|temporary_player_camera_stack_only|no_player_teleport_or_input",
+    "PCL|health_probe|native_visual_camera_restored|removed_from_viewer=1|transform_restored=1",
+    "PCL|health_probe|native_visual_menu_restored|same_widget=1"
+  ],
+  "menu_same_widget_restored": true,
+  "camera_after_sequence": {
+    "world": {
+      "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+    },
+    "name": "Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928",
+    "camera": {
+      "location": {
+        "x": 4700,
+        "y": 5900,
+        "z": 900
+      },
+      "rotation": {
+        "pitch": -19.999999999999996,
+        "yaw": 35,
+        "roll": 1.1846364586551879e-14
+      },
+      "projectionMode": "Perspective",
+      "fOV": 70,
+      "orthoWidth": 1024
+    },
+    "source": "ActorCamera",
+    "sourceActor": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab_LevelInstance_49.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928"
+    },
+    "sourceDimensions": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  "camera_at_capture": {
+    "world": {
+      "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+    },
+    "name": "Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928",
+    "camera": {
+      "location": {
+        "x": -2960.0000000007885,
+        "y": -2755.5233271600973,
+        "z": 147.1500009952615
+      },
+      "rotation": {
+        "pitch": -11.290589797438713,
+        "yaw": -63.43494882304911,
+        "roll": 7.297477372999053e-15
+      },
+      "projectionMode": "Perspective",
+      "fOV": 70,
+      "orthoWidth": 1024
+    },
+    "source": "ActorCamera",
+    "sourceActor": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab_LevelInstance_49.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928"
+    },
+    "sourceDimensions": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  "last_baseline_sample": {
+    "phase": "detected_baseline",
+    "tick": "8",
+    "alert": "3",
+    "no_fire_zone": "0",
+    "source_x": "-2848.000000",
+    "source_y": "-2979.523327",
+    "source_z": "77.150001",
+    "target_health": "50000.000000",
+    "damage_events": "0",
+    "source_hits": "0",
+    "target_x": "-2848.000000",
+    "target_y": "-2400.000000",
+    "target_z": "96.000000"
+  },
+  "ready_log": {
+    "phase": "native_original",
+    "x": "-2720.153763",
+    "y": "-2876.903746",
+    "z": "77.150001",
+    "target_x": "-2848.000000",
+    "target_y": "-2400.000000",
+    "target_z": "96.000000",
+    "duration": "40.000000",
+    "time": "13591.587605",
+    "capture_route": "game_viewport"
+  },
+  "npc_xy_movement_baseline_to_ready_cm": 163.93730118455582,
+  "planned_camera_yaw_to_ready_npc_difference_degrees": 36.592072758095185,
+  "framing_issue": "Camera is computed before a1s delay; native held/tether window starts after that delay. Movement between those points is observed, not hypothetical. Move/stabilize the owned hold before framing and reframe from the observed pose.",
+  "scope_limits": [
+    "Camera metadata/readback is not originating framebuffer-camera metadata.",
+    "FOV interpretation and frame timing are not inferred from pixels.",
+    "No item attachment/animation root cause, pro/native-build/publication acceptance."
+  ],
+  "computer_input_used": false,
+  "held_npc_weapon_pose_accepted": false
+}

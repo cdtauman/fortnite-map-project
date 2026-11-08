@@ -1,0 +1,172 @@
+{
+  "build": "UEFN43.00 CL59596594",
+  "date_utc": "2026-11-07",
+  "runs": [
+    {
+      "run": "65",
+      "analysis_sha256": "5e509013c4541e90a90d7a0e91568fd86daa3bedf5a2b8c68433f14f7f9d8150",
+      "tool_equipped_samples_by_cycle": [
+        1,
+        4,
+        4
+      ],
+      "tool_samples_by_cycle": [
+        4,
+        4,
+        4
+      ],
+      "rifle_select_successes": 3,
+      "rifle_equipped_samples": 48,
+      "observed_native_damage": 210.0,
+      "source_attributed_hits": 6,
+      "public_unequip_control": [
+        {
+          "was_equipped": "1",
+          "explicit_unequip_rejected": "1",
+          "veto_count": "1"
+        }
+      ],
+      "public_rifle_equip_control": [],
+      "actual_npc_onbegin_equip_commands": 0,
+      "actual_held_locked_cleanup": true,
+      "cleanup": [
+        "PCL|health_probe|npc_equipped_cleanup|parked=2|restored=2|original_ranged_items_returned_before_despawn|managed_rifle_removed=1|idempotent_cleanup=1|tool_lock_removed=1"
+      ]
+    },
+    {
+      "run": "66",
+      "analysis_sha256": "01c02e011b57af91efb160865437210ca9b518860b4d2200016c097f7a4fe6c6",
+      "tool_equipped_samples_by_cycle": [
+        1,
+        4,
+        4
+      ],
+      "tool_samples_by_cycle": [
+        4,
+        4,
+        4
+      ],
+      "rifle_select_successes": 3,
+      "rifle_equipped_samples": 48,
+      "observed_native_damage": 175.0,
+      "source_attributed_hits": 5,
+      "public_unequip_control": [
+        {
+          "was_equipped": "1",
+          "explicit_unequip_rejected": "1",
+          "veto_count": "1"
+        }
+      ],
+      "public_rifle_equip_control": [],
+      "actual_npc_onbegin_equip_commands": 0,
+      "actual_held_locked_cleanup": true,
+      "cleanup": [
+        "PCL|health_probe|npc_equipped_cleanup|parked=2|restored=2|original_ranged_items_returned_before_despawn|managed_rifle_removed=1|idempotent_cleanup=1|tool_lock_removed=1"
+      ]
+    },
+    {
+      "run": "67",
+      "analysis_sha256": "3ee2695b113b6e1e877fbe2cc0dc7ae9adc425943b2a9d5f81b83a314a63dce6",
+      "tool_equipped_samples_by_cycle": [
+        2,
+        4,
+        4
+      ],
+      "tool_samples_by_cycle": [
+        4,
+        4,
+        4
+      ],
+      "rifle_select_successes": 3,
+      "rifle_equipped_samples": 48,
+      "observed_native_damage": 210.0,
+      "source_attributed_hits": 6,
+      "public_unequip_control": [
+        {
+          "was_equipped": "1",
+          "explicit_unequip_rejected": "1",
+          "veto_count": "1"
+        }
+      ],
+      "public_rifle_equip_control": [],
+      "actual_npc_onbegin_equip_commands": 0,
+      "actual_held_locked_cleanup": true,
+      "cleanup": [
+        "PCL|health_probe|npc_equipped_cleanup|parked=2|restored=2|original_ranged_items_returned_before_despawn|managed_rifle_removed=1|idempotent_cleanup=1|tool_lock_removed=1"
+      ]
+    },
+    {
+      "run": "68",
+      "analysis_sha256": "5ff3ef2231b849a25053110a0619384664dc3057d02a6585cc6ba49c51a22b89",
+      "tool_equipped_samples_by_cycle": [
+        0,
+        4,
+        4
+      ],
+      "tool_samples_by_cycle": [
+        4,
+        4,
+        4
+      ],
+      "rifle_select_successes": 3,
+      "rifle_equipped_samples": 48,
+      "observed_native_damage": 140.0,
+      "source_attributed_hits": 4,
+      "public_unequip_control": [
+        {
+          "was_equipped": "1",
+          "explicit_unequip_rejected": "1",
+          "veto_count": "1"
+        }
+      ],
+      "public_rifle_equip_control": [],
+      "actual_npc_onbegin_equip_commands": 4,
+      "actual_held_locked_cleanup": true,
+      "cleanup": [
+        "PCL|health_probe|npc_equipped_cleanup|parked=2|restored=2|original_ranged_items_returned_before_despawn|managed_rifle_removed=1|idempotent_cleanup=1|tool_lock_removed=1"
+      ]
+    },
+    {
+      "run": "69",
+      "analysis_sha256": "b35d98ce33e68f584e4e2d92fd779bedc1d4215163d21cebdd31fedd4274fedb",
+      "tool_equipped_samples_by_cycle": [
+        1,
+        4,
+        4
+      ],
+      "tool_samples_by_cycle": [
+        4,
+        4,
+        4
+      ],
+      "rifle_select_successes": 3,
+      "rifle_equipped_samples": 48,
+      "observed_native_damage": 210.0,
+      "source_attributed_hits": 6,
+      "public_unequip_control": [
+        {
+          "was_equipped": "1",
+          "explicit_unequip_rejected": "1",
+          "veto_count": "1"
+        }
+      ],
+      "public_rifle_equip_control": [
+        {
+          "explicit_rifle_equip_rejected": "1",
+          "rifle_veto_count": "1"
+        }
+      ],
+      "actual_npc_onbegin_equip_commands": 4,
+      "actual_held_locked_cleanup": true,
+      "cleanup": [
+        "PCL|health_probe|npc_equipped_cleanup|parked=2|restored=2|original_ranged_items_returned_before_despawn|managed_rifle_removed=1|idempotent_cleanup=1|tool_lock_removed=1|rifle_gate_removed=1"
+      ]
+    }
+  ],
+  "stable_first_tool_hold_proven": false,
+  "query_contracts_observed": true,
+  "native_guard_override_root_cause": "not established; filtered/stateful query counts do not identify every native or transaction path",
+  "active_source70": "Query guards default off for main equipment; explicitly enabled only in private fixture. PrepareBuildPlan remains a separate creation/add API. No production attack primer.",
+  "native_build_gates_accepted": false,
+  "publication_verified": false
+}

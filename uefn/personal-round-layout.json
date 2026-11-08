@@ -1,0 +1,58 @@
+{
+  "scope": "Personal-round source and editor preparation, with final gameplay acceptance deferred.",
+  "controller_source": "Verse/coach_personal_start_flow.verse",
+  "integration_recipe": "tools/author_personal_preparation.py",
+  "preparation_zone": {
+    "label": "PCL_Personal_Preparation_Zone",
+    "center_xyz_cm": [
+      0,
+      0,
+      0
+    ],
+    "width_tiles": 14,
+    "depth_tiles": 14,
+    "height_tiles": 100,
+    "allow_building": false,
+    "allow_editing": false,
+    "allow_weapon_fire": false,
+    "enabled_during": [
+      "Preparing"
+    ],
+    "disabled_on": [
+      "Fight admission",
+      "Opponent cleanup",
+      "Mode exit",
+      "Player departure"
+    ]
+  },
+  "round": {
+    "capacity": 1,
+    "body_wait_seconds": 12,
+    "reset_settle_seconds": 1.2,
+    "reset_wait_seconds": 2,
+    "staging_attempts": 5,
+    "opponent_wait_seconds": 8,
+    "countdown_seconds": 3,
+    "generation_guards": true,
+    "opening_menu_during_preparation": "Cancel preparation and open the lobby menu.",
+    "on_failure": "Return to lobby with retry and mode-selection actions.",
+    "active_clock": "Starts after admission; preparation is excluded.",
+    "focused_practice": "Starts after preparation, or preserves existing exercise when requested.",
+    "opponent_readiness": "The current opponent body must match its running coach controller, perception and equipped owned ranged item; ammo and firing remain unverified."
+  },
+  "acceptance_pending": [
+    "Reset completion, team membership and actual teleport",
+    "Spawn binding, body replacement and opponent readiness",
+    "Action restrictions during preparation and removal on admission/exit",
+    "Countdown cancellation on menu, mode switch, death and disconnect",
+    "No late task releasing a newer encounter",
+    "Focused exercise preserved or started at the correct time"
+  ],
+  "opening_vitals": {
+    "health": 100,
+    "shield": 100,
+    "shared_method": "coach_portal_device.RestoreRoundVitals",
+    "admission_readback": true,
+    "scope": "Prepared runtime policy, not observed gameplay balance or health evidence."
+  }
+}

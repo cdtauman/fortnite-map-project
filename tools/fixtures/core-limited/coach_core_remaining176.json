@@ -1,0 +1,85 @@
+{
+  "scope": "Archived mechanism specimen. The single approved gameplay sequence was executed185 and cleaned; no active actor/source and no replay authorization. Not NPC/pro/native owner-slot acceptance.",
+  "source": "tools/fixtures/core-limited/coach_core_remaining176.verse",
+  "sha256": "ff9d31050e8c2f8f3d768ae042c581738906bd1e6c31a98df635d91eacfbc83c",
+  "enabled_default": false,
+  "origin_xyz_cm": [
+    12288,
+    12288,
+    4096
+  ],
+  "deadline_seconds": 60,
+  "shape_cases": [
+    "Wall/Window",
+    "FloorPiece/FloorHalf",
+    "Ramp/RampHalf",
+    "Cone/ConeRaised"
+  ],
+  "independent_shape_cases": true,
+  "damage_cases": {
+    "control_xyz_cm": [
+      11264,
+      10752,
+      4096
+    ],
+    "subject_xyz_cm": [
+      13312,
+      10752,
+      4096
+    ],
+    "control_blast_xyz_cm": [
+      11264,
+      10752,
+      4224
+    ],
+    "subject_blast_xyz_cm": [
+      13312,
+      10752,
+      4224
+    ],
+    "native_blast_structure_damage": 50,
+    "player_damage": 0,
+    "radius_tiles": 1,
+    "pulses_max": 12,
+    "comparison": "Destruction endpoints only; not numeric health or ownership proof."
+  },
+  "production_gates": "Keep all four false. Fixture never writes any gate.",
+  "required_before_execution": [
+    "New explicit gameplay authorization; the160 exception was consumed.",
+    "Read-only current editor-space inventory and native asset references.",
+    "Temporary source integration/compilation and exact isolated actor/device wiring.",
+    "Baseline sampling during the authorized run; no blast if volume or device pose is wrong."
+  ],
+  "required_after_execution": [
+    "Stop game/session.",
+    "Remove only exact temporary actors/native fixture source, compile cleanup and save.",
+    "Record raw observations and limits; do not enable product gates automatically."
+  ],
+  "sampling_contract": {
+    "wall": "Nine transverse samples; full9, opening fewer, reset9, disposed0.",
+    "floor_ramp": "Nine vertical samples through the footprint; full9, half fewer, reset9, disposed0.",
+    "cone": "Nine vertical footprint samples plus three horizontal cuts at Z+256cm; original cone apex192cm, raised roof max388cm in source geometry. Expect edited count greater than solid, not fewer footprint hits. Runtime collision and source/asset correspondence remain unverified."
+  },
+  "authorization_request_pending": false,
+  "authorization_status": "Consumed by185: one automatic game sequence, one StartSession, zero explicit StartGame calls;19.945s fixture log span. No further automatic launch.",
+  "compilation_record": ".local/core176-compile179-authoring.json",
+  "editor_preflight_record": ".local/core176-space179-inspection.json",
+  "authorization_scope": {
+    "run_record": ".local/core185-run.json",
+    "maximum_game_starts": 1,
+    "maximum_fixture_seconds": 60,
+    "mouse_control": false,
+    "user_playtest": false,
+    "automatic_retry": false,
+    "maximum_game_sequences": 1
+  },
+  "execution_result": {
+    "record": ".local/core185-analysis.json",
+    "cleanup": ".local/core185-cleanup.json",
+    "shape_cases_sampled": 4,
+    "damage_outcome": "inconclusive0/0 destruction endpoints",
+    "game_sequences_observed": 1,
+    "fixture_log_span_seconds": 19.945,
+    "production_gates_enabled": false
+  }
+}

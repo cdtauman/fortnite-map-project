@@ -1,0 +1,21 @@
+{
+  "at_utc": "2026-11-06T22:35:16.066039+00:00",
+  "actor": {
+    "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.IslandSettings_0"
+  },
+  "before": {
+    "WeaponDestructionPreset": "Percentage",
+    "WeaponDestructionPercentage": "100.000000",
+    "EnvironmentDamagePreset": "All",
+    "TeamDamageFilter": "Default",
+    "PickaxeDestructionPreset": "None"
+  },
+  "after": {
+    "WeaponDestructionPreset": "Percentage",
+    "WeaponDestructionPercentage": "100.000000",
+    "EnvironmentDamagePreset": "All",
+    "TeamDamageFilter": "Default",
+    "PickaxeDestructionPreset": "Default"
+  },
+  "scope": "Saved native island settings only; gameplay damage and building acceptance remain unverified."
+}

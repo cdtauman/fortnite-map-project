@@ -1,0 +1,12 @@
+{
+  "run": "38",
+  "scope": "Owned preplaced native BuildingWall occlusion control; no scripted Damage/Explode or wall-health change.",
+  "findings": [
+    "Wall query9/9 before and after; line query found wall-position contact before objective-position contact.",
+    "34 volume-monitor damage callbacks attributed to player; monitor may also cover floor, so counts alone do not prove positive wall HP loss.",
+    "No wall destruction; valid reference and query9 remained. Objective stayed5000/no damage events.",
+    "Template firing1/holstered0, actual initial aim0.999915; native NPC template stayedholstered/firing0.",
+    "No health-continuity, native ownership/grid/player-edit or pro-level acceptance follows."
+  ],
+  "next_control": "Native initial health200, explicit monitor AdditionalProps pointer to this wall, volume mode off, no health mutation during firing;39 not run yet."
+}

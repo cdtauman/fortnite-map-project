@@ -1,0 +1,4694 @@
+{
+  "units": "Unreal XYZ centimeters",
+  "scope": "Authored layout; gameplay acceptance is deferred until full implementation.",
+  "hub_center": [
+    0,
+    -7000,
+    0
+  ],
+  "training_half_extent": 2304,
+  "enclosure_top": 24576,
+  "arenas": [
+    {
+      "mode": "Personal",
+      "label": "מאמן אישי",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "accent": "Teal",
+      "spawn_offset": [
+        -1536,
+        0,
+        100
+      ],
+      "previous_center": [
+        0,
+        0,
+        0
+      ],
+      "half_extent": 3072,
+      "authored_center": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "mode": "Duel",
+      "label": "אחד על אחד",
+      "center": [
+        0,
+        45056,
+        0
+      ],
+      "accent": "Gold",
+      "spawn_offset": [
+        -768,
+        0,
+        100
+      ],
+      "previous_center": [
+        0,
+        7000,
+        0
+      ],
+      "half_extent": 5120,
+      "authored_center": [
+        0,
+        45056,
+        0
+      ]
+    },
+    {
+      "mode": "FreeBuild",
+      "label": "בנייה חופשית",
+      "center": [
+        45056,
+        0,
+        0
+      ],
+      "accent": "Teal",
+      "spawn_offset": [
+        0,
+        0,
+        100
+      ],
+      "previous_center": [
+        7000,
+        0,
+        0
+      ],
+      "half_extent": 8192,
+      "authored_center": [
+        45056,
+        0,
+        0
+      ]
+    },
+    {
+      "mode": "EditTraining",
+      "label": "אימון עריכות",
+      "center": [
+        -45056,
+        0,
+        0
+      ],
+      "accent": "Gold",
+      "spawn_offset": [
+        0,
+        0,
+        100
+      ],
+      "previous_center": [
+        -7000,
+        0,
+        0
+      ],
+      "half_extent": 4096,
+      "authored_center": [
+        -45056,
+        0,
+        0
+      ]
+    }
+  ],
+  "teaching_bays": [
+    {
+      "name": "LessonOne",
+      "center": [
+        6000,
+        6500,
+        0
+      ],
+      "half_extent": 1400,
+      "height": 1800
+    },
+    {
+      "name": "LessonTwo",
+      "center": [
+        9000,
+        6500,
+        0
+      ],
+      "half_extent": 1400,
+      "height": 1800
+    }
+  ],
+  "authored_environments": [
+    {
+      "name": "PCL_Environment_Personal_Foundation",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 0,
+          "z": -50
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 63.44,
+          "y": 63.44,
+          "z": 1
+        }
+      },
+      "material": "Floor",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_Personal_Ceiling",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 0,
+          "z": 24626
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 63.44,
+          "y": 63.44,
+          "z": 1
+        }
+      },
+      "material": "Horizon",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_Personal_Boundary_N",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 3122,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 63.44,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_Personal_Backdrop_N",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 3056,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 62.44,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Personal_LowBand_N",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 3122,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 63.44,
+          "y": 1,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Personal_LightBand_N",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 3056,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 63.44,
+          "y": 0.04,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Personal_Boundary_S",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -3122,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 63.44,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_Personal_Backdrop_S",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -3056,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 62.44,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Personal_LowBand_S",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -3122,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 63.44,
+          "y": 1,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Personal_LightBand_S",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -3056,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 63.44,
+          "y": 0.04,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Personal_Boundary_E",
+      "transform": {
+        "location": {
+          "x": 3122,
+          "y": 0,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 63.44,
+          "z": 245.76
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_Personal_Backdrop_E",
+      "transform": {
+        "location": {
+          "x": 3056,
+          "y": 0,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 62.44,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Personal_LowBand_E",
+      "transform": {
+        "location": {
+          "x": 3122,
+          "y": 0,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 63.44,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Personal_LightBand_E",
+      "transform": {
+        "location": {
+          "x": 3056,
+          "y": 0,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 63.44,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Personal_Boundary_W",
+      "transform": {
+        "location": {
+          "x": -3122,
+          "y": 0,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 63.44,
+          "z": 245.76
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_Personal_Backdrop_W",
+      "transform": {
+        "location": {
+          "x": -3056,
+          "y": 0,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 62.44,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Personal_LowBand_W",
+      "transform": {
+        "location": {
+          "x": -3122,
+          "y": 0,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 63.44,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Personal_LightBand_W",
+      "transform": {
+        "location": {
+          "x": -3056,
+          "y": 0,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 63.44,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Personal_FloorSide_-2832",
+      "transform": {
+        "location": {
+          "x": -2832,
+          "y": 0,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 56.64,
+          "z": 0.025
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Personal_FloorSide_2832",
+      "transform": {
+        "location": {
+          "x": 2832,
+          "y": 0,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 56.64,
+          "z": 0.025
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Personal_FloorEnd_-2832",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -2832,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 56.64,
+          "y": 0.04,
+          "z": 0.025
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Personal_FloorEnd_2832",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 2832,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 56.64,
+          "y": 0.04,
+          "z": 0.025
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Duel_Foundation",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 45056,
+          "z": -50
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 104.4,
+          "y": 104.4,
+          "z": 1
+        }
+      },
+      "material": "Floor",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_Duel_Ceiling",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 45056,
+          "z": 24626
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 104.4,
+          "y": 104.4,
+          "z": 1
+        }
+      },
+      "material": "Horizon",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_Duel_Boundary_N",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 50226,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 104.4,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_Duel_Backdrop_N",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 50160,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 103.4,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Duel_LowBand_N",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 50226,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 104.4,
+          "y": 1,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Duel_LightBand_N",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 50160,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 104.4,
+          "y": 0.04,
+          "z": 0.045
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Duel_Boundary_S",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 39886,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 104.4,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_Duel_Backdrop_S",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 39952,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 103.4,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Duel_LowBand_S",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 39886,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 104.4,
+          "y": 1,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Duel_LightBand_S",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 39952,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 104.4,
+          "y": 0.04,
+          "z": 0.045
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Duel_Boundary_E",
+      "transform": {
+        "location": {
+          "x": 5170,
+          "y": 45056,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 104.4,
+          "z": 245.76
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_Duel_Backdrop_E",
+      "transform": {
+        "location": {
+          "x": 5104,
+          "y": 45056,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 103.4,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Duel_LowBand_E",
+      "transform": {
+        "location": {
+          "x": 5170,
+          "y": 45056,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 104.4,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Duel_LightBand_E",
+      "transform": {
+        "location": {
+          "x": 5104,
+          "y": 45056,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 104.4,
+          "z": 0.045
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Duel_Boundary_W",
+      "transform": {
+        "location": {
+          "x": -5170,
+          "y": 45056,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 104.4,
+          "z": 245.76
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_Duel_Backdrop_W",
+      "transform": {
+        "location": {
+          "x": -5104,
+          "y": 45056,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 103.4,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Duel_LowBand_W",
+      "transform": {
+        "location": {
+          "x": -5170,
+          "y": 45056,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 104.4,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Duel_LightBand_W",
+      "transform": {
+        "location": {
+          "x": -5104,
+          "y": 45056,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 104.4,
+          "z": 0.045
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Duel_FloorSide_-4880",
+      "transform": {
+        "location": {
+          "x": -4880,
+          "y": 45056,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 97.6,
+          "z": 0.025
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Duel_FloorSide_4880",
+      "transform": {
+        "location": {
+          "x": 4880,
+          "y": 45056,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 97.6,
+          "z": 0.025
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Duel_FloorEnd_-4880",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 40176,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 97.6,
+          "y": 0.04,
+          "z": 0.025
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Duel_FloorEnd_4880",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 49936,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 97.6,
+          "y": 0.04,
+          "z": 0.025
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Duel_StartMark_0",
+      "transform": {
+        "location": {
+          "x": -512,
+          "y": 45056,
+          "z": 1.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 4,
+          "y": 4,
+          "z": 0.02
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_Duel_StartMark_1",
+      "transform": {
+        "location": {
+          "x": 512,
+          "y": 45056,
+          "z": 1.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 4,
+          "y": 4,
+          "z": 0.02
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_Foundation",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 0,
+          "z": -50
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 165.84,
+          "y": 165.84,
+          "z": 1
+        }
+      },
+      "material": "Floor",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_Ceiling",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 0,
+          "z": 24626
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 165.84,
+          "y": 165.84,
+          "z": 1
+        }
+      },
+      "material": "Horizon",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_Boundary_N",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 8242,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 165.84,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_Backdrop_N",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 8176,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 164.84,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_LowBand_N",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 8242,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 165.84,
+          "y": 1,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_LightBand_N",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 8176,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 165.84,
+          "y": 0.04,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_Boundary_S",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -8242,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 165.84,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_Backdrop_S",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -8176,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 164.84,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_LowBand_S",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -8242,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 165.84,
+          "y": 1,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_LightBand_S",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -8176,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 165.84,
+          "y": 0.04,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_Boundary_E",
+      "transform": {
+        "location": {
+          "x": 53298,
+          "y": 0,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 165.84,
+          "z": 245.76
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_Backdrop_E",
+      "transform": {
+        "location": {
+          "x": 53232,
+          "y": 0,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 164.84,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_LowBand_E",
+      "transform": {
+        "location": {
+          "x": 53298,
+          "y": 0,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 165.84,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_LightBand_E",
+      "transform": {
+        "location": {
+          "x": 53232,
+          "y": 0,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 165.84,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_Boundary_W",
+      "transform": {
+        "location": {
+          "x": 36814,
+          "y": 0,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 165.84,
+          "z": 245.76
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_Backdrop_W",
+      "transform": {
+        "location": {
+          "x": 36880,
+          "y": 0,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 164.84,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_LowBand_W",
+      "transform": {
+        "location": {
+          "x": 36814,
+          "y": 0,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 165.84,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_LightBand_W",
+      "transform": {
+        "location": {
+          "x": 36880,
+          "y": 0,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 165.84,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_FloorSide_-7952",
+      "transform": {
+        "location": {
+          "x": 37104,
+          "y": 0,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 159.04,
+          "z": 0.025
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_FloorSide_7952",
+      "transform": {
+        "location": {
+          "x": 53008,
+          "y": 0,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 159.04,
+          "z": 0.025
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_FloorEnd_-7952",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -7952,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 159.04,
+          "y": 0.04,
+          "z": 0.025
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_FloorEnd_7952",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 7952,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 159.04,
+          "y": 0.04,
+          "z": 0.025
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_-15",
+      "transform": {
+        "location": {
+          "x": 37376,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_-15",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -7680,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_-14",
+      "transform": {
+        "location": {
+          "x": 37888,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_-14",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -7168,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_-13",
+      "transform": {
+        "location": {
+          "x": 38400,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_-13",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -6656,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_-12",
+      "transform": {
+        "location": {
+          "x": 38912,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_-12",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -6144,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_-11",
+      "transform": {
+        "location": {
+          "x": 39424,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_-11",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -5632,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_-10",
+      "transform": {
+        "location": {
+          "x": 39936,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_-10",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -5120,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_-9",
+      "transform": {
+        "location": {
+          "x": 40448,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_-9",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -4608,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_-8",
+      "transform": {
+        "location": {
+          "x": 40960,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_-8",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -4096,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_-7",
+      "transform": {
+        "location": {
+          "x": 41472,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_-7",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -3584,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_-6",
+      "transform": {
+        "location": {
+          "x": 41984,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_-6",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -3072,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_-5",
+      "transform": {
+        "location": {
+          "x": 42496,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_-5",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -2560,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_-4",
+      "transform": {
+        "location": {
+          "x": 43008,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_-4",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -2048,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_-3",
+      "transform": {
+        "location": {
+          "x": 43520,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_-3",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -1536,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_-2",
+      "transform": {
+        "location": {
+          "x": 44032,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_-2",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -1024,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_-1",
+      "transform": {
+        "location": {
+          "x": 44544,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_-1",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -512,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_0",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_0",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_1",
+      "transform": {
+        "location": {
+          "x": 45568,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_1",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 512,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_2",
+      "transform": {
+        "location": {
+          "x": 46080,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_2",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 1024,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_3",
+      "transform": {
+        "location": {
+          "x": 46592,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_3",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 1536,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_4",
+      "transform": {
+        "location": {
+          "x": 47104,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_4",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 2048,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_5",
+      "transform": {
+        "location": {
+          "x": 47616,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_5",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 2560,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_6",
+      "transform": {
+        "location": {
+          "x": 48128,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_6",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 3072,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_7",
+      "transform": {
+        "location": {
+          "x": 48640,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_7",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 3584,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_8",
+      "transform": {
+        "location": {
+          "x": 49152,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_8",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 4096,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_9",
+      "transform": {
+        "location": {
+          "x": 49664,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_9",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 4608,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_10",
+      "transform": {
+        "location": {
+          "x": 50176,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_10",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 5120,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_11",
+      "transform": {
+        "location": {
+          "x": 50688,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_11",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 5632,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_12",
+      "transform": {
+        "location": {
+          "x": 51200,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_12",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 6144,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_13",
+      "transform": {
+        "location": {
+          "x": 51712,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_13",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 6656,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_14",
+      "transform": {
+        "location": {
+          "x": 52224,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_14",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 7168,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridX_15",
+      "transform": {
+        "location": {
+          "x": 52736,
+          "y": 0,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.015,
+          "y": 155,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_FreeBuild_GridY_15",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 7680,
+          "z": 0.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 155,
+          "y": 0.015,
+          "z": 0.01
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_EditTraining_Foundation",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": 0,
+          "z": -50
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 83.92,
+          "y": 83.92,
+          "z": 1
+        }
+      },
+      "material": "Floor",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_EditTraining_Ceiling",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": 0,
+          "z": 24626
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 83.92,
+          "y": 83.92,
+          "z": 1
+        }
+      },
+      "material": "Horizon",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_EditTraining_Boundary_N",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": 4146,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 83.92,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_EditTraining_Backdrop_N",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": 4080,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 82.92,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_EditTraining_LowBand_N",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": 4146,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 83.92,
+          "y": 1,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_EditTraining_LightBand_N",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": 4080,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 83.92,
+          "y": 0.04,
+          "z": 0.045
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_EditTraining_Boundary_S",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": -4146,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 83.92,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_EditTraining_Backdrop_S",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": -4080,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 82.92,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_EditTraining_LowBand_S",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": -4146,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 83.92,
+          "y": 1,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_EditTraining_LightBand_S",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": -4080,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 83.92,
+          "y": 0.04,
+          "z": 0.045
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_EditTraining_Boundary_E",
+      "transform": {
+        "location": {
+          "x": -40910,
+          "y": 0,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 83.92,
+          "z": 245.76
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_EditTraining_Backdrop_E",
+      "transform": {
+        "location": {
+          "x": -40976,
+          "y": 0,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 82.92,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_EditTraining_LowBand_E",
+      "transform": {
+        "location": {
+          "x": -40910,
+          "y": 0,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 83.92,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_EditTraining_LightBand_E",
+      "transform": {
+        "location": {
+          "x": -40976,
+          "y": 0,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 83.92,
+          "z": 0.045
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_EditTraining_Boundary_W",
+      "transform": {
+        "location": {
+          "x": -49202,
+          "y": 0,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 83.92,
+          "z": 245.76
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_EditTraining_Backdrop_W",
+      "transform": {
+        "location": {
+          "x": -49136,
+          "y": 0,
+          "z": 12288.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 82.92,
+          "y": 1,
+          "z": 245.76
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_EditTraining_LowBand_W",
+      "transform": {
+        "location": {
+          "x": -49202,
+          "y": 0,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 83.92,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_EditTraining_LightBand_W",
+      "transform": {
+        "location": {
+          "x": -49136,
+          "y": 0,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 83.92,
+          "z": 0.045
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_EditTraining_FloorSide_-3856",
+      "transform": {
+        "location": {
+          "x": -48912,
+          "y": 0,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 77.12,
+          "z": 0.025
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_EditTraining_FloorSide_3856",
+      "transform": {
+        "location": {
+          "x": -41200,
+          "y": 0,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 77.12,
+          "z": 0.025
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_EditTraining_FloorEnd_-3856",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": -3856,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 77.12,
+          "y": 0.04,
+          "z": 0.025
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_EditTraining_FloorEnd_3856",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": 3856,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 77.12,
+          "y": 0.04,
+          "z": 0.025
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonOne_Foundation",
+      "transform": {
+        "location": {
+          "x": 6000,
+          "y": 6500,
+          "z": -50
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 30.0,
+          "y": 30.0,
+          "z": 1
+        }
+      },
+      "material": "Floor",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_LessonOne_Ceiling",
+      "transform": {
+        "location": {
+          "x": 6000,
+          "y": 6500,
+          "z": 1850
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 30.0,
+          "y": 30.0,
+          "z": 1
+        }
+      },
+      "material": "Horizon",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_LessonOne_Boundary_N",
+      "transform": {
+        "location": {
+          "x": 6000,
+          "y": 7950,
+          "z": 900.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 30.0,
+          "y": 1,
+          "z": 18.0
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_LessonOne_Backdrop_N",
+      "transform": {
+        "location": {
+          "x": 6000,
+          "y": 7884,
+          "z": 900.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 29.0,
+          "y": 1,
+          "z": 18.0
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonOne_LowBand_N",
+      "transform": {
+        "location": {
+          "x": 6000,
+          "y": 7950,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 30.0,
+          "y": 1,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonOne_LightBand_N",
+      "transform": {
+        "location": {
+          "x": 6000,
+          "y": 7884,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 30.0,
+          "y": 0.04,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonOne_Boundary_S",
+      "transform": {
+        "location": {
+          "x": 6000,
+          "y": 5050,
+          "z": 900.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 30.0,
+          "y": 1,
+          "z": 18.0
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_LessonOne_Backdrop_S",
+      "transform": {
+        "location": {
+          "x": 6000,
+          "y": 5116,
+          "z": 900.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 29.0,
+          "y": 1,
+          "z": 18.0
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonOne_LowBand_S",
+      "transform": {
+        "location": {
+          "x": 6000,
+          "y": 5050,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 30.0,
+          "y": 1,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonOne_LightBand_S",
+      "transform": {
+        "location": {
+          "x": 6000,
+          "y": 5116,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 30.0,
+          "y": 0.04,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonOne_Boundary_E",
+      "transform": {
+        "location": {
+          "x": 7450,
+          "y": 6500,
+          "z": 900.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 30.0,
+          "z": 18.0
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_LessonOne_Backdrop_E",
+      "transform": {
+        "location": {
+          "x": 7384,
+          "y": 6500,
+          "z": 900.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 29.0,
+          "y": 1,
+          "z": 18.0
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonOne_LowBand_E",
+      "transform": {
+        "location": {
+          "x": 7450,
+          "y": 6500,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 30.0,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonOne_LightBand_E",
+      "transform": {
+        "location": {
+          "x": 7384,
+          "y": 6500,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 30.0,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonOne_Boundary_W",
+      "transform": {
+        "location": {
+          "x": 4550,
+          "y": 6500,
+          "z": 900.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 30.0,
+          "z": 18.0
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_LessonOne_Backdrop_W",
+      "transform": {
+        "location": {
+          "x": 4616,
+          "y": 6500,
+          "z": 900.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 29.0,
+          "y": 1,
+          "z": 18.0
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonOne_LowBand_W",
+      "transform": {
+        "location": {
+          "x": 4550,
+          "y": 6500,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 30.0,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonOne_LightBand_W",
+      "transform": {
+        "location": {
+          "x": 4616,
+          "y": 6500,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 30.0,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonOne_FloorSide_-1160",
+      "transform": {
+        "location": {
+          "x": 4840,
+          "y": 6500,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 23.2,
+          "z": 0.025
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonOne_FloorSide_1160",
+      "transform": {
+        "location": {
+          "x": 7160,
+          "y": 6500,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 23.2,
+          "z": 0.025
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonOne_FloorEnd_-1160",
+      "transform": {
+        "location": {
+          "x": 6000,
+          "y": 5340,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 23.2,
+          "y": 0.04,
+          "z": 0.025
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonOne_FloorEnd_1160",
+      "transform": {
+        "location": {
+          "x": 6000,
+          "y": 7660,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 23.2,
+          "y": 0.04,
+          "z": 0.025
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_Foundation",
+      "transform": {
+        "location": {
+          "x": 9000,
+          "y": 6500,
+          "z": -50
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 30.0,
+          "y": 30.0,
+          "z": 1
+        }
+      },
+      "material": "Floor",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_Ceiling",
+      "transform": {
+        "location": {
+          "x": 9000,
+          "y": 6500,
+          "z": 1850
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 30.0,
+          "y": 30.0,
+          "z": 1
+        }
+      },
+      "material": "Horizon",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_Boundary_N",
+      "transform": {
+        "location": {
+          "x": 9000,
+          "y": 7950,
+          "z": 900.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 30.0,
+          "y": 1,
+          "z": 18.0
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_Backdrop_N",
+      "transform": {
+        "location": {
+          "x": 9000,
+          "y": 7884,
+          "z": 900.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 29.0,
+          "y": 1,
+          "z": 18.0
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_LowBand_N",
+      "transform": {
+        "location": {
+          "x": 9000,
+          "y": 7950,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 30.0,
+          "y": 1,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_LightBand_N",
+      "transform": {
+        "location": {
+          "x": 9000,
+          "y": 7884,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 30.0,
+          "y": 0.04,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_Boundary_S",
+      "transform": {
+        "location": {
+          "x": 9000,
+          "y": 5050,
+          "z": 900.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 30.0,
+          "y": 1,
+          "z": 18.0
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_Backdrop_S",
+      "transform": {
+        "location": {
+          "x": 9000,
+          "y": 5116,
+          "z": 900.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 29.0,
+          "y": 1,
+          "z": 18.0
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_LowBand_S",
+      "transform": {
+        "location": {
+          "x": 9000,
+          "y": 5050,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 30.0,
+          "y": 1,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_LightBand_S",
+      "transform": {
+        "location": {
+          "x": 9000,
+          "y": 5116,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 30.0,
+          "y": 0.04,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_Boundary_E",
+      "transform": {
+        "location": {
+          "x": 10450,
+          "y": 6500,
+          "z": 900.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 30.0,
+          "z": 18.0
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_Backdrop_E",
+      "transform": {
+        "location": {
+          "x": 10384,
+          "y": 6500,
+          "z": 900.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 29.0,
+          "y": 1,
+          "z": 18.0
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_LowBand_E",
+      "transform": {
+        "location": {
+          "x": 10450,
+          "y": 6500,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 30.0,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_LightBand_E",
+      "transform": {
+        "location": {
+          "x": 10384,
+          "y": 6500,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 30.0,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_Boundary_W",
+      "transform": {
+        "location": {
+          "x": 7550,
+          "y": 6500,
+          "z": 900.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 30.0,
+          "z": 18.0
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_Backdrop_W",
+      "transform": {
+        "location": {
+          "x": 7616,
+          "y": 6500,
+          "z": 900.0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 29.0,
+          "y": 1,
+          "z": 18.0
+        }
+      },
+      "material": "Horizon",
+      "shape": "Panel",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_LowBand_W",
+      "transform": {
+        "location": {
+          "x": 7550,
+          "y": 6500,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 30.0,
+          "z": 2.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_LightBand_W",
+      "transform": {
+        "location": {
+          "x": 7616,
+          "y": 6500,
+          "z": 220
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 30.0,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_FloorSide_-1160",
+      "transform": {
+        "location": {
+          "x": 7840,
+          "y": 6500,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 23.2,
+          "z": 0.025
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_FloorSide_1160",
+      "transform": {
+        "location": {
+          "x": 10160,
+          "y": 6500,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 23.2,
+          "z": 0.025
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_FloorEnd_-1160",
+      "transform": {
+        "location": {
+          "x": 9000,
+          "y": 5340,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 23.2,
+          "y": 0.04,
+          "z": 0.025
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    },
+    {
+      "name": "PCL_Environment_LessonTwo_FloorEnd_1160",
+      "transform": {
+        "location": {
+          "x": 9000,
+          "y": 7660,
+          "z": 1.2
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 23.2,
+          "y": 0.04,
+          "z": 0.025
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false
+    }
+  ],
+  "environment_materials": {
+    "Stone": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/AcademyKit/PCL_MI_Academy_Stone.PCL_MI_Academy_Stone"
+    },
+    "Floor": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/AcademyKit/PCL_MI_Academy_Floor.PCL_MI_Academy_Floor"
+    },
+    "Graphite": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/AcademyKit/PCL_MI_Academy_Graphite.PCL_MI_Academy_Graphite"
+    },
+    "Metal": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/AcademyKit/PCL_MI_Academy_Metal.PCL_MI_Academy_Metal"
+    },
+    "Teal": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/AcademyKit/PCL_MI_Academy_Teal.PCL_MI_Academy_Teal"
+    },
+    "Gold": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/AcademyKit/PCL_MI_Academy_Gold.PCL_MI_Academy_Gold"
+    },
+    "Light": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/AcademyKit/PCL_MI_Academy_Light.PCL_MI_Academy_Light"
+    },
+    "Horizon": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/AcademyKit/PCL_M_Horizon.PCL_M_Horizon"
+    }
+  },
+  "edit_course": {
+    "staging_offset": [
+      2850,
+      2850,
+      100
+    ],
+    "interaction_half_width": 2200,
+    "interaction_half_depth": 1650,
+    "wall_lane_offset": -1024,
+    "triple_lane_offset": 0,
+    "chain_lane_offset": 1024
+  },
+  "build_grid": {
+    "x": 512,
+    "y": 512,
+    "z": 384
+  },
+  "layout_revision": 4,
+  "duel_start_half_separation_cm": 768
+}

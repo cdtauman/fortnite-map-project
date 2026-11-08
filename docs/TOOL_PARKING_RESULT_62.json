@@ -1,0 +1,9 @@
+{
+  "run": "62",
+  "regression_passed": false,
+  "reason": "First-created plan equipped0of4; all3cycles0of4; immediate rifle SelectWeapon false despite later firing.",
+  "active_equipment_restored_from": "61",
+  "rollback_record": ".local/tool-parking62-rollback.json",
+  "evidence": "docs/NPC_BUILD_PLAN_ANALYSIS_62.json",
+  "native_build_gates_accepted": false
+}

@@ -1,0 +1,1100 @@
+{
+  "date": "2026-11-07",
+  "build": "UEFN 43.00 CL-59596594",
+  "run": "automatic-62",
+  "scope": "Private managed-rifle parking during build-tool hold using shared production coach_equipment. Exactly one native rifle before and after each cycle, zero available ranged items intended while tool held; preserve same item entities and original inventories through checked Unequip/RemoveItem/AddItemDistribute. No native Idle phase. Three cycles of tool equip/four0.25s exact equipped-state samples, repeat InitializeNPCLoadout while rifle parked, SelectWeapon restore and16held-attack rifle samples. Parent explicitly releases hold. Finish by equipping tool again and cleaning up from that state: remove tool, restore parked rifle, remove owned rifle, restore original2items, repeat cleanup. Stationary perceived hostile5000HP target initialized before measurement; native rifle stats unchanged, no direct damage/explicit BeginFire/measurement teleports/player state changes/computer input. Pose and native build/edit semantics not inferred from inventory state.",
+  "preparation": {
+    "prepared_at_utc": "2026-11-07T05:07:51.469441+00:00",
+    "source_build": "npc-parked-tool62-build.json",
+    "source_build_sha256": "d090f191f42e5abd3c6d179aab3a23e92610446263beea017e2be8c5b2c917b4",
+    "probe": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567"
+    },
+    "probe_label": "PCL_Health_Probe",
+    "log_pattern": "PCL\\|health_probe|PCL\\|combat_action",
+    "test_flags": {
+      "Enabled": true,
+      "AutoRun": true
+    },
+    "combat_gates": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "input_requested": false,
+    "connection_reused": true,
+    "wall_occlusion_control": false,
+    "wall_occlusion_scope": "Native Prop Manipulator initial-health control200 configured before gameplay; explicit AdditionalProps reference is the owned ControlWall and volume mode is off. No scripted health changes or synthetic damage during firing. This does not establish default Fortnite wall health or edit-health continuity.",
+    "mesh_change_after_player_hits": 0,
+    "isolated_wall_control": false,
+    "spawned_wall_control": false,
+    "npc_equipped_attack_control": true,
+    "npc_equipped_attack_context": {
+      "at_utc": "2026-11-07T05:07:05.939703+00:00",
+      "scope": "Private managed-rifle parking during build-tool hold using shared production coach_equipment. Exactly one native rifle before and after each cycle, zero available ranged items intended while tool held; preserve same item entities and original inventories through checked Unequip/RemoveItem/AddItemDistribute. No native Idle phase. Three cycles of tool equip/four0.25s exact equipped-state samples, repeat InitializeNPCLoadout while rifle parked, SelectWeapon restore and16held-attack rifle samples. Parent explicitly releases hold. Finish by equipping tool again and cleaning up from that state: remove tool, restore parked rifle, remove owned rifle, restore original2items, repeat cleanup. Stationary perceived hostile5000HP target initialized before measurement; native rifle stats unchanged, no direct damage/explicit BeginFire/measurement teleports/player state changes/computer input. Pose and native build/edit semantics not inferred from inventory state.",
+      "native_accuracy_control": {
+        "at_utc": "2026-11-07T03:58:38.760214+00:00",
+        "definition": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachDamageShooter.CoachDamageShooter"
+        },
+        "behavior": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachDamageShooter.CoachDamageShooter:CharacterModifier_GuardBehavior_C_0"
+        },
+        "scope": "Only owned private CoachDamageShooter behavior accuracy HIGH to VERY HIGH. Main opponent, Verse, rifle statistics, transforms, target stasis/HP and build gates unchanged. Both fixture guards use the same definition; measure attacker-attributed damage separately.",
+        "before": {
+          "accuracy": "HIGH",
+          "bEnableLeash": true,
+          "leashDistance": 35
+        },
+        "after": {
+          "accuracy": "VERY HIGH",
+          "bEnableLeash": true,
+          "leashDistance": 35
+        },
+        "asset_archives": [
+          {
+            "path": ".local\\evidence\\accuracy-53\\CoachDamageShooter-before.uasset",
+            "sha256": "5bb89878e53280baaa697bae91bff9cf43100ea8066cad66dba00cb09d088bdf"
+          },
+          {
+            "path": ".local\\evidence\\accuracy-53\\CoachDamageShooter-after.uasset",
+            "sha256": "c95c9da0f919306b75102bb4aa406ce5f12bf4381750439784168f41a7d389b7"
+          }
+        ],
+        "compiled_verse_unchanged_from_run": "52"
+      },
+      "native_accuracy_readback": {
+        "accuracy": "VERY HIGH"
+      },
+      "properties": {
+        "Enabled": false,
+        "AutoRun": false,
+        "UseWeaponCalibration": true,
+        "UseCharacterTargetControl": false,
+        "NPCEquippedAttackControl": true,
+        "IsolatedWallControl": false,
+        "SpawnedWallControl": false,
+        "MeshChangeAfterPlayerHits": 0
+      }
+    },
+    "calibration_native_timer": false,
+    "calibration_blast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075661203_1497102807"
+    },
+    "calibration_objective": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+    },
+    "weapon_calibration": true,
+    "character_target_control": false,
+    "calibration_shooter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075671203_1509093984"
+    },
+    "calibration_player_teleporter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Teleporter_V2_C_UAID_30E3A4101075711203_1580237745"
+    },
+    "calibration_no_fire_zone": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MutatorVolume_V2_C_UAID_30E3A4101075491203_1921501775"
+    },
+    "source_archive": {
+      "path": ".local\\evidence\\health-62\\sources.zip",
+      "sha256": "041255d21fb62adebe44e5c6b313582e362309ad354c525df4ca166a822c098f"
+    },
+    "fixture_archive": {
+      "path": ".local\\evidence\\health-62\\health-probe-layout.json",
+      "sha256": "aefe7e928142db725e426a699a28e94066ed03e8a4bbe9410ad703da4c3568f7"
+    }
+  },
+  "start_session": {
+    "operation": "PushChanges",
+    "bVerseOnly": false,
+    "result": "Completed",
+    "at_utc": "2026-11-07T05:09:47.940081+00:00"
+  },
+  "entries": [
+    {
+      "sequence": 1127,
+      "timestamp": "2026-11-07T05:09:48.779Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|ready|combat_gates=false|health_interface_probe=true|ordinary_prop_control_unvalidated=true",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1129,
+      "timestamp": "2026-11-07T05:09:49.456Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|weapon_shooter_spawned",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1130,
+      "timestamp": "2026-11-07T05:09:49.484Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|weapon_shooter_friendly_team_confirmed",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1131,
+      "timestamp": "2026-11-07T05:09:49.485Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|inventory_scope|name=character|direct=0|descendants=0|hotbars=0|items=0|trace_weapons=0|ranged_items=0|resources=0|resource_stacks=0|resource_quantity=0|resource_inventories=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1132,
+      "timestamp": "2026-11-07T05:09:49.485Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|inventory_scope|name=agent|direct=0|descendants=8|hotbars=0|items=4|trace_weapons=0|ranged_items=2|resources=1|resource_stacks=1|resource_quantity=500|resource_inventories=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1133,
+      "timestamp": "2026-11-07T05:09:49.485Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|initial_ranged_selection|selected=1|before_template_addition",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1135,
+      "timestamp": "2026-11-07T05:09:49.485Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_inventory|parked=2|ranged_items=1|owned_rifle_only|production_equipment_module",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1136,
+      "timestamp": "2026-11-07T05:09:50.163Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|weapon_combat_target_spawned",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1137,
+      "timestamp": "2026-11-07T05:09:50.767Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_target_identity|body_match=1|agent_match=0|action_target_is_exact_awareness_target",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1138,
+      "timestamp": "2026-11-07T05:09:50.768Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_ready|hostile_detected=1|damage=35.000000|fire_rate=3.900000|shot_cost=1|no_direct_damage",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1139,
+      "timestamp": "2026-11-07T05:09:51.035Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=detected_baseline|tick=1|equipped=1|holstered=0|is_firing=0|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=5000.000000|damage_events=0|source_hits=0|shooter_x=-2847.999999|shooter_y=-2931.029524|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.987380|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1140,
+      "timestamp": "2026-11-07T05:09:51.302Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=detected_baseline|tick=2|equipped=1|holstered=0|is_firing=0|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=5000.000000|damage_events=0|source_hits=0|shooter_x=-2860.320798|shooter_y=-2941.845926|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.990920|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1141,
+      "timestamp": "2026-11-07T05:09:51.569Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=detected_baseline|tick=3|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=5000.000000|damage_events=0|source_hits=0|shooter_x=-2902.947965|shooter_y=-2979.268220|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.990273|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1142,
+      "timestamp": "2026-11-07T05:09:51.836Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=detected_baseline|tick=4|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=5000.000000|damage_events=0|source_hits=0|shooter_x=-2948.622724|shooter_y=-3019.365988|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.990142|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1143,
+      "timestamp": "2026-11-07T05:09:52.103Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=detected_baseline|tick=5|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=5000.000000|damage_events=0|source_hits=0|shooter_x=-2994.297110|shooter_y=-3059.463430|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.990786|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1144,
+      "timestamp": "2026-11-07T05:09:52.372Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=detected_baseline|tick=6|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=5000.000000|damage_events=0|source_hits=0|shooter_x=-3039.972768|shooter_y=-3099.561987|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.991375|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1145,
+      "timestamp": "2026-11-07T05:09:52.639Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=detected_baseline|tick=7|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=5000.000000|damage_events=0|source_hits=0|shooter_x=-3086.226375|shooter_y=-3138.962415|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.992230|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1146,
+      "timestamp": "2026-11-07T05:09:52.806Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_target_damage|amount=35.000000|by_shooter=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1147,
+      "timestamp": "2026-11-07T05:09:52.906Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=detected_baseline|tick=8|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4965.000000|damage_events=1|source_hits=1|shooter_x=-3134.213060|shooter_y=-3176.267830|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.991122|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1149,
+      "timestamp": "2026-11-07T05:09:52.937Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_build_plan_request|cycle=1|equip_ok=1|existing_plan=0|parked_for_tool=1|reinitialize_ok=1|production_equipment_module",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1150,
+      "timestamp": "2026-11-07T05:09:53.177Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_build_plan_sample|cycle=1|tick=1|plan_equipped=0|rifle_equipped=0|rifle_firing=0|ranged_items=0|target_health=4965.000000|source_hits=1|pose_not_visually_verified",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1151,
+      "timestamp": "2026-11-07T05:09:53.443Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_build_plan_sample|cycle=1|tick=2|plan_equipped=0|rifle_equipped=0|rifle_firing=0|ranged_items=0|target_health=4965.000000|source_hits=1|pose_not_visually_verified",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1152,
+      "timestamp": "2026-11-07T05:09:53.711Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_build_plan_sample|cycle=1|tick=3|plan_equipped=0|rifle_equipped=0|rifle_firing=0|ranged_items=0|target_health=4965.000000|source_hits=1|pose_not_visually_verified",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1153,
+      "timestamp": "2026-11-07T05:09:53.977Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_build_plan_sample|cycle=1|tick=4|plan_equipped=0|rifle_equipped=0|rifle_firing=0|ranged_items=0|target_health=4965.000000|source_hits=1|pose_not_visually_verified",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1154,
+      "timestamp": "2026-11-07T05:09:53.984Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_focus_request|phase=build_plan_return_1|select_ok=0|plan_still_equipped=0|shared_hold_window|no_explicit_beginfire",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1155,
+      "timestamp": "2026-11-07T05:09:53.985Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|combat_action|tether_begin|x=-3186.967980|y=-3217.280126|z=77.149998|radius=75",
+      "sourceFile": "coach_opponent_behavior.verse",
+      "sourceLine": 26
+    },
+    {
+      "sequence": 1156,
+      "timestamp": "2026-11-07T05:09:53.985Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|combat_action|focus_request_returned|action_window_continues",
+      "sourceFile": "coach_opponent_behavior.verse",
+      "sourceLine": 13
+    },
+    {
+      "sequence": 1157,
+      "timestamp": "2026-11-07T05:09:54.245Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_1|tick=1|equipped=1|holstered=0|is_firing=0|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4965.000000|damage_events=1|source_hits=1|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.995881|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1158,
+      "timestamp": "2026-11-07T05:09:54.512Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_1|tick=2|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4965.000000|damage_events=1|source_hits=1|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.995782|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1159,
+      "timestamp": "2026-11-07T05:09:54.779Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_1|tick=3|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4965.000000|damage_events=1|source_hits=1|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.995268|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1160,
+      "timestamp": "2026-11-07T05:09:55.046Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_1|tick=4|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4965.000000|damage_events=1|source_hits=1|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.995128|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1161,
+      "timestamp": "2026-11-07T05:09:55.313Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_1|tick=5|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4965.000000|damage_events=1|source_hits=1|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.994941|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1162,
+      "timestamp": "2026-11-07T05:09:55.380Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_target_damage|amount=35.000000|by_shooter=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1163,
+      "timestamp": "2026-11-07T05:09:55.581Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_1|tick=6|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4930.000000|damage_events=2|source_hits=2|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.995450|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1164,
+      "timestamp": "2026-11-07T05:09:55.848Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_1|tick=7|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4930.000000|damage_events=2|source_hits=2|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.995371|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1165,
+      "timestamp": "2026-11-07T05:09:56.115Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_1|tick=8|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4930.000000|damage_events=2|source_hits=2|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.995287|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1166,
+      "timestamp": "2026-11-07T05:09:56.382Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_1|tick=9|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4930.000000|damage_events=2|source_hits=2|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.995190|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1167,
+      "timestamp": "2026-11-07T05:09:56.648Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_1|tick=10|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4930.000000|damage_events=2|source_hits=2|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.995098|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1168,
+      "timestamp": "2026-11-07T05:09:56.915Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_1|tick=11|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4930.000000|damage_events=2|source_hits=2|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.994657|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1169,
+      "timestamp": "2026-11-07T05:09:57.183Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_1|tick=12|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4930.000000|damage_events=2|source_hits=2|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.994369|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1170,
+      "timestamp": "2026-11-07T05:09:57.450Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_1|tick=13|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4930.000000|damage_events=2|source_hits=2|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.994047|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1171,
+      "timestamp": "2026-11-07T05:09:57.717Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_1|tick=14|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4930.000000|damage_events=2|source_hits=2|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.993979|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1172,
+      "timestamp": "2026-11-07T05:09:57.984Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_1|tick=15|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4930.000000|damage_events=2|source_hits=2|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.995161|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1173,
+      "timestamp": "2026-11-07T05:09:58.051Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_target_damage|amount=35.000000|by_shooter=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1174,
+      "timestamp": "2026-11-07T05:09:58.251Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_1|tick=16|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4895.000000|damage_events=3|source_hits=3|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.994620|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1175,
+      "timestamp": "2026-11-07T05:09:58.252Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|combat_action|owner_release|scope=build_cycle_parent",
+      "sourceFile": "coach_opponent_behavior.verse",
+      "sourceLine": 42
+    },
+    {
+      "sequence": 1176,
+      "timestamp": "2026-11-07T05:09:58.256Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_build_plan_request|cycle=2|equip_ok=1|existing_plan=1|parked_for_tool=1|reinitialize_ok=1|production_equipment_module",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1177,
+      "timestamp": "2026-11-07T05:09:58.518Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_build_plan_sample|cycle=2|tick=1|plan_equipped=0|rifle_equipped=0|rifle_firing=0|ranged_items=0|target_health=4895.000000|source_hits=3|pose_not_visually_verified",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1178,
+      "timestamp": "2026-11-07T05:09:58.785Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_build_plan_sample|cycle=2|tick=2|plan_equipped=0|rifle_equipped=0|rifle_firing=0|ranged_items=0|target_health=4895.000000|source_hits=3|pose_not_visually_verified",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1179,
+      "timestamp": "2026-11-07T05:09:59.052Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_build_plan_sample|cycle=2|tick=3|plan_equipped=0|rifle_equipped=0|rifle_firing=0|ranged_items=0|target_health=4895.000000|source_hits=3|pose_not_visually_verified",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1180,
+      "timestamp": "2026-11-07T05:09:59.319Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_build_plan_sample|cycle=2|tick=4|plan_equipped=0|rifle_equipped=0|rifle_firing=0|ranged_items=0|target_health=4895.000000|source_hits=3|pose_not_visually_verified",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1181,
+      "timestamp": "2026-11-07T05:09:59.326Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_focus_request|phase=build_plan_return_2|select_ok=0|plan_still_equipped=0|shared_hold_window|no_explicit_beginfire",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1182,
+      "timestamp": "2026-11-07T05:09:59.326Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|combat_action|tether_begin|x=-3178.338792|y=-3210.571694|z=77.149998|radius=75",
+      "sourceFile": "coach_opponent_behavior.verse",
+      "sourceLine": 26
+    },
+    {
+      "sequence": 1183,
+      "timestamp": "2026-11-07T05:09:59.327Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|combat_action|focus_request_returned|action_window_continues",
+      "sourceFile": "coach_opponent_behavior.verse",
+      "sourceLine": 13
+    },
+    {
+      "sequence": 1184,
+      "timestamp": "2026-11-07T05:09:59.587Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_2|tick=1|equipped=1|holstered=0|is_firing=0|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4895.000000|damage_events=3|source_hits=3|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.994856|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1185,
+      "timestamp": "2026-11-07T05:09:59.854Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_2|tick=2|equipped=1|holstered=0|is_firing=0|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4895.000000|damage_events=3|source_hits=3|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.994580|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1186,
+      "timestamp": "2026-11-07T05:10:00.121Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_2|tick=3|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4895.000000|damage_events=3|source_hits=3|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.994148|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1187,
+      "timestamp": "2026-11-07T05:10:00.188Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_target_damage|amount=35.000000|by_shooter=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1188,
+      "timestamp": "2026-11-07T05:10:00.389Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_2|tick=4|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4860.000000|damage_events=4|source_hits=4|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.995559|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1189,
+      "timestamp": "2026-11-07T05:10:00.655Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_2|tick=5|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4860.000000|damage_events=4|source_hits=4|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.995712|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1190,
+      "timestamp": "2026-11-07T05:10:00.923Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_2|tick=6|equipped=1|holstered=0|is_firing=0|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4860.000000|damage_events=4|source_hits=4|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.995583|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1191,
+      "timestamp": "2026-11-07T05:10:01.190Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_2|tick=7|equipped=1|holstered=0|is_firing=0|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4860.000000|damage_events=4|source_hits=4|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.996425|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1192,
+      "timestamp": "2026-11-07T05:10:01.457Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_2|tick=8|equipped=1|holstered=0|is_firing=0|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4860.000000|damage_events=4|source_hits=4|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.996007|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1193,
+      "timestamp": "2026-11-07T05:10:01.724Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_2|tick=9|equipped=1|holstered=0|is_firing=0|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4860.000000|damage_events=4|source_hits=4|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.995052|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1194,
+      "timestamp": "2026-11-07T05:10:01.991Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_2|tick=10|equipped=1|holstered=0|is_firing=0|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4860.000000|damage_events=4|source_hits=4|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.998217|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1195,
+      "timestamp": "2026-11-07T05:10:02.258Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_2|tick=11|equipped=1|holstered=0|is_firing=0|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4860.000000|damage_events=4|source_hits=4|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.997696|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1196,
+      "timestamp": "2026-11-07T05:10:02.525Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_2|tick=12|equipped=1|holstered=0|is_firing=0|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4860.000000|damage_events=4|source_hits=4|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.997696|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1197,
+      "timestamp": "2026-11-07T05:10:02.793Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_2|tick=13|equipped=1|holstered=0|is_firing=0|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4860.000000|damage_events=4|source_hits=4|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.996638|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1198,
+      "timestamp": "2026-11-07T05:10:03.060Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_2|tick=14|equipped=1|holstered=0|is_firing=0|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4860.000000|damage_events=4|source_hits=4|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.996465|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1199,
+      "timestamp": "2026-11-07T05:10:03.194Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_target_damage|amount=35.000000|by_shooter=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1200,
+      "timestamp": "2026-11-07T05:10:03.327Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_2|tick=15|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4825.000000|damage_events=5|source_hits=5|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.987855|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1201,
+      "timestamp": "2026-11-07T05:10:03.595Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_2|tick=16|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4825.000000|damage_events=5|source_hits=5|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.987720|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1202,
+      "timestamp": "2026-11-07T05:10:03.595Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|combat_action|owner_release|scope=build_cycle_parent",
+      "sourceFile": "coach_opponent_behavior.verse",
+      "sourceLine": 42
+    },
+    {
+      "sequence": 1203,
+      "timestamp": "2026-11-07T05:10:03.600Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_build_plan_request|cycle=3|equip_ok=1|existing_plan=1|parked_for_tool=1|reinitialize_ok=1|production_equipment_module",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1204,
+      "timestamp": "2026-11-07T05:10:03.861Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_build_plan_sample|cycle=3|tick=1|plan_equipped=0|rifle_equipped=0|rifle_firing=0|ranged_items=0|target_health=4825.000000|source_hits=5|pose_not_visually_verified",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1205,
+      "timestamp": "2026-11-07T05:10:04.128Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_build_plan_sample|cycle=3|tick=2|plan_equipped=0|rifle_equipped=0|rifle_firing=0|ranged_items=0|target_health=4825.000000|source_hits=5|pose_not_visually_verified",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1206,
+      "timestamp": "2026-11-07T05:10:04.395Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_build_plan_sample|cycle=3|tick=3|plan_equipped=0|rifle_equipped=0|rifle_firing=0|ranged_items=0|target_health=4825.000000|source_hits=5|pose_not_visually_verified",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1207,
+      "timestamp": "2026-11-07T05:10:04.662Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_build_plan_sample|cycle=3|tick=4|plan_equipped=0|rifle_equipped=0|rifle_firing=0|ranged_items=0|target_health=4825.000000|source_hits=5|pose_not_visually_verified",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1208,
+      "timestamp": "2026-11-07T05:10:04.669Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_focus_request|phase=build_plan_return_3|select_ok=0|plan_still_equipped=0|shared_hold_window|no_explicit_beginfire",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1209,
+      "timestamp": "2026-11-07T05:10:04.669Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|combat_action|tether_begin|x=-3178.338792|y=-3210.571694|z=77.149998|radius=75",
+      "sourceFile": "coach_opponent_behavior.verse",
+      "sourceLine": 26
+    },
+    {
+      "sequence": 1210,
+      "timestamp": "2026-11-07T05:10:04.670Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|combat_action|focus_request_returned|action_window_continues",
+      "sourceFile": "coach_opponent_behavior.verse",
+      "sourceLine": 13
+    },
+    {
+      "sequence": 1211,
+      "timestamp": "2026-11-07T05:10:04.931Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_3|tick=1|equipped=1|holstered=0|is_firing=0|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4825.000000|damage_events=5|source_hits=5|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.993877|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1212,
+      "timestamp": "2026-11-07T05:10:05.198Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_3|tick=2|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4825.000000|damage_events=5|source_hits=5|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.992659|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1213,
+      "timestamp": "2026-11-07T05:10:05.465Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_3|tick=3|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4825.000000|damage_events=5|source_hits=5|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.989225|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1214,
+      "timestamp": "2026-11-07T05:10:05.732Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_3|tick=4|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4825.000000|damage_events=5|source_hits=5|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.990277|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1215,
+      "timestamp": "2026-11-07T05:10:05.999Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_3|tick=5|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4825.000000|damage_events=5|source_hits=5|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.990818|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1216,
+      "timestamp": "2026-11-07T05:10:06.266Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_3|tick=6|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4825.000000|damage_events=5|source_hits=5|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.992453|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1217,
+      "timestamp": "2026-11-07T05:10:06.500Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_target_damage|amount=35.000000|by_shooter=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1218,
+      "timestamp": "2026-11-07T05:10:06.533Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_3|tick=7|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4790.000000|damage_events=6|source_hits=6|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.991596|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1219,
+      "timestamp": "2026-11-07T05:10:06.801Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_3|tick=8|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4790.000000|damage_events=6|source_hits=6|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.993320|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1220,
+      "timestamp": "2026-11-07T05:10:07.068Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_3|tick=9|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4790.000000|damage_events=6|source_hits=6|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.993915|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1221,
+      "timestamp": "2026-11-07T05:10:07.335Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_3|tick=10|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4790.000000|damage_events=6|source_hits=6|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.993274|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1222,
+      "timestamp": "2026-11-07T05:10:07.602Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_3|tick=11|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4790.000000|damage_events=6|source_hits=6|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.993145|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1223,
+      "timestamp": "2026-11-07T05:10:07.869Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_3|tick=12|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4790.000000|damage_events=6|source_hits=6|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.992924|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1224,
+      "timestamp": "2026-11-07T05:10:08.137Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_3|tick=13|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4790.000000|damage_events=6|source_hits=6|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.990698|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1225,
+      "timestamp": "2026-11-07T05:10:08.404Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_3|tick=14|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4790.000000|damage_events=6|source_hits=6|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.991066|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1226,
+      "timestamp": "2026-11-07T05:10:08.670Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_3|tick=15|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4790.000000|damage_events=6|source_hits=6|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.996682|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1227,
+      "timestamp": "2026-11-07T05:10:08.904Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_target_damage|amount=35.000000|by_shooter=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1228,
+      "timestamp": "2026-11-07T05:10:08.938Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_sample|phase=build_plan_return_3|tick=16|equipped=1|holstered=0|is_firing=1|hostile_los=1|no_fire_zone=0|ranged_items=1|target_health=4755.000000|damage_events=7|source_hits=7|shooter_x=-3178.338792|shooter_y=-3210.571694|shooter_z=77.149998|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|view_aim_dot=0.987198|view_not_ballistic_ray",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1229,
+      "timestamp": "2026-11-07T05:10:08.938Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|combat_action|owner_release|scope=build_cycle_parent",
+      "sourceFile": "coach_opponent_behavior.verse",
+      "sourceLine": 42
+    },
+    {
+      "sequence": 1230,
+      "timestamp": "2026-11-07T05:10:09.259Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_build_plan_cleanup_ready|plan_equipped=0|ranged_items=0|parked_for_tool=1|cleanup_from_held_tool",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1231,
+      "timestamp": "2026-11-07T05:10:09.259Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_finished|target_health=4755.000000|source_hits=7|no_direct_damage_or_legacy_attack_phase",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1232,
+      "timestamp": "2026-11-07T05:10:09.259Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_target_team_restored",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1233,
+      "timestamp": "2026-11-07T05:10:09.259Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_equipped_cleanup|parked=2|restored=2|original_ranged_items_returned_before_despawn|managed_rifle_removed=1|idempotent_cleanup=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1234,
+      "timestamp": "2026-11-07T05:10:09.271Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|automatic_sequence_finished|results_require_review",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    }
+  ],
+  "cleanup": {
+    "run": "62",
+    "scope": "Private managed-rifle parking during build-tool hold using shared production coach_equipment. Exactly one native rifle before and after each cycle, zero available ranged items intended while tool held; preserve same item entities and original inventories through checked Unequip/RemoveItem/AddItemDistribute. No native Idle phase. Three cycles of tool equip/four0.25s exact equipped-state samples, repeat InitializeNPCLoadout while rifle parked, SelectWeapon restore and16held-attack rifle samples. Parent explicitly releases hold. Finish by equipping tool again and cleaning up from that state: remove tool, restore parked rifle, remove owned rifle, restore original2items, repeat cleanup. Stationary perceived hostile5000HP target initialized before measurement; native rifle stats unchanged, no direct damage/explicit BeginFire/measurement teleports/player state changes/computer input. Pose and native build/edit semantics not inferred from inventory state.",
+    "source_preparation": "final-run-62-preparation.json",
+    "started_at_utc": "2026-11-07T05:10:30.355711+00:00",
+    "started_game_by_tool": false,
+    "sequence_finished": true,
+    "keep_edit_session_requested": true,
+    "initial_session_state": "Connected",
+    "readiness_observations": [
+      {
+        "at_utc": "2026-11-07T05:10:31.402849+00:00",
+        "session": "Connected"
+      }
+    ],
+    "ready_session_state": "Connected",
+    "initial_game_state": "Running",
+    "stop_game_result": "Completed",
+    "restored_mesh_change_threshold": 0,
+    "combat_gates_after_run": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "restored_flags": {
+      "Enabled": false,
+      "AutoRun": false,
+      "UseWeaponCalibration": false,
+      "IsolatedWallControl": false,
+      "SpawnedWallControl": false,
+      "NPCEquippedAttackControl": false
+    },
+    "final_game_state": "CanStart",
+    "final_session_state": "Connected",
+    "kept_edit_session": true,
+    "ended_at_utc": "2026-11-07T05:10:38.522596+00:00"
+  },
+  "gates_accepted": false
+}

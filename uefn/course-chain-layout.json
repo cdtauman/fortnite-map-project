@@ -1,0 +1,427 @@
+{
+  "scope": "Prepared three-ascent route, not native edit/reset or timing acceptance.",
+  "center_x": -44032,
+  "start": [
+    -44032,
+    -1450,
+    100
+  ],
+  "stages": 3,
+  "sections": 3,
+  "parts": [
+    {
+      "label": "PCL_Chain_1_Ramp",
+      "kind": "Ramp",
+      "source": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseRamp_C_UAID_30E3A41010754E1203_1078177673",
+      "native": true,
+      "target": {
+        "location": {
+          "x": -44032,
+          "y": -1280,
+          "z": 0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Chain_1_Floor",
+      "kind": "Floor",
+      "source": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseFloor_C_UAID_30E3A41010754E1203_1081335674",
+      "native": true,
+      "target": {
+        "location": {
+          "x": -44032,
+          "y": -1280,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Chain_1_Cone",
+      "kind": "Cone",
+      "source": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseCone_C_UAID_30E3A41010754E1203_1084551675",
+      "native": true,
+      "target": {
+        "location": {
+          "x": -44032,
+          "y": -1280,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Chain_1_Wall",
+      "kind": "Wall",
+      "source": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A41010754E1203_1087764676",
+      "native": true,
+      "target": {
+        "location": {
+          "x": -44032,
+          "y": -768,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Chain_1_Landing",
+      "kind": "Floor",
+      "source": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseFloor_C_UAID_30E3A41010754E1203_1090944677",
+      "native": true,
+      "target": {
+        "location": {
+          "x": -44032,
+          "y": -768,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Chain_2_Ramp",
+      "kind": "Ramp",
+      "source": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseRamp_C_UAID_30E3A41010754E1203_1078177673",
+      "native": true,
+      "target": {
+        "location": {
+          "x": -44032,
+          "y": -768,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Chain_2_Floor",
+      "kind": "Floor",
+      "source": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseFloor_C_UAID_30E3A41010754E1203_1081335674",
+      "native": true,
+      "target": {
+        "location": {
+          "x": -44032,
+          "y": -768,
+          "z": 768
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Chain_2_Cone",
+      "kind": "Cone",
+      "source": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseCone_C_UAID_30E3A41010754E1203_1084551675",
+      "native": true,
+      "target": {
+        "location": {
+          "x": -44032,
+          "y": -768,
+          "z": 768
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Chain_2_Wall",
+      "kind": "Wall",
+      "source": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A41010754E1203_1087764676",
+      "native": true,
+      "target": {
+        "location": {
+          "x": -44032,
+          "y": -256,
+          "z": 768
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Chain_2_Landing",
+      "kind": "Floor",
+      "source": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseFloor_C_UAID_30E3A41010754E1203_1090944677",
+      "native": true,
+      "target": {
+        "location": {
+          "x": -44032,
+          "y": -256,
+          "z": 768
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Chain_3_Ramp",
+      "kind": "Ramp",
+      "source": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseRamp_C_UAID_30E3A41010754E1203_1078177673",
+      "native": true,
+      "target": {
+        "location": {
+          "x": -44032,
+          "y": -256,
+          "z": 768
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Chain_3_Floor",
+      "kind": "Floor",
+      "source": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseFloor_C_UAID_30E3A41010754E1203_1081335674",
+      "native": true,
+      "target": {
+        "location": {
+          "x": -44032,
+          "y": -256,
+          "z": 1152
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Chain_3_Cone",
+      "kind": "Cone",
+      "source": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseCone_C_UAID_30E3A41010754E1203_1084551675",
+      "native": true,
+      "target": {
+        "location": {
+          "x": -44032,
+          "y": -256,
+          "z": 1152
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Chain_3_Wall",
+      "kind": "Wall",
+      "source": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A41010754E1203_1087764676",
+      "native": true,
+      "target": {
+        "location": {
+          "x": -44032,
+          "y": 256,
+          "z": 1152
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Chain_3_Landing",
+      "kind": "Floor",
+      "source": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseFloor_C_UAID_30E3A41010754E1203_1090944677",
+      "native": true,
+      "target": {
+        "location": {
+          "x": -44032,
+          "y": 256,
+          "z": 1152
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Chain_Lane_Left",
+      "source": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.FortStaticMeshActor_UAID_30E3A4101075511203_2140048220",
+      "native": false,
+      "target": {
+        "location": {
+          "x": -44336,
+          "y": -512,
+          "z": 832
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.24,
+          "y": 23.04,
+          "z": 16.64
+        }
+      }
+    },
+    {
+      "label": "PCL_Chain_Lane_Right",
+      "source": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.FortStaticMeshActor_UAID_30E3A4101075511203_2143923221",
+      "native": false,
+      "target": {
+        "location": {
+          "x": -43728,
+          "y": -512,
+          "z": 832
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.24,
+          "y": 23.04,
+          "z": 16.64
+        }
+      }
+    },
+    {
+      "label": "PCL_Chain_Lane_Ceiling",
+      "source": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.FortStaticMeshActor_UAID_30E3A4101075511203_2147137222",
+      "native": false,
+      "target": {
+        "location": {
+          "x": -44032,
+          "y": -512,
+          "z": 1664
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 6.32,
+          "y": 23.04,
+          "z": 0.16
+        }
+      }
+    }
+  ],
+  "layer": {
+    "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/CourseRuntime/PCL_DL_EditCourse.PCL_DL_EditCourse"
+  }
+}

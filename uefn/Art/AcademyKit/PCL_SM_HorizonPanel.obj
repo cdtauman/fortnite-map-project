@@ -1,0 +1,14 @@
+# Units: centimeters
+o PCL_SM_HorizonPanel
+v -50 0 -50
+v 50 0 -50
+v 50 0 50
+v -50 0 50
+vt 0 0
+vt 1 0
+vt 1 1
+vt 0 1
+usemtl Horizon
+s off
+f 1/1 2/2 3/3 4/4
+f 4/4 3/3 2/2 1/1

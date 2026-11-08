@@ -1,0 +1,4716 @@
+{
+  "scope": "Editor-authored decorative perimeter kit; client quality/navigation/performance acceptance pending.",
+  "parts": [
+    {
+      "name": "PCL_DuelFinish_N_Wall",
+      "mode": "Duel",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 50132,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 102.4,
+          "y": 0.24,
+          "z": 7.68
+        }
+      },
+      "material": "Stone",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_N_Rib_0",
+      "mode": "Duel",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -5120.0,
+          "y": 50106,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_N_Rib_1",
+      "mode": "Duel",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -4096.0,
+          "y": 50106,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_N_Rib_2",
+      "mode": "Duel",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -3072.0,
+          "y": 50106,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_N_Rib_3",
+      "mode": "Duel",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -2048.0,
+          "y": 50106,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_N_Rib_4",
+      "mode": "Duel",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -1024.0,
+          "y": 50106,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_N_Rib_5",
+      "mode": "Duel",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 0.0,
+          "y": 50106,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_N_Rib_6",
+      "mode": "Duel",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 1024.0,
+          "y": 50106,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_N_Rib_7",
+      "mode": "Duel",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 2048.0,
+          "y": 50106,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_N_Rib_8",
+      "mode": "Duel",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 3072.0,
+          "y": 50106,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_N_Rib_9",
+      "mode": "Duel",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 4096.0,
+          "y": 50106,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_N_Rib_10",
+      "mode": "Duel",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 5120.0,
+          "y": 50106,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_N_Cap",
+      "mode": "Duel",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 50106,
+          "z": 784
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 102.4,
+          "y": 0.28,
+          "z": 0.32
+        }
+      },
+      "material": "Metal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_N_Accent",
+      "mode": "Duel",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 50088,
+          "z": 765
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 101.12,
+          "y": 0.03,
+          "z": 0.04
+        }
+      },
+      "material": "Gold",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_N_Plinth",
+      "mode": "Duel",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 50104,
+          "z": 70
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 102.4,
+          "y": 0.22,
+          "z": 1.4
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_S_Wall",
+      "mode": "Duel",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 39980,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 102.4,
+          "y": 0.24,
+          "z": 7.68
+        }
+      },
+      "material": "Stone",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_S_Rib_0",
+      "mode": "Duel",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -5120.0,
+          "y": 40006,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_S_Rib_1",
+      "mode": "Duel",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -4096.0,
+          "y": 40006,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_S_Rib_2",
+      "mode": "Duel",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -3072.0,
+          "y": 40006,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_S_Rib_3",
+      "mode": "Duel",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -2048.0,
+          "y": 40006,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_S_Rib_4",
+      "mode": "Duel",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -1024.0,
+          "y": 40006,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_S_Rib_5",
+      "mode": "Duel",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 0.0,
+          "y": 40006,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_S_Rib_6",
+      "mode": "Duel",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 1024.0,
+          "y": 40006,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_S_Rib_7",
+      "mode": "Duel",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 2048.0,
+          "y": 40006,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_S_Rib_8",
+      "mode": "Duel",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 3072.0,
+          "y": 40006,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_S_Rib_9",
+      "mode": "Duel",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 4096.0,
+          "y": 40006,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_S_Rib_10",
+      "mode": "Duel",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 5120.0,
+          "y": 40006,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_S_Cap",
+      "mode": "Duel",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 40006,
+          "z": 784
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 102.4,
+          "y": 0.28,
+          "z": 0.32
+        }
+      },
+      "material": "Metal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_S_Accent",
+      "mode": "Duel",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 40024,
+          "z": 765
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 101.12,
+          "y": 0.03,
+          "z": 0.04
+        }
+      },
+      "material": "Gold",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_S_Plinth",
+      "mode": "Duel",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 40008,
+          "z": 70
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 102.4,
+          "y": 0.22,
+          "z": 1.4
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_E_Wall",
+      "mode": "Duel",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 5076,
+          "y": 45056,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.24,
+          "y": 102.4,
+          "z": 7.68
+        }
+      },
+      "material": "Stone",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_E_Rib_0",
+      "mode": "Duel",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 5050,
+          "y": 39936.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_E_Rib_1",
+      "mode": "Duel",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 5050,
+          "y": 40960.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_E_Rib_2",
+      "mode": "Duel",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 5050,
+          "y": 41984.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_E_Rib_3",
+      "mode": "Duel",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 5050,
+          "y": 43008.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_E_Rib_4",
+      "mode": "Duel",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 5050,
+          "y": 44032.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_E_Rib_5",
+      "mode": "Duel",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 5050,
+          "y": 45056.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_E_Rib_6",
+      "mode": "Duel",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 5050,
+          "y": 46080.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_E_Rib_7",
+      "mode": "Duel",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 5050,
+          "y": 47104.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_E_Rib_8",
+      "mode": "Duel",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 5050,
+          "y": 48128.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_E_Rib_9",
+      "mode": "Duel",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 5050,
+          "y": 49152.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_E_Rib_10",
+      "mode": "Duel",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 5050,
+          "y": 50176.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_E_Cap",
+      "mode": "Duel",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 5050,
+          "y": 45056,
+          "z": 784
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.28,
+          "y": 102.4,
+          "z": 0.32
+        }
+      },
+      "material": "Metal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_E_Accent",
+      "mode": "Duel",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 5032,
+          "y": 45056,
+          "z": 765
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.03,
+          "y": 101.12,
+          "z": 0.04
+        }
+      },
+      "material": "Gold",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_E_Plinth",
+      "mode": "Duel",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 5048,
+          "y": 45056,
+          "z": 70
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.22,
+          "y": 102.4,
+          "z": 1.4
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_W_Wall",
+      "mode": "Duel",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -5076,
+          "y": 45056,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.24,
+          "y": 102.4,
+          "z": 7.68
+        }
+      },
+      "material": "Stone",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_W_Rib_0",
+      "mode": "Duel",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -5050,
+          "y": 39936.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_W_Rib_1",
+      "mode": "Duel",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -5050,
+          "y": 40960.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_W_Rib_2",
+      "mode": "Duel",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -5050,
+          "y": 41984.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_W_Rib_3",
+      "mode": "Duel",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -5050,
+          "y": 43008.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_W_Rib_4",
+      "mode": "Duel",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -5050,
+          "y": 44032.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_W_Rib_5",
+      "mode": "Duel",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -5050,
+          "y": 45056.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_W_Rib_6",
+      "mode": "Duel",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -5050,
+          "y": 46080.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_W_Rib_7",
+      "mode": "Duel",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -5050,
+          "y": 47104.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_W_Rib_8",
+      "mode": "Duel",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -5050,
+          "y": 48128.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_W_Rib_9",
+      "mode": "Duel",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -5050,
+          "y": 49152.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_W_Rib_10",
+      "mode": "Duel",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -5050,
+          "y": 50176.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_W_Cap",
+      "mode": "Duel",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -5050,
+          "y": 45056,
+          "z": 784
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.28,
+          "y": 102.4,
+          "z": 0.32
+        }
+      },
+      "material": "Metal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_W_Accent",
+      "mode": "Duel",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -5032,
+          "y": 45056,
+          "z": 765
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.03,
+          "y": 101.12,
+          "z": 0.04
+        }
+      },
+      "material": "Gold",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_DuelFinish_W_Plinth",
+      "mode": "Duel",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -5048,
+          "y": 45056,
+          "z": 70
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.22,
+          "y": 102.4,
+          "z": 1.4
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Wall",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 8148,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 163.84,
+          "y": 0.24,
+          "z": 7.68
+        }
+      },
+      "material": "Stone",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Rib_0",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 36864.0,
+          "y": 8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Rib_1",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 37888.0,
+          "y": 8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Rib_2",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 38912.0,
+          "y": 8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Rib_3",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 39936.0,
+          "y": 8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Rib_4",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 40960.0,
+          "y": 8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Rib_5",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 41984.0,
+          "y": 8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Rib_6",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 43008.0,
+          "y": 8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Rib_7",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 44032.0,
+          "y": 8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Rib_8",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 45056.0,
+          "y": 8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Rib_9",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 46080.0,
+          "y": 8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Rib_10",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 47104.0,
+          "y": 8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Rib_11",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 48128.0,
+          "y": 8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Rib_12",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 49152.0,
+          "y": 8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Rib_13",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 50176.0,
+          "y": 8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Rib_14",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 51200.0,
+          "y": 8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Rib_15",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 52224.0,
+          "y": 8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Rib_16",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 53248.0,
+          "y": 8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Cap",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 8122,
+          "z": 784
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 163.84,
+          "y": 0.28,
+          "z": 0.32
+        }
+      },
+      "material": "Metal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Accent",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 8104,
+          "z": 765
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 162.56,
+          "y": 0.03,
+          "z": 0.04
+        }
+      },
+      "material": "Teal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_N_Plinth",
+      "mode": "FreeBuild",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": 8120,
+          "z": 70
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 163.84,
+          "y": 0.22,
+          "z": 1.4
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Wall",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -8148,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 163.84,
+          "y": 0.24,
+          "z": 7.68
+        }
+      },
+      "material": "Stone",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Rib_0",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 36864.0,
+          "y": -8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Rib_1",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 37888.0,
+          "y": -8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Rib_2",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 38912.0,
+          "y": -8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Rib_3",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 39936.0,
+          "y": -8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Rib_4",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 40960.0,
+          "y": -8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Rib_5",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 41984.0,
+          "y": -8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Rib_6",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 43008.0,
+          "y": -8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Rib_7",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 44032.0,
+          "y": -8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Rib_8",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 45056.0,
+          "y": -8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Rib_9",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 46080.0,
+          "y": -8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Rib_10",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 47104.0,
+          "y": -8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Rib_11",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 48128.0,
+          "y": -8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Rib_12",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 49152.0,
+          "y": -8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Rib_13",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 50176.0,
+          "y": -8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Rib_14",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 51200.0,
+          "y": -8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Rib_15",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 52224.0,
+          "y": -8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Rib_16",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 53248.0,
+          "y": -8122,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Cap",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -8122,
+          "z": 784
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 163.84,
+          "y": 0.28,
+          "z": 0.32
+        }
+      },
+      "material": "Metal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Accent",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -8104,
+          "z": 765
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 162.56,
+          "y": 0.03,
+          "z": 0.04
+        }
+      },
+      "material": "Teal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_S_Plinth",
+      "mode": "FreeBuild",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 45056,
+          "y": -8120,
+          "z": 70
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 163.84,
+          "y": 0.22,
+          "z": 1.4
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Wall",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53204,
+          "y": 0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.24,
+          "y": 163.84,
+          "z": 7.68
+        }
+      },
+      "material": "Stone",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Rib_0",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53178,
+          "y": -8192.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Rib_1",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53178,
+          "y": -7168.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Rib_2",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53178,
+          "y": -6144.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Rib_3",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53178,
+          "y": -5120.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Rib_4",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53178,
+          "y": -4096.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Rib_5",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53178,
+          "y": -3072.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Rib_6",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53178,
+          "y": -2048.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Rib_7",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53178,
+          "y": -1024.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Rib_8",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53178,
+          "y": 0.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Rib_9",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53178,
+          "y": 1024.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Rib_10",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53178,
+          "y": 2048.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Rib_11",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53178,
+          "y": 3072.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Rib_12",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53178,
+          "y": 4096.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Rib_13",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53178,
+          "y": 5120.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Rib_14",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53178,
+          "y": 6144.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Rib_15",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53178,
+          "y": 7168.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Rib_16",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53178,
+          "y": 8192.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Cap",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53178,
+          "y": 0,
+          "z": 784
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.28,
+          "y": 163.84,
+          "z": 0.32
+        }
+      },
+      "material": "Metal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Accent",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53160,
+          "y": 0,
+          "z": 765
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.03,
+          "y": 162.56,
+          "z": 0.04
+        }
+      },
+      "material": "Teal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_E_Plinth",
+      "mode": "FreeBuild",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 53176,
+          "y": 0,
+          "z": 70
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.22,
+          "y": 163.84,
+          "z": 1.4
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Wall",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36908,
+          "y": 0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.24,
+          "y": 163.84,
+          "z": 7.68
+        }
+      },
+      "material": "Stone",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Rib_0",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36934,
+          "y": -8192.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Rib_1",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36934,
+          "y": -7168.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Rib_2",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36934,
+          "y": -6144.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Rib_3",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36934,
+          "y": -5120.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Rib_4",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36934,
+          "y": -4096.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Rib_5",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36934,
+          "y": -3072.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Rib_6",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36934,
+          "y": -2048.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Rib_7",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36934,
+          "y": -1024.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Rib_8",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36934,
+          "y": 0.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Rib_9",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36934,
+          "y": 1024.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Rib_10",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36934,
+          "y": 2048.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Rib_11",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36934,
+          "y": 3072.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Rib_12",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36934,
+          "y": 4096.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Rib_13",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36934,
+          "y": 5120.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Rib_14",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36934,
+          "y": 6144.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Rib_15",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36934,
+          "y": 7168.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Rib_16",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36934,
+          "y": 8192.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Cap",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36934,
+          "y": 0,
+          "z": 784
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.28,
+          "y": 163.84,
+          "z": 0.32
+        }
+      },
+      "material": "Metal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Accent",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36952,
+          "y": 0,
+          "z": 765
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.03,
+          "y": 162.56,
+          "z": 0.04
+        }
+      },
+      "material": "Teal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_FreeBuildFinish_W_Plinth",
+      "mode": "FreeBuild",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": 36936,
+          "y": 0,
+          "z": 70
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.22,
+          "y": 163.84,
+          "z": 1.4
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_N_Wall",
+      "mode": "EditTraining",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": 4052,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 81.92,
+          "y": 0.24,
+          "z": 7.68
+        }
+      },
+      "material": "Stone",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_N_Rib_0",
+      "mode": "EditTraining",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -49152.0,
+          "y": 4026,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_N_Rib_1",
+      "mode": "EditTraining",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -48128.0,
+          "y": 4026,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_N_Rib_2",
+      "mode": "EditTraining",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -47104.0,
+          "y": 4026,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_N_Rib_3",
+      "mode": "EditTraining",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -46080.0,
+          "y": 4026,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_N_Rib_4",
+      "mode": "EditTraining",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -45056.0,
+          "y": 4026,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_N_Rib_5",
+      "mode": "EditTraining",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -44032.0,
+          "y": 4026,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_N_Rib_6",
+      "mode": "EditTraining",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -43008.0,
+          "y": 4026,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_N_Rib_7",
+      "mode": "EditTraining",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -41984.0,
+          "y": 4026,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_N_Rib_8",
+      "mode": "EditTraining",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -40960.0,
+          "y": 4026,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_N_Cap",
+      "mode": "EditTraining",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": 4026,
+          "z": 784
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 81.92,
+          "y": 0.28,
+          "z": 0.32
+        }
+      },
+      "material": "Metal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_N_Accent",
+      "mode": "EditTraining",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": 4008,
+          "z": 765
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 80.64,
+          "y": 0.03,
+          "z": 0.04
+        }
+      },
+      "material": "Gold",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_N_Plinth",
+      "mode": "EditTraining",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": 4024,
+          "z": 70
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 81.92,
+          "y": 0.22,
+          "z": 1.4
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_S_Wall",
+      "mode": "EditTraining",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": -4052,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 81.92,
+          "y": 0.24,
+          "z": 7.68
+        }
+      },
+      "material": "Stone",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_S_Rib_0",
+      "mode": "EditTraining",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -49152.0,
+          "y": -4026,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_S_Rib_1",
+      "mode": "EditTraining",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -48128.0,
+          "y": -4026,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_S_Rib_2",
+      "mode": "EditTraining",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -47104.0,
+          "y": -4026,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_S_Rib_3",
+      "mode": "EditTraining",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -46080.0,
+          "y": -4026,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_S_Rib_4",
+      "mode": "EditTraining",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -45056.0,
+          "y": -4026,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_S_Rib_5",
+      "mode": "EditTraining",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -44032.0,
+          "y": -4026,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_S_Rib_6",
+      "mode": "EditTraining",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -43008.0,
+          "y": -4026,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_S_Rib_7",
+      "mode": "EditTraining",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -41984.0,
+          "y": -4026,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_S_Rib_8",
+      "mode": "EditTraining",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -40960.0,
+          "y": -4026,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_S_Cap",
+      "mode": "EditTraining",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": -4026,
+          "z": 784
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 81.92,
+          "y": 0.28,
+          "z": 0.32
+        }
+      },
+      "material": "Metal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_S_Accent",
+      "mode": "EditTraining",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": -4008,
+          "z": 765
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 80.64,
+          "y": 0.03,
+          "z": 0.04
+        }
+      },
+      "material": "Gold",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_S_Plinth",
+      "mode": "EditTraining",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": -4024,
+          "z": 70
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 81.92,
+          "y": 0.22,
+          "z": 1.4
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_E_Wall",
+      "mode": "EditTraining",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": -41004,
+          "y": 0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.24,
+          "y": 81.92,
+          "z": 7.68
+        }
+      },
+      "material": "Stone",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_E_Rib_0",
+      "mode": "EditTraining",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": -41030,
+          "y": -4096.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_E_Rib_1",
+      "mode": "EditTraining",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": -41030,
+          "y": -3072.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_E_Rib_2",
+      "mode": "EditTraining",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": -41030,
+          "y": -2048.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_E_Rib_3",
+      "mode": "EditTraining",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": -41030,
+          "y": -1024.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_E_Rib_4",
+      "mode": "EditTraining",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": -41030,
+          "y": 0.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_E_Rib_5",
+      "mode": "EditTraining",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": -41030,
+          "y": 1024.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_E_Rib_6",
+      "mode": "EditTraining",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": -41030,
+          "y": 2048.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_E_Rib_7",
+      "mode": "EditTraining",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": -41030,
+          "y": 3072.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_E_Rib_8",
+      "mode": "EditTraining",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": -41030,
+          "y": 4096.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_E_Cap",
+      "mode": "EditTraining",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": -41030,
+          "y": 0,
+          "z": 784
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.28,
+          "y": 81.92,
+          "z": 0.32
+        }
+      },
+      "material": "Metal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_E_Accent",
+      "mode": "EditTraining",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": -41048,
+          "y": 0,
+          "z": 765
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.03,
+          "y": 80.64,
+          "z": 0.04
+        }
+      },
+      "material": "Gold",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_E_Plinth",
+      "mode": "EditTraining",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": -41032,
+          "y": 0,
+          "z": 70
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.22,
+          "y": 81.92,
+          "z": 1.4
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_W_Wall",
+      "mode": "EditTraining",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -49108,
+          "y": 0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.24,
+          "y": 81.92,
+          "z": 7.68
+        }
+      },
+      "material": "Stone",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_W_Rib_0",
+      "mode": "EditTraining",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -49082,
+          "y": -4096.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_W_Rib_1",
+      "mode": "EditTraining",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -49082,
+          "y": -3072.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_W_Rib_2",
+      "mode": "EditTraining",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -49082,
+          "y": -2048.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_W_Rib_3",
+      "mode": "EditTraining",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -49082,
+          "y": -1024.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_W_Rib_4",
+      "mode": "EditTraining",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -49082,
+          "y": 0.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_W_Rib_5",
+      "mode": "EditTraining",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -49082,
+          "y": 1024.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_W_Rib_6",
+      "mode": "EditTraining",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -49082,
+          "y": 2048.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_W_Rib_7",
+      "mode": "EditTraining",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -49082,
+          "y": 3072.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_W_Rib_8",
+      "mode": "EditTraining",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -49082,
+          "y": 4096.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_W_Cap",
+      "mode": "EditTraining",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -49082,
+          "y": 0,
+          "z": 784
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.28,
+          "y": 81.92,
+          "z": 0.32
+        }
+      },
+      "material": "Metal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_W_Accent",
+      "mode": "EditTraining",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -49064,
+          "y": 0,
+          "z": 765
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.03,
+          "y": 80.64,
+          "z": 0.04
+        }
+      },
+      "material": "Gold",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_EditTrainingFinish_W_Plinth",
+      "mode": "EditTraining",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -49080,
+          "y": 0,
+          "z": 70
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.22,
+          "y": 81.92,
+          "z": 1.4
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    }
+  ],
+  "counts": {
+    "Duel": 60,
+    "FreeBuild": 84,
+    "EditTraining": 52
+  },
+  "record": ".local/training-perimeters177-authoring.json",
+  "policy": "No gameplay boundary changes or new center obstacles. All added components configured NoCollision and no cast shadows."
+}

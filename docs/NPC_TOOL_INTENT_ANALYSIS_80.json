@@ -1,0 +1,676 @@
+{
+  "run": "80",
+  "evidence_sha256": "fa473889ae4e74b5d67805a9f3f29c26bc5d63b6d5b1b7230ea532782e4e5f96",
+  "cycles": [
+    {
+      "cycle": 1,
+      "polls": 20,
+      "plan_equipped_unholstered_polls": 20,
+      "rifle_equipped_polls": 0,
+      "rifle_unholstered_polls": 0,
+      "rifle_firing_polls": 0,
+      "parent_matches_lock_polls": 20,
+      "transitions": [
+        {
+          "cycle": "1",
+          "reason": "before_request",
+          "time": "14681.899059",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "1",
+          "rifle_holstered": "0",
+          "rifle_firing": "1",
+          "plan_parent_matches_lock": "-1",
+          "seconds_from_ack": -0.06679000000076485
+        },
+        {
+          "cycle": "1",
+          "reason": "rifle_holster_event",
+          "time": "14681.899059",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": -0.06679000000076485
+        },
+        {
+          "cycle": "1",
+          "reason": "rifle_equipped_event_0",
+          "time": "14681.899059",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": -0.06679000000076485
+        },
+        {
+          "cycle": "1",
+          "reason": "plan_holster_event",
+          "time": "14681.899059",
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": -0.06679000000076485
+        },
+        {
+          "cycle": "1",
+          "reason": "plan_equipped_event_1",
+          "time": "14681.899059",
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": -0.06679000000076485
+        },
+        {
+          "cycle": "1",
+          "reason": "after_request",
+          "time": "14681.965849",
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.0
+        },
+        {
+          "cycle": "1",
+          "reason": "plan_holster_event",
+          "time": "14682.767339",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.8014899999998306
+        },
+        {
+          "cycle": "1",
+          "reason": "plan_equipped_event_0",
+          "time": "14682.767339",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.8014899999998306
+        },
+        {
+          "cycle": "1",
+          "reason": "rifle_holster_event",
+          "time": "14682.767339",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "1",
+          "rifle_holstered": "0",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.8014899999998306
+        },
+        {
+          "cycle": "1",
+          "reason": "rifle_equipped_event_1",
+          "time": "14682.767339",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "1",
+          "rifle_holstered": "0",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.8014899999998306
+        },
+        {
+          "cycle": "1",
+          "reason": "rifle_holster_event",
+          "time": "14682.767339",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.8014899999998306
+        },
+        {
+          "cycle": "1",
+          "reason": "rifle_equipped_event_0",
+          "time": "14682.767339",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.8014899999998306
+        },
+        {
+          "cycle": "1",
+          "reason": "plan_holster_event",
+          "time": "14682.767339",
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.8014899999998306
+        },
+        {
+          "cycle": "1",
+          "reason": "plan_equipped_event_1",
+          "time": "14682.767339",
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.8014899999998306
+        },
+        {
+          "cycle": "1",
+          "reason": "plan_holster_event",
+          "time": "14682.834129",
+          "plan_equipped": "1",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.8682800000005955
+        },
+        {
+          "cycle": "1",
+          "reason": "plan_holster_event",
+          "time": "14682.967710",
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 1.0018610000006447
+        },
+        {
+          "cycle": "1",
+          "reason": "plan_holster_event",
+          "time": "14683.568845",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 1.6029959999996208
+        },
+        {
+          "cycle": "1",
+          "reason": "plan_equipped_event_0",
+          "time": "14683.568845",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 1.6029959999996208
+        },
+        {
+          "cycle": "1",
+          "reason": "rifle_holster_event",
+          "time": "14683.568845",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "1",
+          "rifle_holstered": "0",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 1.6029959999996208
+        },
+        {
+          "cycle": "1",
+          "reason": "rifle_equipped_event_1",
+          "time": "14683.568845",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "1",
+          "rifle_holstered": "0",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 1.6029959999996208
+        },
+        {
+          "cycle": "1",
+          "reason": "rifle_holster_event",
+          "time": "14683.568845",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 1.6029959999996208
+        },
+        {
+          "cycle": "1",
+          "reason": "rifle_equipped_event_0",
+          "time": "14683.568845",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 1.6029959999996208
+        },
+        {
+          "cycle": "1",
+          "reason": "plan_holster_event",
+          "time": "14683.568845",
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 1.6029959999996208
+        },
+        {
+          "cycle": "1",
+          "reason": "plan_equipped_event_1",
+          "time": "14683.568845",
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 1.6029959999996208
+        },
+        {
+          "cycle": "1",
+          "reason": "plan_holster_event",
+          "time": "14683.635635",
+          "plan_equipped": "1",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 1.6697860000003857
+        },
+        {
+          "cycle": "1",
+          "reason": "plan_holster_event",
+          "time": "14683.769216",
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 1.803367000000435
+        }
+      ]
+    },
+    {
+      "cycle": 2,
+      "polls": 20,
+      "plan_equipped_unholstered_polls": 18,
+      "rifle_equipped_polls": 0,
+      "rifle_unholstered_polls": 0,
+      "rifle_firing_polls": 0,
+      "parent_matches_lock_polls": 20,
+      "transitions": [
+        {
+          "cycle": "2",
+          "reason": "before_request",
+          "time": "14738.738424",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "1",
+          "rifle_holstered": "0",
+          "rifle_firing": "1",
+          "plan_parent_matches_lock": "-1",
+          "seconds_from_ack": -0.06678800000008778
+        },
+        {
+          "cycle": "2",
+          "reason": "rifle_holster_event",
+          "time": "14738.738424",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": -0.06678800000008778
+        },
+        {
+          "cycle": "2",
+          "reason": "rifle_equipped_event_0",
+          "time": "14738.738424",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": -0.06678800000008778
+        },
+        {
+          "cycle": "2",
+          "reason": "plan_holster_event",
+          "time": "14738.738424",
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": -0.06678800000008778
+        },
+        {
+          "cycle": "2",
+          "reason": "plan_equipped_event_1",
+          "time": "14738.738424",
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": -0.06678800000008778
+        },
+        {
+          "cycle": "2",
+          "reason": "after_request",
+          "time": "14738.805212",
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.0
+        },
+        {
+          "cycle": "2",
+          "reason": "plan_holster_event",
+          "time": "14739.139147",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.3339350000005652
+        },
+        {
+          "cycle": "2",
+          "reason": "plan_equipped_event_0",
+          "time": "14739.139147",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.3339350000005652
+        },
+        {
+          "cycle": "2",
+          "reason": "rifle_holster_event",
+          "time": "14739.139147",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "1",
+          "rifle_holstered": "0",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.3339350000005652
+        },
+        {
+          "cycle": "2",
+          "reason": "rifle_equipped_event_1",
+          "time": "14739.139147",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "1",
+          "rifle_holstered": "0",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.3339350000005652
+        },
+        {
+          "cycle": "2",
+          "reason": "after_forced_switch",
+          "time": "14739.139147",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "1",
+          "rifle_holstered": "0",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.3339350000005652
+        },
+        {
+          "cycle": "2",
+          "reason": "rifle_holster_event",
+          "time": "14739.172543",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.36733100000128616
+        },
+        {
+          "cycle": "2",
+          "reason": "rifle_equipped_event_0",
+          "time": "14739.172543",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.36733100000128616
+        },
+        {
+          "cycle": "2",
+          "reason": "plan_holster_event",
+          "time": "14739.172543",
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.36733100000128616
+        },
+        {
+          "cycle": "2",
+          "reason": "plan_equipped_event_1",
+          "time": "14739.172543",
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.36733100000128616
+        },
+        {
+          "cycle": "2",
+          "reason": "plan_holster_event",
+          "time": "14739.205939",
+          "plan_equipped": "1",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.4007270000001881
+        },
+        {
+          "cycle": "2",
+          "reason": "plan_holster_event",
+          "time": "14739.339528",
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.5343160000011267
+        }
+      ]
+    },
+    {
+      "cycle": 3,
+      "polls": 20,
+      "plan_equipped_unholstered_polls": 20,
+      "rifle_equipped_polls": 0,
+      "rifle_unholstered_polls": 0,
+      "rifle_firing_polls": 0,
+      "parent_matches_lock_polls": 20,
+      "transitions": [
+        {
+          "cycle": "3",
+          "reason": "before_request",
+          "time": "14744.415459",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "1",
+          "rifle_holstered": "0",
+          "rifle_firing": "1",
+          "plan_parent_matches_lock": "-1",
+          "seconds_from_ack": -0.06679900000017369
+        },
+        {
+          "cycle": "3",
+          "reason": "rifle_holster_event",
+          "time": "14744.415459",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": -0.06679900000017369
+        },
+        {
+          "cycle": "3",
+          "reason": "rifle_equipped_event_0",
+          "time": "14744.415459",
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": -0.06679900000017369
+        },
+        {
+          "cycle": "3",
+          "reason": "plan_holster_event",
+          "time": "14744.415459",
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": -0.06679900000017369
+        },
+        {
+          "cycle": "3",
+          "reason": "plan_equipped_event_1",
+          "time": "14744.415459",
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": -0.06679900000017369
+        },
+        {
+          "cycle": "3",
+          "reason": "after_request",
+          "time": "14744.482258",
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1",
+          "rifle_firing": "0",
+          "plan_parent_matches_lock": "1",
+          "seconds_from_ack": 0.0
+        }
+      ]
+    }
+  ],
+  "reconciliation": [
+    {
+      "attempt": "1",
+      "success": "1",
+      "delay": "0.000000"
+    },
+    {
+      "attempt": "2",
+      "success": "1",
+      "delay": "0.000000"
+    },
+    {
+      "attempt": "1",
+      "success": "1",
+      "delay": "0.000000"
+    }
+  ],
+  "budget_exhaustions": [],
+  "forced_before": [
+    {
+      "active": "1",
+      "ticks": "1803",
+      "subscriptions": "4"
+    }
+  ],
+  "forced_switch": [
+    {
+      "unequip_ok": "1",
+      "equip_ok": "1",
+      "errors": "-1",
+      "attempts": "0"
+    }
+  ],
+  "stops": [
+    {
+      "subscriptions": "4",
+      "ticks": "2148",
+      "attempts": "0"
+    }
+  ],
+  "cleanup": [
+    "PCL|health_probe|npc_equipped_cleanup|parked=2|restored=2|original_ranged_items_returned_before_despawn|managed_rifle_removed=1|idempotent_cleanup=1|tool_lock_removed=1|rifle_gate_removed=1"
+  ],
+  "limits": [
+    "Poll snapshots can miss between-poll transitions.",
+    "A stable run without a recorded correction does not establish reconciliation caused stability.",
+    "Server post-physics callbacks do not prove client-render order or no visible flash.",
+    "Native build/edit/ownership, pro quality and publication remain unaccepted."
+  ]
+}

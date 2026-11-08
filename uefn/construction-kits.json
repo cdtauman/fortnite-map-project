@@ -1,0 +1,129 @@
+{
+  "scope": "Current201 saved combat policy and actual native selections. Geometry, ownership, slots and health continuity remain unaccepted. Training-named classes are historical names now used as bound combat assets; DemoAsset uses a separate LessonWall.",
+  "families": [
+    {
+      "kind": "Wall",
+      "usage": "combat_candidate_unbound",
+      "asset": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/CombatKit/PCL_BP_CoachWall",
+      "class": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/CombatKit/PCL_BP_CoachWall.PCL_BP_CoachWall_C",
+      "authored": {
+        "team": "<FortTeam.HUMAN_PV_P_TEAM2: 4>",
+        "allow_team_damage": false,
+        "can_be_damaged": true,
+        "player_buildable": true,
+        "player_placed": false
+      }
+    },
+    {
+      "kind": "Wall",
+      "usage": "combat_bound",
+      "asset": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingWall",
+      "class": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingWall.PCL_BP_TrainingWall_C",
+      "authored": {
+        "team": "<FortTeam.HUMAN_PV_P_TEAM2: 4>",
+        "allow_team_damage": false,
+        "can_be_damaged": true,
+        "player_buildable": true,
+        "player_placed": false
+      }
+    },
+    {
+      "kind": "Floor",
+      "usage": "combat_candidate_unbound",
+      "asset": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/CombatKit/PCL_BP_CoachFloor",
+      "class": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/CombatKit/PCL_BP_CoachFloor.PCL_BP_CoachFloor_C",
+      "authored": {
+        "team": "<FortTeam.HUMAN_PV_P_TEAM2: 4>",
+        "allow_team_damage": false,
+        "can_be_damaged": true,
+        "player_buildable": true,
+        "player_placed": false
+      }
+    },
+    {
+      "kind": "Floor",
+      "usage": "combat_bound",
+      "asset": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingFloor",
+      "class": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingFloor.PCL_BP_TrainingFloor_C",
+      "authored": {
+        "team": "<FortTeam.HUMAN_PV_P_TEAM2: 4>",
+        "allow_team_damage": false,
+        "can_be_damaged": true,
+        "player_buildable": true,
+        "player_placed": false
+      }
+    },
+    {
+      "kind": "Ramp",
+      "usage": "combat_candidate_unbound",
+      "asset": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/CombatKit/PCL_BP_CoachRamp",
+      "class": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/CombatKit/PCL_BP_CoachRamp.PCL_BP_CoachRamp_C",
+      "authored": {
+        "team": "<FortTeam.HUMAN_PV_P_TEAM2: 4>",
+        "allow_team_damage": false,
+        "can_be_damaged": true,
+        "player_buildable": true,
+        "player_placed": false
+      }
+    },
+    {
+      "kind": "Ramp",
+      "usage": "combat_bound",
+      "asset": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingRamp",
+      "class": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingRamp.PCL_BP_TrainingRamp_C",
+      "authored": {
+        "team": "<FortTeam.HUMAN_PV_P_TEAM2: 4>",
+        "allow_team_damage": false,
+        "can_be_damaged": true,
+        "player_buildable": true,
+        "player_placed": false
+      }
+    },
+    {
+      "kind": "Cone",
+      "usage": "combat_candidate_unbound",
+      "asset": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/CombatKit/PCL_BP_CoachCone",
+      "class": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/CombatKit/PCL_BP_CoachCone.PCL_BP_CoachCone_C",
+      "authored": {
+        "team": "<FortTeam.HUMAN_PV_P_TEAM2: 4>",
+        "allow_team_damage": false,
+        "can_be_damaged": true,
+        "player_buildable": true,
+        "player_placed": false
+      }
+    },
+    {
+      "kind": "Cone",
+      "usage": "combat_bound",
+      "asset": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingCone",
+      "class": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingCone.PCL_BP_TrainingCone_C",
+      "authored": {
+        "team": "<FortTeam.HUMAN_PV_P_TEAM2: 4>",
+        "allow_team_damage": false,
+        "can_be_damaged": true,
+        "player_buildable": true,
+        "player_placed": false
+      }
+    }
+  ],
+  "revision": 201,
+  "current_combat_bindings": {
+    "WallAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingWall.PCL_BP_TrainingWall_C"
+    },
+    "FloorAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingFloor.PCL_BP_TrainingFloor_C"
+    },
+    "RampAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingRamp.PCL_BP_TrainingRamp_C"
+    },
+    "ConeAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingCone.PCL_BP_TrainingCone_C"
+    }
+  },
+  "authoring_evidence": ".local/core201-authoring.json",
+  "demo_binding": {
+    "class": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_LessonWall.PCL_BP_LessonWall_C",
+    "usage": "lesson_demonstration"
+  }
+}

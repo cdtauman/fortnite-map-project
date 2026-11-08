@@ -1,0 +1,127 @@
+{
+  "run": "99",
+  "evidence_sha256": "c12b5fa2b07fefd64ba0991bf59f519804ec15947e7c296b2d0bb693c754002c",
+  "scope": "Native build-tool inventory lease, same88transfer/Equip/8quarter-second polls and source/original Guard equipment restoration. Extra40sactual GameViewport reference: stop navigation+tether, NO Focus/Attack requests; camera from observed character forward, settled/reframed temporary existing camera+same-widget menu lease.1Hz native tool equipped/parent/destination samples; no placement/edit/reset. Source parent/unequipped rechecked after setup wait; untransferred source change is not forcibly unequipped by rollback. Native item source is diagnostic only; not a production allocation solution. No computer input/player teleport, firing request or direct damage;14original identities/parents/equipped checked and temporary hotbar0after cleanup. Forced game-end/death during lease remains separate. Control91adds read-only phase-state snapshots before/after StopNavigation,Tether,menu removal/restore,camera placement/activation/blend/reframe and a single native item ChangeEquippedEvent subscription. Logs current exact parent, equip, source/destination count and originally equipped Guard items; cancels subscription before native lease restoration. No gameplay timing/action change from90intended. Control95moves StopNavigation/Tether before native Tool.Equip, waits1.25s for navigation setup to settle, then releases original Guard gear, equips the native tool and runs the same8short/40long samples. No post-equip navigation setup. Held actions are unwound before native item restoration. Compare93same camera-stack bypass setup versus95ordering; menu-only94passed40/40. This tests ordering, not a universal cause or native build actuation. Control97adds temporary public inventory query guards: veto unequipping the borrowed native tool while in the exact destination, and veto equipping each original Guard ranged item while it remains under the observed Guard inventory. Same existing coach_tool_hold_component, no repeated equip or firing. Native lease Restore first unlocks/removes ALL added guards before item return, including OnEnd/retry paths; logs guard counts/vetoes and confirms no tool/ranged hold components after cleanup. Preexisting hold components refuse installation.96lost native tool during initial short window BEFORE camera, so95ordering alone is not established as robust; this tests public inventory arbitration on native items. Control98parks both original Guard ranged items, after successful Unequip, into one owned temporary inventory under the simulation root OUTSIDE Guard inventory. AddItem(no merge), checked original parents, partial-transfer restoration tracking BEFORE mutation. Require0ranged left under Guard before same97guards/tool equip/8short+40long frame. Restore removes query guards, returns native tool, returns exact original ranged items to original parents, removes only empty parking entity, restores original equipped gear; OnEnd/retry use same lease Restore. No copying/deleting original items or protected asset changes. Compare97versus98parking, not a universal native restriction or actuation result. Control99adds ONLY read-only current Guard inventory observations at existing phase/equipment callbacks and8short/40long sample times. Count every current item/equipped/ranged, compare exact item references with the saved original ranged pair, and expose public fort_weapon_component.IsHolstered where present. Distinguish an actually new ranged item from a pictured rifle whose identity is not established. Same98inventory parking/query guards/commands/waits/cleanup; no explicit RemoveItem, Idle action or repeated equip added.98showed rifle even while both original ranged items remained parked/unequipped in48samples; native itemization/render linkage is under investigation, not diagnosed.",
+  "short_lease_checks_pass": false,
+  "visual_window_samples": 40,
+  "visual_window_equipped_samples": 0,
+  "neutral_window_samples": 0,
+  "neutral_window_equipped_samples": 0,
+  "checks": {
+    "temporary_hotbar_initially_empty": true,
+    "single_item_transfer_parent_and_counts": true,
+    "native_equip_succeeded": true,
+    "eight_equipped_parent_matching_samples": false,
+    "same_item_return_and_original_guard_equipment": true,
+    "all14_item_identity_parent_equipped_restored": true,
+    "cleanup_repeated_and_temporary_hotbar_absent": true,
+    "no_pending_cleanup": true,
+    "sequence_finished": true,
+    "test_flags_and_native_build_gates_off": true,
+    "visual_window_all40_sampled_equipped_and_parent_matching": false,
+    "native_item_query_guards_installed_and_removed": true,
+    "borrowed_tool_and_original_gear_have_no_hold_guards_after_return": true,
+    "query_guards_released_before_native_item_return": true,
+    "both_original_ranged_items_parked_outside_guard": true,
+    "original_ranged_items_remain_parked_and_unequipped_during48samples": true,
+    "both_original_ranged_items_returned_and_empty_parking_removed": true
+  },
+  "all_scoped_checks_pass": false,
+  "transfer": [
+    {
+      "same_item_parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    }
+  ],
+  "samples": [
+    {
+      "tick": "1",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "2",
+      "equipped": "0",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "3",
+      "equipped": "0",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "4",
+      "equipped": "0",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "5",
+      "equipped": "0",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "6",
+      "equipped": "0",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "7",
+      "equipped": "0",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "8",
+      "equipped": "0",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    }
+  ],
+  "restored": [
+    {
+      "same_item_source_parent": "1",
+      "source_count": "4",
+      "temporary_inventory_empty_remove_requested": "1",
+      "original_guard_equipment_restored": "1"
+    }
+  ],
+  "snapshot": [
+    {
+      "items": "14",
+      "unchanged_identity_parent_equipped": "14",
+      "source_count": "4",
+      "cleanup_ok": "1",
+      "repeat_cleanup_ok": "1",
+      "guard_hotbars_after": "0",
+      "tool_hold_guards_after": "0",
+      "ranged_hold_guards_after": "0"
+    }
+  ],
+  "not_run": [],
+  "rejections": [],
+  "rendered_blueprint_pose_verified": false,
+  "native_placement_edit_reset_verified": false,
+  "native_build_gates_accepted": false,
+  "pro_quality_verified": false,
+  "project_complete": false,
+  "limits": [
+    "Two-second eight-poll isolated native item lease; no native placement/edit/reset requested.",
+    "Native item identity/parent/equipped evidence does not prove rendered grip, between-poll continuity, ownership, structural occupancy or building actuation.",
+    "Normal completion restoration and repeat cleanup are observed only if the corresponding checks pass; forced game-end/death during lease remains a separate case."
+  ]
+}

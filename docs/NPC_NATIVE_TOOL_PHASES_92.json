@@ -1,0 +1,141 @@
+{
+  "run": "92",
+  "evidence_sha256": "bcc194fb63597c1c31d2764952a0257f92e79c584c29e534ebee223e03b4c6eb",
+  "scope": "Read-only item state and native ChangeEquippedEvent observations on90noFocus camera path. No independent causal replacement control in this report.",
+  "states": [
+    {
+      "phase": "lease_setup",
+      "reason": "equipment_event",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "22422.674068",
+      "timestamp": "2026-11-07T09:51:15.804Z",
+      "sequence": 6060
+    },
+    {
+      "phase": "short_window_start",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "22422.674068",
+      "timestamp": "2026-11-07T09:51:15.804Z",
+      "sequence": 6062
+    },
+    {
+      "phase": "short_window_end",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "22424.811410",
+      "timestamp": "2026-11-07T09:51:17.934Z",
+      "sequence": 6071
+    },
+    {
+      "phase": "neutral_idle_wait",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "22424.811410",
+      "timestamp": "2026-11-07T09:51:17.935Z",
+      "sequence": 6072
+    },
+    {
+      "phase": "neutral_idle_finished",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "22464.885927",
+      "timestamp": "2026-11-07T09:51:58.012Z",
+      "sequence": 6114
+    },
+    {
+      "phase": "cleanup_begin",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "22464.885927",
+      "timestamp": "2026-11-07T09:51:58.012Z",
+      "sequence": 6115
+    }
+  ],
+  "equipment_events": [
+    {
+      "phase": "lease_setup",
+      "payload_equipped": "1",
+      "time": "22422.674068",
+      "timestamp": "2026-11-07T09:51:15.804Z",
+      "sequence": 6059
+    }
+  ],
+  "last_equipped_before_first_loss": null,
+  "first_observed_loss": null,
+  "subscription_canceled_before_restoration": true,
+  "first_loss_phase": null,
+  "phase_markers": [
+    {
+      "phase": "short_window_start",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "22422.674068",
+      "sequence": 6062
+    },
+    {
+      "phase": "short_window_end",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "22424.811410",
+      "sequence": 6071
+    },
+    {
+      "phase": "neutral_idle_wait",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "22424.811410",
+      "sequence": 6072
+    },
+    {
+      "phase": "neutral_idle_finished",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "22464.885927",
+      "sequence": 6114
+    },
+    {
+      "phase": "cleanup_begin",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "22464.885927",
+      "sequence": 6115
+    }
+  ],
+  "limits": [
+    "First observed transition narrows the boundary; asynchronous native processing or elapsed time still require a discriminating follow-up.",
+    "Inventory flags/event payloads do not prove render, native placement/edit/reset or production allocation.",
+    "Normal subscription cancellation observed here; interruption/death/disconnect case remains separate."
+  ],
+  "native_build_gates_accepted": false,
+  "project_complete": false
+}

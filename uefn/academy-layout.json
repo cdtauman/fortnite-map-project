@@ -1,0 +1,2644 @@
+{
+  "scope": "Authored lobby architecture, not runtime or visual acceptance. Existing mode buttons moved into four physical gateways. Hebrew glyph rendering remains unresolved.",
+  "actors": [
+    {
+      "name": "PCL_Academy_Foundation",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -7000,
+          "z": -40
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 50,
+          "y": 44,
+          "z": 0.8
+        }
+      },
+      "material": "Floor",
+      "shape": "Cube",
+      "collision": true,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Wall_West",
+      "transform": {
+        "location": {
+          "x": -2500,
+          "y": -7000,
+          "z": 500
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 44,
+          "z": 10
+        }
+      },
+      "material": "Stone",
+      "shape": "Cube",
+      "collision": true,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallCap_West",
+      "transform": {
+        "location": {
+          "x": -2500,
+          "y": -7000,
+          "z": 1010
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1.05,
+          "y": 44,
+          "z": 0.3
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Wall_East",
+      "transform": {
+        "location": {
+          "x": 2500,
+          "y": -7000,
+          "z": 500
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 44,
+          "z": 10
+        }
+      },
+      "material": "Graphite",
+      "shape": "Cube",
+      "collision": true,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallCap_East",
+      "transform": {
+        "location": {
+          "x": 2500,
+          "y": -7000,
+          "z": 1010
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1.05,
+          "y": 44,
+          "z": 0.3
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Wall_South",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -9200,
+          "z": 500
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 50,
+          "y": 0.8,
+          "z": 10
+        }
+      },
+      "material": "Stone",
+      "shape": "Cube",
+      "collision": true,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallCap_South",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -9200,
+          "z": 1010
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 50,
+          "y": 1.05,
+          "z": 0.3
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Wall_North",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -4800,
+          "z": 500
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 50,
+          "y": 0.8,
+          "z": 10
+        }
+      },
+      "material": "Stone",
+      "shape": "Cube",
+      "collision": true,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallCap_North",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -4800,
+          "z": 1010
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 50,
+          "y": 1.05,
+          "z": 0.3
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Pier_West_0",
+      "transform": {
+        "location": {
+          "x": -2390,
+          "y": -8600,
+          "z": 470
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1.2,
+          "y": 1.5,
+          "z": 9.4
+        }
+      },
+      "material": "Stone",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_PierLight_West_0",
+      "transform": {
+        "location": {
+          "x": -2324,
+          "y": -8600,
+          "z": 470
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.035,
+          "y": 0.12,
+          "z": 7.2
+        }
+      },
+      "material": "Light",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Pier_East_0",
+      "transform": {
+        "location": {
+          "x": 2390,
+          "y": -8600,
+          "z": 470
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1.2,
+          "y": 1.5,
+          "z": 9.4
+        }
+      },
+      "material": "Stone",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_PierLight_East_0",
+      "transform": {
+        "location": {
+          "x": 2324,
+          "y": -8600,
+          "z": 470
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.035,
+          "y": 0.12,
+          "z": 7.2
+        }
+      },
+      "material": "Light",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_RoofRib_0",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -8600,
+          "z": 1000
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 48,
+          "y": 0.25,
+          "z": 0.5
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Pier_West_1",
+      "transform": {
+        "location": {
+          "x": -2390,
+          "y": -7600,
+          "z": 470
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1.2,
+          "y": 1.5,
+          "z": 9.4
+        }
+      },
+      "material": "Stone",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_PierLight_West_1",
+      "transform": {
+        "location": {
+          "x": -2324,
+          "y": -7600,
+          "z": 470
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.035,
+          "y": 0.12,
+          "z": 7.2
+        }
+      },
+      "material": "Light",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Pier_East_1",
+      "transform": {
+        "location": {
+          "x": 2390,
+          "y": -7600,
+          "z": 470
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1.2,
+          "y": 1.5,
+          "z": 9.4
+        }
+      },
+      "material": "Stone",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_PierLight_East_1",
+      "transform": {
+        "location": {
+          "x": 2324,
+          "y": -7600,
+          "z": 470
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.035,
+          "y": 0.12,
+          "z": 7.2
+        }
+      },
+      "material": "Light",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_RoofRib_1",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -7600,
+          "z": 1000
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 48,
+          "y": 0.25,
+          "z": 0.5
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Pier_West_2",
+      "transform": {
+        "location": {
+          "x": -2390,
+          "y": -6600,
+          "z": 470
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1.2,
+          "y": 1.5,
+          "z": 9.4
+        }
+      },
+      "material": "Stone",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_PierLight_West_2",
+      "transform": {
+        "location": {
+          "x": -2324,
+          "y": -6600,
+          "z": 470
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.035,
+          "y": 0.12,
+          "z": 7.2
+        }
+      },
+      "material": "Light",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Pier_East_2",
+      "transform": {
+        "location": {
+          "x": 2390,
+          "y": -6600,
+          "z": 470
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1.2,
+          "y": 1.5,
+          "z": 9.4
+        }
+      },
+      "material": "Stone",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_PierLight_East_2",
+      "transform": {
+        "location": {
+          "x": 2324,
+          "y": -6600,
+          "z": 470
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.035,
+          "y": 0.12,
+          "z": 7.2
+        }
+      },
+      "material": "Light",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_RoofRib_2",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -6600,
+          "z": 1000
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 48,
+          "y": 0.25,
+          "z": 0.5
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Pier_West_3",
+      "transform": {
+        "location": {
+          "x": -2390,
+          "y": -5600,
+          "z": 470
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1.2,
+          "y": 1.5,
+          "z": 9.4
+        }
+      },
+      "material": "Stone",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_PierLight_West_3",
+      "transform": {
+        "location": {
+          "x": -2324,
+          "y": -5600,
+          "z": 470
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.035,
+          "y": 0.12,
+          "z": 7.2
+        }
+      },
+      "material": "Light",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Pier_East_3",
+      "transform": {
+        "location": {
+          "x": 2390,
+          "y": -5600,
+          "z": 470
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1.2,
+          "y": 1.5,
+          "z": 9.4
+        }
+      },
+      "material": "Stone",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_PierLight_East_3",
+      "transform": {
+        "location": {
+          "x": 2324,
+          "y": -5600,
+          "z": 470
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.035,
+          "y": 0.12,
+          "z": 7.2
+        }
+      },
+      "material": "Light",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_RoofRib_3",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -5600,
+          "z": 1000
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 48,
+          "y": 0.25,
+          "z": 0.5
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_CeilingBand_South",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -9100,
+          "z": 955
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 48,
+          "y": 0.6,
+          "z": 0.45
+        }
+      },
+      "material": "Stone",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_CeilingLight_South",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -9065,
+          "z": 932
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 47,
+          "y": 0.08,
+          "z": 0.06
+        }
+      },
+      "material": "Light",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_CeilingBand_North",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -4900,
+          "z": 955
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 48,
+          "y": 0.6,
+          "z": 0.45
+        }
+      },
+      "material": "Stone",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_CeilingLight_North",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -4935,
+          "z": 932
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 47,
+          "y": 0.08,
+          "z": 0.06
+        }
+      },
+      "material": "Light",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_0",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -8800,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_1",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -8645,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_2",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -8490,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_3",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -8335,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_4",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -8180,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_5",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -8025,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_6",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -7870,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_7",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -7715,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_8",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -7560,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_9",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -7405,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_10",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -7250,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_11",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -7095,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_12",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -6940,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_13",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -6785,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_14",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -6630,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_15",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -6475,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_16",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -6320,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_17",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -6165,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_18",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -6010,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_19",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -5855,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_20",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -5700,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_21",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -5545,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_22",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -5390,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WallSlat_23",
+      "transform": {
+        "location": {
+          "x": -2435,
+          "y": -5235,
+          "z": 460
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.35,
+          "y": 0.45,
+          "z": 7.8
+        }
+      },
+      "material": "Metal",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_FloorEdge_8950",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -8950,
+          "z": 1.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 46,
+          "y": 0.045,
+          "z": 0.025
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_FloorEdge_5050",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -5050,
+          "z": 1.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 46,
+          "y": 0.045,
+          "z": 0.025
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_FloorSide_-2200",
+      "transform": {
+        "location": {
+          "x": -2200,
+          "y": -7000,
+          "z": 1.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.045,
+          "y": 38,
+          "z": 0.025
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_FloorSide_2200",
+      "transform": {
+        "location": {
+          "x": 2200,
+          "y": -7000,
+          "z": 1.5
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.045,
+          "y": 38,
+          "z": 0.025
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Gate_0",
+      "transform": {
+        "location": {
+          "x": 1900,
+          "y": -8500,
+          "z": 14
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "material": "Stone",
+      "shape": "Arch",
+      "collision": false,
+      "accent": "Teal"
+    },
+    {
+      "name": "PCL_Academy_GateBack_0",
+      "transform": {
+        "location": {
+          "x": 2240,
+          "y": -8500,
+          "z": 290
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1.3,
+          "y": 6.7,
+          "z": 6
+        }
+      },
+      "material": "Graphite",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateThreshold_0",
+      "transform": {
+        "location": {
+          "x": 1840,
+          "y": -8500,
+          "z": 6
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 7.8,
+          "y": 7.4,
+          "z": 0.12
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateThresholdLight_0",
+      "transform": {
+        "location": {
+          "x": 1470,
+          "y": -8500,
+          "z": 13
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.055,
+          "y": 6.4,
+          "z": 0.035
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateInnerLight_0_100",
+      "transform": {
+        "location": {
+          "x": 2150,
+          "y": -8500,
+          "z": 100
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 2.8,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateInnerLight_0_300",
+      "transform": {
+        "location": {
+          "x": 2150,
+          "y": -8500,
+          "z": 300
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 2.8,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateInnerLight_0_500",
+      "transform": {
+        "location": {
+          "x": 2150,
+          "y": -8500,
+          "z": 500
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 2.8,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateHeading_0",
+      "transform": {
+        "location": {
+          "x": 1880,
+          "y": -8500,
+          "z": 615
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.3,
+          "y": 7,
+          "z": 0.9
+        }
+      },
+      "material": "Graphite",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Gate_1",
+      "transform": {
+        "location": {
+          "x": 1900,
+          "y": -7500,
+          "z": 14
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "material": "Stone",
+      "shape": "Arch",
+      "collision": false,
+      "accent": "Gold"
+    },
+    {
+      "name": "PCL_Academy_GateBack_1",
+      "transform": {
+        "location": {
+          "x": 2240,
+          "y": -7500,
+          "z": 290
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1.3,
+          "y": 6.7,
+          "z": 6
+        }
+      },
+      "material": "Graphite",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateThreshold_1",
+      "transform": {
+        "location": {
+          "x": 1840,
+          "y": -7500,
+          "z": 6
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 7.8,
+          "y": 7.4,
+          "z": 0.12
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateThresholdLight_1",
+      "transform": {
+        "location": {
+          "x": 1470,
+          "y": -7500,
+          "z": 13
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.055,
+          "y": 6.4,
+          "z": 0.035
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateInnerLight_1_100",
+      "transform": {
+        "location": {
+          "x": 2150,
+          "y": -7500,
+          "z": 100
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 2.8,
+          "z": 0.045
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateInnerLight_1_300",
+      "transform": {
+        "location": {
+          "x": 2150,
+          "y": -7500,
+          "z": 300
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 2.8,
+          "z": 0.045
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateInnerLight_1_500",
+      "transform": {
+        "location": {
+          "x": 2150,
+          "y": -7500,
+          "z": 500
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 2.8,
+          "z": 0.045
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateHeading_1",
+      "transform": {
+        "location": {
+          "x": 1880,
+          "y": -7500,
+          "z": 615
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.3,
+          "y": 7,
+          "z": 0.9
+        }
+      },
+      "material": "Graphite",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Gate_2",
+      "transform": {
+        "location": {
+          "x": 1900,
+          "y": -6500,
+          "z": 14
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "material": "Stone",
+      "shape": "Arch",
+      "collision": false,
+      "accent": "Teal"
+    },
+    {
+      "name": "PCL_Academy_GateBack_2",
+      "transform": {
+        "location": {
+          "x": 2240,
+          "y": -6500,
+          "z": 290
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1.3,
+          "y": 6.7,
+          "z": 6
+        }
+      },
+      "material": "Graphite",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateThreshold_2",
+      "transform": {
+        "location": {
+          "x": 1840,
+          "y": -6500,
+          "z": 6
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 7.8,
+          "y": 7.4,
+          "z": 0.12
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateThresholdLight_2",
+      "transform": {
+        "location": {
+          "x": 1470,
+          "y": -6500,
+          "z": 13
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.055,
+          "y": 6.4,
+          "z": 0.035
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateInnerLight_2_100",
+      "transform": {
+        "location": {
+          "x": 2150,
+          "y": -6500,
+          "z": 100
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 2.8,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateInnerLight_2_300",
+      "transform": {
+        "location": {
+          "x": 2150,
+          "y": -6500,
+          "z": 300
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 2.8,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateInnerLight_2_500",
+      "transform": {
+        "location": {
+          "x": 2150,
+          "y": -6500,
+          "z": 500
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 2.8,
+          "z": 0.045
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateHeading_2",
+      "transform": {
+        "location": {
+          "x": 1880,
+          "y": -6500,
+          "z": 615
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.3,
+          "y": 7,
+          "z": 0.9
+        }
+      },
+      "material": "Graphite",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Gate_3",
+      "transform": {
+        "location": {
+          "x": 1900,
+          "y": -5500,
+          "z": 14
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "material": "Stone",
+      "shape": "Arch",
+      "collision": false,
+      "accent": "Gold"
+    },
+    {
+      "name": "PCL_Academy_GateBack_3",
+      "transform": {
+        "location": {
+          "x": 2240,
+          "y": -5500,
+          "z": 290
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1.3,
+          "y": 6.7,
+          "z": 6
+        }
+      },
+      "material": "Graphite",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateThreshold_3",
+      "transform": {
+        "location": {
+          "x": 1840,
+          "y": -5500,
+          "z": 6
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 7.8,
+          "y": 7.4,
+          "z": 0.12
+        }
+      },
+      "material": "Metal",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateThresholdLight_3",
+      "transform": {
+        "location": {
+          "x": 1470,
+          "y": -5500,
+          "z": 13
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.055,
+          "y": 6.4,
+          "z": 0.035
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateInnerLight_3_100",
+      "transform": {
+        "location": {
+          "x": 2150,
+          "y": -5500,
+          "z": 100
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 2.8,
+          "z": 0.045
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateInnerLight_3_300",
+      "transform": {
+        "location": {
+          "x": 2150,
+          "y": -5500,
+          "z": 300
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 2.8,
+          "z": 0.045
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateInnerLight_3_500",
+      "transform": {
+        "location": {
+          "x": 2150,
+          "y": -5500,
+          "z": 500
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 2.8,
+          "z": 0.045
+        }
+      },
+      "material": "Gold",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_GateHeading_3",
+      "transform": {
+        "location": {
+          "x": 1880,
+          "y": -5500,
+          "z": 615
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.3,
+          "y": 7,
+          "z": 0.9
+        }
+      },
+      "material": "Graphite",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WelcomePlinth",
+      "transform": {
+        "location": {
+          "x": -1300,
+          "y": -7000,
+          "z": 65
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 6,
+          "y": 7,
+          "z": 1.3
+        }
+      },
+      "material": "Graphite",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WelcomeTop",
+      "transform": {
+        "location": {
+          "x": -1300,
+          "y": -7000,
+          "z": 140
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 6.2,
+          "y": 7.2,
+          "z": 0.2
+        }
+      },
+      "material": "Stone",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WelcomeGlow",
+      "transform": {
+        "location": {
+          "x": -981,
+          "y": -7000,
+          "z": 90
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.025,
+          "y": 6.6,
+          "z": 0.06
+        }
+      },
+      "material": "Teal",
+      "shape": "Cube",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_WelcomeBackdrop",
+      "transform": {
+        "location": {
+          "x": -2250,
+          "y": -7000,
+          "z": 480
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 15,
+          "z": 5
+        }
+      },
+      "material": "Graphite",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Bench_South_0",
+      "transform": {
+        "location": {
+          "x": -1200,
+          "y": -8950,
+          "z": 48
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 8,
+          "y": 2,
+          "z": 1
+        }
+      },
+      "material": "Graphite",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_BenchSeat_South_0",
+      "transform": {
+        "location": {
+          "x": -1200,
+          "y": -8950,
+          "z": 103
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 8.2,
+          "y": 2.2,
+          "z": 0.16
+        }
+      },
+      "material": "Stone",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Bench_South_1",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -8950,
+          "z": 48
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 8,
+          "y": 2,
+          "z": 1
+        }
+      },
+      "material": "Graphite",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_BenchSeat_South_1",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -8950,
+          "z": 103
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 8.2,
+          "y": 2.2,
+          "z": 0.16
+        }
+      },
+      "material": "Stone",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Bench_South_2",
+      "transform": {
+        "location": {
+          "x": 1200,
+          "y": -8950,
+          "z": 48
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 8,
+          "y": 2,
+          "z": 1
+        }
+      },
+      "material": "Graphite",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_BenchSeat_South_2",
+      "transform": {
+        "location": {
+          "x": 1200,
+          "y": -8950,
+          "z": 103
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 8.2,
+          "y": 2.2,
+          "z": 0.16
+        }
+      },
+      "material": "Stone",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Bench_North_0",
+      "transform": {
+        "location": {
+          "x": -1200,
+          "y": -5050,
+          "z": 48
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 8,
+          "y": 2,
+          "z": 1
+        }
+      },
+      "material": "Graphite",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_BenchSeat_North_0",
+      "transform": {
+        "location": {
+          "x": -1200,
+          "y": -5050,
+          "z": 103
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 8.2,
+          "y": 2.2,
+          "z": 0.16
+        }
+      },
+      "material": "Stone",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Bench_North_1",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -5050,
+          "z": 48
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 8,
+          "y": 2,
+          "z": 1
+        }
+      },
+      "material": "Graphite",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_BenchSeat_North_1",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -5050,
+          "z": 103
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 8.2,
+          "y": 2.2,
+          "z": 0.16
+        }
+      },
+      "material": "Stone",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_Bench_North_2",
+      "transform": {
+        "location": {
+          "x": 1200,
+          "y": -5050,
+          "z": 48
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 8,
+          "y": 2,
+          "z": 1
+        }
+      },
+      "material": "Graphite",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    },
+    {
+      "name": "PCL_Academy_BenchSeat_North_2",
+      "transform": {
+        "location": {
+          "x": 1200,
+          "y": -5050,
+          "z": 103
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 8.2,
+          "y": 2.2,
+          "z": 0.16
+        }
+      },
+      "material": "Stone",
+      "shape": "Block",
+      "collision": false,
+      "accent": null
+    }
+  ],
+  "materials": {
+    "Stone": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/AcademyKit/PCL_MI_Academy_Stone.PCL_MI_Academy_Stone"
+    },
+    "Floor": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/AcademyKit/PCL_MI_Academy_Floor.PCL_MI_Academy_Floor"
+    },
+    "Graphite": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/AcademyKit/PCL_MI_Academy_Graphite.PCL_MI_Academy_Graphite"
+    },
+    "Metal": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/AcademyKit/PCL_MI_Academy_Metal.PCL_MI_Academy_Metal"
+    },
+    "Teal": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/AcademyKit/PCL_MI_Academy_Teal.PCL_MI_Academy_Teal"
+    },
+    "Gold": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/AcademyKit/PCL_MI_Academy_Gold.PCL_MI_Academy_Gold"
+    },
+    "Light": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/AcademyKit/PCL_MI_Academy_Light.PCL_MI_Academy_Light"
+    }
+  }
+}

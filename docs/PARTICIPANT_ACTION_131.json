@@ -1,0 +1,426 @@
+{
+  "run": "131",
+  "scope": "Scoped native Participant own-tool action and cleanup. All protocol checks passing does not mean construction succeeded.",
+  "checks": {
+    "two_consecutive_actual_poses_within150cm": true,
+    "own_recipe_hostile_los_ready": true,
+    "one_wood500_stack_observed": true,
+    "one_attack_request": true,
+    "forty_samples_ordered": true,
+    "own_tool_equipped_parent_matches_all40": true,
+    "task_bounded_and_cancelled_without_return": true,
+    "cleanup_requests_and_resources": true,
+    "owned_guard_despawned": true,
+    "test_profile_restored": true,
+    "flags_and_gates_false": true,
+    "native_behavior_started": true,
+    "no_abort_or_runtime_error": true,
+    "comparison_only_health_source_changed": true,
+    "stopped_connected": true
+  },
+  "poses": [
+    {
+      "tick": "1",
+      "builder_x": "-5120.000000",
+      "builder_y": "-3072.000000",
+      "builder_z": "77.149997",
+      "target_x": "-5120.000000",
+      "target_y": "-2400.000000",
+      "target_z": "96.000000",
+      "builder_error": "18.850003",
+      "target_error": "0.000000"
+    },
+    {
+      "tick": "2",
+      "builder_x": "-5120.000000",
+      "builder_y": "-3072.000000",
+      "builder_z": "77.149997",
+      "target_x": "-5120.000000",
+      "target_y": "-2400.000000",
+      "target_z": "96.000000",
+      "builder_error": "18.850003",
+      "target_error": "0.000000"
+    }
+  ],
+  "samples": [
+    {
+      "tick": "1",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "2",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "3",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "4",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "5",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "6",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "7",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "8",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "9",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "10",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "11",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "12",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "13",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "14",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "15",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "16",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "17",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "18",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "19",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "20",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "21",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "22",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "23",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "24",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "25",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "26",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "27",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "28",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "29",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "30",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "31",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "32",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "33",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "34",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "35",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "36",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "37",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "38",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "39",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    },
+    {
+      "tick": "40",
+      "equipped": "1",
+      "parent": "1",
+      "bodies": "1",
+      "new_bodies": "0",
+      "resources": "500",
+      "target_health": "5000.000000"
+    }
+  ],
+  "observed_resource_totals": [
+    500
+  ],
+  "observed_new_bodies": [
+    0
+  ],
+  "observed_target_health": [
+    5000.0
+  ],
+  "action_return_observed": false,
+  "native_placement_verified": false,
+  "native_edit_verified": false,
+  "native_ownership_slot_verified": false,
+  "publication_verified": false,
+  "changed_sources_vs130": [
+    "coach_health_probe.verse"
+  ],
+  "cleanup_measurement_scope": "Original equipment restored and queried. Team/pose restoration log counts successful API requests; no separate post-cleanup pose/affiliation census. Guard despawn observed; Test Player still registered before StopGame, no independent post-stop census.",
+  "negative_claim_scope": "No new overlapping body in fixed measured volume, no resource consumption, target remained5000 during40samples. No global impossibility or API-rejection conclusion."
+}

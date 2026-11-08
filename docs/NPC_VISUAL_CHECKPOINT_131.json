@@ -1,0 +1,68 @@
+{
+  "checkpoint": "131",
+  "latest_runtime": "131",
+  "at_utc": "2026-11-07T18:10:07.844477+00:00",
+  "editor_evidence_sha256": "182256bb6f34d2478c59a2f5044360ca1550295c23d3f2f794e7b51152498c06",
+  "editor_build": "participant131-commit-placement-build.json",
+  "scope": "Editor verification after observed same-numbered runtime; compiled sources and owned Art/NPC hashes match run preparation.",
+  "flags": {
+    "enabled": false,
+    "autoRun": false,
+    "calibrationNativeTimer": false,
+    "useWeaponCalibration": false,
+    "useCharacterTargetControl": false,
+    "isolatedWallControl": false,
+    "spawnedWallControl": false,
+    "nPCEquippedAttackControl": false,
+    "visualUseViewportCamera": false,
+    "nativeBuildToolReference": false,
+    "nativeBuildToolLease": false,
+    "nativeBuildCameraBypass": false,
+    "nativeBuildMenuOnly": false,
+    "nativeTeamWallControl": false,
+    "nativeWallTransitionControl": false,
+    "learningObservationOnly": false,
+    "participantInventoryOnly": false,
+    "participantBuildAction": false
+  },
+  "structure_probe_flags": {
+    "enabled": false,
+    "autoRun": false,
+    "nativePoolControl": false
+  },
+  "native_piece_pool_backend_enabled": false,
+  "scalars": {
+    "visualToolCaptureSeconds": 0,
+    "visualRifleCaptureSeconds": 0,
+    "visualNativeCaptureSeconds": 0,
+    "meshChangeAfterPlayerHits": 0,
+    "nativeWallTransitionCase": 0
+  },
+  "gates": {
+    "candidateCombatEnabled": false,
+    "queryCoverageConfirmed": false,
+    "healthContinuityConfirmed": false,
+    "nativeSlotInteroperationConfirmed": false
+  },
+  "session": "Connected",
+  "game": "CanStart",
+  "level_dirty": false,
+  "assets": {
+    "numChecked": 56,
+    "numValid": 56,
+    "numInvalid": 0,
+    "numWarnings": 0,
+    "numSkipped": 0,
+    "bAssetLimitReached": false,
+    "errors": [],
+    "warnings": []
+  },
+  "source_or_owned_asset_differs_from_cooked_runtime": false,
+  "full_content_push_required": true,
+  "post_runtime_test_player_profile_restored": true,
+  "post_runtime_profile_scope": "Compiled sources and owned assets match runtime; original editor Test Player/debug settings restored after diagnostic. Push full current content before another game.",
+  "computer_control_used": false,
+  "computer_control_field_scope": "Checkpoint collection only; preparation and recovery UI are recorded separately.",
+  "computer_control_active": false,
+  "full_goal_complete": false
+}

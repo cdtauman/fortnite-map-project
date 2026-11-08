@@ -1,0 +1,120 @@
+{
+  "run": "94",
+  "evidence_sha256": "7c05be298c2b45c77c75c8f9cffa3ef797bc464433b29a05f3449429323b5f5e",
+  "scope": "Control94same92native tool lease/initial8polls/40sidle sample window, but remove/restore same original viewer menu widget only. NO StopNavigation,Tether,Focus,Attack,camera actor placement/activation or computer input. Read-only phase/native equipment event tracing;14original identity/parent/equipped restoration and empty temporary inventory removal. No image or placement/edit/reset acceptance; diagnostic lease only, not production tool allocation.",
+  "short_lease_checks_pass": true,
+  "visual_window_samples": 0,
+  "visual_window_equipped_samples": 0,
+  "neutral_window_samples": 40,
+  "neutral_window_equipped_samples": 40,
+  "checks": {
+    "temporary_hotbar_initially_empty": true,
+    "single_item_transfer_parent_and_counts": true,
+    "native_equip_succeeded": true,
+    "eight_equipped_parent_matching_samples": true,
+    "same_item_return_and_original_guard_equipment": true,
+    "all14_item_identity_parent_equipped_restored": true,
+    "cleanup_repeated_and_temporary_hotbar_absent": true,
+    "no_pending_cleanup": true,
+    "sequence_finished": true,
+    "test_flags_and_native_build_gates_off": true,
+    "menu_only_window_all40_sampled_equipped_and_parent_matching": true,
+    "same_menu_removed_and_restored": true
+  },
+  "all_scoped_checks_pass": true,
+  "transfer": [
+    {
+      "same_item_parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    }
+  ],
+  "samples": [
+    {
+      "tick": "1",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "2",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "3",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "4",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "5",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "6",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "7",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "8",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    }
+  ],
+  "restored": [
+    {
+      "same_item_source_parent": "1",
+      "source_count": "4",
+      "temporary_inventory_empty_remove_requested": "1",
+      "original_guard_equipment_restored": "1"
+    }
+  ],
+  "snapshot": [
+    {
+      "items": "14",
+      "unchanged_identity_parent_equipped": "14",
+      "source_count": "4",
+      "cleanup_ok": "1",
+      "repeat_cleanup_ok": "1",
+      "guard_hotbars_after": "0"
+    }
+  ],
+  "not_run": [],
+  "rejections": [],
+  "rendered_blueprint_pose_verified": false,
+  "native_placement_edit_reset_verified": false,
+  "native_build_gates_accepted": false,
+  "pro_quality_verified": false,
+  "project_complete": false,
+  "limits": [
+    "Two-second eight-poll isolated native item lease; no native placement/edit/reset requested.",
+    "Native item identity/parent/equipped evidence does not prove rendered grip, between-poll continuity, ownership, structural occupancy or building actuation.",
+    "Normal completion restoration and repeat cleanup are observed only if the corresponding checks pass; forced game-end/death during lease remains a separate case."
+  ]
+}

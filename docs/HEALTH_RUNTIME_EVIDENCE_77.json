@@ -1,0 +1,1084 @@
+{
+  "date": "2026-11-07",
+  "build": "UEFN 43.00 CL-59596594",
+  "run": "automatic-77",
+  "scope": "Native original2ranged-item guard visual reference, before managed rifle/tool creation or original inventory removal. Native hostile50000HP target initialized before measurement, original loadout selection,2s native baseline then40s held Attack/focus/tether with1Hz native inventory/equipped/hit/HP status. Independent client-world Lit still requests use logged NPC/target coordinates; no player input/camera movement or direct damage. Target team/stasis restored; both private guards despawn at normal outer cleanup. This isolates original-loadout visual evidence; not custom tool, render synchronization, pro/native-building/publication acceptance. Temporary existing fixed-point camera is teleported during runtime, added only to the test viewer camera stack, then removed and transform restored. CaptureGameViewport reads the real current game framebuffer. No player teleport, computer input or persistent lesson-camera option changes.",
+  "preparation": {
+    "prepared_at_utc": "2026-11-07T07:13:13.064050+00:00",
+    "source_build": "npc-native-viewport77-build.json",
+    "source_build_sha256": "69ee234ea2297083f35be620d916ba666bb6b9cca9fdbf52fe6868bd624fb872",
+    "probe": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567"
+    },
+    "probe_label": "PCL_Health_Probe",
+    "log_pattern": "PCL\\|health_probe|PCL\\|combat_action|PCL\\|equipment",
+    "test_flags": {
+      "Enabled": true,
+      "AutoRun": true
+    },
+    "combat_gates": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "input_requested": false,
+    "connection_reused": true,
+    "wall_occlusion_control": true,
+    "wall_occlusion_scope": "Native Prop Manipulator initial-health control200 configured before gameplay; explicit AdditionalProps reference is the owned ControlWall and volume mode is off. No scripted health changes or synthetic damage during firing. This does not establish default Fortnite wall health or edit-health continuity.",
+    "mesh_change_after_player_hits": 0,
+    "native_viewport_capture": true,
+    "native_visual_camera": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928"
+    },
+    "visual_capture_seconds": {
+      "VisualNativeCaptureSeconds": 40,
+      "VisualToolCaptureSeconds": 0,
+      "VisualRifleCaptureSeconds": 0
+    },
+    "native_visual_capture": true,
+    "native_original_visual_capture": true,
+    "native_original_visual_scope": "Native original2ranged-item guard visual reference, before managed rifle/tool creation or original inventory removal. Native hostile50000HP target initialized before measurement, original loadout selection,2s native baseline then40s held Attack/focus/tether with1Hz native inventory/equipped/hit/HP status. Independent client-world Lit still requests use logged NPC/target coordinates; no player input/camera movement or direct damage. Target team/stasis restored; both private guards despawn at normal outer cleanup. This isolates original-loadout visual evidence; not custom tool, render synchronization, pro/native-building/publication acceptance. Temporary existing fixed-point camera is teleported during runtime, added only to the test viewer camera stack, then removed and transform restored. CaptureGameViewport reads the real current game framebuffer. No player teleport, computer input or persistent lesson-camera option changes.",
+    "isolated_wall_control": false,
+    "spawned_wall_control": false,
+    "npc_equipped_attack_control": false,
+    "calibration_native_timer": false,
+    "calibration_blast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075661203_1497102807"
+    },
+    "calibration_objective": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+    },
+    "weapon_calibration": true,
+    "character_target_control": false,
+    "calibration_shooter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075671203_1509093984"
+    },
+    "calibration_player_teleporter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Teleporter_V2_C_UAID_30E3A4101075711203_1580237745"
+    },
+    "calibration_no_fire_zone": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MutatorVolume_V2_C_UAID_30E3A4101075491203_1921501775"
+    },
+    "source_archive": {
+      "path": ".local\\evidence\\health-77\\sources.zip",
+      "sha256": "62e2cee633cd6cbb335ec51da4985b04ac898ab3200bd61f88fad7178a7cc29b"
+    },
+    "fixture_archive": {
+      "path": ".local\\evidence\\health-77\\health-probe-layout.json",
+      "sha256": "3461180cae222252c5a2881b6c9c5a093610176c2d15cd4e3a0e69911286d3e8"
+    }
+  },
+  "start_session": {
+    "operation": "PushChanges",
+    "bVerseOnly": false,
+    "result": "Completed",
+    "at_utc": "2026-11-07T07:15:31.377090+00:00"
+  },
+  "entries": [
+    {
+      "sequence": 3363,
+      "timestamp": "2026-11-07T07:15:32.024Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|ready|combat_gates=false|health_interface_probe=true|ordinary_prop_control_unvalidated=true",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3365,
+      "timestamp": "2026-11-07T07:15:32.402Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|private_behavior_started|owned_equipment_context",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3366,
+      "timestamp": "2026-11-07T07:15:32.842Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|weapon_shooter_spawned",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3367,
+      "timestamp": "2026-11-07T07:15:32.915Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|weapon_shooter_friendly_team_confirmed",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3368,
+      "timestamp": "2026-11-07T07:15:32.915Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|inventory_scope|name=character|direct=0|descendants=0|hotbars=0|items=0|trace_weapons=0|ranged_items=0|resources=0|resource_stacks=0|resource_quantity=0|resource_inventories=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3369,
+      "timestamp": "2026-11-07T07:15:32.915Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|inventory_scope|name=agent|direct=0|descendants=8|hotbars=0|items=4|trace_weapons=0|ranged_items=2|resources=1|resource_stacks=1|resource_quantity=500|resource_inventories=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3370,
+      "timestamp": "2026-11-07T07:15:32.916Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|initial_ranged_selection|selected=1|before_template_addition",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3371,
+      "timestamp": "2026-11-07T07:15:32.916Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_inventory|ranged_items=2|before_any_custom_item_creation_or_inventory_removal",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3372,
+      "timestamp": "2026-11-07T07:15:32.979Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|private_behavior_started|owned_equipment_context",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3373,
+      "timestamp": "2026-11-07T07:15:33.184Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|weapon_combat_target_spawned",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3374,
+      "timestamp": "2026-11-07T07:15:33.226Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_target_pose|x=-2848.000000|y=-2400.000000|z=96.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3375,
+      "timestamp": "2026-11-07T07:15:33.226Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_control_ready|hostile_team_confirmed|target_health=50000.000000|initialization_before_measurement",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3376,
+      "timestamp": "2026-11-07T07:15:33.521Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_detection_state|native_hostile=1|has_los=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3377,
+      "timestamp": "2026-11-07T07:15:33.622Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_target_detected|baseline_without_attack_request",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3378,
+      "timestamp": "2026-11-07T07:15:33.889Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_sample|phase=detected_baseline|tick=1|native_loadout_only|alert=3|no_fire_zone=0|source_x=-2848.000000|source_y=-2999.328533|source_z=77.149999|target_health=50000.000000|damage_events=0|source_hits=0|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3379,
+      "timestamp": "2026-11-07T07:15:34.156Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_sample|phase=detected_baseline|tick=2|native_loadout_only|alert=3|no_fire_zone=0|source_x=-2848.000000|source_y=-2999.328533|source_z=77.149999|target_health=50000.000000|damage_events=0|source_hits=0|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3380,
+      "timestamp": "2026-11-07T07:15:34.423Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_sample|phase=detected_baseline|tick=3|native_loadout_only|alert=3|no_fire_zone=0|source_x=-2848.000000|source_y=-2999.328533|source_z=77.149999|target_health=50000.000000|damage_events=0|source_hits=0|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3381,
+      "timestamp": "2026-11-07T07:15:34.690Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_sample|phase=detected_baseline|tick=4|native_loadout_only|alert=3|no_fire_zone=0|source_x=-2848.000000|source_y=-2999.328533|source_z=77.149999|target_health=50000.000000|damage_events=0|source_hits=0|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3382,
+      "timestamp": "2026-11-07T07:15:34.957Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_sample|phase=detected_baseline|tick=5|native_loadout_only|alert=3|no_fire_zone=0|source_x=-2848.000000|source_y=-2999.328533|source_z=77.149999|target_health=50000.000000|damage_events=0|source_hits=0|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3383,
+      "timestamp": "2026-11-07T07:15:35.224Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_sample|phase=detected_baseline|tick=6|native_loadout_only|alert=3|no_fire_zone=0|source_x=-2848.000000|source_y=-2999.328533|source_z=77.149999|target_health=50000.000000|damage_events=0|source_hits=0|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3384,
+      "timestamp": "2026-11-07T07:15:35.491Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_sample|phase=detected_baseline|tick=7|native_loadout_only|alert=3|no_fire_zone=0|source_x=-2848.000000|source_y=-2999.328533|source_z=77.149999|target_health=50000.000000|damage_events=0|source_hits=0|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3385,
+      "timestamp": "2026-11-07T07:15:35.758Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_sample|phase=detected_baseline|tick=8|native_loadout_only|alert=3|no_fire_zone=0|source_x=-2848.000000|source_y=-2999.328533|source_z=77.149999|target_health=50000.000000|damage_events=0|source_hits=0|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3386,
+      "timestamp": "2026-11-07T07:15:35.761Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_visual_camera_added|x=-2960.000000|y=-2775.328533|z=147.149999|temporary_player_camera_stack_only|no_player_teleport_or_input",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3387,
+      "timestamp": "2026-11-07T07:15:36.061Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_target_damage|amount=33.000000|by_shooter=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3388,
+      "timestamp": "2026-11-07T07:15:36.761Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|combat_action|tether_begin|x=-2989.064888|y=-2915.766704|z=77.149999|radius=75",
+      "sourceFile": "coach_opponent_behavior.verse",
+      "sourceLine": 26
+    },
+    {
+      "sequence": 3389,
+      "timestamp": "2026-11-07T07:15:36.761Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_visual_capture_ready|phase=native_original|x=-2989.064888|y=-2915.766704|z=77.149999|target_x=-2848.000000|target_y=-2400.000000|target_z=96.000000|duration=40.000000|time=13086.075708|capture_route=game_viewport|native_original_inventory_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3390,
+      "timestamp": "2026-11-07T07:15:36.762Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|combat_action|focus_request_returned|action_window_continues",
+      "sourceFile": "coach_opponent_behavior.verse",
+      "sourceLine": 13
+    },
+    {
+      "sequence": 3391,
+      "timestamp": "2026-11-07T07:15:37.762Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=1.001852|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3392,
+      "timestamp": "2026-11-07T07:15:38.763Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=2.003742|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3393,
+      "timestamp": "2026-11-07T07:15:39.764Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=3.005636|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3394,
+      "timestamp": "2026-11-07T07:15:40.766Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=4.007520|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3395,
+      "timestamp": "2026-11-07T07:15:41.768Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=5.009382|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3396,
+      "timestamp": "2026-11-07T07:15:42.770Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=6.011245|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3397,
+      "timestamp": "2026-11-07T07:15:43.771Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=7.013110|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3398,
+      "timestamp": "2026-11-07T07:15:44.773Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=8.014972|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3399,
+      "timestamp": "2026-11-07T07:15:45.775Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=9.016838|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3400,
+      "timestamp": "2026-11-07T07:15:46.777Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=10.018689|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3401,
+      "timestamp": "2026-11-07T07:15:47.779Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=11.020552|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3402,
+      "timestamp": "2026-11-07T07:15:48.780Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=12.022399|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3403,
+      "timestamp": "2026-11-07T07:15:49.782Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=13.024267|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3404,
+      "timestamp": "2026-11-07T07:15:50.784Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=14.026125|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3405,
+      "timestamp": "2026-11-07T07:15:51.786Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=15.027989|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3406,
+      "timestamp": "2026-11-07T07:15:52.788Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=16.029789|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3407,
+      "timestamp": "2026-11-07T07:15:53.790Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=17.031638|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3408,
+      "timestamp": "2026-11-07T07:15:54.792Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=18.033479|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3409,
+      "timestamp": "2026-11-07T07:15:55.794Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=19.035445|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3410,
+      "timestamp": "2026-11-07T07:15:56.795Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=20.037293|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3411,
+      "timestamp": "2026-11-07T07:15:57.797Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=21.039167|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3412,
+      "timestamp": "2026-11-07T07:15:58.799Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=22.041102|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3413,
+      "timestamp": "2026-11-07T07:15:59.801Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=23.042980|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3414,
+      "timestamp": "2026-11-07T07:16:00.803Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=24.044895|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3415,
+      "timestamp": "2026-11-07T07:16:01.805Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=25.046771|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3416,
+      "timestamp": "2026-11-07T07:16:02.807Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=26.048662|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3417,
+      "timestamp": "2026-11-07T07:16:03.809Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=27.050473|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3418,
+      "timestamp": "2026-11-07T07:16:04.811Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=28.052365|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3419,
+      "timestamp": "2026-11-07T07:16:05.813Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=29.054221|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3420,
+      "timestamp": "2026-11-07T07:16:06.814Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=30.056132|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3421,
+      "timestamp": "2026-11-07T07:16:07.816Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=31.058013|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3422,
+      "timestamp": "2026-11-07T07:16:08.818Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=32.059861|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3423,
+      "timestamp": "2026-11-07T07:16:09.820Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=33.061725|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3424,
+      "timestamp": "2026-11-07T07:16:10.822Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=34.063663|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3425,
+      "timestamp": "2026-11-07T07:16:11.824Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=35.065573|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3426,
+      "timestamp": "2026-11-07T07:16:12.826Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=36.067429|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3427,
+      "timestamp": "2026-11-07T07:16:13.827Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=37.069349|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3428,
+      "timestamp": "2026-11-07T07:16:14.829Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=38.071315|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3429,
+      "timestamp": "2026-11-07T07:16:15.831Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=39.073188|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3430,
+      "timestamp": "2026-11-07T07:16:16.833Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_status|elapsed=40.075072|ranged_items=2|equipped_ranged=1|target_health=49967.000000|source_hits=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3431,
+      "timestamp": "2026-11-07T07:16:16.834Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_visual_capture_finished|phase=native_original|time=13126.150780",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3432,
+      "timestamp": "2026-11-07T07:16:16.834Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|combat_action|owner_release|scope=native_visual_parent",
+      "sourceFile": "coach_opponent_behavior.verse",
+      "sourceLine": 42
+    },
+    {
+      "sequence": 3433,
+      "timestamp": "2026-11-07T07:16:16.835Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_visual_camera_restored|removed_from_viewer=1|transform_restored=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3434,
+      "timestamp": "2026-11-07T07:16:16.841Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|npc_native_visual_finished|target_health=49967.000000|source_hits=1|native_original_inventory_only",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3435,
+      "timestamp": "2026-11-07T07:16:16.842Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|combat_target_team_restore_returned_ok",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 3436,
+      "timestamp": "2026-11-07T07:16:16.854Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|automatic_sequence_finished|results_require_review",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    }
+  ],
+  "cleanup": {
+    "run": "77",
+    "scope": "Native original2ranged-item guard visual reference, before managed rifle/tool creation or original inventory removal. Native hostile50000HP target initialized before measurement, original loadout selection,2s native baseline then40s held Attack/focus/tether with1Hz native inventory/equipped/hit/HP status. Independent client-world Lit still requests use logged NPC/target coordinates; no player input/camera movement or direct damage. Target team/stasis restored; both private guards despawn at normal outer cleanup. This isolates original-loadout visual evidence; not custom tool, render synchronization, pro/native-building/publication acceptance. Temporary existing fixed-point camera is teleported during runtime, added only to the test viewer camera stack, then removed and transform restored. CaptureGameViewport reads the real current game framebuffer. No player teleport, computer input or persistent lesson-camera option changes.",
+    "source_preparation": "final-run-77-preparation.json",
+    "started_at_utc": "2026-11-07T07:16:14.413669+00:00",
+    "started_game_by_tool": false,
+    "sequence_finished": true,
+    "keep_edit_session_requested": true,
+    "initial_session_state": "Connected",
+    "readiness_observations": [
+      {
+        "at_utc": "2026-11-07T07:16:14.915823+00:00",
+        "session": "Connected"
+      }
+    ],
+    "ready_session_state": "Connected",
+    "initial_game_state": "Running",
+    "native_visual_captures": {
+      "native_original": {
+        "run": "77",
+        "requested_phase": "native_original",
+        "ready_log": {
+          "phase": "native_original",
+          "x": "-2989.064888",
+          "y": "-2915.766704",
+          "z": "77.149999",
+          "target_x": "-2848.000000",
+          "target_y": "-2400.000000",
+          "target_z": "96.000000",
+          "duration": "40.000000",
+          "time": "13086.075708",
+          "capture_route": "game_viewport"
+        },
+        "arguments": {
+          "client_id": "5fe7f1e12c72481aaa07db52fe1f13d2",
+          "world": {
+            "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+          },
+          "maxResolution": 1280
+        },
+        "started_at_utc": "2026-11-07T07:16:15.513798+00:00",
+        "scope": "Actual current Game viewport framebuffer after temporary in-island fixed-point camera activation; not a diagnostic re-render. Native metadata does not identify originating GPU frame. No computer input/player teleport.",
+        "capture_route": "game_viewport",
+        "active_views_before_capture": [
+          {
+            "world": {
+              "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+            },
+            "name": "MinimapCaptureCamera",
+            "camera": {
+              "location": {
+                "x": 0,
+                "y": 0,
+                "z": 1060000
+              },
+              "rotation": {
+                "pitch": -90,
+                "yaw": 0,
+                "roll": 0
+              },
+              "projectionMode": "Perspective",
+              "fOV": 14.5,
+              "orthoWidth": 578987.5
+            },
+            "source": "ActorCamera",
+            "sourceActor": {
+              "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport:PersistentLevel.MinimapCaptureCamera"
+            },
+            "sourceDimensions": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "world": {
+              "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+            },
+            "name": "CameraActor_2147482646",
+            "camera": {
+              "location": {
+                "x": 122.99361738127715,
+                "y": -6675.313738177805,
+                "z": 195.84946060180664
+              },
+              "rotation": {
+                "pitch": 0,
+                "yaw": -110.0006103515625,
+                "roll": 0
+              },
+              "projectionMode": "Perspective",
+              "fOV": 90,
+              "orthoWidth": 512
+            },
+            "source": "ActorCamera",
+            "sourceActor": {
+              "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport:PersistentLevel.CameraActor_2147482646"
+            },
+            "sourceDimensions": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "world": {
+              "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+            },
+            "name": "Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928",
+            "camera": {
+              "location": {
+                "x": -2959.9999999093725,
+                "y": -2775.328533185906,
+                "z": 147.14999884183612
+              },
+              "rotation": {
+                "pitch": -11.290589797438658,
+                "yaw": -63.43494880908731,
+                "roll": 5.675815734554817e-15
+              },
+              "projectionMode": "Perspective",
+              "fOV": 70,
+              "orthoWidth": 1024
+            },
+            "source": "ActorCamera",
+            "sourceActor": {
+              "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab_LevelInstance_47.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928"
+            },
+            "sourceDimensions": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "world": {
+              "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+            },
+            "name": "Device_CameraModes_FixedPoint_C_UAID_30E3A4101075561203_1232751105",
+            "camera": {
+              "location": {
+                "x": 7700,
+                "y": 5900,
+                "z": 900
+              },
+              "rotation": {
+                "pitch": -20,
+                "yaw": 35.000000000000014,
+                "roll": 8.461688990394199e-16
+              },
+              "projectionMode": "Perspective",
+              "fOV": 70,
+              "orthoWidth": 1024
+            },
+            "source": "ActorCamera",
+            "sourceActor": {
+              "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab_LevelInstance_47.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075561203_1232751105"
+            },
+            "sourceDimensions": {
+              "x": 0,
+              "y": 0
+            }
+          }
+        ],
+        "is_error": false,
+        "image": {
+          "path": "C:\\Users\\cdtauman\\Documents\\הפרויקטים שלי\\fortnite\\.local\\visual-evidence77\\native_original-1.png",
+          "sha256": "80932124821c57cecd4648fb421c861019f0c28e20519bc50ffddba8170274a1"
+        },
+        "elapsed_wall_seconds": 18.0,
+        "finished_at_utc": "2026-11-07T07:16:33.864567+00:00"
+      }
+    },
+    "native_camera_views_after_sequence": [
+      {
+        "world": {
+          "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+        },
+        "name": "MinimapCaptureCamera",
+        "camera": {
+          "location": {
+            "x": 0,
+            "y": 0,
+            "z": 1060000
+          },
+          "rotation": {
+            "pitch": -90,
+            "yaw": 0,
+            "roll": 0
+          },
+          "projectionMode": "Perspective",
+          "fOV": 14.5,
+          "orthoWidth": 578987.5
+        },
+        "source": "ActorCamera",
+        "sourceActor": {
+          "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport:PersistentLevel.MinimapCaptureCamera"
+        },
+        "sourceDimensions": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "world": {
+          "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+        },
+        "name": "CameraActor_2147482646",
+        "camera": {
+          "location": {
+            "x": 122.99361738127715,
+            "y": -6675.313738177805,
+            "z": 195.84946060180664
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": -110.0006103515625,
+            "roll": 0
+          },
+          "projectionMode": "Perspective",
+          "fOV": 90,
+          "orthoWidth": 512
+        },
+        "source": "ActorCamera",
+        "sourceActor": {
+          "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport:PersistentLevel.CameraActor_2147482646"
+        },
+        "sourceDimensions": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "world": {
+          "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+        },
+        "name": "Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928",
+        "camera": {
+          "location": {
+            "x": 4700,
+            "y": 5900,
+            "z": 900
+          },
+          "rotation": {
+            "pitch": -19.999999999999996,
+            "yaw": 35,
+            "roll": 1.1846364586551879e-14
+          },
+          "projectionMode": "Perspective",
+          "fOV": 70,
+          "orthoWidth": 1024
+        },
+        "source": "ActorCamera",
+        "sourceActor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab_LevelInstance_47.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928"
+        },
+        "sourceDimensions": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "world": {
+          "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+        },
+        "name": "Device_CameraModes_FixedPoint_C_UAID_30E3A4101075561203_1232751105",
+        "camera": {
+          "location": {
+            "x": 7700,
+            "y": 5900,
+            "z": 900
+          },
+          "rotation": {
+            "pitch": -20,
+            "yaw": 35.000000000000014,
+            "roll": 8.461688990394199e-16
+          },
+          "projectionMode": "Perspective",
+          "fOV": 70,
+          "orthoWidth": 1024
+        },
+        "source": "ActorCamera",
+        "sourceActor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab_LevelInstance_47.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075561203_1232751105"
+        },
+        "sourceDimensions": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "world": {
+          "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+        },
+        "name": "PlayerCamera(Athena_PlayerController_C_2147482646)",
+        "camera": {
+          "location": {
+            "x": -70.65975071171735,
+            "y": -6764.765639998196,
+            "z": 178.69936380162835
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": -63.43494747613895,
+            "roll": 0
+          },
+          "projectionMode": "Perspective",
+          "fOV": 80,
+          "orthoWidth": 512
+        },
+        "source": "PlayerCamera",
+        "sourceActor": {
+          "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport:PersistentLevel.Athena_PlayerController_C_2147482646"
+        },
+        "sourceDimensions": {
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "stop_game_result": "Completed",
+    "restored_visual_capture_seconds": {
+      "VisualNativeCaptureSeconds": 0,
+      "VisualToolCaptureSeconds": 0,
+      "VisualRifleCaptureSeconds": 0
+    },
+    "restored_viewport_capture_flag": {
+      "VisualUseViewportCamera": false
+    },
+    "restored_mesh_change_threshold": 0,
+    "combat_gates_after_run": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "restored_flags": {
+      "Enabled": false,
+      "AutoRun": false,
+      "UseWeaponCalibration": false,
+      "IsolatedWallControl": false,
+      "SpawnedWallControl": false,
+      "NPCEquippedAttackControl": false
+    },
+    "final_game_state": "CanStart",
+    "final_session_state": "Connected",
+    "kept_edit_session": true,
+    "ended_at_utc": "2026-11-07T07:16:41.160638+00:00"
+  },
+  "gates_accepted": false
+}

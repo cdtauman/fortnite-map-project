@@ -1,0 +1,25 @@
+{
+  "source": "actual80observer pages and capture request times",
+  "checks": [
+    {
+      "phase": "tool",
+      "historical_late_request_rejected": true,
+      "request_at": "2026-11-07T07:42:54.985936+00:00"
+    },
+    {
+      "phase": "rifle",
+      "historical_late_request_rejected": true,
+      "request_at": "2026-11-07T07:43:15.251155+00:00"
+    }
+  ],
+  "skipped": [
+    {
+      "phase": "tool",
+      "ready_timestamp": "2026-11-07T07:42:14.824Z",
+      "age_seconds": 40.161936,
+      "remaining_seconds": -0.1619359999999972,
+      "reason": "ready_window_expired_or_too_close_to_end"
+    }
+  ],
+  "scope": "Offline replay proves rejection of these two stale requests; live synchronized capture remains unverified."
+}

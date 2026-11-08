@@ -1,0 +1,143 @@
+{
+  "run": "39",
+  "scope": "Native Prop Manipulator initial-health control200 configured before gameplay; explicit AdditionalProps reference is the owned ControlWall and volume mode is off. No scripted health changes or synthetic damage during firing. This does not establish default Fortnite wall health or edit-health continuity.",
+  "configured_native_wall_initial_health": 200,
+  "runtime_wall_numeric_hp_read": false,
+  "explicit_monitor_target": "PCL_Health_Control_Wall",
+  "monitor_volume_mode": false,
+  "wall_damage_callbacks_by_player": 6,
+  "wall_destroyed_callback_by_player": {
+    "sequence": 1065,
+    "timestamp": "2026-11-07T01:24:36.435Z",
+    "severity": "Normal",
+    "channel": "",
+    "message": "PCL|health_probe|control_wall_destroyed|by_player=1|events=1",
+    "sourceFile": "coach_health_probe.verse",
+    "sourceLine": 16
+  },
+  "before": {
+    "sequence": 1052,
+    "timestamp": "2026-11-07T01:24:34.738Z",
+    "severity": "Normal",
+    "channel": "",
+    "message": "PCL|health_probe|control_wall_state|phase=player_native_cost_before|valid=1|cells=9|x=-1536.000000|y=-3072.000000|z=0.000000|health=healthful_cast_unavailable|damage_events=0|player_hits=0|destroyed_events=0|query_yaw=90",
+    "sourceFile": "coach_health_probe.verse",
+    "sourceLine": 16
+  },
+  "after": {
+    "sequence": 1091,
+    "timestamp": "2026-11-07T01:24:40.077Z",
+    "severity": "Normal",
+    "channel": "",
+    "message": "PCL|health_probe|control_wall_state|phase=player_native_cost_after|valid=0|cells=0|x=-1536.000000|y=-3072.000000|z=0.000000|health=unavailable|damage_events=6|player_hits=6|destroyed_events=1|query_yaw=90",
+    "sourceFile": "coach_health_probe.verse",
+    "sourceLine": 16
+  },
+  "objective_damage_events_by_player": 31,
+  "objective_damage_total": 1085.0,
+  "objective_final_health": 3915,
+  "all_objective_hits_follow_wall_destruction": true,
+  "source_fixture_provenance": {
+    "prepared_at_utc": "2026-11-07T01:21:37.076277+00:00",
+    "source_build": "health-probe-wall-lifetime-build.json",
+    "source_build_sha256": "44a61b4a79f2511f9040affd31bec0eb00405bf58b4325ba1fe0930b04846623",
+    "probe": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567"
+    },
+    "probe_label": "PCL_Health_Probe",
+    "log_pattern": "PCL\\|health_probe",
+    "test_flags": {
+      "Enabled": true,
+      "AutoRun": true
+    },
+    "combat_gates": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "input_requested": false,
+    "connection_reused": false,
+    "wall_occlusion_control": true,
+    "wall_occlusion_scope": "Native Prop Manipulator initial-health control200 configured before gameplay; explicit AdditionalProps reference is the owned ControlWall and volume mode is off. No scripted health changes or synthetic damage during firing. This does not establish default Fortnite wall health or edit-health continuity.",
+    "calibration_native_timer": false,
+    "calibration_blast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075661203_1497102807"
+    },
+    "calibration_objective": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+    },
+    "weapon_calibration": true,
+    "character_target_control": false,
+    "calibration_shooter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075671203_1509093984"
+    },
+    "calibration_player_teleporter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Teleporter_V2_C_UAID_30E3A4101075711203_1580237745"
+    },
+    "calibration_no_fire_zone": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MutatorVolume_V2_C_UAID_30E3A4101075491203_1921501775"
+    },
+    "source_archive": {
+      "path": ".local\\evidence\\health-39\\sources.zip",
+      "sha256": "cf2872a25edb51d760c9196e5af873c69d33201f9608fa17848983a1d7596eb7"
+    },
+    "fixture_archive": {
+      "path": ".local\\evidence\\health-39\\health-probe-layout.json",
+      "sha256": "4e84f52cc66fe78b717184da92216f87f02a67a64d8939d77b2135feccb4df9c"
+    }
+  },
+  "read_only_client_snapshot": {
+    "run": "39",
+    "read_only": true,
+    "snapshots": [
+      {
+        "requested_at_utc": "2026-11-07T01:24:35.599148+00:00",
+        "returned_at_utc": "2026-11-07T01:24:35.848935+00:00",
+        "state": {
+          "pawn": {
+            "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport:PersistentLevel.PlayerPawn_Athena_C_2147482639"
+          },
+          "location": {
+            "x": -1536.0000000000023,
+            "y": -4096,
+            "z": 77.1499964093091
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": 84.53806304931642,
+            "roll": 0
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "controlRotation": {
+            "pitch": 0.42916782519421304,
+            "yaw": 84.5380594139673,
+            "roll": 0
+          },
+          "worldTimeSeconds": 61.8682746142149
+        }
+      }
+    ],
+    "ready_entry": {
+      "sequence": 1047,
+      "timestamp": "2026-11-07T01:24:34.737Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|player_control_ready|same_owned_rifle|view_yaw=84.502177|view_pitch=-0.287233|no_client_input",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    "supported_client_count": 1,
+    "ended_at_utc": "2026-11-07T01:24:35.849948+00:00"
+  },
+  "limits": [
+    "Configured native health200 is a private test initialization, not verified default Fortnite building health.",
+    "No scripted wall health/damage/disposal occurs during the firing trial.",
+    "No mesh change in39; edit-health continuity, ownership, native grid slots, construction and pro-level execution remain open.",
+    "Native NPC trace-template phases were holstered/not firing; this player control does not establish NPC template firing."
+  ]
+}

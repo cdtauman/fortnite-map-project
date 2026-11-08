@@ -1,0 +1,40 @@
+{
+  "run": "101",
+  "source_sha256": "4695552789e3a4fa31534b04f0987ca3d5d84646c756c6459fb8ebb6ff118cb4",
+  "scope": "Control101executes one public Guard.Attack against a second native Guard after hostile team/detection/LOS, native build-tool equip+parent and publicly read resource stacks(total>=10) are confirmed. Target initialized5000HP/shield0/stasis before measurement; damage attribution/subscription/team cleanup separate. Same100native player-tool diagnostic lease/8short samples and temporary inventory restoration. Control100adds explicit native original-ranged RemoveItem before parking AddItem. Control98parks both original ranged items OUTSIDE Guard. Control97adds3temporary query guards; all removed before item return.99read-only current Guard inventory/reference census retained.40long samples now run during the attack control, with fixed2048x2048x1536 collision-entity census relative to a post-detection baseline, resources/tool/HP/source hits. A new body is only a candidate, not a native building/type/ownership/slot proof. Actual GameViewport phase native_build_attack while camera/menu temporarily leased. No computer input/player teleport, BeginFire or direct Damage; health set only before measurement. Native tool kind not identified; no native edit/reset command. End cancels attack task and damage binding, restores target team/stasis/vulnerability then same original14identities/parents/equipped,source4,2rangeditems,empty hotbar/parking removal and repeat cleanup. This is an actuation investigation, not native placement/edit/reset acceptance, a pro-quality or publication promise.",
+  "protocol_checks": {
+    "resources_read_before_request": true,
+    "hostile_detected_tool_equipped_before_request": false,
+    "single_public_attack_request": false,
+    "forty_bounded_geometry_tool_resource_samples": false,
+    "attack_task_unwound": false,
+    "damage_subscription_canceled": true,
+    "target_team_stasis_vulnerability_restored": true,
+    "no_skipped_action_preconditions": false,
+    "sequence_and_disabled_gates": true
+  },
+  "protocol_complete": false,
+  "resources": [
+    {
+      "items": "1",
+      "known_stacks": "1",
+      "total": "500"
+    }
+  ],
+  "ready": [],
+  "requests": [],
+  "returns": [],
+  "samples": [],
+  "baseline_bodies": null,
+  "maximum_new_bodies": null,
+  "equipped_action_samples": 0,
+  "maximum_source_damage_callbacks": null,
+  "not_run": [
+    "PCL|health_probe|native_build_attack_not_run|detection_tool_or_resource_precondition_unconfirmed"
+  ],
+  "finding": "Action did not run because stated preconditions were not established. Do not label this a failed native placement command.",
+  "native_piece_type_verified": false,
+  "native_placement_verified": false,
+  "native_edit_reset_ownership_slots_verified": false,
+  "full_goal_complete": false
+}

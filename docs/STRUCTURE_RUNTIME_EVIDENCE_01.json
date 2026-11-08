@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-06",
+  "build": "UEFN 43.00 CL-59596594",
+  "run": "automatic-01",
+  "scope": "Single development-server run, no client/gameplay input; not publication or native player-build verification.",
+  "source_build_sha256": "01874aaaa39f31d6e182f09a71db823566906d5fc0c00da9b7a4aaa0d37e1560",
+  "source_snapshot": {
+    "mount": "/eda26a53-42c0-4b9e-8f62-31719aef6889",
+    "sourceSnapshot": [
+      {
+        "file": "coach_building.verse",
+        "sha256_utf8_lf": "a775601e27bf79afe2d13d6f55b1290ea6a6102818544098a76712b8cb527f46"
+      },
+      {
+        "file": "coach_commerce.verse",
+        "sha256_utf8_lf": "5100ec94e41a912eeeb878cd7ec0cd5da700e1cad608e247dfdea3989d61ef80"
+      },
+      {
+        "file": "coach_course_device.verse",
+        "sha256_utf8_lf": "e3004e7305f4ec76b0a4203e088615094c079cd25da09920f7b69e12479402c4"
+      },
+      {
+        "file": "coach_demonstration.verse",
+        "sha256_utf8_lf": "90e0f3dc1d35f68a72dd23ed8438de7077d6d58cd769ea61d25b27ec645cb87f"
+      },
+      {
+        "file": "coach_equipment.verse",
+        "sha256_utf8_lf": "4fd8c98bcbec00a9e3bcb5e359aae900dc0ba3ea8f291a44a4cefb04da3a4714"
+      },
+      {
+        "file": "coach_geometry.verse",
+        "sha256_utf8_lf": "fccb4bb713266ad9d85bdd1b2bfc96852a08eb6cae57f2b78fb9f850b3ea5056"
+      },
+      {
+        "file": "coach_lab_device.verse",
+        "sha256_utf8_lf": "4814473c661c33ed43d9ce96d7e4c5468c8b79fb3c948cc9be4ee6486a6f9d78"
+      },
+      {
+        "file": "coach_learning.verse",
+        "sha256_utf8_lf": "14e14984fecc0577b22c312ebecdbd75e4abc9404cb50dc502a350ae88597793"
+      },
+      {
+        "file": "coach_lessons.verse",
+        "sha256_utf8_lf": "f08fa3f55113f3f7427e5fa36c352c90a63053bd728daba67b10e953d5c1027d"
+      },
+      {
+        "file": "coach_model.verse",
+        "sha256_utf8_lf": "89ef2962fed400bd0219b0009cb7be2ee0db8666ca2f3b61a47d2c1602c87387"
+      },
+      {
+        "file": "coach_opponent_behavior.verse",
+        "sha256_utf8_lf": "36d1d499191e3bd9ef7dcfe4e284ebfa410ea20fc6030f30345e5c7e4c1f5621"
+      },
+      {
+        "file": "coach_portal_device.verse",
+        "sha256_utf8_lf": "cb164a077771af4f1f8f266cef0dba9d7aaf43fb010e094db2f01a178f556637"
+      },
+      {
+        "file": "coach_practice.verse",
+        "sha256_utf8_lf": "e49b9484048a0df68ff53a7b92d7b2256f61c9c5732ff576abbdb42996ac09ad"
+      },
+      {
+        "file": "coach_structure_probe.verse",
+        "sha256_utf8_lf": "25b43c3498ee2c8f9d4e2b644c37e4004987409ac7a536bc59e8c746029692f9"
+      },
+      {
+        "file": "coach_telemetry.verse",
+        "sha256_utf8_lf": "c3d1176381cc5aaf12c05740a115b6f097afd1d25cf6e43e2ffbdb53ed6e625a"
+      },
+      {
+        "file": "coach_ui.verse",
+        "sha256_utf8_lf": "3677157c19932831c11ad0c6790e3abde100bf908495737458172b2e07c7f7c3"
+      },
+      {
+        "file": "coach_voice.verse",
+        "sha256_utf8_lf": "69a15f843a59cad448086a769777f77e9bed57697bbefc2131fcc5d9604b60e9"
+      }
+    ],
+    "buildObservedAtUtc": "2026-11-06T15:46:53.247822+00:00",
+    "scope": "Files sent before this BuildAll result. Compilation is separate from runtime and publication."
+  },
+  "started_at_utc": "2026-11-06T15:55:12.574931+00:00",
+  "ended_at_utc": "2026-11-06T15:55:35.030716+00:00",
+  "initial_game_state": "Running",
+  "start_game_called": false,
+  "sequence_finished": true,
+  "probe_messages": [
+    "PCL|structure_probe|ready|combat_gates=false|runtime_semantics_unverified",
+    "PCL|structure_probe|spawn|generation=1|kind=0|result=ok",
+    "PCL|structure_probe|spawn_transform|generation=1|kind=0|x=-1280.000000|y=-1024.000000|z=0.000000",
+    "PCL|structure_probe|spawn|generation=1|kind=1|result=ok",
+    "PCL|structure_probe|spawn_transform|generation=1|kind=1|x=-512.000000|y=-1280.000000|z=0.000000",
+    "PCL|structure_probe|spawn|generation=1|kind=2|result=ok",
+    "PCL|structure_probe|spawn_transform|generation=1|kind=2|x=256.000000|y=-1024.000000|z=0.000000",
+    "PCL|structure_probe|spawn|generation=1|kind=3|result=ok",
+    "PCL|structure_probe|spawn_transform|generation=1|kind=3|x=1536.000000|y=-1280.000000|z=0.000000",
+    "PCL|structure_probe|valid_props|generation=1|count=4",
+    "PCL|structure_probe|build_inventory|generation=1|at=304.733696|slots=0|equipped_mask=",
+    "PCL|structure_probe|query|generation=1|command=1|shape=0|occupied=1|mask=010000000|control=0",
+    "PCL|structure_probe|shape_requested|generation=1|command=2|shape=1|health_unmeasured",
+    "PCL|structure_probe|query|generation=1|command=2|shape=1|occupied=8|mask=111101111|control=0",
+    "PCL|structure_probe|shape_requested|generation=1|command=3|shape=2|health_unmeasured",
+    "PCL|structure_probe|query|generation=1|command=3|shape=2|occupied=7|mask=101101111|control=0",
+    "PCL|structure_probe|shape_requested|generation=1|command=4|shape=0|health_unmeasured",
+    "PCL|structure_probe|query|generation=1|command=4|shape=0|occupied=9|mask=111111111|control=0",
+    "PCL|structure_probe|automatic_sequence_finished|generation=1|results_require_review"
+  ],
+  "findings": {
+    "spawn_returned_ok_count": 4,
+    "initial_wall_mask": "010000000",
+    "initial_wall_sample_count": 1,
+    "window_after_setmesh_mask": "111101111",
+    "window_after_setmesh_sample_count": 8,
+    "door_after_setmesh_mask": "101101111",
+    "door_after_setmesh_sample_count": 7,
+    "solid_after_setmesh_mask": "111111111",
+    "solid_after_setmesh_sample_count": 9,
+    "negative_control_count": 0,
+    "live_prop_count_observed": 4,
+    "build_hotbar_slots_observed": 0,
+    "initial_wall_geometry_matches_authored_solid": false
+  },
+  "limits": [
+    "Actor class and initial mesh identity have not been inspected in the runtime.",
+    "Only one sampled wall location and its negative control were checked. Native player-built wall query coverage remains unverified.",
+    "Native editing, health continuity, ownership, build-slot competition, resources, navigation and visual fidelity are unverified.",
+    "A zero-slot build hotbar was observed before any player build-mode interaction; this is not a general inventory limitation."
+  ],
+  "restored_test_flags": {
+    "Enabled": false,
+    "AutoRun": false
+  },
+  "final_game_state": "Unconnected",
+  "final_session_state": "Disconnected",
+  "combat_gates_before_run": {
+    "CandidateCombatEnabled": false,
+    "QueryCoverageConfirmed": false,
+    "HealthContinuityConfirmed": false,
+    "NativeSlotInteroperationConfirmed": false
+  },
+  "combat_gates_read_after_reopen": {
+    "CandidateCombatEnabled": false,
+    "QueryCoverageConfirmed": false,
+    "HealthContinuityConfirmed": false,
+    "NativeSlotInteroperationConfirmed": false
+  }
+}

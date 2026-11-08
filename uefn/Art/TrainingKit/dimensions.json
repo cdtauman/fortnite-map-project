@@ -1,0 +1,104 @@
+{
+  "units": "centimeters",
+  "source_axes": "Unreal XYZ",
+  "obj_y_up": false,
+  "evidence": "Source geometry only; imported bounds and gameplay collision require separate verification.",
+  "meshes": {
+    "WallSolid": {
+      "vertices": 8,
+      "triangles": 12,
+      "bounds": {
+        "min": [
+          -12,
+          -256,
+          0
+        ],
+        "max": [
+          12,
+          256,
+          384
+        ]
+      }
+    },
+    "WallWindow": {
+      "vertices": 32,
+      "triangles": 48,
+      "bounds": {
+        "min": [
+          -12,
+          -256,
+          0
+        ],
+        "max": [
+          12,
+          256,
+          384
+        ]
+      }
+    },
+    "WallDoor": {
+      "vertices": 24,
+      "triangles": 36,
+      "bounds": {
+        "min": [
+          -12,
+          -256,
+          0
+        ],
+        "max": [
+          12,
+          256,
+          384
+        ]
+      }
+    },
+    "Floor": {
+      "vertices": 8,
+      "triangles": 12,
+      "bounds": {
+        "min": [
+          -256,
+          -256,
+          -16
+        ],
+        "max": [
+          256,
+          256,
+          0
+        ]
+      }
+    },
+    "Ramp": {
+      "vertices": 6,
+      "triangles": 8,
+      "bounds": {
+        "min": [
+          -256,
+          -256,
+          0
+        ],
+        "max": [
+          256,
+          256,
+          384
+        ]
+      }
+    },
+    "Cone": {
+      "vertices": 5,
+      "triangles": 6,
+      "bounds": {
+        "min": [
+          -256,
+          -256,
+          0
+        ],
+        "max": [
+          256,
+          256,
+          384
+        ]
+      }
+    }
+  }
+}

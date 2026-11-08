@@ -1,0 +1,8 @@
+newmtl Board
+Kd 0.43 0.27 0.12
+
+newmtl Trim
+Kd 0.52 0.34 0.17
+
+newmtl Grain
+Kd 0.21 0.12 0.055

@@ -1,0 +1,59 @@
+{
+  "run": "55",
+  "evidence_sha256": "dcda6e90145a702135d3aa161e67c995580cbc911b59926e3a931bba3a8292d6",
+  "build": "UEFN 43.00 CL-59596594",
+  "scope": "Private production-equipment native aiming control. One exact equipped assault-rifle template after checked original-item parking; idempotent initialization and selection. Initialize hostile target5000HP in stationary stasis before measurement;2s detection baseline,12s native guard Attack,12s concurrent native Focus(TargetBody) and Attack(TargetBody), matching the core action composition in coach_opponent_behavior; no explicit BeginFire in that second phase. Sample exact rifle equip/holster/fire, source-attributed damage, both body positions and view alignment (not a ballistic ray). Rifle damage/fire rate/shot cost unchanged; original-item restoration and repeat cleanup checked. No player inventory/position changes, direct Damage/Explode, computer input or build-gate changes. Target-stationarity and shooter motion are measured rather than assumed.",
+  "phases": {
+    "detected_baseline": {
+      "samples": 8,
+      "hp_start": 5000.0,
+      "hp_end": 5000.0,
+      "source_attributed_hits": 0,
+      "equipped_samples": 8,
+      "holstered_samples": 0,
+      "firing_samples": 6,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 384.56829744719516,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.990535,
+        0.994827
+      ]
+    },
+    "native_attack_after_equip": {
+      "samples": 48,
+      "hp_start": 5000.0,
+      "hp_end": 4790.0,
+      "source_attributed_hits": 6,
+      "equipped_samples": 48,
+      "holstered_samples": 0,
+      "firing_samples": 38,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 1269.4423327274492,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.978804,
+        0.997017
+      ]
+    }
+  },
+  "finished": "PCL|health_probe|npc_equipped_finished|target_health=4755.000000|source_hits=7|no_direct_damage_or_legacy_attack_phase",
+  "cleanup": "PCL|health_probe|npc_equipped_cleanup|parked=2|restored=2|original_ranged_items_returned_before_despawn|managed_rifle_removed=1|idempotent_cleanup=1",
+  "observed_damage": 245.0,
+  "positive_source_attributed_hits": 7,
+  "damage_after_last_sample": 35.0,
+  "source_hits_after_last_sample": 1,
+  "requested_phases_without_samples": [
+    "focus_entity_plus_attack"
+  ],
+  "limits": [
+    "Detection baseline contains firing before the explicit Attack request; do not attribute unholstering solely to Attack.",
+    "One native rifle was available, equipped and sampled firing; exact per-hit weapon-causer identity was not separately read.",
+    "Stationary private NPC target; no pro cadence, moving-player accuracy, occlusion, reload, build/edit, multiplayer or publication acceptance."
+  ],
+  "native_build_gates_accepted": false
+}

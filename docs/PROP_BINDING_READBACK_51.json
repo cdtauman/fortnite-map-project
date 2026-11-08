@@ -1,0 +1,130 @@
+{
+  "scope": "Editor selection/read-only Details materialization control; no property assignments or saves.",
+  "before": {
+    "structures": {
+      "WallAsset": {
+        "assetForEditor": null
+      },
+      "FloorAsset": {
+        "assetForEditor": null
+      },
+      "RampAsset": {
+        "assetForEditor": null
+      },
+      "ConeAsset": {
+        "assetForEditor": null
+      },
+      "DemoAsset": {
+        "assetForEditor": null
+      }
+    },
+    "course": {
+      "WallAsset": {
+        "assetForEditor": null
+      },
+      "FloorAsset": {
+        "assetForEditor": null
+      },
+      "RampAsset": {
+        "assetForEditor": null
+      },
+      "ConeAsset": {
+        "assetForEditor": null
+      }
+    }
+  },
+  "after_select_structures": {
+    "structures": {
+      "WallAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingWall.PCL_BP_TrainingWall_C"
+        }
+      },
+      "FloorAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingFloor.PCL_BP_TrainingFloor_C"
+        }
+      },
+      "RampAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingRamp.PCL_BP_TrainingRamp_C"
+        }
+      },
+      "ConeAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingCone.PCL_BP_TrainingCone_C"
+        }
+      },
+      "DemoAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_LessonWall.PCL_BP_LessonWall_C"
+        }
+      }
+    },
+    "course": {
+      "WallAsset": {
+        "assetForEditor": null
+      },
+      "FloorAsset": {
+        "assetForEditor": null
+      },
+      "RampAsset": {
+        "assetForEditor": null
+      },
+      "ConeAsset": {
+        "assetForEditor": null
+      }
+    }
+  },
+  "after_select_course": {
+    "structures": {
+      "WallAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingWall.PCL_BP_TrainingWall_C"
+        }
+      },
+      "FloorAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingFloor.PCL_BP_TrainingFloor_C"
+        }
+      },
+      "RampAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingRamp.PCL_BP_TrainingRamp_C"
+        }
+      },
+      "ConeAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingCone.PCL_BP_TrainingCone_C"
+        }
+      },
+      "DemoAsset": {
+        "assetForEditor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_LessonWall.PCL_BP_LessonWall_C"
+        }
+      }
+    },
+    "course": {
+      "WallAsset": {
+        "assetForEditor": {
+          "refPath": "/CR_Legacy/Playsets/PlaysetProps/PPID_CR_Legacy_PG_Cube_Glow_Pink.PPID_CR_Legacy_PG_Cube_Glow_Pink"
+        }
+      },
+      "FloorAsset": {
+        "assetForEditor": {
+          "refPath": "/CR_Legacy/Playsets/PlaysetProps/PPID_CR_Legacy_PG_Cube_Glow_Pink.PPID_CR_Legacy_PG_Cube_Glow_Pink"
+        }
+      },
+      "RampAsset": {
+        "assetForEditor": {
+          "refPath": "/CR_Legacy/Playsets/PlaysetProps/PPID_CR_Legacy_PG_Cube_Glow_Pink.PPID_CR_Legacy_PG_Cube_Glow_Pink"
+        }
+      },
+      "ConeAsset": {
+        "assetForEditor": {
+          "refPath": "/CR_Legacy/Playsets/PlaysetProps/PPID_CR_Legacy_PG_Cube_Glow_Pink.PPID_CR_Legacy_PG_Cube_Glow_Pink"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,687 @@
+{
+  "date": "2026-11-06",
+  "build": "UEFN 43.00 CL-59596594",
+  "run": "automatic-14",
+  "scope": "Isolated damage calibration; native objective health is measured separately from three wall targets. No client input or acceptance gate change. Source and fixture archives identify exact experiment.",
+  "preparation": {
+    "prepared_at_utc": "2026-11-06T19:24:10.314734+00:00",
+    "source_build": "health-probe-initial-state-build.json",
+    "source_build_sha256": "3f4d4a3a58148ae211fa5b386a5e71885fc76ed6089682f20a80641a34cb76e5",
+    "probe": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567"
+    },
+    "probe_label": "PCL_Health_Probe",
+    "log_pattern": "PCL\\|health_probe",
+    "test_flags": {
+      "Enabled": true,
+      "AutoRun": true
+    },
+    "combat_gates": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "input_requested": false,
+    "calibration_native_timer": true,
+    "source_archive": {
+      "path": ".local\\evidence\\health-14\\sources.zip",
+      "sha256": "46f6d8bcc3f7ca25bdddf95c41968bdc041c4ab2f099ee3dac24b7d88169d2ae"
+    },
+    "fixture_archive": {
+      "path": ".local\\evidence\\health-14\\health-probe-layout.json",
+      "sha256": "fede102060958e4d00033565e5e4bafc89e3b2722ec53bd9709f765de7b45ea5"
+    }
+  },
+  "start_session": "Completed",
+  "entries": [
+    {
+      "sequence": 719,
+      "timestamp": "2026-11-06T19:28:42.002Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|ready|combat_gates=false|health_interface_probe=true|ordinary_prop_control_unvalidated=true",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 93
+    },
+    {
+      "sequence": 720,
+      "timestamp": "2026-11-06T19:28:42.002Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=initial_control_wall|x=-12288.000000|y=-4096.000000|z=0.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 721,
+      "timestamp": "2026-11-06T19:28:42.002Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=initial_edited_wall|x=-10240.000000|y=-4096.000000|z=0.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 722,
+      "timestamp": "2026-11-06T19:28:42.002Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=initial_positive_wall|x=-8192.000000|y=-4096.000000|z=0.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 723,
+      "timestamp": "2026-11-06T19:28:42.002Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=initial_control_blast|x=-12458.000000|y=-4224.000000|z=64.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 724,
+      "timestamp": "2026-11-06T19:28:42.002Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=initial_edited_blast|x=-10410.000000|y=-4224.000000|z=64.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 725,
+      "timestamp": "2026-11-06T19:28:42.002Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=initial_positive_blast|x=-8362.000000|y=-4224.000000|z=64.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 726,
+      "timestamp": "2026-11-06T19:28:42.003Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=initial_calibration_objective|x=-6144.000000|y=-4096.000000|z=64.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 727,
+      "timestamp": "2026-11-06T19:28:42.003Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=initial_calibration_blast|x=-6314.000000|y=-4480.000000|z=64.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 728,
+      "timestamp": "2026-11-06T19:28:42.003Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|calibration_initial|health=1000.000000|max_health=1000.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 205
+    },
+    {
+      "sequence": 729,
+      "timestamp": "2026-11-06T19:28:42.003Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|original_instigator_team|zero_based_index=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 209
+    },
+    {
+      "sequence": 730,
+      "timestamp": "2026-11-06T19:28:42.003Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|damage_flags|control=1|edited=1|positive=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 230
+    },
+    {
+      "sequence": 731,
+      "timestamp": "2026-11-06T19:28:42.003Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|initial_health_interface|control=healthful_cast_unavailable|edited=healthful_cast_unavailable|positive=healthful_cast_unavailable",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 234
+    },
+    {
+      "sequence": 732,
+      "timestamp": "2026-11-06T19:28:42.003Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|initial|control_cells=9|edited_cells=9|positive_cells=9",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 239
+    },
+    {
+      "sequence": 734,
+      "timestamp": "2026-11-06T19:28:43.289Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=reset_1_control_wall|x=-12288.000000|y=-4096.000000|z=0.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 735,
+      "timestamp": "2026-11-06T19:28:43.289Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=reset_1_edited_wall|x=-10240.000000|y=-4096.000000|z=0.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 736,
+      "timestamp": "2026-11-06T19:28:43.289Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=reset_1_positive_wall|x=-8192.000000|y=-4096.000000|z=0.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 737,
+      "timestamp": "2026-11-06T19:28:43.289Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=reset_1_control_blast|x=-12458.000000|y=-4224.000000|z=64.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 738,
+      "timestamp": "2026-11-06T19:28:43.290Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=reset_1_edited_blast|x=-10410.000000|y=-4224.000000|z=64.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 739,
+      "timestamp": "2026-11-06T19:28:43.290Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=reset_1_positive_blast|x=-8362.000000|y=-4224.000000|z=64.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 740,
+      "timestamp": "2026-11-06T19:28:43.290Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=reset_1_calibration_objective|x=-6144.000000|y=-4096.000000|z=64.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 741,
+      "timestamp": "2026-11-06T19:28:43.290Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=reset_1_calibration_blast|x=-6314.000000|y=-4480.000000|z=64.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 742,
+      "timestamp": "2026-11-06T19:28:43.565Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|calibration_pulse|index=1|health=1000.000000|blasts=0|damage_events=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 279
+    },
+    {
+      "sequence": 743,
+      "timestamp": "2026-11-06T19:28:43.565Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|pulse|index=1|control_valid=1|edited_valid=1|positive_valid=1|control_blasts=1|edited_blasts=1|positive_blasts=1|control_damage_events=0|edited_damage_events=0|positive_damage_events=0|control_destroyed_events=0|edited_destroyed_events=0|positive_destroyed_events=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 301
+    },
+    {
+      "sequence": 744,
+      "timestamp": "2026-11-06T19:28:43.565Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|health_interface|pulse=1|control=healthful_cast_unavailable|edited=healthful_cast_unavailable|positive=healthful_cast_unavailable",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 302
+    },
+    {
+      "sequence": 745,
+      "timestamp": "2026-11-06T19:28:43.565Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|query|pulse=1|control_cells=9|edited_cells=9|positive_cells=9",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 307
+    },
+    {
+      "sequence": 746,
+      "timestamp": "2026-11-06T19:28:43.565Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|mesh_requested|after_pulse=1|shape=window|same_reference",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 314
+    },
+    {
+      "sequence": 747,
+      "timestamp": "2026-11-06T19:28:44.858Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=reset_2_control_wall|x=-12288.000000|y=-4096.000000|z=0.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 748,
+      "timestamp": "2026-11-06T19:28:44.859Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=reset_2_edited_wall|x=-10240.000000|y=-4096.000000|z=0.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 749,
+      "timestamp": "2026-11-06T19:28:44.859Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=reset_2_positive_wall|x=-8192.000000|y=-4096.000000|z=0.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 750,
+      "timestamp": "2026-11-06T19:28:44.859Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=reset_2_control_blast|x=-12458.000000|y=-4224.000000|z=64.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 751,
+      "timestamp": "2026-11-06T19:28:44.859Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=reset_2_edited_blast|x=-10410.000000|y=-4224.000000|z=64.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 752,
+      "timestamp": "2026-11-06T19:28:44.859Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=reset_2_positive_blast|x=-8362.000000|y=-4224.000000|z=64.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 753,
+      "timestamp": "2026-11-06T19:28:44.859Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=reset_2_calibration_objective|x=-6144.000000|y=-4096.000000|z=64.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 754,
+      "timestamp": "2026-11-06T19:28:44.859Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|runtime_position|name=reset_2_calibration_blast|x=-6314.000000|y=-4480.000000|z=64.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 169
+    },
+    {
+      "sequence": 755,
+      "timestamp": "2026-11-06T19:28:45.134Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|calibration_pulse|index=2|health=1000.000000|blasts=0|damage_events=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 279
+    },
+    {
+      "sequence": 756,
+      "timestamp": "2026-11-06T19:28:45.134Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|pulse|index=2|control_valid=1|edited_valid=1|positive_valid=1|control_blasts=2|edited_blasts=2|positive_blasts=2|control_damage_events=0|edited_damage_events=0|positive_damage_events=0|control_destroyed_events=0|edited_destroyed_events=0|positive_destroyed_events=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 301
+    },
+    {
+      "sequence": 757,
+      "timestamp": "2026-11-06T19:28:45.134Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|health_interface|pulse=2|control=healthful_cast_unavailable|edited=healthful_cast_unavailable|positive=healthful_cast_unavailable",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 302
+    },
+    {
+      "sequence": 758,
+      "timestamp": "2026-11-06T19:28:45.134Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|query|pulse=2|control_cells=9|edited_cells=8|positive_cells=9",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 307
+    },
+    {
+      "sequence": 759,
+      "timestamp": "2026-11-06T19:28:45.134Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|mesh_requested|after_pulse=2|shape=passage|same_reference",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 317
+    },
+    {
+      "sequence": 760,
+      "timestamp": "2026-11-06T19:28:46.703Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|calibration_pulse|index=3|health=1000.000000|blasts=0|damage_events=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 279
+    },
+    {
+      "sequence": 761,
+      "timestamp": "2026-11-06T19:28:46.703Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|pulse|index=3|control_valid=1|edited_valid=1|positive_valid=1|control_blasts=3|edited_blasts=3|positive_blasts=3|control_damage_events=0|edited_damage_events=0|positive_damage_events=0|control_destroyed_events=0|edited_destroyed_events=0|positive_destroyed_events=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 301
+    },
+    {
+      "sequence": 762,
+      "timestamp": "2026-11-06T19:28:46.704Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|health_interface|pulse=3|control=healthful_cast_unavailable|edited=healthful_cast_unavailable|positive=healthful_cast_unavailable",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 302
+    },
+    {
+      "sequence": 763,
+      "timestamp": "2026-11-06T19:28:46.704Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|query|pulse=3|control_cells=9|edited_cells=7|positive_cells=9",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 307
+    },
+    {
+      "sequence": 764,
+      "timestamp": "2026-11-06T19:28:46.704Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|mesh_requested|after_pulse=3|shape=solid|same_reference",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 320
+    },
+    {
+      "sequence": 765,
+      "timestamp": "2026-11-06T19:28:48.275Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|calibration_pulse|index=4|health=1000.000000|blasts=0|damage_events=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 279
+    },
+    {
+      "sequence": 766,
+      "timestamp": "2026-11-06T19:28:48.275Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|pulse|index=4|control_valid=1|edited_valid=1|positive_valid=1|control_blasts=4|edited_blasts=4|positive_blasts=4|control_damage_events=0|edited_damage_events=0|positive_damage_events=0|control_destroyed_events=0|edited_destroyed_events=0|positive_destroyed_events=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 301
+    },
+    {
+      "sequence": 767,
+      "timestamp": "2026-11-06T19:28:48.275Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|health_interface|pulse=4|control=healthful_cast_unavailable|edited=healthful_cast_unavailable|positive=healthful_cast_unavailable",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 302
+    },
+    {
+      "sequence": 768,
+      "timestamp": "2026-11-06T19:28:48.275Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|query|pulse=4|control_cells=9|edited_cells=9|positive_cells=9",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 307
+    },
+    {
+      "sequence": 769,
+      "timestamp": "2026-11-06T19:28:49.844Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|calibration_pulse|index=5|health=1000.000000|blasts=0|damage_events=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 279
+    },
+    {
+      "sequence": 770,
+      "timestamp": "2026-11-06T19:28:49.844Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|pulse|index=5|control_valid=1|edited_valid=1|positive_valid=1|control_blasts=5|edited_blasts=5|positive_blasts=5|control_damage_events=0|edited_damage_events=0|positive_damage_events=0|control_destroyed_events=0|edited_destroyed_events=0|positive_destroyed_events=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 301
+    },
+    {
+      "sequence": 771,
+      "timestamp": "2026-11-06T19:28:49.845Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|health_interface|pulse=5|control=healthful_cast_unavailable|edited=healthful_cast_unavailable|positive=healthful_cast_unavailable",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 302
+    },
+    {
+      "sequence": 772,
+      "timestamp": "2026-11-06T19:28:49.845Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|query|pulse=5|control_cells=9|edited_cells=9|positive_cells=9",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 307
+    },
+    {
+      "sequence": 773,
+      "timestamp": "2026-11-06T19:28:51.413Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|calibration_pulse|index=6|health=1000.000000|blasts=0|damage_events=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 279
+    },
+    {
+      "sequence": 774,
+      "timestamp": "2026-11-06T19:28:51.413Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|pulse|index=6|control_valid=1|edited_valid=1|positive_valid=1|control_blasts=6|edited_blasts=6|positive_blasts=6|control_damage_events=0|edited_damage_events=0|positive_damage_events=0|control_destroyed_events=0|edited_destroyed_events=0|positive_destroyed_events=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 301
+    },
+    {
+      "sequence": 775,
+      "timestamp": "2026-11-06T19:28:51.413Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|health_interface|pulse=6|control=healthful_cast_unavailable|edited=healthful_cast_unavailable|positive=healthful_cast_unavailable",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 302
+    },
+    {
+      "sequence": 776,
+      "timestamp": "2026-11-06T19:28:51.413Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|query|pulse=6|control_cells=9|edited_cells=9|positive_cells=9",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 307
+    },
+    {
+      "sequence": 777,
+      "timestamp": "2026-11-06T19:28:52.983Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|calibration_pulse|index=7|health=1000.000000|blasts=0|damage_events=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 279
+    },
+    {
+      "sequence": 778,
+      "timestamp": "2026-11-06T19:28:52.983Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|pulse|index=7|control_valid=1|edited_valid=1|positive_valid=1|control_blasts=7|edited_blasts=7|positive_blasts=7|control_damage_events=0|edited_damage_events=0|positive_damage_events=0|control_destroyed_events=0|edited_destroyed_events=0|positive_destroyed_events=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 301
+    },
+    {
+      "sequence": 779,
+      "timestamp": "2026-11-06T19:28:52.983Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|health_interface|pulse=7|control=healthful_cast_unavailable|edited=healthful_cast_unavailable|positive=healthful_cast_unavailable",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 302
+    },
+    {
+      "sequence": 780,
+      "timestamp": "2026-11-06T19:28:52.983Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|query|pulse=7|control_cells=9|edited_cells=9|positive_cells=9",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 307
+    },
+    {
+      "sequence": 781,
+      "timestamp": "2026-11-06T19:28:54.554Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|calibration_pulse|index=8|health=1000.000000|blasts=0|damage_events=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 279
+    },
+    {
+      "sequence": 782,
+      "timestamp": "2026-11-06T19:28:54.555Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|pulse|index=8|control_valid=1|edited_valid=1|positive_valid=1|control_blasts=8|edited_blasts=8|positive_blasts=8|control_damage_events=0|edited_damage_events=0|positive_damage_events=0|control_destroyed_events=0|edited_destroyed_events=0|positive_destroyed_events=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 301
+    },
+    {
+      "sequence": 783,
+      "timestamp": "2026-11-06T19:28:54.555Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|health_interface|pulse=8|control=healthful_cast_unavailable|edited=healthful_cast_unavailable|positive=healthful_cast_unavailable",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 302
+    },
+    {
+      "sequence": 784,
+      "timestamp": "2026-11-06T19:28:54.555Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|query|pulse=8|control_cells=9|edited_cells=9|positive_cells=9",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 307
+    },
+    {
+      "sequence": 785,
+      "timestamp": "2026-11-06T19:28:54.555Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|comparison_bounded|control_pulse=0|edited_pulse=0|positive_pulse=0|eight_pulses_only|no_acceptance_gate_changed",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 321
+    },
+    {
+      "sequence": 786,
+      "timestamp": "2026-11-06T19:28:54.555Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|calibration_damage_event|amount=7.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 165
+    },
+    {
+      "sequence": 787,
+      "timestamp": "2026-11-06T19:28:54.809Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|calibration_direct_damage|before=1000.000000|after=993.000000|requested=7|not_wall_health_evidence",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 325
+    },
+    {
+      "sequence": 788,
+      "timestamp": "2026-11-06T19:28:54.809Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|automatic_sequence_finished|results_require_review",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 190
+    }
+  ],
+  "cleanup": {
+    "run": "14",
+    "scope": "Automatic damage calibration on matched owned BuildingWall candidates, an unvalidated ordinary BuildingProp and a separate native objective with numeric health. Explosion damage and the final direct objective Damage call are recorded separately. No human/client input, native edit command or acceptance-gate change. Source and fixture archives define the exact tested setup.",
+    "source_preparation": "final-run-14-preparation.json",
+    "started_at_utc": "2026-11-06T19:29:22.711278+00:00",
+    "started_game_by_tool": false,
+    "sequence_finished": true,
+    "initial_game_state": "Running",
+    "stop_game_result": "Completed",
+    "stop_session_result": null,
+    "native_timer_enabled_after_run": false,
+    "combat_gates_after_run": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "restored_flags": {
+      "Enabled": false,
+      "AutoRun": false,
+      "CalibrationNativeTimer": false
+    },
+    "final_game_state": "Unconnected",
+    "final_session_state": "Disconnected",
+    "ended_at_utc": "2026-11-06T19:30:09.198293+00:00"
+  },
+  "gates_accepted": false
+}

@@ -1,0 +1,2883 @@
+{
+  "scope": "Damage calibration: native matched BuildingWall targets plus an ordinary BuildingProp. No health override. Explosions are centered on a solid lower-left cell common to all tested shapes; radius one tile. Monitors use 1.1-tile dimensions to include edge bounds. Placement deviations up to 1 cm are recorded, not treated as exact requested transforms. Instigator team is controlled and restored by the bounded probe.",
+  "actors": {
+    "PCL_Health_Control_Wall": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561"
+    },
+    "PCL_Health_Control_Blast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A41010755F1203_1560935562"
+    },
+    "PCL_Health_Control_Monitor": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_PropManipulation_V2_C_UAID_30E3A41010755F1203_1572135563"
+    },
+    "PCL_Health_Edited_Wall": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1581664564"
+    },
+    "PCL_Health_Edited_Blast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A41010755F1203_1588718565"
+    },
+    "PCL_Health_Edited_Monitor": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_PropManipulation_V2_C_UAID_30E3A41010755F1203_1595904566"
+    },
+    "PCL_Health_Probe": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567"
+    },
+    "PCL_Health_Positive_Wall": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DamageControl_C_UAID_30E3A4101075601203_1858903744"
+    },
+    "PCL_Health_Positive_Blast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075601203_1868043745"
+    },
+    "PCL_Health_Positive_Monitor": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_PropManipulation_V2_C_UAID_30E3A4101075601203_1874675746"
+    },
+    "PCL_Health_Objective": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075631203_2095966275"
+    },
+    "PCL_Health_Calibration_Blast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075631203_2104758276"
+    },
+    "PCL_Health_Fresh_Platform": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.FortStaticMeshActor_UAID_30E3A4101075661203_1471206805"
+    },
+    "PCL_Health_Fresh_Objective": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+    },
+    "PCL_Health_Fresh_Blast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075661203_1497102807"
+    },
+    "PCL_Health_Shooter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075671203_1509093984"
+    },
+    "PCL_Health_Player_Teleporter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Teleporter_V2_C_UAID_30E3A4101075711203_1580237745"
+    },
+    "PCL_Participant_Probe_Spawner": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075AD1203_1788162289"
+    }
+  },
+  "options": {
+    "PCL_Health_Control_Blast": {
+      "Can be Damaged": "False",
+      "Health": "1.000000",
+      "Display Damage Numbers": "False",
+      "Blast Radius": "1.000000",
+      "Player Damage": "1.000000",
+      "Ignore Team For Damage": "(TeamType=None,TeamIndex=1)",
+      "Structure Damage": "20.000000",
+      "Damage Indestructible Buildings": "True",
+      "Knockback": "None",
+      "BlastLineOfSight": "False",
+      "Explode on Proximity": "False",
+      "Explode on Proximity Range": "1.000000",
+      "Proximity Delay": "0.000000",
+      "Ignore Team For Proximity": "(TeamType=None,TeamIndex=1)",
+      "Has Timed Detonation From Game Start": "False",
+      "Time to Detonation From Game Start": "1.000000",
+      "Play Audio / VFX": "False",
+      "Range Visualization": "Off",
+      "Visible During Game": "False",
+      "Collision During Games": "Off",
+      "Show Health Bar": "False",
+      "Health Bar Style": "Default",
+      "Hide HUD Icon at": "20.000000",
+      "Requires Line of Sight": "True",
+      "Icon Identifier": "(SmallIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\",LargeIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\")",
+      "DisplayDistanceText": "False",
+      "ClampToScreen": "False",
+      "ShowOffscreenArrow": "False",
+      "Team Visibility": "(TeamType=Any,TeamIndex=1)",
+      "Friendly Icon Text": "",
+      "Neutral Icon Text": "",
+      "Hostile Icon Text": "",
+      "HUD Text Size": "1.000000",
+      "Play Audio": "False",
+      "DeviceMesh": "/Game/Environments/Props/Military/Meshes/SM_MilitaryBarrel.SM_MilitaryBarrel",
+      "Time Until Reset Allowed": "1.000000",
+      "KnockbackPlayer": "1500.000000",
+      "KnockbackVehicle": "1500.000000",
+      "KnockbackPhysicsProp": "2700.000000"
+    },
+    "PCL_Health_Control_Monitor": {
+      "EnabledAtGameStart": "False",
+      "StartHidden": "False",
+      "AdditionalPropsToManipulate": "(\"/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_GridWallCandidate.PCL_BP_GridWallCandidate_C'/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561'\")",
+      "OverrideResources": "False",
+      "ResourceNodeAvailable": "25",
+      "ResourceNodeGiven": "1",
+      "ResourceNodeType": "None",
+      "ResourceNodeDepletionMode": "RestockOnDelay",
+      "ResourceNodeRestockTime": "15",
+      "Priority": "0",
+      "AffectAllObjectsInAZone": "False",
+      "ZoneWidth(Tiles)": "1.100000",
+      "ZoneDepth(Tiles)": "1.100000",
+      "ZoneHeight(Tiles)": "1.100000",
+      "ModifyPropHealth": "True",
+      "IsPropInvulnerable": "False",
+      "ModdedPropHealth": "200.000000"
+    },
+    "PCL_Health_Edited_Blast": {
+      "Can be Damaged": "False",
+      "Health": "1.000000",
+      "Display Damage Numbers": "False",
+      "Blast Radius": "1.000000",
+      "Player Damage": "1.000000",
+      "Ignore Team For Damage": "(TeamType=None,TeamIndex=1)",
+      "Structure Damage": "20.000000",
+      "Damage Indestructible Buildings": "True",
+      "Knockback": "None",
+      "BlastLineOfSight": "False",
+      "Explode on Proximity": "False",
+      "Explode on Proximity Range": "1.000000",
+      "Proximity Delay": "0.000000",
+      "Ignore Team For Proximity": "(TeamType=None,TeamIndex=1)",
+      "Has Timed Detonation From Game Start": "False",
+      "Time to Detonation From Game Start": "1.000000",
+      "Play Audio / VFX": "False",
+      "Range Visualization": "Off",
+      "Visible During Game": "False",
+      "Collision During Games": "Off",
+      "Show Health Bar": "False",
+      "Health Bar Style": "Default",
+      "Hide HUD Icon at": "20.000000",
+      "Requires Line of Sight": "True",
+      "Icon Identifier": "(SmallIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\",LargeIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\")",
+      "DisplayDistanceText": "False",
+      "ClampToScreen": "False",
+      "ShowOffscreenArrow": "False",
+      "Team Visibility": "(TeamType=Any,TeamIndex=1)",
+      "Friendly Icon Text": "",
+      "Neutral Icon Text": "",
+      "Hostile Icon Text": "",
+      "HUD Text Size": "1.000000",
+      "Play Audio": "False",
+      "DeviceMesh": "/Game/Environments/Props/Military/Meshes/SM_MilitaryBarrel.SM_MilitaryBarrel",
+      "Time Until Reset Allowed": "1.000000",
+      "KnockbackPlayer": "1500.000000",
+      "KnockbackVehicle": "1500.000000",
+      "KnockbackPhysicsProp": "2700.000000"
+    },
+    "PCL_Health_Edited_Monitor": {
+      "EnabledAtGameStart": "False",
+      "StartHidden": "False",
+      "AdditionalPropsToManipulate": "",
+      "OverrideResources": "False",
+      "ResourceNodeAvailable": "25",
+      "ResourceNodeGiven": "1",
+      "ResourceNodeType": "None",
+      "ResourceNodeDepletionMode": "RestockOnDelay",
+      "ResourceNodeRestockTime": "15",
+      "Priority": "0",
+      "AffectAllObjectsInAZone": "True",
+      "ZoneWidth(Tiles)": "1.100000",
+      "ZoneDepth(Tiles)": "1.100000",
+      "ZoneHeight(Tiles)": "1.100000",
+      "ModifyPropHealth": "False",
+      "IsPropInvulnerable": "False",
+      "ModdedPropHealth": "50.000000"
+    },
+    "PCL_Health_Positive_Blast": {
+      "Can be Damaged": "False",
+      "Health": "1.000000",
+      "Display Damage Numbers": "False",
+      "Blast Radius": "1.000000",
+      "Player Damage": "1.000000",
+      "Ignore Team For Damage": "(TeamType=None,TeamIndex=1)",
+      "Structure Damage": "20.000000",
+      "Damage Indestructible Buildings": "True",
+      "Knockback": "None",
+      "BlastLineOfSight": "False",
+      "Explode on Proximity": "False",
+      "Explode on Proximity Range": "1.000000",
+      "Proximity Delay": "0.000000",
+      "Ignore Team For Proximity": "(TeamType=None,TeamIndex=1)",
+      "Has Timed Detonation From Game Start": "False",
+      "Time to Detonation From Game Start": "1.000000",
+      "Play Audio / VFX": "False",
+      "Range Visualization": "Off",
+      "Visible During Game": "False",
+      "Collision During Games": "Off",
+      "Show Health Bar": "False",
+      "Health Bar Style": "Default",
+      "Hide HUD Icon at": "20.000000",
+      "Requires Line of Sight": "True",
+      "Icon Identifier": "(SmallIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\",LargeIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\")",
+      "DisplayDistanceText": "False",
+      "ClampToScreen": "False",
+      "ShowOffscreenArrow": "False",
+      "Team Visibility": "(TeamType=Any,TeamIndex=1)",
+      "Friendly Icon Text": "",
+      "Neutral Icon Text": "",
+      "Hostile Icon Text": "",
+      "HUD Text Size": "1.000000",
+      "Play Audio": "False",
+      "DeviceMesh": "/Game/Environments/Props/Military/Meshes/SM_MilitaryBarrel.SM_MilitaryBarrel",
+      "Time Until Reset Allowed": "1.000000",
+      "KnockbackPlayer": "1500.000000",
+      "KnockbackVehicle": "1500.000000",
+      "KnockbackPhysicsProp": "2700.000000"
+    },
+    "PCL_Health_Positive_Monitor": {
+      "EnabledAtGameStart": "False",
+      "StartHidden": "False",
+      "AdditionalPropsToManipulate": "",
+      "OverrideResources": "False",
+      "ResourceNodeAvailable": "25",
+      "ResourceNodeGiven": "1",
+      "ResourceNodeType": "None",
+      "ResourceNodeDepletionMode": "RestockOnDelay",
+      "ResourceNodeRestockTime": "15",
+      "Priority": "0",
+      "AffectAllObjectsInAZone": "True",
+      "ZoneWidth(Tiles)": "1.100000",
+      "ZoneDepth(Tiles)": "1.100000",
+      "ZoneHeight(Tiles)": "1.100000",
+      "ModifyPropHealth": "False",
+      "IsPropInvulnerable": "False",
+      "ModdedPropHealth": "50.000000"
+    },
+    "PCL_Health_Objective": {
+      "Mesh": "Cube",
+      "CustomMesh": "",
+      "Invulnerable": "False",
+      "Health": "1000.000000",
+      "Owning Team": "(TeamType=TeamIndex,TeamIndex=2)",
+      "Blast Radius": "",
+      "Beacon": "Off",
+      "Beacon Color": "Direct Color",
+      "Custom Beacon Color": "(R=0.100000,G=0.300000,B=1.000000,A=1.000000)",
+      "Beacon Scale": "",
+      "CustomWidget": "",
+      "FriendlyBadgeVisibility": "Hidden",
+      "HostileBadgeVisibility": "Hidden",
+      "Badge Visibility Distance": "25.000000",
+      "ShowBadgeOnDamage": "No",
+      "Show On Damage Duration": "10.000000",
+      "BadgeHeight": "",
+      "ClampToScreen": "False",
+      "ShowOffscreenArrow": "False",
+      "Show In Objective HUD": "False",
+      "Objective Identifier": "(SmallIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\",LargeIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\")",
+      "Custom Objective Text": "",
+      "Display Damage Numbers": "False",
+      "Visible during games": "False",
+      "Show Destroy Messages": "False",
+      "CriticalNotificationThreshold": "",
+      "WarningNotificationThreshold": "",
+      "Play Audio / VFX": "Off",
+      "Score": "0",
+      "Collision During Games": "On",
+      "Collides With": "Everything",
+      "Show Objective Pulse to Instigator Only": "True",
+      "Show Objective Pulse to Friendly Players": "True",
+      "Show Objective Pulse to Enemy Players": "True",
+      "DisplayScoreUpdateOnHUD": "False",
+      "ResetHUD MessageScore": "False",
+      "HUD Message": "NSLOCTEXT(\"\", \"7B7DD21D4309E37E740180BC942B32DD\", \"Score!\")",
+      "HUD MessageScoreColor": "(R=0.520000,G=0.830000,B=1.000000,A=1.000000)",
+      "HUD MessageColor": "(R=0.000000,G=0.490196,B=1.000000,A=1.000000)",
+      "Damage Event Cooldown": "0.000000"
+    },
+    "PCL_Health_Calibration_Blast": {
+      "Can be Damaged": "True",
+      "Health": "1.000000",
+      "Display Damage Numbers": "False",
+      "Blast Radius": "2.000000",
+      "Player Damage": "50.000000",
+      "Ignore Team For Damage": "(TeamType=None,TeamIndex=1)",
+      "Structure Damage": "20.000000",
+      "Damage Indestructible Buildings": "True",
+      "Knockback": "Medium",
+      "BlastLineOfSight": "False",
+      "Explode on Proximity": "False",
+      "Explode on Proximity Range": "1.000000",
+      "Proximity Delay": "0.000000",
+      "Ignore Team For Proximity": "(TeamType=None,TeamIndex=1)",
+      "Has Timed Detonation From Game Start": "False",
+      "Time to Detonation From Game Start": "5.000000",
+      "Play Audio / VFX": "True",
+      "Range Visualization": "Off",
+      "Visible During Game": "True",
+      "Collision During Games": "On",
+      "Show Health Bar": "True",
+      "Health Bar Style": "Default",
+      "Hide HUD Icon at": "20.000000",
+      "Requires Line of Sight": "True",
+      "Icon Identifier": "(SmallIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\",LargeIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\")",
+      "DisplayDistanceText": "False",
+      "ClampToScreen": "False",
+      "ShowOffscreenArrow": "False",
+      "Team Visibility": "(TeamType=Any,TeamIndex=1)",
+      "Friendly Icon Text": "",
+      "Neutral Icon Text": "",
+      "Hostile Icon Text": "",
+      "HUD Text Size": "1.000000",
+      "Play Audio": "True",
+      "DeviceMesh": "/Game/Environments/Props/Military/Meshes/SM_MilitaryBarrel.SM_MilitaryBarrel",
+      "Time Until Reset Allowed": "1.000000",
+      "KnockbackPlayer": "1500.000000",
+      "KnockbackVehicle": "1500.000000",
+      "KnockbackPhysicsProp": "2700.000000"
+    },
+    "PCL_Health_Fresh_Objective": {
+      "Mesh": "Cube",
+      "CustomMesh": "",
+      "Invulnerable": "False",
+      "Health": "5000.000000",
+      "Owning Team": "(TeamType=None,TeamIndex=1)",
+      "Blast Radius": "",
+      "Beacon": "Off",
+      "Beacon Color": "Direct Color",
+      "Custom Beacon Color": "(R=0.100000,G=0.300000,B=1.000000,A=1.000000)",
+      "Beacon Scale": "",
+      "CustomWidget": "",
+      "FriendlyBadgeVisibility": "Within Distance",
+      "HostileBadgeVisibility": "Within Distance",
+      "Badge Visibility Distance": "25.000000",
+      "ShowBadgeOnDamage": "No",
+      "Show On Damage Duration": "10.000000",
+      "BadgeHeight": "",
+      "ClampToScreen": "False",
+      "ShowOffscreenArrow": "False",
+      "Show In Objective HUD": "False",
+      "Objective Identifier": "(SmallIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\",LargeIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\")",
+      "Custom Objective Text": "",
+      "Display Damage Numbers": "True",
+      "Visible during games": "True",
+      "Show Destroy Messages": "False",
+      "CriticalNotificationThreshold": "",
+      "WarningNotificationThreshold": "",
+      "Play Audio / VFX": "On",
+      "Score": "0",
+      "Collision During Games": "On",
+      "Collides With": "Everything",
+      "Show Objective Pulse to Instigator Only": "True",
+      "Show Objective Pulse to Friendly Players": "True",
+      "Show Objective Pulse to Enemy Players": "True",
+      "DisplayScoreUpdateOnHUD": "False",
+      "ResetHUD MessageScore": "False",
+      "HUD Message": "NSLOCTEXT(\"\", \"7B7DD21D4309E37E740180BC942B32DD\", \"Score!\")",
+      "HUD MessageScoreColor": "(R=0.520000,G=0.830000,B=1.000000,A=1.000000)",
+      "HUD MessageColor": "(R=0.000000,G=0.490196,B=1.000000,A=1.000000)",
+      "Damage Event Cooldown": "0.000000"
+    },
+    "PCL_Health_Fresh_Blast": {
+      "Can be Damaged": "True",
+      "Health": "1.000000",
+      "Display Damage Numbers": "False",
+      "Blast Radius": "2.000000",
+      "Player Damage": "50.000000",
+      "Ignore Team For Damage": "(TeamType=None,TeamIndex=1)",
+      "Structure Damage": "150.000000",
+      "Damage Indestructible Buildings": "False",
+      "Knockback": "Medium",
+      "BlastLineOfSight": "False",
+      "Explode on Proximity": "False",
+      "Explode on Proximity Range": "1.000000",
+      "Proximity Delay": "0.000000",
+      "Ignore Team For Proximity": "(TeamType=None,TeamIndex=1)",
+      "Has Timed Detonation From Game Start": "False",
+      "Time to Detonation From Game Start": "1.000000",
+      "Play Audio / VFX": "True",
+      "Range Visualization": "Off",
+      "Visible During Game": "True",
+      "Collision During Games": "On",
+      "Show Health Bar": "True",
+      "Health Bar Style": "Default",
+      "Hide HUD Icon at": "20.000000",
+      "Requires Line of Sight": "True",
+      "Icon Identifier": "(SmallIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\",LargeIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\")",
+      "DisplayDistanceText": "False",
+      "ClampToScreen": "False",
+      "ShowOffscreenArrow": "False",
+      "Team Visibility": "(TeamType=Any,TeamIndex=1)",
+      "Friendly Icon Text": "",
+      "Neutral Icon Text": "",
+      "Hostile Icon Text": "",
+      "HUD Text Size": "1.000000",
+      "Play Audio": "True",
+      "DeviceMesh": "/Game/Environments/Props/Military/Meshes/SM_MilitaryBarrel.SM_MilitaryBarrel",
+      "Time Until Reset Allowed": "1.000000",
+      "KnockbackPlayer": "1500.000000",
+      "KnockbackVehicle": "1500.000000",
+      "KnockbackPhysicsProp": "2700.000000"
+    },
+    "PCL_Health_Shooter": {
+      "SpawnCount": "2",
+      "SpawnThroughWalls": "True",
+      "AllowInfiniteSpawn": "True",
+      "TotalSpawnLimit": "1",
+      "AllowExceedRecommendedSpawnLimit": "False",
+      "SpawnOnTimer": "False",
+      "SpawnTimer": "3.000000",
+      "ShowSpawnRadius": "True",
+      "SpawnRadius": "1.000000",
+      "UseDeviceSpawnLocation": "True",
+      "EnabledAtGameStart": "True",
+      "DespawnAIsWhenDisabled": "False",
+      "SpawnOnEnabled": "False"
+    },
+    "PCL_Health_Player_Teleporter": {
+      "Knob_TeleporterGroup": "Group_None",
+      "Knob_TargetTeleporterGroup": "Group_None",
+      "EnabledDuringPhase": "None",
+      "Selected Team": "(TeamType=All,TeamIndex=1)",
+      "Invert Team Selection": "False",
+      "Selected Class": "(ClassType=Any,ClassSlot=1)",
+      "Invert Class Selection": "False",
+      "Change Teleporter Target": "Never",
+      "ChangeTeleporterTargetInterval": "5.000000",
+      "Link to Target": "False",
+      "Teleporter Rift Visible": "False",
+      "Play Visual Effects": "False",
+      "Play Sound Effects": "False",
+      "Conserve Momentum": "False",
+      "Face Player In Teleporter Direction": "Yes",
+      "Can Teleport Physics Props": "False",
+      "Face Physics Prop in Teleporter Direction": "No",
+      "Effect Radius": "0.000000",
+      "Maintain Relative Position": "False",
+      "Skydive After Teleport": "False",
+      "MaintainMomentumDuringTeleportToEvent": "Off",
+      "Conserve Physics Prop Momentum": "False",
+      "Physics Prop Momentum Conservation": "World"
+    },
+    "PCL_Participant_Probe_Spawner": {
+      "SpawnCount": "1",
+      "SpawnThroughWalls": "True",
+      "AllowInfiniteSpawn": "True",
+      "TotalSpawnLimit": "1",
+      "AllowExceedRecommendedSpawnLimit": "False",
+      "SpawnOnTimer": "False",
+      "SpawnTimer": "3.000000",
+      "ShowSpawnRadius": "True",
+      "SpawnRadius": "1.000000",
+      "UseDeviceSpawnLocation": "True",
+      "EnabledAtGameStart": "False",
+      "DespawnAIsWhenDisabled": "False",
+      "SpawnOnEnabled": "False"
+    },
+    "PCL_Participant_Wood_Granter": {
+      "EnabledOnGameStart": "False",
+      "ReceivingPlayers": "(TeamType=TriggeringPlayer,TeamIndex=1)",
+      "OnGrantAction": "Keep All",
+      "Grant": "Current Item",
+      "GrantCondition": "Always",
+      "GrantOnCycle": "False",
+      "bEquipGrantedItem": "False",
+      "ItemToGrant": "1",
+      "ItemCount": "",
+      "RemoveItemOnGrant": "False",
+      "InitialWeaponAmmo": "",
+      "SpareWeaponAmmo": "",
+      "CycleBehavior": "Stop",
+      "GrantWhileOffline": "False",
+      "DropItemsAtPlayerLocation": "Never",
+      "OwnershipOfDroppedItem": "Receiving Player",
+      "bGrantOnTimer": "False",
+      "GrantTime": "1.000000",
+      "PlayAudio": "False",
+      "bGrantOnGameStart": "False"
+    }
+  },
+  "intended_blast_options": {
+    "Can be Damaged": "False",
+    "Blast Radius": "1.0",
+    "Player Damage": "1.0",
+    "Structure Damage": "20",
+    "Damage Indestructible Buildings": "True",
+    "Knockback": "None",
+    "BlastLineOfSight": "False",
+    "Explode on Proximity": "False",
+    "Has Timed Detonation From Game Start": "False",
+    "Play Audio / VFX": "False",
+    "Visible During Game": "False",
+    "Collision During Games": "Off",
+    "Show Health Bar": "False",
+    "Play Audio": "False",
+    "Time Until Reset Allowed": "1.0"
+  },
+  "intended_monitor_options": {
+    "EnabledAtGameStart": "False",
+    "StartHidden": "False",
+    "OverrideResources": "False",
+    "AffectAllObjectsInAZone": "True",
+    "ZoneWidth(Tiles)": "1.1",
+    "ZoneDepth(Tiles)": "1.1",
+    "ZoneHeight(Tiles)": "1.1",
+    "ModifyPropHealth": "False"
+  },
+  "properties": {
+    "visualToolCaptureSeconds": 0,
+    "visualRifleCaptureSeconds": 0,
+    "visualNativeCaptureSeconds": 0,
+    "visualUseViewportCamera": false,
+    "visualCaptureCamera": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928"
+    },
+    "visualPortal": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075351203_1174112206"
+    },
+    "enabled": false,
+    "autoRun": false,
+    "learningObservationOnly": false,
+    "participantInventoryOnly": false,
+    "participantBuildAction": false,
+    "participantWoodGranter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ItemGranter_V2_C_UAID_30E3A4101075B01203_1319645818"
+    },
+    "participantSpawner": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075AD1203_1788162289"
+    },
+    "structures": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075391203_2089996912"
+    },
+    "controlWall": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561"
+    },
+    "editedWall": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1581664564"
+    },
+    "controlBlast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A41010755F1203_1560935562"
+    },
+    "editedBlast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A41010755F1203_1588718565"
+    },
+    "controlMonitor": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_PropManipulation_V2_C_UAID_30E3A41010755F1203_1572135563"
+    },
+    "editedMonitor": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_PropManipulation_V2_C_UAID_30E3A41010755F1203_1595904566"
+    },
+    "positiveWall": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DamageControl_C_UAID_30E3A4101075601203_1858903744"
+    },
+    "positiveBlast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075601203_1868043745"
+    },
+    "positiveMonitor": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_PropManipulation_V2_C_UAID_30E3A4101075601203_1874675746"
+    },
+    "calibrationObjective": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+    },
+    "calibrationBlast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075661203_1497102807"
+    },
+    "calibrationNativeTimer": false,
+    "useWeaponCalibration": false,
+    "useCharacterTargetControl": false,
+    "nPCEquippedAttackControl": false,
+    "nativeBuildToolReference": false,
+    "nativeBuildToolLease": false,
+    "nativeBuildCameraBypass": false,
+    "nativeBuildMenuOnly": false,
+    "calibrationAimOffset": {
+      "x": -220,
+      "y": 0,
+      "z": -32
+    },
+    "meshChangeAfterPlayerHits": 0,
+    "isolatedWallControl": false,
+    "spawnedWallControl": false,
+    "nativeTeamWallControl": false,
+    "nativeWallTransitionControl": false,
+    "nativeWallTransitionCase": 0,
+    "spawnedWallAsset": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567.coach_health_probe_device_0.Devices_creative_prop_asset_0"
+    },
+    "calibrationShooter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075671203_1509093984"
+    },
+    "calibrationPlayerTeleporter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Teleporter_V2_C_UAID_30E3A4101075711203_1580237745"
+    },
+    "calibrationNoFireZone": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MutatorVolume_V2_C_UAID_30E3A4101075491203_1921501775"
+    }
+  },
+  "transforms": {
+    "PCL_Health_Control_Wall": {
+      "location": {
+        "x": -1536,
+        "y": -3072,
+        "z": 0
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "PCL_Health_Control_Blast": {
+      "location": {
+        "x": -12458,
+        "y": -4224,
+        "z": 64
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "PCL_Health_Control_Monitor": {
+      "location": {
+        "x": -1536,
+        "y": -3072,
+        "z": 192
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "PCL_Health_Edited_Wall": {
+      "location": {
+        "x": -10240,
+        "y": -4096,
+        "z": 0
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "PCL_Health_Edited_Blast": {
+      "location": {
+        "x": -10410,
+        "y": -4224,
+        "z": 64
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "PCL_Health_Edited_Monitor": {
+      "location": {
+        "x": -10240,
+        "y": -4096,
+        "z": 192
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": -90.00000000000001,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "PCL_Health_Positive_Wall": {
+      "location": {
+        "x": -8192,
+        "y": -4096,
+        "z": 0
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "PCL_Health_Positive_Blast": {
+      "location": {
+        "x": -8362,
+        "y": -4224,
+        "z": 64
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "PCL_Health_Positive_Monitor": {
+      "location": {
+        "x": -8192,
+        "y": -4096,
+        "z": 192
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": -90.00000000000001,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "PCL_Health_Objective": {
+      "location": {
+        "x": -6144,
+        "y": -4096,
+        "z": 64
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "PCL_Health_Calibration_Blast": {
+      "location": {
+        "x": -6314,
+        "y": -4480,
+        "z": 64
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "PCL_Health_Fresh_Platform": {
+      "location": {
+        "x": -2048,
+        "y": -3328,
+        "z": -32
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      },
+      "scale": {
+        "x": 20,
+        "y": 20,
+        "z": 0.64
+      }
+    },
+    "PCL_Health_Fresh_Objective": {
+      "location": {
+        "x": -1536,
+        "y": -2400,
+        "z": 96
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "PCL_Health_Fresh_Blast": {
+      "location": {
+        "x": -2047.5,
+        "y": -3583.5,
+        "z": 64
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 90.00000000000003,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "PCL_Health_Shooter": {
+      "location": {
+        "x": -2848,
+        "y": -3072,
+        "z": 20
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 90.00000000000003,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "PCL_Health_Player_Teleporter": {
+      "location": {
+        "x": -1536,
+        "y": -4096,
+        "z": 96
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 90.00000000000003,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "PCL_Participant_Probe_Spawner": {
+      "location": {
+        "x": -5120,
+        "y": -3072,
+        "z": 20
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 90.00000000000003,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    }
+  },
+  "target_properties": {
+    "PCL_Health_Control_Wall": {
+      "bPlayerPlaced": true,
+      "bCanBeDamaged": true,
+      "bForciblyStructurallySupported": true,
+      "team": "HumanPvP_Team2",
+      "bIsPlayerBuildable": true,
+      "bRegisterWithStructuralGrid": true
+    },
+    "PCL_Health_Edited_Wall": {
+      "bPlayerPlaced": true,
+      "bCanBeDamaged": true,
+      "bForciblyStructurallySupported": true,
+      "team": "HumanPvP_Team2",
+      "bIsPlayerBuildable": true,
+      "bRegisterWithStructuralGrid": true
+    },
+    "PCL_Health_Positive_Wall": {
+      "bPlayerPlaced": false,
+      "bCanBeDamaged": true,
+      "bForciblyStructurallySupported": true,
+      "team": "HumanPvP_Team2",
+      "bIsPlayerBuildable": false,
+      "bRegisterWithStructuralGrid": false
+    }
+  },
+  "actor_metadata": [
+    {
+      "guid": "24D7B767-48B6-E484-A334-49ABD062F4E6",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_GridWallCandidate.PCL_BP_GridWallCandidate_C"
+      },
+      "class": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_GridWallCandidate.PCL_BP_GridWallCandidate_C"
+      },
+      "name": "PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561",
+      "label": "PCL_Health_Control_Wall",
+      "bounds": {
+        "min": {
+          "x": -12544,
+          "y": -4114,
+          "z": 0
+        },
+        "max": {
+          "x": -12032,
+          "y": -4082,
+          "z": 384
+        },
+        "isValid": true
+      },
+      "runtimeGrid": "None",
+      "bIsSpatiallyLoaded": false,
+      "bActorIsEditorOnly": false,
+      "actorPackage": "None",
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561",
+      "folderPath": "None",
+      "dataLayerAssets": []
+    },
+    {
+      "guid": "01D2D81C-454E-2B8B-EBDD-24AC6DB457CA",
+      "nativeClass": {
+        "refPath": "/CreativeCoreDevices/Device_ExplosiveBarrel_V2.Device_ExplosiveBarrel_V2_C"
+      },
+      "class": {
+        "refPath": "/CreativeCoreDevices/Device_ExplosiveBarrel_V2.Device_ExplosiveBarrel_V2_C"
+      },
+      "name": "Device_ExplosiveBarrel_V2_C_UAID_30E3A41010755F1203_1560935562",
+      "label": "PCL_Health_Control_Blast",
+      "bounds": {
+        "min": {
+          "x": -12488.268728256226,
+          "y": -4130.292621612549,
+          "z": 63.999969482421875
+        },
+        "max": {
+          "x": -12417,
+          "y": -4059,
+          "z": 179.4791488647461
+        },
+        "isValid": true
+      },
+      "runtimeGrid": "None",
+      "bIsSpatiallyLoaded": false,
+      "bActorIsEditorOnly": false,
+      "actorPackage": "None",
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A41010755F1203_1560935562",
+      "folderPath": "None",
+      "dataLayerAssets": []
+    },
+    {
+      "guid": "48BAF568-40F7-4C7B-B120-48B704F5CAB2",
+      "nativeClass": {
+        "refPath": "/CRD_PropManipulationDevice/Device_PropManipulation_V2.Device_PropManipulation_V2_C"
+      },
+      "class": {
+        "refPath": "/CRD_PropManipulationDevice/Device_PropManipulation_V2.Device_PropManipulation_V2_C"
+      },
+      "name": "Device_PropManipulation_V2_C_UAID_30E3A41010755F1203_1572135563",
+      "label": "PCL_Health_Control_Monitor",
+      "bounds": {
+        "min": {
+          "x": -12710.399993896484,
+          "y": -4518.399993896484,
+          "z": -143.9999954223633
+        },
+        "max": {
+          "x": -11865.600006103516,
+          "y": -3673.6000061035156,
+          "z": 489.59999542236324
+        },
+        "isValid": true
+      },
+      "runtimeGrid": "None",
+      "bIsSpatiallyLoaded": false,
+      "bActorIsEditorOnly": false,
+      "actorPackage": "None",
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_PropManipulation_V2_C_UAID_30E3A41010755F1203_1572135563",
+      "folderPath": "None",
+      "dataLayerAssets": []
+    },
+    {
+      "guid": "0A857F71-4CF5-B554-F656-2FAA741FB27D",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_GridWallCandidate.PCL_BP_GridWallCandidate_C"
+      },
+      "class": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_GridWallCandidate.PCL_BP_GridWallCandidate_C"
+      },
+      "name": "PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1581664564",
+      "label": "PCL_Health_Edited_Wall",
+      "bounds": {
+        "min": {
+          "x": -10496,
+          "y": -4114,
+          "z": 0
+        },
+        "max": {
+          "x": -9984,
+          "y": -4082,
+          "z": 384
+        },
+        "isValid": true
+      },
+      "runtimeGrid": "None",
+      "bIsSpatiallyLoaded": false,
+      "bActorIsEditorOnly": false,
+      "actorPackage": "None",
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1581664564",
+      "folderPath": "None",
+      "dataLayerAssets": []
+    },
+    {
+      "guid": "8C0A5C0B-4815-900F-C63D-2FA28516F5EC",
+      "nativeClass": {
+        "refPath": "/CreativeCoreDevices/Device_ExplosiveBarrel_V2.Device_ExplosiveBarrel_V2_C"
+      },
+      "class": {
+        "refPath": "/CreativeCoreDevices/Device_ExplosiveBarrel_V2.Device_ExplosiveBarrel_V2_C"
+      },
+      "name": "Device_ExplosiveBarrel_V2_C_UAID_30E3A41010755F1203_1588718565",
+      "label": "PCL_Health_Edited_Blast",
+      "bounds": {
+        "min": {
+          "x": -10440.268728256226,
+          "y": -4130.292621612549,
+          "z": 63.999969482421875
+        },
+        "max": {
+          "x": -10369,
+          "y": -4059,
+          "z": 179.4791488647461
+        },
+        "isValid": true
+      },
+      "runtimeGrid": "None",
+      "bIsSpatiallyLoaded": false,
+      "bActorIsEditorOnly": false,
+      "actorPackage": "None",
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A41010755F1203_1588718565",
+      "folderPath": "None",
+      "dataLayerAssets": []
+    },
+    {
+      "guid": "8C46CA6C-423F-D6B7-13CC-57BA113FE070",
+      "nativeClass": {
+        "refPath": "/CRD_PropManipulationDevice/Device_PropManipulation_V2.Device_PropManipulation_V2_C"
+      },
+      "class": {
+        "refPath": "/CRD_PropManipulationDevice/Device_PropManipulation_V2.Device_PropManipulation_V2_C"
+      },
+      "name": "Device_PropManipulation_V2_C_UAID_30E3A41010755F1203_1595904566",
+      "label": "PCL_Health_Edited_Monitor",
+      "bounds": {
+        "min": {
+          "x": -10662.399993896484,
+          "y": -4518.399993896484,
+          "z": -143.9999954223633
+        },
+        "max": {
+          "x": -9817.600006103516,
+          "y": -3673.6000061035156,
+          "z": 489.59999542236324
+        },
+        "isValid": true
+      },
+      "runtimeGrid": "None",
+      "bIsSpatiallyLoaded": false,
+      "bActorIsEditorOnly": false,
+      "actorPackage": "None",
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_PropManipulation_V2_C_UAID_30E3A41010755F1203_1595904566",
+      "folderPath": "None",
+      "dataLayerAssets": []
+    },
+    {
+      "guid": "378FB671-43A2-5AB6-43F5-B1ABA636060D",
+      "nativeClass": {
+        "refPath": "/CRD_VerseDevices/VerseDevice.VerseDevice_C"
+      },
+      "class": {
+        "refPath": "/CRD_VerseDevices/VerseDevice.VerseDevice_C"
+      },
+      "name": "VerseDevice_C_UAID_30E3A41010755F1203_1602592567",
+      "label": "PCL_Health_Probe",
+      "bounds": {
+        "min": {
+          "x": -12414.668529510498,
+          "y": -4666.280494689941,
+          "z": 0
+        },
+        "max": {
+          "x": -12161.279644012451,
+          "y": -4549.357559204102,
+          "z": 158.11314392089844
+        },
+        "isValid": true
+      },
+      "runtimeGrid": "None",
+      "bIsSpatiallyLoaded": false,
+      "bActorIsEditorOnly": false,
+      "actorPackage": "None",
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567",
+      "folderPath": "None",
+      "dataLayerAssets": []
+    },
+    {
+      "guid": "C8444BC2-4A80-84D2-BC3D-B790F19FF0B1",
+      "nativeClass": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_DamageControl.PCL_BP_DamageControl_C"
+      },
+      "class": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_DamageControl.PCL_BP_DamageControl_C"
+      },
+      "name": "PCL_BP_DamageControl_C_UAID_30E3A4101075601203_1858903744",
+      "label": "PCL_Health_Positive_Wall",
+      "bounds": {
+        "min": {
+          "x": -8448,
+          "y": -4114,
+          "z": 0
+        },
+        "max": {
+          "x": -7936,
+          "y": -4082,
+          "z": 384
+        },
+        "isValid": true
+      },
+      "runtimeGrid": "None",
+      "bIsSpatiallyLoaded": false,
+      "bActorIsEditorOnly": false,
+      "actorPackage": "None",
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DamageControl_C_UAID_30E3A4101075601203_1858903744",
+      "folderPath": "None",
+      "dataLayerAssets": []
+    },
+    {
+      "guid": "750718E5-4A86-6CBC-1FD6-07828621829B",
+      "nativeClass": {
+        "refPath": "/CreativeCoreDevices/Device_ExplosiveBarrel_V2.Device_ExplosiveBarrel_V2_C"
+      },
+      "class": {
+        "refPath": "/CreativeCoreDevices/Device_ExplosiveBarrel_V2.Device_ExplosiveBarrel_V2_C"
+      },
+      "name": "Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075601203_1868043745",
+      "label": "PCL_Health_Positive_Blast",
+      "bounds": {
+        "min": {
+          "x": -8392.268728256226,
+          "y": -4130.292621612549,
+          "z": 63.999969482421875
+        },
+        "max": {
+          "x": -8321,
+          "y": -4059,
+          "z": 179.4791488647461
+        },
+        "isValid": true
+      },
+      "runtimeGrid": "None",
+      "bIsSpatiallyLoaded": false,
+      "bActorIsEditorOnly": false,
+      "actorPackage": "None",
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075601203_1868043745",
+      "folderPath": "None",
+      "dataLayerAssets": []
+    },
+    {
+      "guid": "BB3668EA-4CBD-E155-4E01-158D57EB4A7F",
+      "nativeClass": {
+        "refPath": "/CRD_PropManipulationDevice/Device_PropManipulation_V2.Device_PropManipulation_V2_C"
+      },
+      "class": {
+        "refPath": "/CRD_PropManipulationDevice/Device_PropManipulation_V2.Device_PropManipulation_V2_C"
+      },
+      "name": "Device_PropManipulation_V2_C_UAID_30E3A4101075601203_1874675746",
+      "label": "PCL_Health_Positive_Monitor",
+      "bounds": {
+        "min": {
+          "x": -8614.399993896484,
+          "y": -4518.399993896484,
+          "z": -143.9999954223633
+        },
+        "max": {
+          "x": -7769.600006103516,
+          "y": -3673.6000061035156,
+          "z": 489.59999542236324
+        },
+        "isValid": true
+      },
+      "runtimeGrid": "None",
+      "bIsSpatiallyLoaded": false,
+      "bActorIsEditorOnly": false,
+      "actorPackage": "None",
+      "actorPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_PropManipulation_V2_C_UAID_30E3A4101075601203_1874675746",
+      "folderPath": "None",
+      "dataLayerAssets": []
+    }
+  ],
+  "max_pulses": 8,
+  "positive_asset_validation": {
+    "numChecked": 2,
+    "numValid": 2,
+    "numInvalid": 0,
+    "numWarnings": 0,
+    "numSkipped": 0,
+    "bAssetLimitReached": false,
+    "errors": [],
+    "warnings": []
+  },
+  "calibration_scope": "Paired native200HP-configured walls: pause-only control versus native-pool lease with move/return/window/solid after exactly3 player callbacks, fire stopped during both transitions. Same native class/team/instance flags/solid mesh/monitor health settings/rifle stats. No health write during phases, no direct Damage/Explode/Dispose or native owner/edit/slot acceptance. Callbacks are not numeric wall HP. Editor-only matched profile must be restored after the trial.",
+  "calibration_baseline_changes": {
+    "Can be Damaged": {
+      "before": "False",
+      "after": "True"
+    },
+    "Blast Radius": {
+      "before": "1.000000",
+      "after": "2.000000"
+    },
+    "Player Damage": {
+      "before": "1.000000",
+      "after": "50.000000"
+    },
+    "Knockback": {
+      "before": "None",
+      "after": "Medium"
+    },
+    "Play Audio / VFX": {
+      "before": "False",
+      "after": "True"
+    },
+    "Visible During Game": {
+      "before": "False",
+      "after": "True"
+    },
+    "Collision During Games": {
+      "before": "Off",
+      "after": "On"
+    },
+    "Show Health Bar": {
+      "before": "False",
+      "after": "True"
+    },
+    "Play Audio": {
+      "before": "False",
+      "after": "True"
+    }
+  },
+  "fresh_native_defaults": {
+    "PCL_Health_Fresh_Objective": {
+      "Mesh": "ShockTower",
+      "CustomMesh": "",
+      "Invulnerable": "False",
+      "Health": "100.000000",
+      "Owning Team": "(TeamType=TeamIndex,TeamIndex=1)",
+      "Blast Radius": "",
+      "Beacon": "Off",
+      "Beacon Color": "Direct Color",
+      "Custom Beacon Color": "(R=0.100000,G=0.300000,B=1.000000,A=1.000000)",
+      "Beacon Scale": "",
+      "CustomWidget": "",
+      "FriendlyBadgeVisibility": "Within Distance",
+      "HostileBadgeVisibility": "Within Distance",
+      "Badge Visibility Distance": "25.000000",
+      "ShowBadgeOnDamage": "No",
+      "Show On Damage Duration": "10.000000",
+      "BadgeHeight": "",
+      "ClampToScreen": "False",
+      "ShowOffscreenArrow": "False",
+      "Show In Objective HUD": "False",
+      "Objective Identifier": "(SmallIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\",LargeIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\")",
+      "Custom Objective Text": "",
+      "Display Damage Numbers": "True",
+      "Visible during games": "True",
+      "Show Destroy Messages": "False",
+      "CriticalNotificationThreshold": "",
+      "WarningNotificationThreshold": "",
+      "Play Audio / VFX": "On",
+      "Score": "0",
+      "Collision During Games": "On",
+      "Collides With": "Everything",
+      "Show Objective Pulse to Instigator Only": "True",
+      "Show Objective Pulse to Friendly Players": "True",
+      "Show Objective Pulse to Enemy Players": "True",
+      "DisplayScoreUpdateOnHUD": "False",
+      "ResetHUD MessageScore": "False",
+      "HUD Message": "NSLOCTEXT(\"\", \"7B7DD21D4309E37E740180BC942B32DD\", \"Score!\")",
+      "HUD MessageScoreColor": "(R=0.520000,G=0.830000,B=1.000000,A=1.000000)",
+      "HUD MessageColor": "(R=0.000000,G=0.490196,B=1.000000,A=1.000000)",
+      "Damage Event Cooldown": "0.000000"
+    },
+    "PCL_Health_Fresh_Blast": {
+      "Can be Damaged": "True",
+      "Health": "1.000000",
+      "Display Damage Numbers": "False",
+      "Blast Radius": "2.000000",
+      "Player Damage": "50.000000",
+      "Ignore Team For Damage": "(TeamType=None,TeamIndex=1)",
+      "Structure Damage": "150.000000",
+      "Damage Indestructible Buildings": "False",
+      "Knockback": "Medium",
+      "BlastLineOfSight": "False",
+      "Explode on Proximity": "False",
+      "Explode on Proximity Range": "1.000000",
+      "Proximity Delay": "0.000000",
+      "Ignore Team For Proximity": "(TeamType=None,TeamIndex=1)",
+      "Has Timed Detonation From Game Start": "False",
+      "Time to Detonation From Game Start": "1.000000",
+      "Play Audio / VFX": "True",
+      "Range Visualization": "Off",
+      "Visible During Game": "True",
+      "Collision During Games": "On",
+      "Show Health Bar": "True",
+      "Health Bar Style": "Default",
+      "Hide HUD Icon at": "20.000000",
+      "Requires Line of Sight": "True",
+      "Icon Identifier": "(SmallIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\",LargeIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\")",
+      "DisplayDistanceText": "False",
+      "ClampToScreen": "False",
+      "ShowOffscreenArrow": "False",
+      "Team Visibility": "(TeamType=Any,TeamIndex=1)",
+      "Friendly Icon Text": "",
+      "Neutral Icon Text": "",
+      "Hostile Icon Text": "",
+      "HUD Text Size": "1.000000",
+      "Play Audio": "True",
+      "DeviceMesh": "/Game/Environments/Props/Military/Meshes/SM_MilitaryBarrel.SM_MilitaryBarrel",
+      "Time Until Reset Allowed": "1.000000",
+      "KnockbackPlayer": "1500.000000",
+      "KnockbackVehicle": "1500.000000",
+      "KnockbackPhysicsProp": "2700.000000"
+    }
+  },
+  "active_calibration_bindings": {
+    "CalibrationObjective": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+    },
+    "CalibrationBlast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075661203_1497102807"
+    },
+    "CalibrationNativeTimer": false,
+    "CalibrationPlayerTeleporter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Teleporter_V2_C_UAID_30E3A4101075711203_1580237745"
+    },
+    "CalibrationNoFireZone": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MutatorVolume_V2_C_UAID_30E3A4101075491203_1921501775"
+    }
+  },
+  "weapon_calibration": {
+    "definition": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachDamageShooter.CoachDamageShooter"
+    },
+    "spawner": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075671203_1509093984"
+    },
+    "properties": {
+      "Enabled": false,
+      "AutoRun": false,
+      "UseWeaponCalibration": false,
+      "UseCharacterTargetControl": false,
+      "CalibrationNativeTimer": false,
+      "CalibrationShooter": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075671203_1509093984"
+      },
+      "CalibrationObjective": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+      },
+      "CalibrationBlast": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075661203_1497102807"
+      },
+      "CalibrationPlayerTeleporter": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Teleporter_V2_C_UAID_30E3A4101075711203_1580237745"
+      },
+      "CalibrationNoFireZone": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MutatorVolume_V2_C_UAID_30E3A4101075491203_1921501775"
+      }
+    },
+    "scope": "Automatic native team-affiliation comparison on one preplaced owned BuildingWall: Team2 visible fire, Team2 hidden-wall objective positive control, Team1 visible fire. Same wall reference, no in-trial HP write/direct Damage/Dispose/replacement. Team assignments, original teams and player item identities/equipment are checked. Native edit/owner/grid-slot acceptance remains open.",
+    "inventory": {
+      "items": [
+        {
+          "itemDefinition": {
+            "refPath": "/Game/Athena/Items/Weapons/WID_Assault_Auto_Athena_R_Ore_T03.WID_Assault_Auto_Athena_R_Ore_T03"
+          },
+          "itemQuantity": 1
+        },
+        {
+          "itemDefinition": {
+            "refPath": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_SR_Ore_T03.WID_Shotgun_Standard_Athena_SR_Ore_T03"
+          },
+          "itemQuantity": 1
+        },
+        {
+          "itemDefinition": {
+            "refPath": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData"
+          },
+          "itemQuantity": 500
+        },
+        {
+          "itemDefinition": {
+            "refPath": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium"
+          },
+          "itemQuantity": 500
+        }
+      ],
+      "canDropLoot": false
+    },
+    "inventory_component": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075671203_1509093984.NPCCharacterDefinitionComponent.CoachInventoryInstance"
+    }
+  },
+  "native_combat_control": {
+    "scope": "Native loadout before template creation. Stationary hostile target initialized5000HP before measurement, native hostile LOS required;2s baseline,12s held Attack,ten pulses,source attribution and native alert level. Separate player control uses a private native teleporter with momentum off,150cm placement guard and actual view alignment threshold0.995. All probe flags/gates restored; no direct Damage/Explode or computer input. Uses the exact owned trace-rifle reference even if native AI changes equipped state. Native IsInVolume and shooter coordinates are measured directly; no volume-membership inference from editor bounds.",
+    "spawn_capacity": 2,
+    "source_build": "health-probe-direct-rifle-build.json"
+  },
+  "objective_control35": {
+    "at_utc": "2026-11-07T00:39:44.965649+00:00",
+    "actor": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+    },
+    "before": {
+      "at_utc": "2026-11-07T00:37:43.598114+00:00",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+      },
+      "bounds": {
+        "min": {
+          "x": -2347.999984741211,
+          "y": -3372,
+          "z": -128
+        },
+        "max": {
+          "x": -1747.999984741211,
+          "y": -2772,
+          "z": 280.0556106567383
+        },
+        "isValid": true
+      },
+      "transform": {
+        "location": {
+          "x": -2048,
+          "y": -3072,
+          "z": 0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -90.00000000000001,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "options": {
+        "Mesh": "ShockTower",
+        "CustomMesh": "",
+        "Health": "5000.000000",
+        "Owning Team": "(TeamType=TeamIndex,TeamIndex=2)",
+        "ShowBadgeOnDamage": "No",
+        "Show On Damage Duration": "10.000000",
+        "Display Damage Numbers": "True",
+        "Visible during games": "True",
+        "Collision During Games": "On",
+        "Damage Event Cooldown": "0.000000"
+      }
+    },
+    "properties": {
+      "Enabled": false,
+      "AutoRun": false,
+      "UseWeaponCalibration": false,
+      "UseCharacterTargetControl": false,
+      "CalibrationAimOffset": {
+        "x": 0,
+        "y": 0,
+        "z": 40
+      }
+    },
+    "bounds": {
+      "min": {
+        "x": -1836,
+        "y": -2700,
+        "z": -32
+      },
+      "max": {
+        "x": -1236,
+        "y": -2100,
+        "z": 512.4681701660156
+      },
+      "isValid": true
+    },
+    "transform": {
+      "location": {
+        "x": -1536,
+        "y": -2400,
+        "z": 96
+      },
+      "rotation": {
+        "pitch": 0,
+        "yaw": 0,
+        "roll": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "options": {
+      "Mesh": "Cube",
+      "CustomMesh": "",
+      "Invulnerable": "False",
+      "Health": "5000.000000",
+      "Owning Team": "(TeamType=TeamIndex,TeamIndex=2)",
+      "Blast Radius": "",
+      "Beacon": "Off",
+      "Beacon Color": "Direct Color",
+      "Custom Beacon Color": "(R=0.100000,G=0.300000,B=1.000000,A=1.000000)",
+      "Beacon Scale": "",
+      "CustomWidget": "",
+      "FriendlyBadgeVisibility": "Within Distance",
+      "HostileBadgeVisibility": "Within Distance",
+      "Badge Visibility Distance": "25.000000",
+      "ShowBadgeOnDamage": "No",
+      "Show On Damage Duration": "10.000000",
+      "BadgeHeight": "",
+      "ClampToScreen": "False",
+      "ShowOffscreenArrow": "False",
+      "Show In Objective HUD": "False",
+      "Objective Identifier": "(SmallIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\",LargeIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\")",
+      "Custom Objective Text": "",
+      "Display Damage Numbers": "True",
+      "Visible during games": "True",
+      "Show Destroy Messages": "False",
+      "CriticalNotificationThreshold": "",
+      "WarningNotificationThreshold": "",
+      "Play Audio / VFX": "On",
+      "Score": "0",
+      "Collision During Games": "On",
+      "Collides With": "Everything",
+      "Show Objective Pulse to Instigator Only": "True",
+      "Show Objective Pulse to Friendly Players": "True",
+      "Show Objective Pulse to Enemy Players": "True",
+      "DisplayScoreUpdateOnHUD": "False",
+      "ResetHUD MessageScore": "False",
+      "HUD Message": "NSLOCTEXT(\"\", \"7B7DD21D4309E37E740180BC942B32DD\", \"Score!\")",
+      "HUD MessageScoreColor": "(R=0.520000,G=0.830000,B=1.000000,A=1.000000)",
+      "HUD MessageColor": "(R=0.000000,G=0.490196,B=1.000000,A=1.000000)",
+      "Damage Event Cooldown": "0.000000"
+    }
+  },
+  "wall_occlusion_control": {
+    "at_utc": "2026-11-07T01:07:08.694718+00:00",
+    "enabled": true,
+    "scope": "Native Prop Manipulator initial-health control200 configured before gameplay; explicit AdditionalProps reference is the owned ControlWall and volume mode is off. No scripted health changes or synthetic damage during firing. This does not establish default Fortnite wall health or edit-health continuity.",
+    "before": {
+      "PCL_Health_Control_Wall": {
+        "location": {
+          "x": -1536,
+          "y": -3072,
+          "z": 0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90.00000000000001,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      },
+      "PCL_Health_Control_Monitor": {
+        "location": {
+          "x": -1536,
+          "y": -3072,
+          "z": 192
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    "after": {
+      "PCL_Health_Control_Wall": {
+        "actor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561"
+        },
+        "transform": {
+          "location": {
+            "x": -1536,
+            "y": -3072,
+            "z": 0
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": 0,
+            "roll": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "bounds": {
+          "min": {
+            "x": -1792,
+            "y": -3090,
+            "z": 0
+          },
+          "max": {
+            "x": -1280,
+            "y": -3058,
+            "z": 384
+          },
+          "isValid": true
+        }
+      },
+      "PCL_Health_Control_Monitor": {
+        "actor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_PropManipulation_V2_C_UAID_30E3A41010755F1203_1572135563"
+        },
+        "transform": {
+          "location": {
+            "x": -1536,
+            "y": -3072,
+            "z": 192
+          },
+          "rotation": {
+            "pitch": 0,
+            "yaw": 0,
+            "roll": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        },
+        "bounds": {
+          "min": {
+            "x": -1958.3999938964844,
+            "y": -3494.3999938964844,
+            "z": -143.9999954223633
+          },
+          "max": {
+            "x": -1113.6000061035156,
+            "y": -2649.6000061035156,
+            "z": 489.59999542236324
+          },
+          "isValid": true
+        }
+      }
+    },
+    "geometry_query_normal_yaw": 90,
+    "wall_properties": {
+      "bCanBeDamaged": true,
+      "bPlayerPlaced": true,
+      "bForciblyStructurallySupported": true,
+      "team": "HumanPvP_Team2",
+      "bRegisterWithStructuralGrid": true
+    },
+    "monitor_options": {
+      "EnabledAtGameStart": "False",
+      "StartHidden": "False",
+      "AdditionalPropsToManipulate": "",
+      "OverrideResources": "False",
+      "ResourceNodeAvailable": "25",
+      "ResourceNodeGiven": "1",
+      "ResourceNodeType": "None",
+      "ResourceNodeDepletionMode": "RestockOnDelay",
+      "ResourceNodeRestockTime": "15",
+      "Priority": "0",
+      "AffectAllObjectsInAZone": "True",
+      "ZoneWidth(Tiles)": "1.100000",
+      "ZoneDepth(Tiles)": "1.100000",
+      "ZoneHeight(Tiles)": "1.100000",
+      "ModifyPropHealth": "False",
+      "IsPropInvulnerable": "False",
+      "ModdedPropHealth": "50.000000"
+    }
+  },
+  "wall_finite_health39": {
+    "at_utc": "2026-11-07T01:19:26.927269+00:00",
+    "scope": "Native Prop Manipulator initial-health control200 configured before gameplay; explicit AdditionalProps reference is the owned ControlWall and volume mode is off. No scripted health changes or synthetic damage during firing. This does not establish default Fortnite wall health or edit-health continuity.",
+    "explicit_targets": {
+      "additionalPropsToManipulate": [
+        {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561"
+        }
+      ]
+    },
+    "before_options": {
+      "EnabledAtGameStart": "False",
+      "StartHidden": "False",
+      "AdditionalPropsToManipulate": "(\"/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_GridWallCandidate.PCL_BP_GridWallCandidate_C'/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561'\")",
+      "OverrideResources": "False",
+      "ResourceNodeAvailable": "25",
+      "ResourceNodeGiven": "1",
+      "ResourceNodeType": "None",
+      "ResourceNodeDepletionMode": "RestockOnDelay",
+      "ResourceNodeRestockTime": "15",
+      "Priority": "0",
+      "AffectAllObjectsInAZone": "True",
+      "ZoneWidth(Tiles)": "1.100000",
+      "ZoneDepth(Tiles)": "1.100000",
+      "ZoneHeight(Tiles)": "1.100000",
+      "ModifyPropHealth": "False",
+      "IsPropInvulnerable": "False",
+      "ModdedPropHealth": "50.000000"
+    },
+    "after_options": {
+      "EnabledAtGameStart": "False",
+      "StartHidden": "False",
+      "AdditionalPropsToManipulate": "(\"/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_GridWallCandidate.PCL_BP_GridWallCandidate_C'/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561'\")",
+      "OverrideResources": "False",
+      "ResourceNodeAvailable": "25",
+      "ResourceNodeGiven": "1",
+      "ResourceNodeType": "None",
+      "ResourceNodeDepletionMode": "RestockOnDelay",
+      "ResourceNodeRestockTime": "15",
+      "Priority": "0",
+      "AffectAllObjectsInAZone": "False",
+      "ZoneWidth(Tiles)": "1.100000",
+      "ZoneDepth(Tiles)": "1.100000",
+      "ZoneHeight(Tiles)": "1.100000",
+      "ModifyPropHealth": "True",
+      "IsPropInvulnerable": "False",
+      "ModdedPropHealth": "200.000000"
+    },
+    "validation": {
+      "numChecked": 1,
+      "numValid": 1,
+      "numInvalid": 0,
+      "numWarnings": 0,
+      "numSkipped": 0,
+      "bAssetLimitReached": false,
+      "errors": [],
+      "warnings": []
+    }
+  },
+  "spawned_wall_control": {
+    "enabled": true,
+    "configured_at_utc": "2026-11-07T12:30:21.084737+00:00",
+    "scope": "Owned TrainingWall-derived BuildingProp, only template bIsPlayerBuildable changed to true. Private automatic SpawnProp/native rifle experiment; independently observe allocation, validity, collision and native destruction. No native slot/ownership/edit acceptance, no PC input.",
+    "binding": {
+      "health": {
+        "SpawnedWallAsset": {
+          "assetForEditor": {
+            "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_PlayerBuildablePropCandidate.PCL_BP_PlayerBuildablePropCandidate_C"
+          }
+        }
+      }
+    },
+    "defaults": {
+      "bIsPlayerBuildable": true,
+      "bPlayerPlaced": false,
+      "bRegisterWithStructuralGrid": true,
+      "bDestroyOnPlayerBuildingPlacement": false
+    },
+    "before": {
+      "Enabled": false,
+      "AutoRun": false,
+      "CalibrationNativeTimer": false,
+      "UseCharacterTargetControl": false,
+      "NPCEquippedAttackControl": false,
+      "VisualUseViewportCamera": false,
+      "NativeBuildToolReference": false,
+      "NativeBuildToolLease": false,
+      "NativeBuildCameraBypass": false,
+      "NativeBuildMenuOnly": false,
+      "UseWeaponCalibration": false,
+      "IsolatedWallControl": false,
+      "SpawnedWallControl": false,
+      "VisualNativeCaptureSeconds": 0,
+      "VisualToolCaptureSeconds": 0,
+      "VisualRifleCaptureSeconds": 0,
+      "MeshChangeAfterPlayerHits": 0,
+      "CalibrationAimOffset": {
+        "x": -220,
+        "y": 0,
+        "z": -32
+      },
+      "SpawnedWallAsset": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567.coach_health_probe_device_0.Devices_creative_prop_asset_0"
+      }
+    },
+    "after": {
+      "Enabled": false,
+      "AutoRun": false,
+      "CalibrationNativeTimer": false,
+      "UseCharacterTargetControl": false,
+      "NPCEquippedAttackControl": false,
+      "VisualUseViewportCamera": false,
+      "NativeBuildToolReference": false,
+      "NativeBuildToolLease": false,
+      "NativeBuildCameraBypass": false,
+      "NativeBuildMenuOnly": false,
+      "UseWeaponCalibration": true,
+      "IsolatedWallControl": true,
+      "SpawnedWallControl": true,
+      "VisualNativeCaptureSeconds": 0,
+      "VisualToolCaptureSeconds": 0,
+      "VisualRifleCaptureSeconds": 0,
+      "MeshChangeAfterPlayerHits": 0,
+      "CalibrationAimOffset": {
+        "x": -220,
+        "y": 0,
+        "z": -32
+      }
+    }
+  },
+  "npc_equipped_attack_control": {
+    "at_utc": "2026-11-07T11:34:57.777095+00:00",
+    "scope": "Control101executes one public Guard.Attack against a second native Guard after hostile team/detection/LOS, native build-tool equip+parent and publicly read resource stacks(total>=10) are confirmed. Target initialized5000HP/shield0/stasis before measurement; damage attribution/subscription/team cleanup separate. Same100native player-tool diagnostic lease/8short samples and temporary inventory restoration. Control100adds explicit native original-ranged RemoveItem before parking AddItem. Control98parks both original ranged items OUTSIDE Guard. Control97adds3temporary query guards; all removed before item return.99read-only current Guard inventory/reference census retained.40long samples now run during the attack control, with fixed2048x2048x1536 collision-entity census relative to a post-detection baseline, resources/tool/HP/source hits. A new body is only a candidate, not a native building/type/ownership/slot proof. Actual GameViewport phase native_build_attack while camera/menu temporarily leased. No computer input/player teleport, BeginFire or direct Damage; health set only before measurement. Native tool kind not identified; no native edit/reset command. End cancels attack task and damage binding, restores target team/stasis/vulnerability then same original14identities/parents/equipped,source4,2rangeditems,empty hotbar/parking removal and repeat cleanup. This is an actuation investigation, not native placement/edit/reset acceptance, a pro-quality or publication promise. Control102refreshes native tool at most ONCE after hostile detection/focus, only if unequipped. Log each precondition independently and require currently confirmed hostile LOS, parent/resources, refresh success and final native tool equipped before single Attack.101did not invoke Attack:tool lost during detection/focus with500resources confirmed; no placement-failure claim for101. No extra wait/repeated equip or synthetic effect added. Full40sample action/cleanup protocol unchanged if preconditions pass. Control103adds ONLY read-only candidate identity tracking across40samples: entity global position, distance to live source/target/camera, direct mesh/item/inventory/NPC-actions and ancestor NPC-actions. One extra read AFTER the already-existing camera restore checks whether those exact candidate references remain in the fixed volume. Camera movement occurs after geometry baseline and is an explicit possible measurement confound; no new body accepted as a build without identification. Also query public fort_item_ability_component on native tool root/descendants at initial and final pre-action equip; count populated public abilities without activating/modifying them. Same102single refresh/Attack/commands/waits/geometry profile/cleanup; no new native placement request or mechanical workaround.",
+    "native_accuracy_control": {
+      "at_utc": "2026-11-07T03:58:38.760214+00:00",
+      "definition": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachDamageShooter.CoachDamageShooter"
+      },
+      "behavior": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachDamageShooter.CoachDamageShooter:CharacterModifier_GuardBehavior_C_0"
+      },
+      "scope": "Only owned private CoachDamageShooter behavior accuracy HIGH to VERY HIGH. Main opponent, Verse, rifle statistics, transforms, target stasis/HP and build gates unchanged. Both fixture guards use the same definition; measure attacker-attributed damage separately.",
+      "before": {
+        "accuracy": "HIGH",
+        "bEnableLeash": true,
+        "leashDistance": 35
+      },
+      "after": {
+        "accuracy": "VERY HIGH",
+        "bEnableLeash": true,
+        "leashDistance": 35
+      },
+      "asset_archives": [
+        {
+          "path": ".local\\evidence\\accuracy-53\\CoachDamageShooter-before.uasset",
+          "sha256": "5bb89878e53280baaa697bae91bff9cf43100ea8066cad66dba00cb09d088bdf"
+        },
+        {
+          "path": ".local\\evidence\\accuracy-53\\CoachDamageShooter-after.uasset",
+          "sha256": "c95c9da0f919306b75102bb4aa406ce5f12bf4381750439784168f41a7d389b7"
+        }
+      ],
+      "compiled_verse_unchanged_from_run": "52"
+    },
+    "native_accuracy_readback": {
+      "accuracy": "VERY HIGH"
+    },
+    "properties": {
+      "Enabled": false,
+      "AutoRun": false,
+      "VisualPortal": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075351203_1174112206"
+      },
+      "VisualUseViewportCamera": true,
+      "VisualCaptureCamera": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928"
+      },
+      "VisualNativeCaptureSeconds": 40,
+      "VisualToolCaptureSeconds": 0,
+      "VisualRifleCaptureSeconds": 0,
+      "UseWeaponCalibration": true,
+      "UseCharacterTargetControl": false,
+      "NPCEquippedAttackControl": false,
+      "IsolatedWallControl": false,
+      "SpawnedWallControl": false,
+      "MeshChangeAfterPlayerHits": 0,
+      "NativeBuildToolReference": true,
+      "NativeBuildToolLease": true,
+      "NativeBuildCameraBypass": false,
+      "NativeBuildMenuOnly": false
+    },
+    "native_visual_policy": "103read-only identity/position/public-component diagnosis for102new body; public tool ability audit; no extra gameplay action."
+  },
+  "snapshot_connection": {
+    "session": "Connected",
+    "game": "CanStart",
+    "edit_connection_intentionally_retained": true
+  },
+  "spawn_asset_expected_ref": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_PlayerBuildablePropCandidate.PCL_BP_PlayerBuildablePropCandidate_C",
+  "spawn_candidate_profile": "single_flag106",
+  "native_team_wall_control": {
+    "scope": "Automatic native team-affiliation comparison on one preplaced owned BuildingWall: Team2 visible fire, Team2 hidden-wall objective positive control, Team1 visible fire. Same wall reference, no in-trial HP write/direct Damage/Dispose/replacement. Team assignments, original teams and player item identities/equipment are checked. Native edit/owner/grid-slot acceptance remains open. Separate objective has documented Owning Team=None so both team phases can damage it;109 retained its previous Team2 setting and is not a completed positive-control result.",
+    "fixture_kind": "preplaced_native_wall",
+    "configuration": {
+      "at_utc": "2026-11-07T13:20:14.692287+00:00",
+      "scope": "Only preplaced owned native BuildingWall instance with existing playerPlaced=true and Team2. Public CDO setter rejected playerPlaced; do not bypass it. Restore any partial template changes, then change only instance bAllowTeamDamage true->false. Automatic team-affiliation check, not ownership/edit/slot acceptance.",
+      "template_setter_rejection": "bPlayerPlaced cannot be edited on templates/CDOs",
+      "wall": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561"
+      },
+      "template_after_rejection": {
+        "bIsPlayerBuildable": true,
+        "bPlayerPlaced": false,
+        "bRegisterWithStructuralGrid": true,
+        "bForciblyStructurallySupported": false,
+        "bDestroyOnPlayerBuildingPlacement": false,
+        "buildingType": "Wall",
+        "team": "HumanPvP_Team2",
+        "bAllowTeamDamage": false,
+        "buildingAttachmentSlot": "SLOT_None",
+        "bUseCentroidForBlockBuildingsCheck": false
+      },
+      "template_restored": {
+        "bIsPlayerBuildable": true,
+        "bPlayerPlaced": false,
+        "bRegisterWithStructuralGrid": true,
+        "bForciblyStructurallySupported": false,
+        "bDestroyOnPlayerBuildingPlacement": false,
+        "buildingType": "Wall",
+        "team": "Spectator",
+        "bAllowTeamDamage": true,
+        "buildingAttachmentSlot": "SLOT_None",
+        "bUseCentroidForBlockBuildingsCheck": false
+      },
+      "template_restored_sha256": "fad14a6a04e1adf9ac96bbc13c3d1ccd55af134c01eeb4c18280b9fcd44dbd70",
+      "wall_before": {
+        "bPlayerPlaced": true,
+        "team": "HumanPvP_Team2",
+        "bAllowTeamDamage": true,
+        "bIsPlayerBuildable": true,
+        "bRegisterWithStructuralGrid": true,
+        "bForciblyStructurallySupported": true
+      },
+      "stage": "template_restored_native_instance_read",
+      "wall_after": {
+        "bPlayerPlaced": true,
+        "team": "HumanPvP_Team2",
+        "bAllowTeamDamage": false,
+        "bIsPlayerBuildable": true,
+        "bRegisterWithStructuralGrid": true,
+        "bForciblyStructurallySupported": true
+      },
+      "settings": {
+        "Enabled": false,
+        "AutoRun": false,
+        "CalibrationNativeTimer": false,
+        "UseCharacterTargetControl": false,
+        "NPCEquippedAttackControl": false,
+        "VisualUseViewportCamera": false,
+        "NativeBuildToolReference": false,
+        "NativeBuildToolLease": false,
+        "NativeBuildCameraBypass": false,
+        "NativeBuildMenuOnly": false,
+        "SpawnedWallControl": false,
+        "UseWeaponCalibration": true,
+        "IsolatedWallControl": true,
+        "NativeTeamWallControl": true,
+        "VisualNativeCaptureSeconds": 0,
+        "VisualToolCaptureSeconds": 0,
+        "VisualRifleCaptureSeconds": 0,
+        "MeshChangeAfterPlayerHits": 0,
+        "CalibrationAimOffset": {
+          "x": -220,
+          "y": 0,
+          "z": -32
+        }
+      }
+    },
+    "expected_wall_properties": {
+      "bPlayerPlaced": true,
+      "team": "HumanPvP_Team2",
+      "bAllowTeamDamage": false,
+      "bIsPlayerBuildable": true,
+      "bRegisterWithStructuralGrid": true,
+      "bForciblyStructurallySupported": true
+    },
+    "expected_team_zero_based_index": 1,
+    "phases": [
+      "same_team_visible",
+      "same_team_hidden_positive",
+      "opposing_team_visible"
+    ],
+    "rearm": {
+      "at_utc": "2026-11-07T13:55:32.222149+00:00",
+      "run": "110",
+      "scope": "Rearm108 native preplaced wall and weapon settings. All owned Art/NPC hashes must match108. The separate neutral objective correction is recorded independently in the fixture and must pass preparation preflight; full content push retained.",
+      "before": {
+        "Enabled": false,
+        "AutoRun": false,
+        "CalibrationNativeTimer": false,
+        "UseCharacterTargetControl": false,
+        "NPCEquippedAttackControl": false,
+        "VisualUseViewportCamera": false,
+        "NativeBuildToolReference": false,
+        "NativeBuildToolLease": false,
+        "NativeBuildCameraBypass": false,
+        "NativeBuildMenuOnly": false,
+        "SpawnedWallControl": false,
+        "UseWeaponCalibration": false,
+        "IsolatedWallControl": false,
+        "NativeTeamWallControl": false,
+        "VisualNativeCaptureSeconds": 0,
+        "VisualToolCaptureSeconds": 0,
+        "VisualRifleCaptureSeconds": 0,
+        "MeshChangeAfterPlayerHits": 0,
+        "CalibrationAimOffset": {
+          "x": -220,
+          "y": 0,
+          "z": -32
+        }
+      },
+      "after": {
+        "Enabled": false,
+        "AutoRun": false,
+        "CalibrationNativeTimer": false,
+        "UseCharacterTargetControl": false,
+        "NPCEquippedAttackControl": false,
+        "VisualUseViewportCamera": false,
+        "NativeBuildToolReference": false,
+        "NativeBuildToolLease": false,
+        "NativeBuildCameraBypass": false,
+        "NativeBuildMenuOnly": false,
+        "SpawnedWallControl": false,
+        "UseWeaponCalibration": true,
+        "IsolatedWallControl": true,
+        "NativeTeamWallControl": true,
+        "VisualNativeCaptureSeconds": 0,
+        "VisualToolCaptureSeconds": 0,
+        "VisualRifleCaptureSeconds": 0,
+        "MeshChangeAfterPlayerHits": 0,
+        "CalibrationAimOffset": {
+          "x": -220,
+          "y": 0,
+          "z": -32
+        }
+      },
+      "wall_properties": {
+        "bPlayerPlaced": true,
+        "team": "HumanPvP_Team2",
+        "bAllowTeamDamage": false,
+        "bIsPlayerBuildable": true,
+        "bRegisterWithStructuralGrid": true,
+        "bForciblyStructurallySupported": true
+      }
+    },
+    "pose_readiness_contract": {
+      "position_cm": 150,
+      "view_body_cm": 500,
+      "speed_meters_per_second": 0.05,
+      "consecutive_samples": 2,
+      "maximum_samples_per_stage": 12,
+      "interval_seconds": 0.25,
+      "new_mode_only": true
+    },
+    "objective_control": {
+      "at_utc": "2026-11-07T13:52:06.726012+00:00",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+      },
+      "scope": "Only private separate objective Owning Team Team2->documented None. Preserve5000HP, collision and all other saved option values. Native team-wall/source/weapon configuration unchanged. No gameplay acceptance from this editor change.",
+      "allowed_none_value": {
+        "label": "NONE",
+        "value": "(TeamType=None,TeamIndex=1)"
+      },
+      "before": {
+        "Mesh": "Cube",
+        "CustomMesh": "",
+        "Invulnerable": "False",
+        "Health": "5000.000000",
+        "Owning Team": "(TeamType=TeamIndex,TeamIndex=2)",
+        "Blast Radius": "",
+        "Beacon": "Off",
+        "Beacon Color": "Direct Color",
+        "Custom Beacon Color": "(R=0.100000,G=0.300000,B=1.000000,A=1.000000)",
+        "Beacon Scale": "",
+        "CustomWidget": "",
+        "FriendlyBadgeVisibility": "Within Distance",
+        "HostileBadgeVisibility": "Within Distance",
+        "Badge Visibility Distance": "25.000000",
+        "ShowBadgeOnDamage": "No",
+        "Show On Damage Duration": "10.000000",
+        "BadgeHeight": "",
+        "ClampToScreen": "False",
+        "ShowOffscreenArrow": "False",
+        "Show In Objective HUD": "False",
+        "Objective Identifier": "(SmallIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\",LargeIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\")",
+        "Custom Objective Text": "",
+        "Display Damage Numbers": "True",
+        "Visible during games": "True",
+        "Show Destroy Messages": "False",
+        "CriticalNotificationThreshold": "",
+        "WarningNotificationThreshold": "",
+        "Play Audio / VFX": "On",
+        "Score": "0",
+        "Collision During Games": "On",
+        "Collides With": "Everything",
+        "Show Objective Pulse to Instigator Only": "True",
+        "Show Objective Pulse to Friendly Players": "True",
+        "Show Objective Pulse to Enemy Players": "True",
+        "DisplayScoreUpdateOnHUD": "False",
+        "ResetHUD MessageScore": "False",
+        "HUD Message": "NSLOCTEXT(\"\", \"7B7DD21D4309E37E740180BC942B32DD\", \"Score!\")",
+        "HUD MessageScoreColor": "(R=0.520000,G=0.830000,B=1.000000,A=1.000000)",
+        "HUD MessageColor": "(R=0.000000,G=0.490196,B=1.000000,A=1.000000)",
+        "Damage Event Cooldown": "0.000000"
+      },
+      "after": {
+        "Mesh": "Cube",
+        "CustomMesh": "",
+        "Invulnerable": "False",
+        "Health": "5000.000000",
+        "Owning Team": "(TeamType=None,TeamIndex=1)",
+        "Blast Radius": "",
+        "Beacon": "Off",
+        "Beacon Color": "Direct Color",
+        "Custom Beacon Color": "(R=0.100000,G=0.300000,B=1.000000,A=1.000000)",
+        "Beacon Scale": "",
+        "CustomWidget": "",
+        "FriendlyBadgeVisibility": "Within Distance",
+        "HostileBadgeVisibility": "Within Distance",
+        "Badge Visibility Distance": "25.000000",
+        "ShowBadgeOnDamage": "No",
+        "Show On Damage Duration": "10.000000",
+        "BadgeHeight": "",
+        "ClampToScreen": "False",
+        "ShowOffscreenArrow": "False",
+        "Show In Objective HUD": "False",
+        "Objective Identifier": "(SmallIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\",LargeIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\")",
+        "Custom Objective Text": "",
+        "Display Damage Numbers": "True",
+        "Visible during games": "True",
+        "Show Destroy Messages": "False",
+        "CriticalNotificationThreshold": "",
+        "WarningNotificationThreshold": "",
+        "Play Audio / VFX": "On",
+        "Score": "0",
+        "Collision During Games": "On",
+        "Collides With": "Everything",
+        "Show Objective Pulse to Instigator Only": "True",
+        "Show Objective Pulse to Friendly Players": "True",
+        "Show Objective Pulse to Enemy Players": "True",
+        "DisplayScoreUpdateOnHUD": "False",
+        "ResetHUD MessageScore": "False",
+        "HUD Message": "NSLOCTEXT(\"\", \"7B7DD21D4309E37E740180BC942B32DD\", \"Score!\")",
+        "HUD MessageScoreColor": "(R=0.520000,G=0.830000,B=1.000000,A=1.000000)",
+        "HUD MessageColor": "(R=0.000000,G=0.490196,B=1.000000,A=1.000000)",
+        "Damage Event Cooldown": "0.000000"
+      },
+      "after_label": "NONE"
+    }
+  },
+  "team_wall_objective_control": {
+    "at_utc": "2026-11-07T13:52:06.726012+00:00",
+    "actor": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+    },
+    "scope": "Only private separate objective Owning Team Team2->documented None. Preserve5000HP, collision and all other saved option values. Native team-wall/source/weapon configuration unchanged. No gameplay acceptance from this editor change.",
+    "allowed_none_value": {
+      "label": "NONE",
+      "value": "(TeamType=None,TeamIndex=1)"
+    },
+    "before": {
+      "Mesh": "Cube",
+      "CustomMesh": "",
+      "Invulnerable": "False",
+      "Health": "5000.000000",
+      "Owning Team": "(TeamType=TeamIndex,TeamIndex=2)",
+      "Blast Radius": "",
+      "Beacon": "Off",
+      "Beacon Color": "Direct Color",
+      "Custom Beacon Color": "(R=0.100000,G=0.300000,B=1.000000,A=1.000000)",
+      "Beacon Scale": "",
+      "CustomWidget": "",
+      "FriendlyBadgeVisibility": "Within Distance",
+      "HostileBadgeVisibility": "Within Distance",
+      "Badge Visibility Distance": "25.000000",
+      "ShowBadgeOnDamage": "No",
+      "Show On Damage Duration": "10.000000",
+      "BadgeHeight": "",
+      "ClampToScreen": "False",
+      "ShowOffscreenArrow": "False",
+      "Show In Objective HUD": "False",
+      "Objective Identifier": "(SmallIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\",LargeIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\")",
+      "Custom Objective Text": "",
+      "Display Damage Numbers": "True",
+      "Visible during games": "True",
+      "Show Destroy Messages": "False",
+      "CriticalNotificationThreshold": "",
+      "WarningNotificationThreshold": "",
+      "Play Audio / VFX": "On",
+      "Score": "0",
+      "Collision During Games": "On",
+      "Collides With": "Everything",
+      "Show Objective Pulse to Instigator Only": "True",
+      "Show Objective Pulse to Friendly Players": "True",
+      "Show Objective Pulse to Enemy Players": "True",
+      "DisplayScoreUpdateOnHUD": "False",
+      "ResetHUD MessageScore": "False",
+      "HUD Message": "NSLOCTEXT(\"\", \"7B7DD21D4309E37E740180BC942B32DD\", \"Score!\")",
+      "HUD MessageScoreColor": "(R=0.520000,G=0.830000,B=1.000000,A=1.000000)",
+      "HUD MessageColor": "(R=0.000000,G=0.490196,B=1.000000,A=1.000000)",
+      "Damage Event Cooldown": "0.000000"
+    },
+    "after": {
+      "Mesh": "Cube",
+      "CustomMesh": "",
+      "Invulnerable": "False",
+      "Health": "5000.000000",
+      "Owning Team": "(TeamType=None,TeamIndex=1)",
+      "Blast Radius": "",
+      "Beacon": "Off",
+      "Beacon Color": "Direct Color",
+      "Custom Beacon Color": "(R=0.100000,G=0.300000,B=1.000000,A=1.000000)",
+      "Beacon Scale": "",
+      "CustomWidget": "",
+      "FriendlyBadgeVisibility": "Within Distance",
+      "HostileBadgeVisibility": "Within Distance",
+      "Badge Visibility Distance": "25.000000",
+      "ShowBadgeOnDamage": "No",
+      "Show On Damage Duration": "10.000000",
+      "BadgeHeight": "",
+      "ClampToScreen": "False",
+      "ShowOffscreenArrow": "False",
+      "Show In Objective HUD": "False",
+      "Objective Identifier": "(SmallIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\",LargeIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\")",
+      "Custom Objective Text": "",
+      "Display Damage Numbers": "True",
+      "Visible during games": "True",
+      "Show Destroy Messages": "False",
+      "CriticalNotificationThreshold": "",
+      "WarningNotificationThreshold": "",
+      "Play Audio / VFX": "On",
+      "Score": "0",
+      "Collision During Games": "On",
+      "Collides With": "Everything",
+      "Show Objective Pulse to Instigator Only": "True",
+      "Show Objective Pulse to Friendly Players": "True",
+      "Show Objective Pulse to Enemy Players": "True",
+      "DisplayScoreUpdateOnHUD": "False",
+      "ResetHUD MessageScore": "False",
+      "HUD Message": "NSLOCTEXT(\"\", \"7B7DD21D4309E37E740180BC942B32DD\", \"Score!\")",
+      "HUD MessageScoreColor": "(R=0.520000,G=0.830000,B=1.000000,A=1.000000)",
+      "HUD MessageColor": "(R=0.000000,G=0.490196,B=1.000000,A=1.000000)",
+      "Damage Event Cooldown": "0.000000"
+    },
+    "after_label": "NONE"
+  },
+  "native_wall_transition_control": {
+    "at_utc": "2026-11-07T15:13:48.729023+00:00",
+    "case": 3,
+    "scope": "Paired native200HP-configured walls: pause-only control versus native-pool lease with move/return/window/solid after exactly3 player callbacks, fire stopped during both transitions. Same native class/team/instance flags/solid mesh/monitor health settings/rifle stats. No health write during phases, no direct Damage/Explode/Dispose or native owner/edit/slot acceptance. Callbacks are not numeric wall HP. Editor-only matched profile must be restored after the trial.",
+    "actors": {
+      "PCL_Health_Probe": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567"
+      },
+      "PCL_Health_Control_Wall": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561"
+      },
+      "PCL_Health_Edited_Wall": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1581664564"
+      },
+      "PCL_Health_Control_Monitor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_PropManipulation_V2_C_UAID_30E3A41010755F1203_1572135563"
+      },
+      "PCL_Health_Edited_Monitor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_PropManipulation_V2_C_UAID_30E3A41010755F1203_1595904566"
+      }
+    },
+    "settings": {
+      "Enabled": false,
+      "AutoRun": false,
+      "CalibrationNativeTimer": false,
+      "UseCharacterTargetControl": false,
+      "NPCEquippedAttackControl": false,
+      "VisualUseViewportCamera": false,
+      "NativeBuildToolReference": false,
+      "NativeBuildToolLease": false,
+      "NativeBuildCameraBypass": false,
+      "NativeBuildMenuOnly": false,
+      "SpawnedWallControl": false,
+      "NativeTeamWallControl": false,
+      "UseWeaponCalibration": true,
+      "IsolatedWallControl": true,
+      "NativeWallTransitionControl": true,
+      "NativeWallTransitionCase": 3,
+      "VisualNativeCaptureSeconds": 0,
+      "VisualToolCaptureSeconds": 0,
+      "VisualRifleCaptureSeconds": 0,
+      "MeshChangeAfterPlayerHits": 0,
+      "CalibrationAimOffset": {
+        "x": -220,
+        "y": 0,
+        "z": -32
+      }
+    },
+    "probe_before": {
+      "Enabled": false,
+      "AutoRun": false,
+      "CalibrationNativeTimer": false,
+      "UseCharacterTargetControl": false,
+      "NPCEquippedAttackControl": false,
+      "VisualUseViewportCamera": false,
+      "NativeBuildToolReference": false,
+      "NativeBuildToolLease": false,
+      "NativeBuildCameraBypass": false,
+      "NativeBuildMenuOnly": false,
+      "SpawnedWallControl": false,
+      "NativeTeamWallControl": false,
+      "UseWeaponCalibration": false,
+      "IsolatedWallControl": false,
+      "NativeWallTransitionControl": false,
+      "NativeWallTransitionCase": 0,
+      "VisualNativeCaptureSeconds": 0,
+      "VisualToolCaptureSeconds": 0,
+      "VisualRifleCaptureSeconds": 0,
+      "MeshChangeAfterPlayerHits": 0,
+      "CalibrationAimOffset": {
+        "x": -220,
+        "y": 0,
+        "z": -32
+      }
+    },
+    "wall_before": {
+      "Control": {
+        "bPlayerPlaced": true,
+        "team": "HumanPvP_Team2",
+        "bAllowTeamDamage": false,
+        "bIsPlayerBuildable": true,
+        "bRegisterWithStructuralGrid": true,
+        "bForciblyStructurallySupported": true
+      },
+      "Edited": {
+        "bPlayerPlaced": true,
+        "team": "HumanPvP_Team2",
+        "bAllowTeamDamage": true,
+        "bIsPlayerBuildable": true,
+        "bRegisterWithStructuralGrid": true,
+        "bForciblyStructurallySupported": true
+      }
+    },
+    "monitor_before": {
+      "Control": {
+        "target": {
+          "additionalPropsToManipulate": [
+            {
+              "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561"
+            }
+          ]
+        },
+        "options": {
+          "EnabledAtGameStart": "False",
+          "StartHidden": "False",
+          "AdditionalPropsToManipulate": "(\"/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_GridWallCandidate.PCL_BP_GridWallCandidate_C'/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561'\")",
+          "OverrideResources": "False",
+          "ResourceNodeAvailable": "25",
+          "ResourceNodeGiven": "1",
+          "ResourceNodeType": "None",
+          "ResourceNodeDepletionMode": "RestockOnDelay",
+          "ResourceNodeRestockTime": "15",
+          "Priority": "0",
+          "AffectAllObjectsInAZone": "False",
+          "ZoneWidth(Tiles)": "1.100000",
+          "ZoneDepth(Tiles)": "1.100000",
+          "ZoneHeight(Tiles)": "1.100000",
+          "ModifyPropHealth": "True",
+          "IsPropInvulnerable": "False",
+          "ModdedPropHealth": "200.000000"
+        }
+      },
+      "Edited": {
+        "target": {
+          "additionalPropsToManipulate": []
+        },
+        "options": {
+          "EnabledAtGameStart": "False",
+          "StartHidden": "False",
+          "AdditionalPropsToManipulate": "",
+          "OverrideResources": "False",
+          "ResourceNodeAvailable": "25",
+          "ResourceNodeGiven": "1",
+          "ResourceNodeType": "None",
+          "ResourceNodeDepletionMode": "RestockOnDelay",
+          "ResourceNodeRestockTime": "15",
+          "Priority": "0",
+          "AffectAllObjectsInAZone": "True",
+          "ZoneWidth(Tiles)": "1.100000",
+          "ZoneDepth(Tiles)": "1.100000",
+          "ZoneHeight(Tiles)": "1.100000",
+          "ModifyPropHealth": "False",
+          "IsPropInvulnerable": "False",
+          "ModdedPropHealth": "50.000000"
+        }
+      }
+    },
+    "stage": "configured_private_probe_disabled_restore_required_after_trial",
+    "wall_after": {
+      "Control": {
+        "bPlayerPlaced": true,
+        "team": "HumanPvP_Team2",
+        "bAllowTeamDamage": false,
+        "bIsPlayerBuildable": true,
+        "bRegisterWithStructuralGrid": true,
+        "bForciblyStructurallySupported": true
+      },
+      "Edited": {
+        "bPlayerPlaced": true,
+        "team": "HumanPvP_Team2",
+        "bAllowTeamDamage": false,
+        "bIsPlayerBuildable": true,
+        "bRegisterWithStructuralGrid": true,
+        "bForciblyStructurallySupported": true
+      }
+    },
+    "monitor_after": {
+      "Control": {
+        "target": {
+          "additionalPropsToManipulate": [
+            {
+              "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561"
+            }
+          ]
+        },
+        "options": {
+          "EnabledAtGameStart": "False",
+          "StartHidden": "False",
+          "AdditionalPropsToManipulate": "(\"/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_GridWallCandidate.PCL_BP_GridWallCandidate_C'/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561'\")",
+          "OverrideResources": "False",
+          "ResourceNodeAvailable": "25",
+          "ResourceNodeGiven": "1",
+          "ResourceNodeType": "None",
+          "ResourceNodeDepletionMode": "RestockOnDelay",
+          "ResourceNodeRestockTime": "15",
+          "Priority": "0",
+          "AffectAllObjectsInAZone": "False",
+          "ZoneWidth(Tiles)": "1.100000",
+          "ZoneDepth(Tiles)": "1.100000",
+          "ZoneHeight(Tiles)": "1.100000",
+          "ModifyPropHealth": "True",
+          "IsPropInvulnerable": "False",
+          "ModdedPropHealth": "200.000000"
+        }
+      },
+      "Edited": {
+        "target": {
+          "additionalPropsToManipulate": [
+            {
+              "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1581664564"
+            }
+          ]
+        },
+        "options": {
+          "EnabledAtGameStart": "False",
+          "StartHidden": "False",
+          "AdditionalPropsToManipulate": "(\"/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_GridWallCandidate.PCL_BP_GridWallCandidate_C'/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1581664564'\")",
+          "OverrideResources": "False",
+          "ResourceNodeAvailable": "25",
+          "ResourceNodeGiven": "1",
+          "ResourceNodeType": "None",
+          "ResourceNodeDepletionMode": "RestockOnDelay",
+          "ResourceNodeRestockTime": "15",
+          "Priority": "0",
+          "AffectAllObjectsInAZone": "False",
+          "ZoneWidth(Tiles)": "1.100000",
+          "ZoneDepth(Tiles)": "1.100000",
+          "ZoneHeight(Tiles)": "1.100000",
+          "ModifyPropHealth": "True",
+          "IsPropInvulnerable": "False",
+          "ModdedPropHealth": "200.000000"
+        }
+      }
+    },
+    "probe_after": {
+      "Enabled": false,
+      "AutoRun": false,
+      "CalibrationNativeTimer": false,
+      "UseCharacterTargetControl": false,
+      "NPCEquippedAttackControl": false,
+      "VisualUseViewportCamera": false,
+      "NativeBuildToolReference": false,
+      "NativeBuildToolLease": false,
+      "NativeBuildCameraBypass": false,
+      "NativeBuildMenuOnly": false,
+      "SpawnedWallControl": false,
+      "NativeTeamWallControl": false,
+      "UseWeaponCalibration": true,
+      "IsolatedWallControl": true,
+      "NativeWallTransitionControl": true,
+      "NativeWallTransitionCase": 3,
+      "VisualNativeCaptureSeconds": 0,
+      "VisualToolCaptureSeconds": 0,
+      "VisualRifleCaptureSeconds": 0,
+      "MeshChangeAfterPlayerHits": 0,
+      "CalibrationAimOffset": {
+        "x": -220,
+        "y": 0,
+        "z": -32
+      }
+    },
+    "editor_profile_restored": {
+      "profile_run": "118",
+      "after_runtime": "119",
+      "at_utc": "2026-11-07T15:38:47.016404+00:00",
+      "scope": "Restore only the private matched-trial editor profile after the automatic game ends. Runtime evidence/source archives remain immutable. No source/CDO/main binding changes.",
+      "walls": {
+        "Control": {
+          "bPlayerPlaced": true,
+          "team": "HumanPvP_Team2",
+          "bAllowTeamDamage": false,
+          "bIsPlayerBuildable": true,
+          "bRegisterWithStructuralGrid": true,
+          "bForciblyStructurallySupported": true
+        },
+        "Edited": {
+          "bPlayerPlaced": true,
+          "team": "HumanPvP_Team2",
+          "bAllowTeamDamage": true,
+          "bIsPlayerBuildable": true,
+          "bRegisterWithStructuralGrid": true,
+          "bForciblyStructurallySupported": true
+        }
+      },
+      "monitors": {
+        "Control": {
+          "target": {
+            "additionalPropsToManipulate": [
+              {
+                "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561"
+              }
+            ]
+          },
+          "options": {
+            "EnabledAtGameStart": "False",
+            "StartHidden": "False",
+            "AdditionalPropsToManipulate": "(\"/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_GridWallCandidate.PCL_BP_GridWallCandidate_C'/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561'\")",
+            "OverrideResources": "False",
+            "ResourceNodeAvailable": "25",
+            "ResourceNodeGiven": "1",
+            "ResourceNodeType": "None",
+            "ResourceNodeDepletionMode": "RestockOnDelay",
+            "ResourceNodeRestockTime": "15",
+            "Priority": "0",
+            "AffectAllObjectsInAZone": "False",
+            "ZoneWidth(Tiles)": "1.100000",
+            "ZoneDepth(Tiles)": "1.100000",
+            "ZoneHeight(Tiles)": "1.100000",
+            "ModifyPropHealth": "True",
+            "IsPropInvulnerable": "False",
+            "ModdedPropHealth": "200.000000"
+          }
+        },
+        "Edited": {
+          "target": {
+            "additionalPropsToManipulate": []
+          },
+          "options": {
+            "EnabledAtGameStart": "False",
+            "StartHidden": "False",
+            "AdditionalPropsToManipulate": "",
+            "OverrideResources": "False",
+            "ResourceNodeAvailable": "25",
+            "ResourceNodeGiven": "1",
+            "ResourceNodeType": "None",
+            "ResourceNodeDepletionMode": "RestockOnDelay",
+            "ResourceNodeRestockTime": "15",
+            "Priority": "0",
+            "AffectAllObjectsInAZone": "True",
+            "ZoneWidth(Tiles)": "1.100000",
+            "ZoneDepth(Tiles)": "1.100000",
+            "ZoneHeight(Tiles)": "1.100000",
+            "ModifyPropHealth": "False",
+            "IsPropInvulnerable": "False",
+            "ModdedPropHealth": "50.000000"
+          }
+        }
+      }
+    }
+  },
+  "participant_inventory_control": {
+    "at_utc": "2026-11-07T18:33:41.047672+00:00",
+    "stage": "configured_test_player_probe_disabled",
+    "scope": "Public components for6Participant and2Guard items,4own build-recipe equips, original-equipment restoration, unmodified public rifle-template query control; no grants/transfers/Attack/fire/build commands.",
+    "spawner": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075AD1203_1788162289"
+    },
+    "definition_component": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075AD1203_1788162289.NPCCharacterDefinitionComponent"
+    },
+    "behavior_component": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075AD1203_1788162289.NPCBehaviorScriptComponent"
+    },
+    "spawner_definition": {
+      "nPCCharacterDefinition": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachDamageShooter.CoachDamageShooter"
+      },
+      "nPCCharacterModifiers": []
+    },
+    "spawner_properties": {
+      "spawnCount": 1,
+      "enabledAtGameStart": false,
+      "spawnOnEnabled": false,
+      "spawnOnTimer": false
+    },
+    "island": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.IslandSettings_0"
+    },
+    "test_player_component": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.IslandSettings_0.TestPlayerDefinitionComponent"
+    },
+    "test_player_before": {
+      "testPlayerDefinition": "None",
+      "testPlayersOnStart": "None",
+      "numberOfTestPlayers": 1,
+      "participantDefinition": null,
+      "bCanEverAffectNavigation": false
+    },
+    "test_player_after": {
+      "testPlayerDefinition": "None",
+      "testPlayersOnStart": "Custom",
+      "numberOfTestPlayers": 1,
+      "participantDefinition": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate"
+      },
+      "bCanEverAffectNavigation": false
+    },
+    "debug_before": "False",
+    "debug_after": "True",
+    "participant_definition": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate"
+    },
+    "candidate_properties": {
+      "type": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate:CharacterType_Participant_C_0"
+      },
+      "behavior": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate:CharacterModifier_GuardVerseBehavior_C_0"
+      },
+      "modifiers": [
+        {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate:CharacterModifier_GuardSpawn_C_0"
+        }
+      ]
+    },
+    "max_players": 2,
+    "run": "133",
+    "authoring_route": "Official device/object tools and settled public Python setters. No computer control.",
+    "validation": {
+      "numChecked": 1,
+      "numValid": 1,
+      "numInvalid": 0,
+      "numWarnings": 0,
+      "numSkipped": 0,
+      "bAssetLimitReached": false,
+      "errors": [],
+      "warnings": []
+    },
+    "build_action_control": {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ItemGranter_V2_C_UAID_30E3A4101075B01203_1319645818"
+      },
+      "item_component": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ItemGranter_V2_C_UAID_30E3A4101075B01203_1319645818.PickupItemList"
+      },
+      "items": {
+        "itemListData": [
+          {
+            "itemDefinition": {
+              "refPath": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData"
+            },
+            "itemQuantity": 500,
+            "templateObjectData": null,
+            "itemOptionData": {
+              "propertyOverrides": []
+            },
+            "itemVariantGuid": "00000000-0000-0000-0000-000000000000",
+            "sourceItemVariantGuid": "00000000-0000-0000-0000-000000000000"
+          }
+        ]
+      },
+      "options": {
+        "EnabledOnGameStart": "False",
+        "ReceivingPlayers": "(TeamType=TriggeringPlayer,TeamIndex=1)",
+        "OnGrantAction": "Keep All",
+        "Grant": "Current Item",
+        "GrantCondition": "Always",
+        "GrantOnCycle": "False",
+        "bEquipGrantedItem": "False",
+        "ItemToGrant": "1",
+        "ItemCount": "",
+        "RemoveItemOnGrant": "False",
+        "InitialWeaponAmmo": "",
+        "SpareWeaponAmmo": "",
+        "CycleBehavior": "Stop",
+        "GrantWhileOffline": "False",
+        "DropItemsAtPlayerLocation": "Never",
+        "OwnershipOfDroppedItem": "Receiving Player",
+        "bGrantOnTimer": "False",
+        "GrantTime": "1.000000",
+        "PlayAudio": "False",
+        "bGrantOnGameStart": "False"
+      }
+    },
+    "building_resources_before": "True",
+    "building_resources_after": "True",
+    "participant_behavior_control": {
+      "at_utc": "2026-11-07T17:53:17.388502+00:00",
+      "scope": "User confirms native Verse Behavior/script saved. Public setter also assigned script into existing allowed native modifier. Initial immediate assertion expected class path, but native field correctly returns an instanced script; its actual class is independently verified read-only. No constructor/class filter override succeeded. No runtime129 yet.",
+      "candidate_properties": {
+        "type": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate:CharacterType_Participant_C_0"
+        },
+        "behavior": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate:CharacterModifier_GuardVerseBehavior_C_0"
+        },
+        "modifiers": [
+          {
+            "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate:CharacterModifier_GuardSpawn_C_0"
+          }
+        ]
+      },
+      "behavior_properties": {
+        "nPCBehaviorScript": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate:CharacterModifier_GuardVerseBehavior_C_0.coach_participant_probe_behavior_0"
+        }
+      },
+      "behavior_script_class_check": "/eda26a53-42c0-4b9e-8f62-31719aef6889/_Verse.coach_participant_probe_behavior\n",
+      "validation": {
+        "numChecked": 2,
+        "numValid": 2,
+        "numInvalid": 0,
+        "numWarnings": 0,
+        "numSkipped": 0,
+        "bAssetLimitReached": false,
+        "errors": [],
+        "warnings": []
+      },
+      "dirty": false
+    },
+    "item_action_audit_only": true,
+    "settled_setup": {
+      "steps": [
+        {
+          "field": "testPlayersOnStart",
+          "readings": [
+            {
+              "testPlayerDefinition": "None",
+              "testPlayersOnStart": "Custom",
+              "numberOfTestPlayers": 1,
+              "participantDefinition": null,
+              "bCanEverAffectNavigation": false
+            },
+            {
+              "testPlayerDefinition": "None",
+              "testPlayersOnStart": "Custom",
+              "numberOfTestPlayers": 1,
+              "participantDefinition": null,
+              "bCanEverAffectNavigation": false
+            }
+          ]
+        },
+        {
+          "field": "participantDefinition",
+          "readings": [
+            {
+              "testPlayerDefinition": "None",
+              "testPlayersOnStart": "Custom",
+              "numberOfTestPlayers": 1,
+              "participantDefinition": {
+                "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate"
+              },
+              "bCanEverAffectNavigation": false
+            },
+            {
+              "testPlayerDefinition": "None",
+              "testPlayersOnStart": "Custom",
+              "numberOfTestPlayers": 1,
+              "participantDefinition": {
+                "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate"
+              },
+              "bCanEverAffectNavigation": false
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "testPlayerDefinition": "None",
+        "testPlayersOnStart": "Custom",
+        "numberOfTestPlayers": 1,
+        "participantDefinition": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate"
+        },
+        "bCanEverAffectNavigation": false
+      }
+    },
+    "editor_profile_restored": {
+      "properties": {
+        "testPlayerDefinition": "None",
+        "testPlayersOnStart": "None",
+        "numberOfTestPlayers": 1,
+        "participantDefinition": null,
+        "bCanEverAffectNavigation": false
+      },
+      "debug": "False",
+      "settled_public_editor_steps": [
+        {
+          "field": "testPlayersOnStart",
+          "readings": [
+            {
+              "testPlayerDefinition": "None",
+              "testPlayersOnStart": "None",
+              "numberOfTestPlayers": 1,
+              "participantDefinition": {
+                "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate"
+              },
+              "bCanEverAffectNavigation": false
+            },
+            {
+              "testPlayerDefinition": "None",
+              "testPlayersOnStart": "None",
+              "numberOfTestPlayers": 1,
+              "participantDefinition": {
+                "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate"
+              },
+              "bCanEverAffectNavigation": false
+            }
+          ]
+        },
+        {
+          "field": "participantDefinition",
+          "readings": [
+            {
+              "testPlayerDefinition": "None",
+              "testPlayersOnStart": "None",
+              "numberOfTestPlayers": 1,
+              "participantDefinition": null,
+              "bCanEverAffectNavigation": false
+            },
+            {
+              "testPlayerDefinition": "None",
+              "testPlayersOnStart": "None",
+              "numberOfTestPlayers": 1,
+              "participantDefinition": null,
+              "bCanEverAffectNavigation": false
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

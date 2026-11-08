@@ -1,0 +1,41 @@
+{
+  "checked_at_utc": "2026-11-07T02:00:37.230591+00:00",
+  "runs": [
+    42,
+    43
+  ],
+  "same_compiled_sources": true,
+  "matched_fields": [
+    "expected_initial_health",
+    "aim_offset",
+    "minimum_initial_alignment",
+    "weapon_ballistics",
+    "monitor_target",
+    "monitor_options"
+  ],
+  "player_wall_callbacks": [
+    6,
+    6
+  ],
+  "foreign_damage_callbacks": [
+    0,
+    0
+  ],
+  "changed_after_player_hit": 3,
+  "changed_geometry_cells": [
+    9,
+    8
+  ],
+  "post_destruction_cells": [
+    0,
+    0
+  ],
+  "interpretation": "Scoped evidence consistent with damage continuity across a same-reference solid-to-window mesh change on the configured200HP preplaced wall. No native health write after initialization.",
+  "limits": [
+    "One unchanged-mesh and one changed-mesh trial.",
+    "Baseline42 cold launch;43 full PushChanges in retained edit session.",
+    "Callback events do not expose numeric wall health.",
+    "No window-to-solid/reset, floor/ramp/cone, ownership, native editing, slot interoperability or publication proof."
+  ],
+  "acceptance_gates_enabled": false
+}

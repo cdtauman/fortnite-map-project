@@ -1,0 +1,100 @@
+{
+  "run": "71",
+  "evidence_sha256": "3a57a8f93c8ed3306b89c44e6eaabd80b021d8fc0c244326358e4da8a3ad8171",
+  "build": "UEFN 43.00 CL-59596594",
+  "scope": "Private inventory-versus-holster transition instrumentation, same69NPC-owned command and dual-query-control path. Subscribe before each of3tool equip windows to plan/rifle ChangeEquippedEvent and fort_weapon_component.HolsterChangedEvent; record before/after request, event callback reason/time and20polls at0.05s nominal intervals. Each snapshot distinguishes plan/rifle equipped flags, holstered flags, rifle firing and whether plan parent inventory still matches its lock scope. Four native event subscriptions canceled when each normal sampling wrapper exits. Callback snapshots may observe event ordering/transient transaction state and are separated from post-suspension polls; none proves rendered pose. Keep explicit plan-unequip/rifle-equip rejection controls, unlock before16rifle samples per cycle and actual held-tool cleanup/original2restoration/repeat. Native weapon stats unchanged; no Idle/Focus/parking during tool hold, forced attack primer, direct damage, explicit BeginFire, measured-phase teleports, player state changes or computer input. Query guards remain default off in main, enabled only private fixture. This is diagnosis, not a new retention fix or native build/edit/pro/publication acceptance.",
+  "phases": {
+    "detected_baseline": {
+      "samples": 8,
+      "hp_start": 5000.0,
+      "hp_end": 4965.0,
+      "source_attributed_hits": 1,
+      "equipped_samples": 8,
+      "holstered_samples": 0,
+      "firing_samples": 6,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 596.0865496682256,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.988002,
+        0.997067
+      ]
+    },
+    "build_plan_return_1": {
+      "samples": 16,
+      "hp_start": 4965.0,
+      "hp_end": 4895.0,
+      "source_attributed_hits": 2,
+      "equipped_samples": 16,
+      "holstered_samples": 0,
+      "firing_samples": 16,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 0.0,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.980194,
+        0.995438
+      ]
+    },
+    "build_plan_return_2": {
+      "samples": 16,
+      "hp_start": 4895.0,
+      "hp_end": 4860.0,
+      "source_attributed_hits": 1,
+      "equipped_samples": 16,
+      "holstered_samples": 0,
+      "firing_samples": 6,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 0.0,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.983143,
+        0.996292
+      ]
+    },
+    "build_plan_return_3": {
+      "samples": 16,
+      "hp_start": 4860.0,
+      "hp_end": 4825.0,
+      "source_attributed_hits": 1,
+      "equipped_samples": 16,
+      "holstered_samples": 0,
+      "firing_samples": 15,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 0.0,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.986608,
+        0.996519
+      ]
+    }
+  },
+  "finished": "PCL|health_probe|npc_equipped_finished|target_health=4825.000000|source_hits=5|no_direct_damage_or_legacy_attack_phase",
+  "cleanup": "PCL|health_probe|npc_equipped_cleanup|parked=2|restored=2|original_ranged_items_returned_before_despawn|managed_rifle_removed=1|idempotent_cleanup=1|tool_lock_removed=1|rifle_gate_removed=1",
+  "observed_damage": 175.0,
+  "positive_source_attributed_hits": 5,
+  "damage_after_last_sample": 0.0,
+  "source_hits_after_last_sample": 0,
+  "requested_phases_without_samples": [],
+  "hold_parent_state": [],
+  "child_deferred_release_logs": 0,
+  "owner_release_scopes": [
+    "build_cycle_parent",
+    "build_cycle_parent",
+    "build_cycle_parent"
+  ],
+  "limits": [
+    "Detection baseline contains firing before the explicit Attack request; do not attribute unholstering solely to Attack.",
+    "One native rifle was available, equipped and sampled firing; exact per-hit weapon-causer identity was not separately read.",
+    "Stationary private NPC target; no pro cadence, moving-player accuracy, occlusion, reload, build/edit, multiplayer or publication acceptance."
+  ],
+  "native_build_gates_accepted": false
+}

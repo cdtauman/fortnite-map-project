@@ -1,0 +1,1019 @@
+{
+  "scope": "Editor perimeter architecture; final client readability, navigation and performance pending.",
+  "parts": [
+    {
+      "name": "PCL_PersonalFinish_N_Wall",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 3028,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 61.44,
+          "y": 0.24,
+          "z": 7.68
+        }
+      },
+      "material": "Stone",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_N_Rib_0",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -3072.0,
+          "y": 3002,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_N_Rib_1",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -2048.0,
+          "y": 3002,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_N_Rib_2",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": -1024.0,
+          "y": 3002,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_N_Rib_3",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 0.0,
+          "y": 3002,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_N_Rib_4",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 1024.0,
+          "y": 3002,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_N_Rib_5",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 2048.0,
+          "y": 3002,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_N_Rib_6",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 3072.0,
+          "y": 3002,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_N_Cap",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 3002,
+          "z": 784
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 61.44,
+          "y": 0.28,
+          "z": 0.32
+        }
+      },
+      "material": "Metal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_N_Accent",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 2984,
+          "z": 765
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 60.16,
+          "y": 0.03,
+          "z": 0.04
+        }
+      },
+      "material": "Teal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_N_Plinth",
+      "side": "N",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 3000,
+          "z": 70
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 61.44,
+          "y": 0.22,
+          "z": 1.4
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_S_Wall",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -3028,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 61.44,
+          "y": 0.24,
+          "z": 7.68
+        }
+      },
+      "material": "Stone",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_S_Rib_0",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -3072.0,
+          "y": -3002,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_S_Rib_1",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -2048.0,
+          "y": -3002,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_S_Rib_2",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": -1024.0,
+          "y": -3002,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_S_Rib_3",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 0.0,
+          "y": -3002,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_S_Rib_4",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 1024.0,
+          "y": -3002,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_S_Rib_5",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 2048.0,
+          "y": -3002,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_S_Rib_6",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 3072.0,
+          "y": -3002,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.2,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_S_Cap",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -3002,
+          "z": 784
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 61.44,
+          "y": 0.28,
+          "z": 0.32
+        }
+      },
+      "material": "Metal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_S_Accent",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -2984,
+          "z": 765
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 60.16,
+          "y": 0.03,
+          "z": 0.04
+        }
+      },
+      "material": "Teal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_S_Plinth",
+      "side": "S",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -3000,
+          "z": 70
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 61.44,
+          "y": 0.22,
+          "z": 1.4
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_E_Wall",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 3028,
+          "y": 0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.24,
+          "y": 61.44,
+          "z": 7.68
+        }
+      },
+      "material": "Stone",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_E_Rib_0",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 3002,
+          "y": -3072.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_E_Rib_1",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 3002,
+          "y": -2048.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_E_Rib_2",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 3002,
+          "y": -1024.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_E_Rib_3",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 3002,
+          "y": 0.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_E_Rib_4",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 3002,
+          "y": 1024.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_E_Rib_5",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 3002,
+          "y": 2048.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_E_Rib_6",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 3002,
+          "y": 3072.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_E_Cap",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 3002,
+          "y": 0,
+          "z": 784
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.28,
+          "y": 61.44,
+          "z": 0.32
+        }
+      },
+      "material": "Metal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_E_Accent",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 2984,
+          "y": 0,
+          "z": 765
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.03,
+          "y": 60.16,
+          "z": 0.04
+        }
+      },
+      "material": "Teal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_E_Plinth",
+      "side": "E",
+      "transform": {
+        "location": {
+          "x": 3000,
+          "y": 0,
+          "z": 70
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.22,
+          "y": 61.44,
+          "z": 1.4
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_W_Wall",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -3028,
+          "y": 0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.24,
+          "y": 61.44,
+          "z": 7.68
+        }
+      },
+      "material": "Stone",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_W_Rib_0",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -3002,
+          "y": -3072.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_W_Rib_1",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -3002,
+          "y": -2048.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_W_Rib_2",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -3002,
+          "y": -1024.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_W_Rib_3",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -3002,
+          "y": 0.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_W_Rib_4",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -3002,
+          "y": 1024.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_W_Rib_5",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -3002,
+          "y": 2048.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_W_Rib_6",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -3002,
+          "y": 3072.0,
+          "z": 384
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.2,
+          "y": 0.12,
+          "z": 7.68
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_W_Cap",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -3002,
+          "y": 0,
+          "z": 784
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.28,
+          "y": 61.44,
+          "z": 0.32
+        }
+      },
+      "material": "Metal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_W_Accent",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -2984,
+          "y": 0,
+          "z": 765
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.03,
+          "y": 60.16,
+          "z": 0.04
+        }
+      },
+      "material": "Teal",
+      "collision": "NoCollision"
+    },
+    {
+      "name": "PCL_PersonalFinish_W_Plinth",
+      "side": "W",
+      "transform": {
+        "location": {
+          "x": -3000,
+          "y": 0,
+          "z": 70
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.22,
+          "y": 61.44,
+          "z": 1.4
+        }
+      },
+      "material": "Graphite",
+      "collision": "NoCollision"
+    }
+  ],
+  "record": ".local/personal-finish173-authoring.json",
+  "policy": "Existing gameplay boundaries and open arena center; all added mesh components configured NoCollision."
+}

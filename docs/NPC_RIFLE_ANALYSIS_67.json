@@ -1,0 +1,118 @@
+{
+  "run": "67",
+  "evidence_sha256": "86c3f53fbaf1ec3f0d22c4d0583a23b12cbf17d944327dfbd75231e3f3ee0003",
+  "build": "UEFN 43.00 CL-59596594",
+  "scope": "Private native-command-state control after66ruled out simple precreation timing. Same prepared owned plan, public scoped query-veto and original rifle available. Stationary perceived hostile5000HP target initialized before measurement,2s autonomous baseline, then one explicit native Actions.Attack request with4quarter-second rifle samples before the first tool equip. No Focus in this initial command. EndFire/StopNavigation then same3tool/rifle cycles as66:4tool-state samples, first explicit Unequip positive control, SelectWeapon unlock and16held-attack rifle samples, actual held-tool cleanup. Tests whether a preceding requested combat action changes the initial tool override; not a production forced-fire primer or confirmed root cause. Authoritative script inspection67confirmed private coach_damage_shooter_behavior and main coach_opponent_behavior assigned through their NPCBehaviorScriptComponents; no miswiring fix made. Rifle stats unchanged, no direct damage/explicit BeginFire/measurement teleports/player state changes/computer input; rendered pose/native build-edit/pro/publication not accepted.",
+  "phases": {
+    "detected_baseline": {
+      "samples": 8,
+      "hp_start": 5000.0,
+      "hp_end": 4965.0,
+      "source_attributed_hits": 1,
+      "equipped_samples": 8,
+      "holstered_samples": 0,
+      "firing_samples": 6,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 377.02086094556086,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.973853,
+        0.992859
+      ]
+    },
+    "commanded_attack_before_first_tool": {
+      "samples": 4,
+      "hp_start": 4965.0,
+      "hp_end": 4965.0,
+      "source_attributed_hits": 0,
+      "equipped_samples": 4,
+      "holstered_samples": 0,
+      "firing_samples": 3,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 197.5334657076968,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.991188,
+        0.994408
+      ]
+    },
+    "build_plan_return_1": {
+      "samples": 16,
+      "hp_start": 4965.0,
+      "hp_end": 4895.0,
+      "source_attributed_hits": 2,
+      "equipped_samples": 16,
+      "holstered_samples": 0,
+      "firing_samples": 14,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 0.0,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.974522,
+        0.991528
+      ]
+    },
+    "build_plan_return_2": {
+      "samples": 16,
+      "hp_start": 4895.0,
+      "hp_end": 4860.0,
+      "source_attributed_hits": 1,
+      "equipped_samples": 16,
+      "holstered_samples": 0,
+      "firing_samples": 6,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 0.0,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.973465,
+        0.995201
+      ]
+    },
+    "build_plan_return_3": {
+      "samples": 16,
+      "hp_start": 4860.0,
+      "hp_end": 4790.0,
+      "source_attributed_hits": 2,
+      "equipped_samples": 16,
+      "holstered_samples": 0,
+      "firing_samples": 15,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 0.0,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.971967,
+        0.994143
+      ]
+    }
+  },
+  "finished": "PCL|health_probe|npc_equipped_finished|target_health=4790.000000|source_hits=6|no_direct_damage_or_legacy_attack_phase",
+  "cleanup": "PCL|health_probe|npc_equipped_cleanup|parked=2|restored=2|original_ranged_items_returned_before_despawn|managed_rifle_removed=1|idempotent_cleanup=1|tool_lock_removed=1",
+  "observed_damage": 210.0,
+  "positive_source_attributed_hits": 6,
+  "damage_after_last_sample": 0.0,
+  "source_hits_after_last_sample": 0,
+  "requested_phases_without_samples": [],
+  "hold_parent_state": [],
+  "child_deferred_release_logs": 0,
+  "owner_release_scopes": [
+    "build_cycle_parent",
+    "build_cycle_parent",
+    "build_cycle_parent"
+  ],
+  "limits": [
+    "Detection baseline contains firing before the explicit Attack request; do not attribute unholstering solely to Attack.",
+    "One native rifle was available, equipped and sampled firing; exact per-hit weapon-causer identity was not separately read.",
+    "Stationary private NPC target; no pro cadence, moving-player accuracy, occlusion, reload, build/edit, multiplayer or publication acceptance."
+  ],
+  "native_build_gates_accepted": false
+}

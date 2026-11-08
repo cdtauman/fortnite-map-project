@@ -1,0 +1,261 @@
+{
+  "run": "71",
+  "build": "UEFN 43.00 CL-59596594",
+  "evidence_sha256": "3a57a8f93c8ed3306b89c44e6eaabd80b021d8fc0c244326358e4da8a3ad8171",
+  "cycles": [
+    {
+      "cycle": 1,
+      "polls": 20,
+      "plan_equipped_polls": 5,
+      "plan_unholstered_polls": 5,
+      "rifle_equipped_polls": 15,
+      "rifle_unholstered_polls": 13,
+      "all_poll_parent_inventory_matches_lock": true,
+      "all_poll_equipped_holster_pairs_agree": false,
+      "first_polled_tool_loss_after_ack_seconds": 0.40077000000019325,
+      "poll_elapsed_seconds": [
+        0.06679200000144192,
+        0.13358400000106485,
+        0.20037700000102632,
+        0.26718200000141223,
+        0.3339770000002318,
+        0.40077000000019325,
+        0.46753000000171596,
+        0.534326000000874,
+        0.6011240000007092,
+        0.6679160000003321,
+        0.7347120000013092,
+        0.8015070000001288,
+        0.8682990000015707,
+        0.9350950000007288,
+        1.0018900000013673,
+        1.0686820000009902,
+        1.1354790000004868,
+        1.2022700000015902,
+        1.2690630000015517,
+        1.3358550000011746
+      ],
+      "event_trace": [
+        {
+          "reason": "rifle_holster_event",
+          "seconds_from_ack": -0.0667909999992844,
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1"
+        },
+        {
+          "reason": "rifle_equipped_event_0",
+          "seconds_from_ack": -0.0667909999992844,
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1"
+        },
+        {
+          "reason": "plan_holster_event",
+          "seconds_from_ack": -0.0667909999992844,
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1"
+        },
+        {
+          "reason": "plan_equipped_event_1",
+          "seconds_from_ack": -0.0667909999992844,
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1"
+        },
+        {
+          "reason": "plan_holster_event",
+          "seconds_from_ack": 0.40077000000019325,
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1"
+        },
+        {
+          "reason": "plan_equipped_event_0",
+          "seconds_from_ack": 0.40077000000019325,
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1"
+        },
+        {
+          "reason": "rifle_holster_event",
+          "seconds_from_ack": 0.40077000000019325,
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "1",
+          "rifle_holstered": "0"
+        },
+        {
+          "reason": "rifle_equipped_event_1",
+          "seconds_from_ack": 0.40077000000019325,
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "1",
+          "rifle_holstered": "0"
+        },
+        {
+          "reason": "rifle_holster_event",
+          "seconds_from_ack": 0.43413300000065647,
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "1",
+          "rifle_holstered": "1"
+        },
+        {
+          "reason": "rifle_holster_event",
+          "seconds_from_ack": 0.567722000001595,
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "1",
+          "rifle_holstered": "0"
+        }
+      ]
+    },
+    {
+      "cycle": 2,
+      "polls": 20,
+      "plan_equipped_polls": 20,
+      "plan_unholstered_polls": 20,
+      "rifle_equipped_polls": 0,
+      "rifle_unholstered_polls": 0,
+      "all_poll_parent_inventory_matches_lock": true,
+      "all_poll_equipped_holster_pairs_agree": true,
+      "first_polled_tool_loss_after_ack_seconds": null,
+      "poll_elapsed_seconds": [
+        0.06679499999881955,
+        0.13358699999844248,
+        0.20038199999908102,
+        0.26717399999870395,
+        0.3339659999983269,
+        0.40075099999921804,
+        0.4675539999989269,
+        0.5343439999996917,
+        0.6011389999985113,
+        0.6679319999984727,
+        0.7347209999988991,
+        0.8015159999995376,
+        0.8683099999998376,
+        0.9351049999986571,
+        1.0019009999996342,
+        1.0686919999989186,
+        1.1354839999985415,
+        1.2022759999999835,
+        1.2690679999996064,
+        1.3358589999988908
+      ],
+      "event_trace": [
+        {
+          "reason": "rifle_holster_event",
+          "seconds_from_ack": -0.06679500000063854,
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1"
+        },
+        {
+          "reason": "rifle_equipped_event_0",
+          "seconds_from_ack": -0.06679500000063854,
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1"
+        },
+        {
+          "reason": "plan_holster_event",
+          "seconds_from_ack": -0.06679500000063854,
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1"
+        },
+        {
+          "reason": "plan_equipped_event_1",
+          "seconds_from_ack": -0.06679500000063854,
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1"
+        }
+      ]
+    },
+    {
+      "cycle": 3,
+      "polls": 20,
+      "plan_equipped_polls": 20,
+      "plan_unholstered_polls": 20,
+      "rifle_equipped_polls": 0,
+      "rifle_unholstered_polls": 0,
+      "all_poll_parent_inventory_matches_lock": true,
+      "all_poll_equipped_holster_pairs_agree": true,
+      "first_polled_tool_loss_after_ack_seconds": null,
+      "poll_elapsed_seconds": [
+        0.06679199999962293,
+        0.1335849999995844,
+        0.2003740000000107,
+        0.2671669999999722,
+        0.3339589999995951,
+        0.4007499999988795,
+        0.4675409999999829,
+        0.5343429999993532,
+        0.6011359999993147,
+        0.6679299999996147,
+        0.7347229999995761,
+        0.8015139999988605,
+        0.8683060000003024,
+        0.9351019999994605,
+        1.001892999998745,
+        1.068686999999045,
+        1.1354389999996783,
+        1.2022309999993013,
+        1.2690220000004047,
+        1.3358140000000276
+      ],
+      "event_trace": [
+        {
+          "reason": "rifle_holster_event",
+          "seconds_from_ack": -0.06679199999962293,
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1"
+        },
+        {
+          "reason": "rifle_equipped_event_0",
+          "seconds_from_ack": -0.06679199999962293,
+          "plan_equipped": "0",
+          "plan_holstered": "1",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1"
+        },
+        {
+          "reason": "plan_holster_event",
+          "seconds_from_ack": -0.06679199999962293,
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1"
+        },
+        {
+          "reason": "plan_equipped_event_1",
+          "seconds_from_ack": -0.06679199999962293,
+          "plan_equipped": "1",
+          "plan_holstered": "0",
+          "rifle_equipped": "0",
+          "rifle_holstered": "1"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Event callbacks can expose intermediate native/transaction ordering; poll snapshots are separate.",
+    "Holster state and inventory state do not establish rendered pose or native build/edit ownership.",
+    "First tool retention remains unverified; no pro or publication acceptance."
+  ]
+}

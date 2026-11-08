@@ -1,0 +1,93 @@
+{
+  "run": "59",
+  "evidence_sha256": "a52f51a08296f4f052fb84cf080f360381f151285404614ef51a6591864c80b1",
+  "build": "UEFN 43.00 CL-59596594",
+  "scope": "Private native build-tool/rifle transitions using production coach_equipment. Checked original-item parking and exactly one equipped native rifle; stationary perceived hostile target5000HP initialized before measurement. After2s baseline run three cycles: public EquipBuildPlan, four0.25s samples of exact plan/rifle equipped and rifle firing states, public SelectWeapon, then bounded shared Tether/Focus/Attack with16rifle samples. Log existing-plan reuse and deferred tether release. Native rifle damage/fire rate/shot cost unchanged. Remove owned plan and rifle, restore parked originals, repeat cleanup. No direct damage, explicit BeginFire, measured-phase teleports, player state changes or computer input. Pose/visual appearance and native build/edit actions are not inferred from equip state.",
+  "phases": {
+    "detected_baseline": {
+      "samples": 8,
+      "hp_start": 5000.0,
+      "hp_end": 4965.0,
+      "source_attributed_hits": 1,
+      "equipped_samples": 8,
+      "holstered_samples": 0,
+      "firing_samples": 6,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 384.61113373636067,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.959127,
+        0.988633
+      ]
+    },
+    "build_plan_return_1": {
+      "samples": 16,
+      "hp_start": 4965.0,
+      "hp_end": 4895.0,
+      "source_attributed_hits": 2,
+      "equipped_samples": 16,
+      "holstered_samples": 0,
+      "firing_samples": 15,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 0.0,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.986612,
+        0.996919
+      ]
+    },
+    "build_plan_return_2": {
+      "samples": 16,
+      "hp_start": 4895.0,
+      "hp_end": 4860.0,
+      "source_attributed_hits": 1,
+      "equipped_samples": 16,
+      "holstered_samples": 0,
+      "firing_samples": 5,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 0.0,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.985072,
+        0.996389
+      ]
+    },
+    "build_plan_return_3": {
+      "samples": 16,
+      "hp_start": 4860.0,
+      "hp_end": 4825.0,
+      "source_attributed_hits": 1,
+      "equipped_samples": 16,
+      "holstered_samples": 0,
+      "firing_samples": 15,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 0.0,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.985298,
+        0.997419
+      ]
+    }
+  },
+  "finished": "PCL|health_probe|npc_equipped_finished|target_health=4790.000000|source_hits=6|no_direct_damage_or_legacy_attack_phase",
+  "cleanup": "PCL|health_probe|npc_equipped_cleanup|parked=2|restored=2|original_ranged_items_returned_before_despawn|managed_rifle_removed=1|idempotent_cleanup=1",
+  "observed_damage": 210.0,
+  "positive_source_attributed_hits": 6,
+  "damage_after_last_sample": 35.0,
+  "source_hits_after_last_sample": 1,
+  "requested_phases_without_samples": [],
+  "limits": [
+    "Detection baseline contains firing before the explicit Attack request; do not attribute unholstering solely to Attack.",
+    "One native rifle was available, equipped and sampled firing; exact per-hit weapon-causer identity was not separately read.",
+    "Stationary private NPC target; no pro cadence, moving-player accuracy, occlusion, reload, build/edit, multiplayer or publication acceptance."
+  ],
+  "native_build_gates_accepted": false
+}

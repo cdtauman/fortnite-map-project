@@ -1,0 +1,52 @@
+{
+  "checkpoint": "104",
+  "latest_runtime": "103",
+  "at_utc": "2026-11-07T11:54:47.801661+00:00",
+  "editor_evidence_sha256": "d5f2a6accc0b1f84e210419fa145de01aee30aa2c1f60e0666a773c028ca12fb",
+  "editor_build": "player-buildable-candidate104-editor-build.json",
+  "scope": "Compiled rollback/editor verification, no new runtime from this checkpoint.",
+  "flags": {
+    "enabled": false,
+    "autoRun": false,
+    "calibrationNativeTimer": false,
+    "useWeaponCalibration": false,
+    "useCharacterTargetControl": false,
+    "isolatedWallControl": false,
+    "spawnedWallControl": false,
+    "nPCEquippedAttackControl": false,
+    "visualUseViewportCamera": false,
+    "nativeBuildToolReference": false,
+    "nativeBuildToolLease": false,
+    "nativeBuildCameraBypass": false,
+    "nativeBuildMenuOnly": false
+  },
+  "scalars": {
+    "visualToolCaptureSeconds": 0,
+    "visualRifleCaptureSeconds": 0,
+    "visualNativeCaptureSeconds": 0,
+    "meshChangeAfterPlayerHits": 0
+  },
+  "gates": {
+    "candidateCombatEnabled": false,
+    "queryCoverageConfirmed": false,
+    "healthContinuityConfirmed": false,
+    "nativeSlotInteroperationConfirmed": false
+  },
+  "session": "Connected",
+  "game": "CanStart",
+  "level_dirty": false,
+  "assets": {
+    "numChecked": 55,
+    "numValid": 55,
+    "numInvalid": 0,
+    "numWarnings": 0,
+    "numSkipped": 0,
+    "bAssetLimitReached": false,
+    "errors": [],
+    "warnings": []
+  },
+  "source_or_owned_asset_differs_from_cooked_runtime": true,
+  "full_content_push_required": true,
+  "computer_control_used": false,
+  "full_goal_complete": false
+}

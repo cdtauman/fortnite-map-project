@@ -1,0 +1,748 @@
+{
+  "date": "2026-11-06",
+  "build": "UEFN 43.00 CL-59596594",
+  "run": "automatic-19-connection-baseline",
+  "scope": "Connection preflight with automatic structure/health/weapon probes disabled. One persistent MCP client; no StartGame request. Any automatically running game is stopped in cleanup.",
+  "observations": {
+    "run": "19",
+    "scope": "Connection preflight with automatic structure/health/weapon probes disabled. One persistent MCP client; no StartGame request. Any automatically running game is stopped in cleanup.",
+    "started_at_utc": "2026-11-06T20:16:06.540946+00:00",
+    "source_build": "health-probe-native-weapon-build.json",
+    "source_build_sha256": "e3afe236105ca66cf5ca5b6fd34bb32fd6dc07b77847beed5cae83a415e24d94",
+    "observations": [
+      {
+        "at": "2026-11-06T20:16:10.678076+00:00",
+        "session": "Disconnected",
+        "game": "Unconnected",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:16:11.844942+00:00",
+        "session": "Disconnected",
+        "game": "Unconnected",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:16:46.464604+00:00",
+        "session": "Disconnected",
+        "game": "Unconnected",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:17:53.024896+00:00",
+        "session": "Disconnected",
+        "game": "Unconnected",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:00.987907+00:00",
+        "session": "Disconnected",
+        "game": "Unconnected",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:02.979045+00:00",
+        "session": "Disconnected",
+        "game": "Unconnected",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:04.016966+00:00",
+        "session": "Disconnected",
+        "game": "Unconnected",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:05.069137+00:00",
+        "session": "Disconnected",
+        "game": "Unconnected",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:06.105101+00:00",
+        "session": "Disconnected",
+        "game": "Unconnected",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:07.144970+00:00",
+        "session": "Disconnected",
+        "game": "Unconnected",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:08.184790+00:00",
+        "session": "Disconnected",
+        "game": "Unconnected",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:14.779453+00:00",
+        "session": "Connecting",
+        "game": "Unconnected",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:18.431889+00:00",
+        "session": "Connecting",
+        "game": "Unconnected",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:19.538073+00:00",
+        "session": "Connected",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:20.633726+00:00",
+        "session": "Connected",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:21.720822+00:00",
+        "session": "Connected",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:22.773651+00:00",
+        "session": "Connected",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:23.836108+00:00",
+        "session": "Connected",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:24.888783+00:00",
+        "session": "Connected",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:25.982405+00:00",
+        "session": "Connected",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:27.044715+00:00",
+        "session": "Connected",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:28.151616+00:00",
+        "session": "Connected",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:35.201929+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:39.558578+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:40.706862+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:41.810802+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:42.944394+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:44.054840+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:45.320513+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:46.446565+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:47.522241+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:48.610296+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:49.712237+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:50.790011+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:51.879227+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:53.065489+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:54.199921+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:55.308983+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:56.654702+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:57.855744+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:18:58.969800+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:00.065942+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:01.243938+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:02.383060+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:03.723477+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:04.946753+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:06.123026+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:07.241409+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:08.384870+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:09.479091+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:10.620290+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:11.729046+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:13.056068+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:14.308801+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:15.409382+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:16.504772+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:17.690751+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:18.794734+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:19.870475+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:26.062868+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:34.103633+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:38.081727+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:48.931281+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:50.570729+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:51.660835+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:52.804954+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:53.929237+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:55.149321+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:56.379854+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:57.511430+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:58.753848+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:19:59.958772+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:01.098890+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:06.567715+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:07.650283+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:08.861806+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:10.095335+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:11.272276+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:12.527868+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:13.677670+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:15.177118+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:16.314537+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:17.488114+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:18.631525+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:19.770323+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:21.014616+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:22.291764+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:23.448719+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:24.568034+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:25.831896+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:27.067401+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:28.176923+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:29.481786+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:30.599223+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:31.656978+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:32.744638+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:34.858926+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:35.986482+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:37.267624+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:38.507822+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:39.692582+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:40.774615+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:41.852451+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:42.961666+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:44.073452+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:45.218386+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:46.312974+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:20:48.377197+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:21:00.269889+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:21:01.951145+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:21:03.197109+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:21:04.377696+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:21:05.465923+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:21:06.588992+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      },
+      {
+        "at": "2026-11-06T20:21:07.700245+00:00",
+        "session": "UpdatingContent",
+        "game": "CanStart",
+        "connected_clients": 0
+      }
+    ],
+    "connected_with_client": false,
+    "health_flags": {
+      "Enabled": false,
+      "AutoRun": false,
+      "UseWeaponCalibration": false,
+      "CalibrationNativeTimer": false
+    },
+    "structure_flags": {
+      "Enabled": false,
+      "AutoRun": false
+    }
+  },
+  "transport_outcome": {
+    "observed_error": "httpx2.ReadTimeout",
+    "inline_cleanup_completed": false,
+    "later_independent_cleanup": {
+      "at_utc": "2026-11-06T20:23:04.823008+00:00",
+      "initial_session": "Connected",
+      "initial_game": "Running",
+      "stop_game": "Completed",
+      "stop_session": null,
+      "PCL_Health_Probe": {
+        "Enabled": false,
+        "AutoRun": false,
+        "UseWeaponCalibration": false,
+        "CalibrationNativeTimer": false
+      },
+      "PCL_Structure_Probe": {
+        "Enabled": false,
+        "AutoRun": false
+      },
+      "PCL_Structure_Director": {
+        "CandidateCombatEnabled": false,
+        "QueryCoverageConfirmed": false,
+        "HealthContinuityConfirmed": false,
+        "NativeSlotInteroperationConfirmed": false
+      },
+      "final_session": "Disconnected",
+      "final_game": "Unconnected",
+      "level_dirty": false
+    }
+  },
+  "conclusion": "A fresh independent client found Connected/Running after the original HTTP timeout. This is late readiness, not evidence that no engine session started. No health/weapon probe result was obtained. No client gameplay input or acceptance-gate change.",
+  "gates_accepted": false
+}

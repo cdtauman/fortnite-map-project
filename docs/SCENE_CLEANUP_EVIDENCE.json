@@ -1,0 +1,8 @@
+{
+  "scope": "Editor scene cleanup; not gameplay",
+  "backup": "C:\\Users\\cdtauman\\Documents\\הפרויקטים שלי\\fortnite\\.local\\backups\\ProCoachLab_before_scene_cleanup_20261106_142904",
+  "backup_content_hash_mismatches": 0,
+  "removed_native_test_parts": 162,
+  "actors_after": 121,
+  "level_dirty": false
+}

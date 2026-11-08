@@ -1,0 +1,98 @@
+{
+  "run": "58",
+  "evidence_sha256": "ed9b9e9d5f5bc77213633717f0364fc15940ef121ec13ec9f4c48aa32e6ba5af",
+  "build": "UEFN 43.00 CL-59596594",
+  "scope": "Private native motion control using production NPC equipment and CoachHoldAttackWindow. Same equipped assault-rifle template and exact native perceived hostile target; stationary target initialized5000HP before measurement. Sample2s detection baseline,12s ordinary Attack,12s shared Tether(position,75cm)+Focus companion+Attack window, then4s untethered native NavigateTo450cm laterally at walking speed. Log tether center and deferred release, actual XYZ positions, native navigation outcome, firing/equip/holster/LOS and source-attributed damage. No BeginFire calls, teleports during measured phases, rifle stat changes, direct damage, player inventory/position changes or computer input. Restore originals and repeat cleanup. Main HoldAngle/cover-peek use this same bounded helper; other tactics remain untethered. Native default-leash restoration and player combat are not inferred from release request.",
+  "phases": {
+    "detected_baseline": {
+      "samples": 8,
+      "hp_start": 5000.0,
+      "hp_end": 4965.0,
+      "source_attributed_hits": 1,
+      "equipped_samples": 8,
+      "holstered_samples": 0,
+      "firing_samples": 6,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 384.38412779659626,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.978496,
+        0.995794
+      ]
+    },
+    "native_attack_after_equip": {
+      "samples": 48,
+      "hp_start": 4965.0,
+      "hp_end": 4790.0,
+      "source_attributed_hits": 5,
+      "equipped_samples": 48,
+      "holstered_samples": 0,
+      "firing_samples": 38,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 2077.0700600129076,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.982451,
+        0.999236
+      ]
+    },
+    "tether_focus_attack": {
+      "samples": 46,
+      "hp_start": 4790.0,
+      "hp_end": 4615.0,
+      "source_attributed_hits": 5,
+      "equipped_samples": 46,
+      "holstered_samples": 0,
+      "firing_samples": 27,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 0.0,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.992638,
+        0.998219
+      ],
+      "requested_radius_cm": 75.0,
+      "max_xy_distance_from_tether_center_cm": 6.679175137582568,
+      "deferred_release_logs": 1
+    },
+    "released_navigation": {
+      "samples": 16,
+      "hp_start": 4615.0,
+      "hp_end": 4545.0,
+      "source_attributed_hits": 2,
+      "equipped_samples": 16,
+      "holstered_samples": 0,
+      "firing_samples": 8,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": false,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 598.6371467909253,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        -0.798809,
+        0.999015
+      ],
+      "max_xy_displacement_from_navigation_start_cm": 374.45388245106335,
+      "navigation_returned_success": true
+    }
+  },
+  "finished": "PCL|health_probe|npc_equipped_finished|target_health=4510.000000|source_hits=14|no_direct_damage_or_legacy_attack_phase",
+  "cleanup": "PCL|health_probe|npc_equipped_cleanup|parked=2|restored=2|original_ranged_items_returned_before_despawn|managed_rifle_removed=1|idempotent_cleanup=1",
+  "observed_damage": 490.0,
+  "positive_source_attributed_hits": 14,
+  "damage_after_last_sample": 35.0,
+  "source_hits_after_last_sample": 1,
+  "requested_phases_without_samples": [],
+  "limits": [
+    "Detection baseline contains firing before the explicit Attack request; do not attribute unholstering solely to Attack.",
+    "One native rifle was available, equipped and sampled firing; exact per-hit weapon-causer identity was not separately read.",
+    "Stationary private NPC target; no pro cadence, moving-player accuracy, occlusion, reload, build/edit, multiplayer or publication acceptance."
+  ],
+  "native_build_gates_accepted": false
+}

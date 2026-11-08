@@ -1,0 +1,80 @@
+{
+  "build": "UEFN43.00 CL59596594",
+  "runs": {
+    "99": {
+      "lease_sha256": "cf57cda58d74775fadee3ffbf861cdfe7849bad90b4b722699b809d4e9d636df",
+      "all_lease_checks_pass": false,
+      "visual_equipped_samples": 0,
+      "static_frame": "rifle_visible",
+      "snapshot": [
+        {
+          "items": "14",
+          "unchanged_identity_parent_equipped": "14",
+          "source_count": "4",
+          "cleanup_ok": "1",
+          "repeat_cleanup_ok": "1",
+          "guard_hotbars_after": "0",
+          "tool_hold_guards_after": "0",
+          "ranged_hold_guards_after": "0"
+        }
+      ],
+      "current_inventory_samples": [
+        {
+          "items": "3",
+          "ranged": "0",
+          "new_ranged": "0",
+          "original_ranged_in_guard": "0",
+          "equipped": "1",
+          "count": 1
+        },
+        {
+          "items": "3",
+          "ranged": "0",
+          "new_ranged": "0",
+          "original_ranged_in_guard": "0",
+          "equipped": "0",
+          "count": 47
+        }
+      ]
+    },
+    "100": {
+      "lease_sha256": "1e0c9e0e9ea33535a9c388dadc367dc5ce0e95703a88ba092f76a5ccbbff42e9",
+      "all_lease_checks_pass": true,
+      "visual_equipped_samples": 40,
+      "static_frame": "blueprint_visible",
+      "snapshot": [
+        {
+          "items": "14",
+          "unchanged_identity_parent_equipped": "14",
+          "source_count": "4",
+          "cleanup_ok": "1",
+          "repeat_cleanup_ok": "1",
+          "guard_hotbars_after": "0",
+          "tool_hold_guards_after": "0",
+          "ranged_hold_guards_after": "0"
+        }
+      ],
+      "current_inventory_samples": [
+        {
+          "items": "3",
+          "ranged": "0",
+          "new_ranged": "0",
+          "original_ranged_in_guard": "0",
+          "equipped": "1",
+          "count": 48
+        }
+      ]
+    }
+  },
+  "same_device_properties": true,
+  "same_owned_art_npc_assets": true,
+  "changed_verse_files": [
+    "coach_health_probe.verse"
+  ],
+  "exact_source_diff": "--- 99\n\n+++ 100\n\n@@ -2136,6 +2136,14 @@\n\n                         return false\n                     # Track before mutation so every partial-transfer path can restore.\n                     set ParkedRanged += array{(Item, Original)}\n+                    Removed := Original.RemoveItem(Item.Entity)\n+                    if (not Removed.GetSuccess[]):\n+                        CoachProbeLog(\"PCL|health_probe|native_tool_ranged_explicit_remove_rejected\")\n+                        return false\n+                    if (Item.GetParentInventory[] = Original):\n+                        CoachProbeLog(\"PCL|health_probe|native_tool_ranged_explicit_remove_parent_uncleared\")\n+                        return false\n+                    CoachProbeLog(\"PCL|health_probe|native_tool_ranged_explicit_remove|index={ParkedRanged.Length}|success=1|original_parent_cleared=1|before_parking_add\")\n                     Added := Inventory.AddItem(Item.Entity, ?AllowMergeItems := false)\n                     if (not Added.GetSuccess[] or not Item.GetParentInventory[] = Inventory):\n                         return false",
+  "observed_result": "Explicit Original.RemoveItem before parking AddItem coincides with48/48native tool equip samples and actual blueprint/pencil static frame, versus99tool loss and pictured rifle. All18scoped100lease checks pass,14original items restored. This supports the correction in this setup, not a proven sole internal engine cause or all-context stability.",
+  "next": "Native actuation/ownership/slot probe with actual equipped tool; do not repeat pose/camera/parking-only permutations or call the full bot complete.",
+  "continuous_render_verified": false,
+  "native_building_verified": false,
+  "full_goal_complete": false
+}

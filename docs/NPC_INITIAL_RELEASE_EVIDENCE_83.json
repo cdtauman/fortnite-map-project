@@ -1,0 +1,70 @@
+{
+  "runtime": "83",
+  "comparison": "82",
+  "tested_build": "npc-initial-release83-build.json",
+  "editor_rollback_build": "npc-initial-release84-rollback-build.json",
+  "runtime_evidence_sha256": "58defa0c9c995365b7accc7322104f45a94f97545b8d2990f9b20ce079cf04bb",
+  "single_behavior_change": "Private initial managed rifle EndFire plus checked explicit Unequip before plan Equip; same root Visible=true and runtime map pose as82.",
+  "explicit_release_success_logs": 4,
+  "explicit_release_rejection_logs": 0,
+  "runtime_components": {
+    "tool": {
+      "samples": 40,
+      "states": {
+        "visible=1,enabled=1,map_pose=1": 40
+      }
+    },
+    "rifle": {
+      "samples": 8,
+      "states": {
+        "visible=1,enabled=0,map_pose=1": 8
+      }
+    }
+  },
+  "views": [
+    {
+      "phase": "tool",
+      "image": "docs\\images\\npc-initial-release-tool-83.png",
+      "sha256": "79c009dd85def9762c694def00979676ba339a825e75668d2963a672d5fcbbee",
+      "metadata": ".local/visual-evidence83/tool.json",
+      "source_ready": "2026-11-07T08:32:05.126Z",
+      "source_finished": "2026-11-07T08:32:45.200Z",
+      "capture_requested_at": "2026-11-07T08:32:16.739057+00:00",
+      "request_in_source_window": true,
+      "ready_age_at_scheduling_seconds": 11.26531,
+      "remaining_at_scheduling_seconds": 28.73469
+    },
+    {
+      "phase": "rifle",
+      "image": "docs\\images\\npc-initial-release-rifle-83.png",
+      "sha256": "50c516a0e46277a4d853762860292edcc1e8b84438e4d2372d1bb6031bd96e78",
+      "metadata": ".local/visual-evidence83/rifle.json",
+      "source_ready": "2026-11-07T08:32:48.072Z",
+      "source_finished": "2026-11-07T08:32:56.087Z",
+      "capture_requested_at": "2026-11-07T08:32:49.438161+00:00",
+      "request_in_source_window": true,
+      "ready_age_at_scheduling_seconds": 1.11597,
+      "remaining_at_scheduling_seconds": 6.88403
+    }
+  ],
+  "observed_tool_frame": "Cyan plan at waist, arms lowered; rifle still lowered in right hand. Correct map-reading grip not observed despite explicit initial native Unequip success.",
+  "observed_rifle_frame": "Managed rifle held in two hands, plan absent in this static frame.",
+  "equipment_checks": "NPC_TOOL_INTENT_CHECKS_83.json",
+  "full_scoped_equipment_pass": false,
+  "sampled_tool_equipped_unholstered": "58/60 (20/18/20);60/60equipped;48/48rifle returns; measured hits in all three returns.",
+  "source_attributed_callbacks": 9,
+  "observed_native_damage": 315.0,
+  "interpretation": "Explicit initial release alone did not resolve the observed presentation in this control; no general platform capability conclusion or causal explanation of holster variability.",
+  "action": "Experimental code reverted;84 source snapshot exactly matches82. Owned asset root visibility restoredfalse.84compiled/editor-only; no new84runtime/cook.",
+  "next_control": "Test saved default torch pose separately from runtime map override, using same visible root and a positive held-item reference; do not repeat initial release as an untested fix. Authored animation remains a documented candidate requiring separate asset/controller/runtime validation.",
+  "fresh_primary_animation_route": {
+    "url": "https://dev.epicgames.com/documentation/fortnite/using-the-npc-spawner-with-animations-in-unreal-editor-for-fortnite",
+    "inspected": "2026-11-07",
+    "scope": "Reflected animation sequences via public animation controller; skeleton compatibility and controller behavior unverified here. Sequencer replaceable binding pauses NPC behavior and returns it to original location; not accepted as combat actuation."
+  },
+  "gpu_frame_caveat": "Current framebuffer capture does not independently identify source GPU frame/camera.",
+  "native_build_gates_accepted": false,
+  "rendered_tool_grip_accepted": false,
+  "pro_quality_verified": false,
+  "project_complete": false
+}

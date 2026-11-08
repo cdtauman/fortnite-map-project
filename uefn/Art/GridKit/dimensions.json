@@ -1,0 +1,133 @@
+{
+  "units": "centimeters",
+  "source_axes": "Unreal XYZ",
+  "obj_y_up": false,
+  "obj_y_flipped": true,
+  "wall_plane": "XZ; wall center at X=0,Y=0; base Z=0",
+  "horizontal_piece_origin": "X centered; Y rear edge, extends 0..512",
+  "ramp_rise": "+Y to Z=384",
+  "cone_height": 192,
+  "scope": "Independently authored source geometry. Native edit/slot compatibility remains unverified.",
+  "meshes": {
+    "WallSolid": {
+      "bounds": {
+        "min": [
+          -256,
+          -18,
+          0
+        ],
+        "max": [
+          256,
+          14,
+          384
+        ]
+      },
+      "triangles": 132
+    },
+    "WallWindow": {
+      "bounds": {
+        "min": [
+          -256,
+          -18,
+          0
+        ],
+        "max": [
+          256,
+          14,
+          384
+        ]
+      },
+      "triangles": 264
+    },
+    "WallExit": {
+      "bounds": {
+        "min": [
+          -256,
+          -18,
+          0
+        ],
+        "max": [
+          256,
+          14,
+          384
+        ]
+      },
+      "triangles": 204
+    },
+    "Floor": {
+      "bounds": {
+        "min": [
+          -256,
+          0,
+          -16
+        ],
+        "max": [
+          256,
+          512,
+          4
+        ]
+      },
+      "triangles": 108
+    },
+    "FloorHalf": {
+      "bounds": {
+        "min": [
+          0,
+          0,
+          -16
+        ],
+        "max": [
+          256,
+          512,
+          4
+        ]
+      },
+      "triangles": 108
+    },
+    "Ramp": {
+      "bounds": {
+        "min": [
+          -256,
+          0,
+          0
+        ],
+        "max": [
+          256,
+          512,
+          384
+        ]
+      },
+      "triangles": 200
+    },
+    "RampHalf": {
+      "bounds": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          256,
+          512,
+          384
+        ]
+      },
+      "triangles": 200
+    },
+    "Cone": {
+      "bounds": {
+        "min": [
+          -256,
+          0,
+          0
+        ],
+        "max": [
+          256,
+          512,
+          192
+        ]
+      },
+      "triangles": 6
+    }
+  }
+}

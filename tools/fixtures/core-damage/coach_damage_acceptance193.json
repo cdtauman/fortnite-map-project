@@ -1,0 +1,73 @@
+{
+  "scope": "Prepared damage-route decision only, not NPC/pro/native ownership acceptance",
+  "status": "executed200_authorization_consumed_cleanup_complete",
+  "source": "tools/fixtures/core-damage/coach_damage_acceptance193.verse",
+  "source_sha256_normalized": "1aac26f6355fdcd277b8a6e8413b90c230c42f442aec405acdb6b2e70f441bab",
+  "enabled_default": false,
+  "deadline_game_seconds": 60,
+  "max_game_sequences": 1,
+  "production_gates": "all four remain false",
+  "origin_xyz_cm": [
+    12288,
+    12288,
+    4096
+  ],
+  "control_wall_xyz_cm": [
+    11264,
+    10752,
+    4096
+  ],
+  "subject_wall_xyz_cm": [
+    13312,
+    10752,
+    4096
+  ],
+  "control_blast_xyz_cm": [
+    11264,
+    10752,
+    4224
+  ],
+  "subject_blast_xyz_cm": [
+    13312,
+    10752,
+    4224
+  ],
+  "temporary_actors": [
+    "PCL_Damage193_Director",
+    "PCL_Damage193_Control",
+    "PCL_Damage193_Subject"
+  ],
+  "blast_settings_contract": {
+    "both_identical": true,
+    "structure_damage": 50,
+    "player_damage": 0,
+    "radius_tiles": 1,
+    "line_of_sight_required": false,
+    "source_team": "first native team",
+    "saved_native_options_must_be_read_back_before_run": true
+  },
+  "sequence": [
+    "Read product gates and exact asset/bindings",
+    "Require empty baseline for both wall volumes and correct blast positions",
+    "Spawn one same-asset control with explicit damage permission",
+    "Require one matching ExplodedEvent acknowledgement per request and observable control destruction with zero residual query cells within at most12 pulses",
+    "If control fails, stop without comparison or retry",
+    "Spawn two fresh same-asset walls; paired acknowledged native explosions",
+    "After first surviving pulse, change only subject to window and back; require8/9 query cells",
+    "Compare destruction endpoints, report inconclusive when either endpoint is missing or first pulse is lethal",
+    "Stop game and remove only captured temporary actor references/source; compile/save cleanup"
+  ],
+  "limitations": [
+    "Quantized endpoints are not numeric HP",
+    "No native ownership/shared slot/pro quality proof",
+    "No native health write or repair",
+    "No replay of old176/185 specimen",
+    "No repeat or new scenario from automatic goal continuation"
+  ],
+  "required_authorization": "New explicit approval to advance this one mechanism run before deferred final acceptance",
+  "readiness_evidence": ".local/core193-readiness.json",
+  "compile_evidence": ".local/core193-compile-correction.json",
+  "authorization_record": ".local/core196-authorization.json",
+  "result": "positive_control_first_pulse_destroyed; comparison_no_partial_damage_interval; continuity_unproven",
+  "analysis_record": ".local/core200-analysis.json"
+}

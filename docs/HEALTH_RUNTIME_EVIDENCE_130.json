@@ -1,0 +1,1213 @@
+{
+  "date": "2026-11-07",
+  "build": "UEFN 43.00 CL-59596594",
+  "run": "automatic-130",
+  "scope": "Participant own native build tool, one Wood500 grant with finite building resources, observed hostile LOS then one bounded public Attack. No borrowed tools, human state changes, camera or custom geometry creation. Measure equip/parent, world overlap and resource totals separately; native placement/edit/ownership/publication gates unchanged.",
+  "preparation": {
+    "prepared_at_utc": "2026-11-07T18:01:10.497504+00:00",
+    "source_build": "participant130-pose-readiness-build.json",
+    "source_build_sha256": "125bf3959860c9ed1b9df847c52f193c621ddb339059ec9f147e5f515eeac27e",
+    "probe": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567"
+    },
+    "probe_label": "PCL_Health_Probe",
+    "log_pattern": "PCL\\|health_probe|PCL\\|combat_action|PCL\\|equipment",
+    "test_flags": {
+      "Enabled": true,
+      "AutoRun": true
+    },
+    "combat_gates": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "input_requested": false,
+    "connection_reused": true,
+    "learning_observation_only": false,
+    "participant_build_action": true,
+    "participant_inventory_only": true,
+    "participant_inventory_context": {
+      "at_utc": "2026-11-07T18:00:55.035337+00:00",
+      "stage": "configured_test_player_probe_disabled",
+      "scope": "One diagnostic Participant with its own native build recipe; Wood500 grant, finite building resources, native hostile LOS and a bounded public Attack. No human state changes, camera/custom prop creation or acceptance/publication claim.",
+      "spawner": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075AD1203_1788162289"
+      },
+      "definition_component": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075AD1203_1788162289.NPCCharacterDefinitionComponent"
+      },
+      "behavior_component": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075AD1203_1788162289.NPCBehaviorScriptComponent"
+      },
+      "spawner_definition": {
+        "nPCCharacterDefinition": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachDamageShooter.CoachDamageShooter"
+        },
+        "nPCCharacterModifiers": []
+      },
+      "spawner_properties": {
+        "spawnCount": 1,
+        "enabledAtGameStart": false,
+        "spawnOnEnabled": false,
+        "spawnOnTimer": false
+      },
+      "island": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.IslandSettings_0"
+      },
+      "test_player_component": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.IslandSettings_0.TestPlayerDefinitionComponent"
+      },
+      "test_player_before": {
+        "testPlayerDefinition": "None",
+        "testPlayersOnStart": "None",
+        "numberOfTestPlayers": 1,
+        "participantDefinition": null,
+        "bCanEverAffectNavigation": false
+      },
+      "test_player_after": {
+        "testPlayerDefinition": "None",
+        "testPlayersOnStart": "Custom",
+        "numberOfTestPlayers": 1,
+        "participantDefinition": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate"
+        },
+        "bCanEverAffectNavigation": false
+      },
+      "debug_before": "False",
+      "debug_after": "True",
+      "participant_definition": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate"
+      },
+      "candidate_properties": {
+        "type": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate:CharacterType_Participant_C_0"
+        },
+        "behavior": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate:CharacterModifier_GuardVerseBehavior_C_0"
+        },
+        "modifiers": [
+          {
+            "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate:CharacterModifier_GuardSpawn_C_0"
+          }
+        ]
+      },
+      "max_players": 2,
+      "run": "130",
+      "authoring_route": "Official device/object tools and settled public Python setters. No computer control.",
+      "validation": {
+        "numChecked": 1,
+        "numValid": 1,
+        "numInvalid": 0,
+        "numWarnings": 0,
+        "numSkipped": 0,
+        "bAssetLimitReached": false,
+        "errors": [],
+        "warnings": []
+      },
+      "build_action_control": {
+        "actor": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ItemGranter_V2_C_UAID_30E3A4101075B01203_1319645818"
+        },
+        "item_component": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ItemGranter_V2_C_UAID_30E3A4101075B01203_1319645818.PickupItemList"
+        },
+        "items": {
+          "itemListData": [
+            {
+              "itemDefinition": {
+                "refPath": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData"
+              },
+              "itemQuantity": 500,
+              "templateObjectData": null,
+              "itemOptionData": {
+                "propertyOverrides": []
+              },
+              "itemVariantGuid": "00000000-0000-0000-0000-000000000000",
+              "sourceItemVariantGuid": "00000000-0000-0000-0000-000000000000"
+            }
+          ]
+        },
+        "options": {
+          "EnabledOnGameStart": "False",
+          "ReceivingPlayers": "(TeamType=TriggeringPlayer,TeamIndex=1)",
+          "OnGrantAction": "Keep All",
+          "Grant": "Current Item",
+          "GrantCondition": "Always",
+          "GrantOnCycle": "False",
+          "bEquipGrantedItem": "False",
+          "ItemToGrant": "1",
+          "ItemCount": "",
+          "RemoveItemOnGrant": "False",
+          "InitialWeaponAmmo": "",
+          "SpareWeaponAmmo": "",
+          "CycleBehavior": "Stop",
+          "GrantWhileOffline": "False",
+          "DropItemsAtPlayerLocation": "Never",
+          "OwnershipOfDroppedItem": "Receiving Player",
+          "bGrantOnTimer": "False",
+          "GrantTime": "1.000000",
+          "PlayAudio": "False",
+          "bGrantOnGameStart": "False"
+        }
+      },
+      "building_resources_before": "True",
+      "building_resources_after": "False",
+      "participant_behavior_control": {
+        "at_utc": "2026-11-07T17:53:17.388502+00:00",
+        "scope": "User confirms native Verse Behavior/script saved. Public setter also assigned script into existing allowed native modifier. Initial immediate assertion expected class path, but native field correctly returns an instanced script; its actual class is independently verified read-only. No constructor/class filter override succeeded. No runtime129 yet.",
+        "candidate_properties": {
+          "type": {
+            "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate:CharacterType_Participant_C_0"
+          },
+          "behavior": {
+            "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate:CharacterModifier_GuardVerseBehavior_C_0"
+          },
+          "modifiers": [
+            {
+              "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate:CharacterModifier_GuardSpawn_C_0"
+            }
+          ]
+        },
+        "behavior_properties": {
+          "nPCBehaviorScript": {
+            "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate:CharacterModifier_GuardVerseBehavior_C_0.coach_participant_probe_behavior_0"
+          }
+        },
+        "behavior_script_class_check": "/eda26a53-42c0-4b9e-8f62-31719aef6889/_Verse.coach_participant_probe_behavior\n",
+        "validation": {
+          "numChecked": 2,
+          "numValid": 2,
+          "numInvalid": 0,
+          "numWarnings": 0,
+          "numSkipped": 0,
+          "bAssetLimitReached": false,
+          "errors": [],
+          "warnings": []
+        },
+        "dirty": false
+      },
+      "settled_setup": {
+        "steps": [
+          {
+            "field": "testPlayersOnStart",
+            "readings": [
+              {
+                "testPlayerDefinition": "None",
+                "testPlayersOnStart": "Custom",
+                "numberOfTestPlayers": 1,
+                "participantDefinition": null,
+                "bCanEverAffectNavigation": false
+              },
+              {
+                "testPlayerDefinition": "None",
+                "testPlayersOnStart": "Custom",
+                "numberOfTestPlayers": 1,
+                "participantDefinition": null,
+                "bCanEverAffectNavigation": false
+              }
+            ]
+          },
+          {
+            "field": "participantDefinition",
+            "readings": [
+              {
+                "testPlayerDefinition": "None",
+                "testPlayersOnStart": "Custom",
+                "numberOfTestPlayers": 1,
+                "participantDefinition": {
+                  "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate"
+                },
+                "bCanEverAffectNavigation": false
+              },
+              {
+                "testPlayerDefinition": "None",
+                "testPlayersOnStart": "Custom",
+                "numberOfTestPlayers": 1,
+                "participantDefinition": {
+                  "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate"
+                },
+                "bCanEverAffectNavigation": false
+              }
+            ]
+          }
+        ],
+        "properties": {
+          "testPlayerDefinition": "None",
+          "testPlayersOnStart": "Custom",
+          "numberOfTestPlayers": 1,
+          "participantDefinition": {
+            "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate"
+          },
+          "bCanEverAffectNavigation": false
+        }
+      }
+    },
+    "wall_occlusion_control": true,
+    "wall_occlusion_scope": "Native Prop Manipulator initial-health control200 configured before gameplay; explicit AdditionalProps reference is the owned ControlWall and volume mode is off. No scripted health changes or synthetic damage during firing. This does not establish default Fortnite wall health or edit-health continuity.",
+    "mesh_change_after_player_hits": 0,
+    "native_viewport_capture": false,
+    "native_visual_camera": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928"
+    },
+    "native_visual_portal": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075351203_1174112206"
+    },
+    "visual_capture_seconds": {
+      "VisualNativeCaptureSeconds": 0,
+      "VisualToolCaptureSeconds": 0,
+      "VisualRifleCaptureSeconds": 0
+    },
+    "isolated_wall_control": false,
+    "spawned_wall_control": false,
+    "npc_equipped_attack_control": false,
+    "native_team_wall_control": false,
+    "native_wall_transition_control": false,
+    "native_wall_transition_case": 0,
+    "native_build_tool_reference": false,
+    "native_build_tool_lease": false,
+    "native_build_camera_bypass": false,
+    "native_build_menu_only": false,
+    "calibration_native_timer": false,
+    "calibration_blast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075661203_1497102807"
+    },
+    "calibration_objective": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+    },
+    "weapon_calibration": false,
+    "character_target_control": false,
+    "calibration_shooter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075671203_1509093984"
+    },
+    "calibration_player_teleporter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Teleporter_V2_C_UAID_30E3A4101075711203_1580237745"
+    },
+    "calibration_no_fire_zone": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MutatorVolume_V2_C_UAID_30E3A4101075491203_1921501775"
+    },
+    "source_archive": {
+      "path": ".local\\evidence\\health-130\\sources.zip",
+      "sha256": "e25c218c2439afa35ea65c34b69ce89100d24fc44f2be2d2de7be64e0ce8f107"
+    },
+    "fixture_archive": {
+      "path": ".local\\evidence\\health-130\\health-probe-layout.json",
+      "sha256": "345a76cc0bc25c418c7f804e6855d592db1657aba4fecc9bfcf6c5307565bf7c"
+    },
+    "owned_art_npc_asset_hashes": {
+      "Art/CoachTools/PCL_BuildPlan.uasset": "0e86bd6968165454236cde55069d4cf5fe60a20fa389a012630e162e9fb35f74",
+      "Art/CoachTools/PCL_SM_PlanLines.uasset": "f7a652c7a7e7f8d49b49a0f640dd3d70da9dcd6d2632b8a5e7a3997b7bd82680",
+      "Art/GridKit/PCL_MI_Board.uasset": "ced7ab4d05535bea550a715e17401665d092a830851d64b433e0a8729a8d1802",
+      "Art/GridKit/PCL_MI_Grain.uasset": "6cf132275a05a0b681463dc0c4b3d79a8dedb8d20e0baa41c9b09c97b0f56796",
+      "Art/GridKit/PCL_MI_Trim.uasset": "9cb43af626ff7211b3be3153f90b9d25d1fcc62600f52ac53b58df0dd8ac3896",
+      "Art/GridKit/PCL_SM_GridCone.uasset": "c1f461202c2f0fca4621a558cf3d7a6fd5fe8a6c586e0a1971da9fa7db0d103f",
+      "Art/GridKit/PCL_SM_GridFloor.uasset": "c29b7511e1dfea011fc53da79086b1cb51b23252ea3468a4b1c3657ae2c5761e",
+      "Art/GridKit/PCL_SM_GridFloorHalf.uasset": "b474f9e3e33d1ca36d9d7f7511de98b675af6cbcd5829c193962237f5c2e3822",
+      "Art/GridKit/PCL_SM_GridRamp.uasset": "3b95aac7a8cf23328a5ce8c35b1c0a44ac9fda4b46a48b7ecd398690fb5db43b",
+      "Art/GridKit/PCL_SM_GridWallExit.uasset": "ea9115a0302ccbdb29b2f5848d47d63b95e7da1d10642aa2911ed2187e025cee",
+      "Art/GridKit/PCL_SM_GridWallSolid.uasset": "84635026c0ca436f711ba75244b08be075c6ec8b77de05ad76183feb8d5980e8",
+      "Art/GridKit/PCL_SM_GridWallWindow.uasset": "16713e5a55cef6e41d9ad9d0fc887d18872ad28df49f527d6ebc33771135088d",
+      "Art/Investigations/PCL_BP_CourseCone.uasset": "f6e7d7aa3435e7c62baf9c8f05564f679f7fa3e109edc7c780c323d47c79696e",
+      "Art/Investigations/PCL_BP_CourseFloor.uasset": "69c7d09eef08301be6da9bf887c4e37e2993bf7157bb39f8c7268a5b970975a3",
+      "Art/Investigations/PCL_BP_CourseRamp.uasset": "98e91a6c24fa470b43e062688f3787e8fabec250eb270ea128ee35e6c40a924b",
+      "Art/Investigations/PCL_BP_CourseWall.uasset": "34c64cac560aa12968d2efb554e7a4af5e357752f6e55fab85b4d94b14833d3e",
+      "Art/Investigations/PCL_BP_DamageControl.uasset": "7942a644263fd2e15d9b5f5ba4c9c629b50419139ef5adfe52f0289d15066e69",
+      "Art/Investigations/PCL_BP_DamageSpawnWall.uasset": "035745531412982fa9e8fe2f76501f2f5ced9618608202246be7c25a5e78361c",
+      "Art/Investigations/PCL_BP_GridConeCandidate.uasset": "a1d1460d435acda616432740dd3af1cdc1cb92ad2bd7bae0174747c5570cf244",
+      "Art/Investigations/PCL_BP_GridFloorCandidate.uasset": "6b7a6ac2f27b12fbbaf271d1311454db86eecc69fd4f5c7674caedaef560f774",
+      "Art/Investigations/PCL_BP_GridRampCandidate.uasset": "684a039bf44763ad0fd63e547cdb91bc68b4f68a6272385f325fe76d440c5f31",
+      "Art/Investigations/PCL_BP_GridWallCandidate.uasset": "c011b10df2c1d90866aff98d1ebb6f9a52eafc12e1d4dd0dfc1e327afe89cd8f",
+      "Art/Investigations/PCL_BP_NativeVisualWallCandidate.uasset": "123ce537399e2a7874d83dc3ace37d3c392d1ac2289a2501619e77516e002b19",
+      "Art/Investigations/PCL_BP_PlayerBuildablePropCandidate.uasset": "fad14a6a04e1adf9ac96bbc13c3d1ccd55af134c01eeb4c18280b9fcd44dbd70",
+      "Art/PCL_M_Master.uasset": "63d6d2c2d120a9166133e13b8f43156173545afccd369c6eb5b6e79b9c09e8ff",
+      "Art/PCL_MI_Amber.uasset": "66bdfd5cc6a4aff21fe46669acf9e462e27a1c8c4ccb5fcf073fe89ab19ca355",
+      "Art/PCL_MI_Campus.uasset": "62d5f114df3b48c143dbc68dcd1e8506e0320ad237e1ca28181ba697d177d9f4",
+      "Art/PCL_MI_Cyan.uasset": "6a685b9d450b342f80ccff9df50442dc65c3e3b01476eb0685b1cdfb5f903d99",
+      "Art/PCL_MI_Lime.uasset": "086a7b25fc8bfcccba4a3c9c614de53701bde4caf89a240f1ce9f9e74b4b9690",
+      "Art/PCL_MI_Slate.uasset": "56ed95f84e8f8a9e4a519d0c5a58ada8031bb4c519923b4d56506a9cc3874a38",
+      "Art/PCL_MI_Violet.uasset": "500b317d45a603db44fca47a42b61becef5cb3bb65edc17d18abf6f2f707f18e",
+      "Art/PCL_MI_White.uasset": "93bbf9ef325f31378517da542934163de8ac693d18c7f2e19d5195b07cb046c2",
+      "Art/TeachingKit/PCL_BP_DemoCone.uasset": "a5a24085685e1a1d9dc0270773125db9ce89f1aad38e57fa09417b5246e686b8",
+      "Art/TeachingKit/PCL_BP_DemoFloor.uasset": "3bb2de88338f2f7b91ee0eece3fc20102a557c3e0c8edb679dae6ab5189a8330",
+      "Art/TeachingKit/PCL_BP_DemoMarker.uasset": "f04b742c85a8e804913d9402e4c9896713718cfef69f1825ab8e20ad49580bb5",
+      "Art/TeachingKit/PCL_BP_DemoRamp.uasset": "a652da20166c5d29ea64a75785a317b08a9c4999de2421770db99a24493ce789",
+      "Art/TeachingKit/PCL_BP_DemoWall.uasset": "d04ed7191dd554ff1d5f925c990b753dd3c379e35f49e04c6cc1f6012b3313df",
+      "Art/TeachingKit/PCL_SM_TeachingConeRaisedLeft.uasset": "ec21d3f62a6d642baea7fa06fb106abfa10f991b51a6171d7a67efa2e9b4374b",
+      "Art/TeachingKit/PCL_SM_TeachingWallSide.uasset": "6335e54ecf0503460f61e0f7ac6918f06f2f65387ed1c05dd7d17e1d8ee99024",
+      "Art/TrainingKit/PCL_BP_LessonWall.uasset": "4be07c70efff9029a475363b287a4e6c1d25b28d194b683993df176f6f80edc9",
+      "Art/TrainingKit/PCL_BP_TrainingCone.uasset": "eefa1e3679ee23e0a24f121250876f7784052fe4901891405690e47f9b3254cd",
+      "Art/TrainingKit/PCL_BP_TrainingFloor.uasset": "90cb983b41e1f7f0bdf9ed811cc9f2987394b502a8b7094917a178cc61dd7798",
+      "Art/TrainingKit/PCL_BP_TrainingRamp.uasset": "24ff4ec2725fd16d8d314199dbca555c1e34044a576370ac9bebcbb69f022ec7",
+      "Art/TrainingKit/PCL_BP_TrainingWall.uasset": "2cf5298711e35f916f0f159b9ffa0119efa4a5e3d13b0230e0594bc173cdda01",
+      "Art/TrainingKit/PCL_SM_Cone.uasset": "80a7a6696142ff416fee8eeb27be7ef882b5f20880a2cd37ecf3c3be0d6f5eac",
+      "Art/TrainingKit/PCL_SM_Floor.uasset": "217895ad3b83c112e1fa30ec0a74893a9999424340e25fcaee0dc6f021f5a962",
+      "Art/TrainingKit/PCL_SM_Ramp.uasset": "c1cf3d943dec71d818c58c92c47e5759a9b25a544d4a2feb387bd95f5042b092",
+      "Art/TrainingKit/PCL_SM_WallDoor.uasset": "4cc77b9ade9c1c19efe702755a12b8aa93bdd78801d9c3e92700bc0c4bebb466",
+      "Art/TrainingKit/PCL_SM_WallSolid.uasset": "718ce1d4ece4022c8df7c92abfc44e6c98539d0e3f685523bc741a4518117b73",
+      "Art/TrainingKit/PCL_SM_WallWindow.uasset": "4998aea9273e623f807c974decc6dac5f686d87a82eaea8c9b229e45361a5903",
+      "NPC/CoachDamageShooter.uasset": "c95c9da0f919306b75102bb4aa406ce5f12bf4381750439784168f41a7d389b7",
+      "NPC/CoachDemonstrator.uasset": "8567bf3e4e05f50b05936b4e283992b8bc5d794046f14ba01eb0e20ff18e492c",
+      "NPC/CoachOpponent.uasset": "3878699657e1b0115e6d2b2527397ee191218b8693231fb9b49ae71368fe7a3d",
+      "NPC/CoachParticipantCandidate.uasset": "85752a6d1924f351b1edb89c203f322fc2fbfb8e44c35d6dd33832aed2ecc92a",
+      "NPC/CoachSpeaker.uasset": "4ef5aad7a3ddaf83380de059ef93b8747467c6d3f1431c173c0544e65f2456a8"
+    }
+  },
+  "start_session": {
+    "operation": "PushChanges",
+    "bVerseOnly": false,
+    "result": "Completed",
+    "at_utc": "2026-11-07T18:03:13.968903+00:00"
+  },
+  "entries": [
+    {
+      "sequence": 1314,
+      "timestamp": "2026-11-07T18:03:15.116Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_behavior_started|native_npc_behavior_context|no_equipment_or_action_commands",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1315,
+      "timestamp": "2026-11-07T18:03:15.119Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_inventory_waiting|expected_test_subjects=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1316,
+      "timestamp": "2026-11-07T18:03:15.119Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_inventory_begin|human_players=1|participants=2|guard_control_and_configured_test_participant|no_spawner_behavior_or_inventory_override",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1318,
+      "timestamp": "2026-11-07T18:03:15.506Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_spawn_observed|owned_agents=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1319,
+      "timestamp": "2026-11-07T18:03:16.007Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_inventory_sample|role=guard_control|tick=1|character_entity=1|is_player=0|registered=0|human_listed=0|behavior=0|npc_actions=1|guard_actions=1|awareness=1|guard_awareness=1|inventories=8|items=2|parent_matches=2|build_hotbars=0|build_tools=0|resource_items=0|resource_total=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1320,
+      "timestamp": "2026-11-07T18:03:16.007Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_control|index=1|kind=inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1321,
+      "timestamp": "2026-11-07T18:03:16.007Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_control|index=2|kind=harvest_tool|items=1|equipped=0|parent_matches=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1322,
+      "timestamp": "2026-11-07T18:03:16.007Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_control|index=3|kind=fort_inventory|items=1|equipped=1|parent_matches=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1323,
+      "timestamp": "2026-11-07T18:03:16.008Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_control|index=4|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1324,
+      "timestamp": "2026-11-07T18:03:16.008Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_control|index=5|kind=resources|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1325,
+      "timestamp": "2026-11-07T18:03:16.008Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_control|index=6|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1326,
+      "timestamp": "2026-11-07T18:03:16.008Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_control|index=7|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1327,
+      "timestamp": "2026-11-07T18:03:16.008Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=guard_control|index=8|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1328,
+      "timestamp": "2026-11-07T18:03:16.008Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_inventory_sample|role=test_participant|tick=1|character_entity=1|is_player=0|registered=1|human_listed=0|behavior=1|npc_actions=1|guard_actions=1|awareness=1|guard_awareness=1|inventories=10|items=6|parent_matches=6|build_hotbars=1|build_tools=4|resource_items=0|resource_total=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1329,
+      "timestamp": "2026-11-07T18:03:16.008Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=test_participant|index=1|kind=inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1330,
+      "timestamp": "2026-11-07T18:03:16.008Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=test_participant|index=2|kind=fort_inventory|items=1|equipped=0|parent_matches=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1331,
+      "timestamp": "2026-11-07T18:03:16.008Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=test_participant|index=3|kind=build_hotbar|items=4|equipped=0|parent_matches=4",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1332,
+      "timestamp": "2026-11-07T18:03:16.008Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=test_participant|index=4|kind=harvest_tool|items=1|equipped=1|parent_matches=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1333,
+      "timestamp": "2026-11-07T18:03:16.008Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=test_participant|index=5|kind=weapon_hotbar|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1334,
+      "timestamp": "2026-11-07T18:03:16.008Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=test_participant|index=6|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1335,
+      "timestamp": "2026-11-07T18:03:16.008Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=test_participant|index=7|kind=resources|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1336,
+      "timestamp": "2026-11-07T18:03:16.008Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=test_participant|index=8|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1337,
+      "timestamp": "2026-11-07T18:03:16.008Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=test_participant|index=9|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1338,
+      "timestamp": "2026-11-07T18:03:16.008Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_build_inventory|owner=test_participant|index=10|kind=fort_inventory|items=0|equipped=0|parent_matches=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1339,
+      "timestamp": "2026-11-07T18:03:16.508Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_inventory_sample|role=guard_control|tick=2|character_entity=1|is_player=0|registered=0|human_listed=0|behavior=0|npc_actions=1|guard_actions=1|awareness=1|guard_awareness=1|inventories=8|items=2|parent_matches=2|build_hotbars=0|build_tools=0|resource_items=0|resource_total=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1340,
+      "timestamp": "2026-11-07T18:03:16.508Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_inventory_sample|role=test_participant|tick=2|character_entity=1|is_player=0|registered=1|human_listed=0|behavior=1|npc_actions=1|guard_actions=1|awareness=1|guard_awareness=1|inventories=10|items=6|parent_matches=6|build_hotbars=1|build_tools=4|resource_items=0|resource_total=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1341,
+      "timestamp": "2026-11-07T18:03:17.007Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_inventory_sample|role=guard_control|tick=3|character_entity=1|is_player=0|registered=0|human_listed=0|behavior=0|npc_actions=1|guard_actions=1|awareness=1|guard_awareness=1|inventories=8|items=2|parent_matches=2|build_hotbars=0|build_tools=0|resource_items=0|resource_total=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1342,
+      "timestamp": "2026-11-07T18:03:17.008Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_inventory_sample|role=test_participant|tick=3|character_entity=1|is_player=0|registered=1|human_listed=0|behavior=1|npc_actions=1|guard_actions=1|awareness=1|guard_awareness=1|inventories=10|items=6|parent_matches=6|build_hotbars=1|build_tools=4|resource_items=0|resource_total=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1343,
+      "timestamp": "2026-11-07T18:03:17.508Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_inventory_sample|role=guard_control|tick=4|character_entity=1|is_player=0|registered=0|human_listed=0|behavior=0|npc_actions=1|guard_actions=1|awareness=1|guard_awareness=1|inventories=8|items=2|parent_matches=2|build_hotbars=0|build_tools=0|resource_items=0|resource_total=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1344,
+      "timestamp": "2026-11-07T18:03:17.508Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_inventory_sample|role=test_participant|tick=4|character_entity=1|is_player=0|registered=1|human_listed=0|behavior=1|npc_actions=1|guard_actions=1|awareness=1|guard_awareness=1|inventories=10|items=6|parent_matches=6|build_hotbars=1|build_tools=4|resource_items=0|resource_total=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1345,
+      "timestamp": "2026-11-07T18:03:18.009Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_inventory_sample|role=guard_control|tick=5|character_entity=1|is_player=0|registered=0|human_listed=0|behavior=0|npc_actions=1|guard_actions=1|awareness=1|guard_awareness=1|inventories=8|items=2|parent_matches=2|build_hotbars=0|build_tools=0|resource_items=0|resource_total=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1346,
+      "timestamp": "2026-11-07T18:03:18.009Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_inventory_sample|role=test_participant|tick=5|character_entity=1|is_player=0|registered=1|human_listed=0|behavior=1|npc_actions=1|guard_actions=1|awareness=1|guard_awareness=1|inventories=10|items=6|parent_matches=6|build_hotbars=1|build_tools=4|resource_items=0|resource_total=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1347,
+      "timestamp": "2026-11-07T18:03:18.510Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_inventory_sample|role=guard_control|tick=6|character_entity=1|is_player=0|registered=0|human_listed=0|behavior=0|npc_actions=1|guard_actions=1|awareness=1|guard_awareness=1|inventories=8|items=2|parent_matches=2|build_hotbars=0|build_tools=0|resource_items=0|resource_total=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1348,
+      "timestamp": "2026-11-07T18:03:18.510Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_inventory_sample|role=test_participant|tick=6|character_entity=1|is_player=0|registered=1|human_listed=0|behavior=1|npc_actions=1|guard_actions=1|awareness=1|guard_awareness=1|inventories=10|items=6|parent_matches=6|build_hotbars=1|build_tools=4|resource_items=0|resource_total=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1349,
+      "timestamp": "2026-11-07T18:03:19.010Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_inventory_sample|role=guard_control|tick=7|character_entity=1|is_player=0|registered=0|human_listed=0|behavior=0|npc_actions=1|guard_actions=1|awareness=1|guard_awareness=1|inventories=8|items=2|parent_matches=2|build_hotbars=0|build_tools=0|resource_items=0|resource_total=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1350,
+      "timestamp": "2026-11-07T18:03:19.010Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_inventory_sample|role=test_participant|tick=7|character_entity=1|is_player=0|registered=1|human_listed=0|behavior=1|npc_actions=1|guard_actions=1|awareness=1|guard_awareness=1|inventories=10|items=6|parent_matches=6|build_hotbars=1|build_tools=4|resource_items=0|resource_total=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1351,
+      "timestamp": "2026-11-07T18:03:19.519Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_inventory_sample|role=guard_control|tick=8|character_entity=1|is_player=0|registered=0|human_listed=0|behavior=0|npc_actions=1|guard_actions=1|awareness=1|guard_awareness=1|inventories=8|items=2|parent_matches=2|build_hotbars=0|build_tools=0|resource_items=0|resource_total=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1352,
+      "timestamp": "2026-11-07T18:03:19.519Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_inventory_sample|role=test_participant|tick=8|character_entity=1|is_player=0|registered=1|human_listed=0|behavior=1|npc_actions=1|guard_actions=1|awareness=1|guard_awareness=1|inventories=10|items=6|parent_matches=6|build_hotbars=1|build_tools=4|resource_items=0|resource_total=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1353,
+      "timestamp": "2026-11-07T18:03:19.710Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=1|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1354,
+      "timestamp": "2026-11-07T18:03:19.911Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=2|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1355,
+      "timestamp": "2026-11-07T18:03:20.111Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=3|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1356,
+      "timestamp": "2026-11-07T18:03:20.311Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=4|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1357,
+      "timestamp": "2026-11-07T18:03:20.512Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=5|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1358,
+      "timestamp": "2026-11-07T18:03:20.712Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=6|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1359,
+      "timestamp": "2026-11-07T18:03:20.912Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=7|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1360,
+      "timestamp": "2026-11-07T18:03:21.113Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=8|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1361,
+      "timestamp": "2026-11-07T18:03:21.313Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=9|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1362,
+      "timestamp": "2026-11-07T18:03:21.513Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=10|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1363,
+      "timestamp": "2026-11-07T18:03:21.713Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=11|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1364,
+      "timestamp": "2026-11-07T18:03:21.913Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=12|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1365,
+      "timestamp": "2026-11-07T18:03:22.114Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=13|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1366,
+      "timestamp": "2026-11-07T18:03:22.314Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=14|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1367,
+      "timestamp": "2026-11-07T18:03:22.515Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=15|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1368,
+      "timestamp": "2026-11-07T18:03:22.715Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=16|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1369,
+      "timestamp": "2026-11-07T18:03:22.915Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=17|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1370,
+      "timestamp": "2026-11-07T18:03:23.116Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=18|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1371,
+      "timestamp": "2026-11-07T18:03:23.316Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=19|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1372,
+      "timestamp": "2026-11-07T18:03:23.517Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=20|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1373,
+      "timestamp": "2026-11-07T18:03:23.717Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=21|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1374,
+      "timestamp": "2026-11-07T18:03:23.917Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=22|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1375,
+      "timestamp": "2026-11-07T18:03:24.117Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=23|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1376,
+      "timestamp": "2026-11-07T18:03:24.318Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=24|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1377,
+      "timestamp": "2026-11-07T18:03:24.519Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=25|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1378,
+      "timestamp": "2026-11-07T18:03:24.719Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=26|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1379,
+      "timestamp": "2026-11-07T18:03:24.919Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=27|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1380,
+      "timestamp": "2026-11-07T18:03:25.119Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=28|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1381,
+      "timestamp": "2026-11-07T18:03:25.320Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=29|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1382,
+      "timestamp": "2026-11-07T18:03:25.520Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=30|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1383,
+      "timestamp": "2026-11-07T18:03:25.721Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=31|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1384,
+      "timestamp": "2026-11-07T18:03:25.921Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=32|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1385,
+      "timestamp": "2026-11-07T18:03:26.121Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=33|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1386,
+      "timestamp": "2026-11-07T18:03:26.322Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=34|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1387,
+      "timestamp": "2026-11-07T18:03:26.522Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=35|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1388,
+      "timestamp": "2026-11-07T18:03:26.723Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=36|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1389,
+      "timestamp": "2026-11-07T18:03:26.923Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=37|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1390,
+      "timestamp": "2026-11-07T18:03:27.123Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=38|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1391,
+      "timestamp": "2026-11-07T18:03:27.324Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=39|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1392,
+      "timestamp": "2026-11-07T18:03:27.526Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_pose|tick=40|builder_x=515.283064|builder_y=-7004.204880|builder_z=110.849461|target_x=-4371.188500|target_y=-3038.964155|target_z=77.399998|builder_error=6871.598863|target_error=984.550564",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1393,
+      "timestamp": "2026-11-07T18:03:27.526Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_abort|pose_not_stable_within150cm",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1394,
+      "timestamp": "2026-11-07T18:03:27.526Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_action_cleanup|teams=2|original_equipped=1|equipped_restored=1|poses=2|removed_granted_resource_items=0|remaining_resources=0|no_human_state_mutated",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1395,
+      "timestamp": "2026-11-07T18:03:27.533Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|participant_inventory_cleanup|owned_agents=0|guard_still_registered=0|test_still_registered=1|test_lifetime_ends_with_game_stop",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 1396,
+      "timestamp": "2026-11-07T18:03:27.533Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|automatic_sequence_finished|participant_inventory_only|results_require_review",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    }
+  ],
+  "cleanup": {
+    "run": "130",
+    "scope": "Participant own native build tool, one Wood500 grant with finite building resources, observed hostile LOS then one bounded public Attack. No borrowed tools, human state changes, camera or custom geometry creation. Measure equip/parent, world overlap and resource totals separately; native placement/edit/ownership/publication gates unchanged.",
+    "source_preparation": "final-run-130-preparation.json",
+    "started_at_utc": "2026-11-07T18:03:17.876208+00:00",
+    "started_game_by_tool": false,
+    "sequence_finished": true,
+    "keep_edit_session_requested": true,
+    "initial_session_state": "Connected",
+    "readiness_observations": [
+      {
+        "at_utc": "2026-11-07T18:03:18.511667+00:00",
+        "session": "Connected"
+      }
+    ],
+    "ready_session_state": "Connected",
+    "initial_game_state": "Running",
+    "native_visual_captures": {},
+    "stop_game_result": "Completed",
+    "restored_test_player_configuration": {
+      "properties": {
+        "testPlayerDefinition": "None",
+        "testPlayersOnStart": "None",
+        "numberOfTestPlayers": 1,
+        "participantDefinition": null,
+        "bCanEverAffectNavigation": false
+      },
+      "debug": "False",
+      "settled_public_editor_steps": [
+        {
+          "field": "testPlayersOnStart",
+          "readings": [
+            {
+              "testPlayerDefinition": "None",
+              "testPlayersOnStart": "None",
+              "numberOfTestPlayers": 1,
+              "participantDefinition": {
+                "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate"
+              },
+              "bCanEverAffectNavigation": false
+            },
+            {
+              "testPlayerDefinition": "None",
+              "testPlayersOnStart": "None",
+              "numberOfTestPlayers": 1,
+              "participantDefinition": {
+                "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachParticipantCandidate.CoachParticipantCandidate"
+              },
+              "bCanEverAffectNavigation": false
+            }
+          ]
+        },
+        {
+          "field": "participantDefinition",
+          "readings": [
+            {
+              "testPlayerDefinition": "None",
+              "testPlayersOnStart": "None",
+              "numberOfTestPlayers": 1,
+              "participantDefinition": null,
+              "bCanEverAffectNavigation": false
+            },
+            {
+              "testPlayerDefinition": "None",
+              "testPlayersOnStart": "None",
+              "numberOfTestPlayers": 1,
+              "participantDefinition": null,
+              "bCanEverAffectNavigation": false
+            }
+          ]
+        }
+      ],
+      "building_resources": "True"
+    },
+    "restored_native_wall_transition_case": 0,
+    "restored_visual_capture_seconds": {
+      "VisualNativeCaptureSeconds": 0,
+      "VisualToolCaptureSeconds": 0,
+      "VisualRifleCaptureSeconds": 0
+    },
+    "restored_viewport_capture_flag": {
+      "VisualUseViewportCamera": false
+    },
+    "restored_mesh_change_threshold": 0,
+    "combat_gates_after_run": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "restored_flags": {
+      "Enabled": false,
+      "AutoRun": false,
+      "IsolatedWallControl": false,
+      "SpawnedWallControl": false,
+      "NativeTeamWallControl": false,
+      "NativeWallTransitionControl": false,
+      "LearningObservationOnly": false,
+      "ParticipantInventoryOnly": false,
+      "ParticipantBuildAction": false,
+      "NPCEquippedAttackControl": false,
+      "NativeBuildToolReference": false,
+      "NativeBuildToolLease": false,
+      "NativeBuildCameraBypass": false,
+      "NativeBuildMenuOnly": false
+    },
+    "final_game_state": "CanStart",
+    "final_session_state": "Connected",
+    "kept_edit_session": true,
+    "ended_at_utc": "2026-11-07T18:03:40.593972+00:00"
+  },
+  "gates_accepted": false
+}

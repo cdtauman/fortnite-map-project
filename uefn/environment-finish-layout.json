@@ -1,0 +1,884 @@
+{
+  "scope": "Editor-authored surfaces and lobby architecture; final client quality and performance pending.",
+  "parts": [
+    {
+      "name": "PCL_Finish_CeilingInset_0",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -8500,
+          "z": 1036
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 45,
+          "y": 8.6,
+          "z": 0.24
+        }
+      },
+      "material": "Graphite"
+    },
+    {
+      "name": "PCL_Finish_CeilingBaffle_0_0",
+      "transform": {
+        "location": {
+          "x": -1500,
+          "y": -8500,
+          "z": 1008
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 8.2,
+          "z": 0.38
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_CeilingBaffle_0_1",
+      "transform": {
+        "location": {
+          "x": -500,
+          "y": -8500,
+          "z": 1008
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 8.2,
+          "z": 0.38
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_CeilingBaffle_0_2",
+      "transform": {
+        "location": {
+          "x": 500,
+          "y": -8500,
+          "z": 1008
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 8.2,
+          "z": 0.38
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_CeilingBaffle_0_3",
+      "transform": {
+        "location": {
+          "x": 1500,
+          "y": -8500,
+          "z": 1008
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 8.2,
+          "z": 0.38
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_CeilingPanel_0_0",
+      "transform": {
+        "location": {
+          "x": -1050,
+          "y": -8500,
+          "z": 1018
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 4.2,
+          "y": 0.7,
+          "z": 0.12
+        }
+      },
+      "material": "Light"
+    },
+    {
+      "name": "PCL_Finish_CeilingPanel_0_1",
+      "transform": {
+        "location": {
+          "x": 1050,
+          "y": -8500,
+          "z": 1018
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 4.2,
+          "y": 0.7,
+          "z": 0.12
+        }
+      },
+      "material": "Light"
+    },
+    {
+      "name": "PCL_Finish_GateCanopy_0",
+      "transform": {
+        "location": {
+          "x": 1820,
+          "y": -8500,
+          "z": 710
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 7.4,
+          "y": 7.4,
+          "z": 0.2
+        }
+      },
+      "material": "Graphite"
+    },
+    {
+      "name": "PCL_Finish_GateCanopyEdge_0",
+      "transform": {
+        "location": {
+          "x": 1450,
+          "y": -8500,
+          "z": 700
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.045,
+          "y": 6.6,
+          "z": 0.045
+        }
+      },
+      "material": "Teal"
+    },
+    {
+      "name": "PCL_Finish_CeilingInset_1",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -7500,
+          "z": 1036
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 45,
+          "y": 8.6,
+          "z": 0.24
+        }
+      },
+      "material": "Graphite"
+    },
+    {
+      "name": "PCL_Finish_CeilingBaffle_1_0",
+      "transform": {
+        "location": {
+          "x": -1500,
+          "y": -7500,
+          "z": 1008
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 8.2,
+          "z": 0.38
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_CeilingBaffle_1_1",
+      "transform": {
+        "location": {
+          "x": -500,
+          "y": -7500,
+          "z": 1008
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 8.2,
+          "z": 0.38
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_CeilingBaffle_1_2",
+      "transform": {
+        "location": {
+          "x": 500,
+          "y": -7500,
+          "z": 1008
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 8.2,
+          "z": 0.38
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_CeilingBaffle_1_3",
+      "transform": {
+        "location": {
+          "x": 1500,
+          "y": -7500,
+          "z": 1008
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 8.2,
+          "z": 0.38
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_CeilingPanel_1_0",
+      "transform": {
+        "location": {
+          "x": -1050,
+          "y": -7500,
+          "z": 1018
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 4.2,
+          "y": 0.7,
+          "z": 0.12
+        }
+      },
+      "material": "Light"
+    },
+    {
+      "name": "PCL_Finish_CeilingPanel_1_1",
+      "transform": {
+        "location": {
+          "x": 1050,
+          "y": -7500,
+          "z": 1018
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 4.2,
+          "y": 0.7,
+          "z": 0.12
+        }
+      },
+      "material": "Light"
+    },
+    {
+      "name": "PCL_Finish_GateCanopy_1",
+      "transform": {
+        "location": {
+          "x": 1820,
+          "y": -7500,
+          "z": 710
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 7.4,
+          "y": 7.4,
+          "z": 0.2
+        }
+      },
+      "material": "Graphite"
+    },
+    {
+      "name": "PCL_Finish_GateCanopyEdge_1",
+      "transform": {
+        "location": {
+          "x": 1450,
+          "y": -7500,
+          "z": 700
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.045,
+          "y": 6.6,
+          "z": 0.045
+        }
+      },
+      "material": "Gold"
+    },
+    {
+      "name": "PCL_Finish_CeilingInset_2",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -6500,
+          "z": 1036
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 45,
+          "y": 8.6,
+          "z": 0.24
+        }
+      },
+      "material": "Graphite"
+    },
+    {
+      "name": "PCL_Finish_CeilingBaffle_2_0",
+      "transform": {
+        "location": {
+          "x": -1500,
+          "y": -6500,
+          "z": 1008
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 8.2,
+          "z": 0.38
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_CeilingBaffle_2_1",
+      "transform": {
+        "location": {
+          "x": -500,
+          "y": -6500,
+          "z": 1008
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 8.2,
+          "z": 0.38
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_CeilingBaffle_2_2",
+      "transform": {
+        "location": {
+          "x": 500,
+          "y": -6500,
+          "z": 1008
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 8.2,
+          "z": 0.38
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_CeilingBaffle_2_3",
+      "transform": {
+        "location": {
+          "x": 1500,
+          "y": -6500,
+          "z": 1008
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 8.2,
+          "z": 0.38
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_CeilingPanel_2_0",
+      "transform": {
+        "location": {
+          "x": -1050,
+          "y": -6500,
+          "z": 1018
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 4.2,
+          "y": 0.7,
+          "z": 0.12
+        }
+      },
+      "material": "Light"
+    },
+    {
+      "name": "PCL_Finish_CeilingPanel_2_1",
+      "transform": {
+        "location": {
+          "x": 1050,
+          "y": -6500,
+          "z": 1018
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 4.2,
+          "y": 0.7,
+          "z": 0.12
+        }
+      },
+      "material": "Light"
+    },
+    {
+      "name": "PCL_Finish_GateCanopy_2",
+      "transform": {
+        "location": {
+          "x": 1820,
+          "y": -6500,
+          "z": 710
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 7.4,
+          "y": 7.4,
+          "z": 0.2
+        }
+      },
+      "material": "Graphite"
+    },
+    {
+      "name": "PCL_Finish_GateCanopyEdge_2",
+      "transform": {
+        "location": {
+          "x": 1450,
+          "y": -6500,
+          "z": 700
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.045,
+          "y": 6.6,
+          "z": 0.045
+        }
+      },
+      "material": "Teal"
+    },
+    {
+      "name": "PCL_Finish_CeilingInset_3",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -5500,
+          "z": 1036
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 45,
+          "y": 8.6,
+          "z": 0.24
+        }
+      },
+      "material": "Graphite"
+    },
+    {
+      "name": "PCL_Finish_CeilingBaffle_3_0",
+      "transform": {
+        "location": {
+          "x": -1500,
+          "y": -5500,
+          "z": 1008
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 8.2,
+          "z": 0.38
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_CeilingBaffle_3_1",
+      "transform": {
+        "location": {
+          "x": -500,
+          "y": -5500,
+          "z": 1008
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 8.2,
+          "z": 0.38
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_CeilingBaffle_3_2",
+      "transform": {
+        "location": {
+          "x": 500,
+          "y": -5500,
+          "z": 1008
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 8.2,
+          "z": 0.38
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_CeilingBaffle_3_3",
+      "transform": {
+        "location": {
+          "x": 1500,
+          "y": -5500,
+          "z": 1008
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 8.2,
+          "z": 0.38
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_CeilingPanel_3_0",
+      "transform": {
+        "location": {
+          "x": -1050,
+          "y": -5500,
+          "z": 1018
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 4.2,
+          "y": 0.7,
+          "z": 0.12
+        }
+      },
+      "material": "Light"
+    },
+    {
+      "name": "PCL_Finish_CeilingPanel_3_1",
+      "transform": {
+        "location": {
+          "x": 1050,
+          "y": -5500,
+          "z": 1018
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 4.2,
+          "y": 0.7,
+          "z": 0.12
+        }
+      },
+      "material": "Light"
+    },
+    {
+      "name": "PCL_Finish_GateCanopy_3",
+      "transform": {
+        "location": {
+          "x": 1820,
+          "y": -5500,
+          "z": 710
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 7.4,
+          "y": 7.4,
+          "z": 0.2
+        }
+      },
+      "material": "Graphite"
+    },
+    {
+      "name": "PCL_Finish_GateCanopyEdge_3",
+      "transform": {
+        "location": {
+          "x": 1450,
+          "y": -5500,
+          "z": 700
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.045,
+          "y": 6.6,
+          "z": 0.045
+        }
+      },
+      "material": "Gold"
+    },
+    {
+      "name": "PCL_Finish_WelcomeFrameTop",
+      "transform": {
+        "location": {
+          "x": -2220,
+          "y": -7000,
+          "z": 760
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.25,
+          "y": 16,
+          "z": 0.22
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_WelcomeFrameBottom",
+      "transform": {
+        "location": {
+          "x": -2220,
+          "y": -7000,
+          "z": 200
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.25,
+          "y": 16,
+          "z": 0.22
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_WelcomeFrameLeft",
+      "transform": {
+        "location": {
+          "x": -2220,
+          "y": -7800,
+          "z": 480
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.25,
+          "y": 0.22,
+          "z": 5.6
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_WelcomeFrameRight",
+      "transform": {
+        "location": {
+          "x": -2220,
+          "y": -6200,
+          "z": 480
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.25,
+          "y": 0.22,
+          "z": 5.6
+        }
+      },
+      "material": "Metal"
+    },
+    {
+      "name": "PCL_Finish_WelcomeLine",
+      "transform": {
+        "location": {
+          "x": -2202,
+          "y": -7000,
+          "z": 735
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.04,
+          "y": 14.5,
+          "z": 0.04
+        }
+      },
+      "material": "Teal"
+    }
+  ],
+  "lighting": {
+    "count": 8,
+    "type": "SpotLight",
+    "lumens": 3200,
+    "radius_cm": 1600,
+    "shadows": false
+  },
+  "material": {
+    "path": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/AcademyKit/PCL_M_ArchitecturalFloor",
+    "world_aligned": true,
+    "lobby_tile_cm": 256,
+    "training_tile_cm": 512
+  },
+  "sources": [
+    "https://dev.epicgames.com/documentation/fortnite/talisman-environment-template-in-unreal-editor-for-fortnite",
+    "https://dev.epicgames.com/documentation/fortnite/environment-light-rig-device-in-unreal-editor-for-fortnite"
+  ],
+  "revision": 203
+}

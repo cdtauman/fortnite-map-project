@@ -1,0 +1,82 @@
+{
+  "run": "112",
+  "checks": {
+    "two_private_walls_and_duplicate_configuration_rejection": true,
+    "same_lease_four_shapes_9_8_7_9": false,
+    "old_location_clear_during_shapes": true,
+    "wrong_encounter_does_not_retire_live_lease": true,
+    "retired_hidden_parked_spent_one_remaining": true,
+    "second_distinct_lease_geometry_and_exhaustion": false,
+    "spent_pool_not_reissued_after_retire_all": true,
+    "sequence_finished_without_abort": true,
+    "no_runtime_error_entries": true,
+    "flags_restored_and_game_stopped": true,
+    "no_output_entries_dropped": true
+  },
+  "protocol_complete": false,
+  "registration": [
+    {
+      "available": "2",
+      "duplicate_configuration_rejected": "1"
+    }
+  ],
+  "shapes": [
+    {
+      "stage": "0",
+      "old_cells": "0",
+      "new_cells": "0",
+      "same_lease": "1"
+    },
+    {
+      "stage": "1",
+      "old_cells": "0",
+      "new_cells": "0",
+      "same_lease": "1"
+    },
+    {
+      "stage": "2",
+      "old_cells": "0",
+      "new_cells": "0",
+      "same_lease": "1"
+    },
+    {
+      "stage": "3",
+      "old_cells": "0",
+      "new_cells": "0",
+      "same_lease": "1"
+    }
+  ],
+  "retired": [
+    {
+      "cells": "0",
+      "parking_error": "0.000000",
+      "state_spent": "1",
+      "available": "1",
+      "wrong_encounter_ignored": "1"
+    }
+  ],
+  "second": [
+    {
+      "cells": "2",
+      "distinct_lease": "1",
+      "third_rejected": "1",
+      "available": "0"
+    }
+  ],
+  "finished": [
+    {
+      "cells": "0",
+      "available": "0",
+      "spent_not_reissued": "1"
+    }
+  ],
+  "source_evidence_sha256": "35230e84c3573cf52652e7db5e0fc678db9fafa1784bb2123d8536fb705ec4f4",
+  "limits": [
+    "Two preplaced native walls only; no floor/ramp/cone runtime acceptance.",
+    "Same-instance mesh commands, not native edit input or owner/slot/structural support proof.",
+    "No damage/healing/Dispose call in this diagnostic route; no partial-damage continuity measurement.",
+    "Pool capacity is finite per game; replenishment after destruction remains unresolved.",
+    "Main production backend remains disabled; NPC execution/quality and publication remain unverified."
+  ],
+  "full_goal_complete": false
+}

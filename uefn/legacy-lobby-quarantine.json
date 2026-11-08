@@ -1,0 +1,360 @@
+{
+  "scope": "Reversible lobby quarantine: seven165 pieces plus one newly observed raw stone wall203. Original identities and transforms are retained; the203 actor has its own absolute archive pose. No deletion or gameplay.",
+  "offset_xyz_cm": [
+    0,
+    -38000,
+    0
+  ],
+  "course_members_protected": 10,
+  "actors": [
+    {
+      "label": "PBWA_W1_StairW_C",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairW_C_2147482646"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_StairW.PBWA_W1_StairW_C",
+      "original": {
+        "location": {
+          "x": -1024.0,
+          "y": -6400.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "quarantine": {
+        "location": {
+          "x": -1024.0,
+          "y": -44400.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true
+    },
+    {
+      "label": "PBWA_W1_Floor_C",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_Floor_C_2147482646"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C",
+      "original": {
+        "location": {
+          "x": -1024.0,
+          "y": -6912.0,
+          "z": 384.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "quarantine": {
+        "location": {
+          "x": -1024.0,
+          "y": -44912.0,
+          "z": 384.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true
+    },
+    {
+      "label": "PBWA_W1_StairW_C2",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairW_C_2147482645"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_StairW.PBWA_W1_StairW_C",
+      "original": {
+        "location": {
+          "x": -1024.0,
+          "y": -7424.0,
+          "z": 384.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "quarantine": {
+        "location": {
+          "x": -1024.0,
+          "y": -45424.0,
+          "z": 384.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true
+    },
+    {
+      "label": "PBWA_W1_Floor_C2",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_Floor_C_2147482645"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C",
+      "original": {
+        "location": {
+          "x": -1024.0,
+          "y": -7936.0,
+          "z": 768.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "quarantine": {
+        "location": {
+          "x": -1024.0,
+          "y": -45936.0,
+          "z": 768.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true
+    },
+    {
+      "label": "PBWA_W1_Floor_C3",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_Floor_C_2147482644"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C",
+      "original": {
+        "location": {
+          "x": -512.0,
+          "y": -7936.0,
+          "z": 768.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "quarantine": {
+        "location": {
+          "x": -512.0,
+          "y": -45936.0,
+          "z": 768.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true
+    },
+    {
+      "label": "PBWA_W1_StairW_C3",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairW_C_2147482644"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_StairW.PBWA_W1_StairW_C",
+      "original": {
+        "location": {
+          "x": -512.0,
+          "y": -8448.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "quarantine": {
+        "location": {
+          "x": -512.0,
+          "y": -46448.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true
+    },
+    {
+      "label": "PBWA_W1_StairW_C4",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairW_C_2147482643"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_StairW.PBWA_W1_StairW_C",
+      "original": {
+        "location": {
+          "x": -512.0,
+          "y": -8448.0,
+          "z": 768.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "quarantine": {
+        "location": {
+          "x": -512.0,
+          "y": -46448.0,
+          "z": 768.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true
+    },
+    {
+      "label": "PBWA_S1_Solid_C",
+      "archival_label": "PCL_Archived_Lobby203_StoneWall",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_S1_Solid_C_2147482644"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_Solid.PBWA_S1_Solid_C",
+      "original": {
+        "location": {
+          "x": 256.0,
+          "y": -7168.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "quarantine": {
+        "location": {
+          "x": 256.0,
+          "y": -7168.0,
+          "z": -25000.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "revision": 203,
+      "source_creation_time": "unknown",
+      "evidence": ".local/lobby203-entry-authoring.json"
+    }
+  ],
+  "revision": 203
+}

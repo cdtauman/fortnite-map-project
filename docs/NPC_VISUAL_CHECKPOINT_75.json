@@ -1,0 +1,37 @@
+{
+  "at_utc": "2026-11-07T07:00:37.227299+00:00",
+  "checkpoint": "75",
+  "latest_runtime": "75",
+  "latest_compile": "npc-visual-capture75-build.json",
+  "input_sha256": {
+    "docs/ACADEMY_EDITOR_EVIDENCE.json": "09c4293bf3f54bf65197182f6eeaaed804b209d9e205e508b7231e78a50128d5",
+    "docs/NPC_VISUAL_EVIDENCE_75.json": "a2d34c04b57d81ec0066b49ee6a162d73aa80f4914a232cb0e0e7052044d679f",
+    "docs/NPC_TOOL_INTENT_CHECKS_75.json": "85d862f6a0978617dd9c7710cab39dd2fc84e10af1a5537e338cfe5182b0c674",
+    "docs/HEALTH_RUNTIME_EVIDENCE_75.json": "ab31a6196937a5b20d49a09ed2a63464897f062ef1108f51083a3242b1a59672"
+  },
+  "visual_stills_available": true,
+  "held_item_visuals_accepted": false,
+  "private75scoped_checks_pass": false,
+  "native_build_gates_accepted": false,
+  "full_product_complete": false,
+  "editor": {
+    "actors": 149,
+    "sources": 18,
+    "assets": {
+      "numChecked": 54,
+      "numValid": 54,
+      "numInvalid": 0,
+      "numWarnings": 0,
+      "numSkipped": 0,
+      "bAssetLimitReached": false,
+      "errors": [],
+      "warnings": []
+    },
+    "map_dirty": false,
+    "game": "CanStart",
+    "session": "Connected"
+  },
+  "input_used": false,
+  "workers_remaining": false,
+  "next": "Native original-loadout render control; native cosmetic configuration already populated. Do not infer visual root cause or silently promote experimental equipment to main."
+}

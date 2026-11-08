@@ -1,0 +1,83 @@
+{
+  "checked_at_utc": "2026-11-07T01:55:19.544819+00:00",
+  "run": "42",
+  "source_build_sha256": "c8e17d7856f00b94923d6c9c213ac0880bca5ae1fc0b5419fe8db61bb660e7df",
+  "threshold": 0,
+  "isolated_wall_mode": true,
+  "wall_damage_callbacks": 6,
+  "player_wall_callbacks": 6,
+  "non_player_wall_callbacks": 0,
+  "mesh_changes": [],
+  "wall_destructions": [
+    {
+      "sequence": 1656,
+      "timestamp": "2026-11-07T01:54:25.800Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|control_wall_destroyed|by_player=1|events=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    }
+  ],
+  "wall_states": [
+    {
+      "sequence": 1644,
+      "timestamp": "2026-11-07T01:54:24.370Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|control_wall_state|phase=player_native_cost_before|valid=1|cells=9|x=-1536.000000|y=-3072.000000|z=0.000000|health=healthful_cast_unavailable|damage_events=0|player_hits=0|destroyed_events=0|query_yaw=90",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1680,
+      "timestamp": "2026-11-07T01:54:29.710Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|control_wall_state|phase=player_native_cost_after|valid=0|cells=0|x=-1536.000000|y=-3072.000000|z=0.000000|health=unavailable|damage_events=6|player_hits=6|destroyed_events=1|query_yaw=90",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1682,
+      "timestamp": "2026-11-07T01:54:29.712Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|control_wall_state|phase=player_zero_cost_before|valid=0|cells=0|x=-1536.000000|y=-3072.000000|z=0.000000|health=unavailable|damage_events=6|player_hits=6|destroyed_events=1|query_yaw=90",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1711,
+      "timestamp": "2026-11-07T01:54:35.052Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|control_wall_state|phase=player_zero_cost_after|valid=0|cells=0|x=-1536.000000|y=-3072.000000|z=0.000000|health=unavailable|damage_events=6|player_hits=6|destroyed_events=1|query_yaw=90",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    }
+  ],
+  "objective_player_callbacks": 16,
+  "objective_damage_amounts": [
+    35.0,
+    35.0,
+    35.0,
+    35.0,
+    35.0,
+    35.0,
+    35.0,
+    35.0,
+    35.0,
+    35.0,
+    35.0,
+    35.0,
+    35.0,
+    35.0,
+    35.0,
+    35.0
+  ],
+  "objective_damage_only_after_wall_destruction": true,
+  "clean_isolated_comparison_candidate": true,
+  "unexpected_messages": [],
+  "limits": "Callback counts do not expose numeric wall HP. A mesh swap is not a native edit. No ownership, native slot interoperability, pro-level behavior or publication acceptance follows."
+}

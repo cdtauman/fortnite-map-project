@@ -1,0 +1,8 @@
+{
+  "at_utc": "2026-11-07T02:17:40.132013+00:00",
+  "run": "46",
+  "asset_authoring_archive": ".local\\evidence\\health-46\\damage-spawn-asset-authoring.json",
+  "sha256": "92bcc90eac04aaecc389c664b57f4be8f9520f5660293c9b604aea79843f6f0c",
+  "asset_selection": "Native UEFN SpawnedWallAsset picker selected the owned candidate. Native AssetForEditor readback verified exact generated class; UI label briefly retained old default. Computer-use runtime reset immediately after selection.",
+  "scope": "Editor asset defaults and selection, no runtime outcome."
+}

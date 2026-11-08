@@ -1,0 +1,44 @@
+{
+  "run": "76",
+  "image": "docs\\images\\npc-native-original-offscreen-76.png",
+  "sha256": "43074e7d963a4680b75704a9c80cb34afc1e37fd72903f226f78e7816283289e",
+  "capture_metadata": {
+    "path": "Offscreen",
+    "world": {
+      "world": {
+        "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+      },
+      "worldType": "Game",
+      "mapPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport",
+      "pIEInstance": -1,
+      "bCanCapture": true
+    },
+    "camera": {
+      "location": {
+        "x": -3008,
+        "y": -2679.151103,
+        "z": 147.14999699999998
+      },
+      "rotation": {
+        "pitch": -7.955800083158086,
+        "yaw": -63.43494882292201,
+        "roll": 0
+      },
+      "projectionMode": "Perspective",
+      "fOV": 54,
+      "orthoWidth": 512
+    },
+    "viewSource": "Explicit camera snapshot",
+    "mode": "Lit",
+    "visualizationSubMode": "",
+    "screenPercentage": 1,
+    "requestFrameNumber": 216845,
+    "worldTimeSeconds": 11356.876453135163
+  },
+  "camera_front_reference": true,
+  "visual_observation": "Native original rifle mesh is visible across/in front of the torso; arms remain away from a normal aiming/holding pose in this independent offscreen still. Full held-weapon pose is not accepted from this image.",
+  "scope": "Original two native ranged items remain in inventory; no managed loadout/tool creation/removal. Native source-hit and equipped-item control checks passed separately.",
+  "root_cause_verified": false,
+  "held_weapon_pose_accepted": false,
+  "next": "Compare actual Game viewport with a temporary ordinary fixed-point camera; preserve local player pawn, remove camera from stack and restore camera transform afterward."
+}

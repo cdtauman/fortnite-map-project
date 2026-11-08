@@ -1,0 +1,278 @@
+{
+  "run": "114",
+  "build": "UEFN43.00 CL59596594",
+  "scope": "Automatic two-native-wall pool lease/movement/same-instance mesh-change/retirement/exhaustion control. No firing, direct Damage, healing, Dispose, NPC actuation, native edit command, slot/ownership or publication acceptance. Main backend disabled.",
+  "preparation": {
+    "prepared_at_utc": "2026-11-07T14:26:49.841860+00:00",
+    "source_build": "native-pool114-initialization-loop-build.json",
+    "source_build_sha256": "94f6aa1a15b0fa80ac767324661a31035814aa0c65761bd45fa49b1d223b39cc",
+    "probe": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075591203_1214106664"
+    },
+    "probe_label": "PCL_Structure_Probe",
+    "log_pattern": "PCL\\|structure_probe",
+    "test_flags": {
+      "Enabled": true,
+      "AutoRun": true
+    },
+    "combat_gates": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "input_requested": false,
+    "connection_reused": true,
+    "native_piece_pool_control": {
+      "NativePoolControl": true,
+      "NativePoolWallOne": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561"
+      },
+      "NativePoolWallTwo": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1581664564"
+      },
+      "PoolFixtureInitializer": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567"
+      }
+    },
+    "source_archive": {
+      "path": ".local\\evidence\\pool-114\\sources.zip",
+      "sha256": "c9db1b145a5fa8a07d0e690376524c1357ccfe3c438c25fa25486f37e3e6a982"
+    },
+    "native_piece_pool_configuration": {
+      "at_utc": "2026-11-07T14:15:23.659405+00:00",
+      "walls": [
+        {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561"
+        },
+        {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1581664564"
+        }
+      ],
+      "wall_properties": [
+        {
+          "bPlayerPlaced": true,
+          "team": "HumanPvP_Team2",
+          "bAllowTeamDamage": false,
+          "bIsPlayerBuildable": true,
+          "bRegisterWithStructuralGrid": true,
+          "bForciblyStructurallySupported": true
+        },
+        {
+          "bPlayerPlaced": true,
+          "team": "HumanPvP_Team2",
+          "bAllowTeamDamage": true,
+          "bIsPlayerBuildable": true,
+          "bRegisterWithStructuralGrid": true,
+          "bForciblyStructurallySupported": true
+        }
+      ],
+      "scope": "Two existing private native health walls only. Main structure backend and all four acceptance gates remain disabled. Bounded pool control, no new actor or native asset mutation.",
+      "before": {
+        "Enabled": false,
+        "AutoRun": false,
+        "NativePoolControl": false,
+        "NativePoolWallOne": null,
+        "NativePoolWallTwo": null
+      },
+      "stage": "configured_probe_disabled",
+      "after": {
+        "Enabled": false,
+        "AutoRun": false,
+        "NativePoolControl": true,
+        "NativePoolWallOne": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1548295561"
+        },
+        "NativePoolWallTwo": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_GridWallCandidate_C_UAID_30E3A41010755F1203_1581664564"
+        }
+      }
+    },
+    "owned_art_npc_asset_hashes": {
+      "Art/CoachTools/PCL_BuildPlan.uasset": "0e86bd6968165454236cde55069d4cf5fe60a20fa389a012630e162e9fb35f74",
+      "Art/CoachTools/PCL_SM_PlanLines.uasset": "f7a652c7a7e7f8d49b49a0f640dd3d70da9dcd6d2632b8a5e7a3997b7bd82680",
+      "Art/GridKit/PCL_MI_Board.uasset": "ced7ab4d05535bea550a715e17401665d092a830851d64b433e0a8729a8d1802",
+      "Art/GridKit/PCL_MI_Grain.uasset": "6cf132275a05a0b681463dc0c4b3d79a8dedb8d20e0baa41c9b09c97b0f56796",
+      "Art/GridKit/PCL_MI_Trim.uasset": "9cb43af626ff7211b3be3153f90b9d25d1fcc62600f52ac53b58df0dd8ac3896",
+      "Art/GridKit/PCL_SM_GridCone.uasset": "c1f461202c2f0fca4621a558cf3d7a6fd5fe8a6c586e0a1971da9fa7db0d103f",
+      "Art/GridKit/PCL_SM_GridFloor.uasset": "c29b7511e1dfea011fc53da79086b1cb51b23252ea3468a4b1c3657ae2c5761e",
+      "Art/GridKit/PCL_SM_GridFloorHalf.uasset": "b474f9e3e33d1ca36d9d7f7511de98b675af6cbcd5829c193962237f5c2e3822",
+      "Art/GridKit/PCL_SM_GridRamp.uasset": "3b95aac7a8cf23328a5ce8c35b1c0a44ac9fda4b46a48b7ecd398690fb5db43b",
+      "Art/GridKit/PCL_SM_GridWallExit.uasset": "ea9115a0302ccbdb29b2f5848d47d63b95e7da1d10642aa2911ed2187e025cee",
+      "Art/GridKit/PCL_SM_GridWallSolid.uasset": "84635026c0ca436f711ba75244b08be075c6ec8b77de05ad76183feb8d5980e8",
+      "Art/GridKit/PCL_SM_GridWallWindow.uasset": "16713e5a55cef6e41d9ad9d0fc887d18872ad28df49f527d6ebc33771135088d",
+      "Art/Investigations/PCL_BP_CourseCone.uasset": "f6e7d7aa3435e7c62baf9c8f05564f679f7fa3e109edc7c780c323d47c79696e",
+      "Art/Investigations/PCL_BP_CourseFloor.uasset": "69c7d09eef08301be6da9bf887c4e37e2993bf7157bb39f8c7268a5b970975a3",
+      "Art/Investigations/PCL_BP_CourseRamp.uasset": "98e91a6c24fa470b43e062688f3787e8fabec250eb270ea128ee35e6c40a924b",
+      "Art/Investigations/PCL_BP_CourseWall.uasset": "34c64cac560aa12968d2efb554e7a4af5e357752f6e55fab85b4d94b14833d3e",
+      "Art/Investigations/PCL_BP_DamageControl.uasset": "7942a644263fd2e15d9b5f5ba4c9c629b50419139ef5adfe52f0289d15066e69",
+      "Art/Investigations/PCL_BP_DamageSpawnWall.uasset": "035745531412982fa9e8fe2f76501f2f5ced9618608202246be7c25a5e78361c",
+      "Art/Investigations/PCL_BP_GridConeCandidate.uasset": "a1d1460d435acda616432740dd3af1cdc1cb92ad2bd7bae0174747c5570cf244",
+      "Art/Investigations/PCL_BP_GridFloorCandidate.uasset": "6b7a6ac2f27b12fbbaf271d1311454db86eecc69fd4f5c7674caedaef560f774",
+      "Art/Investigations/PCL_BP_GridRampCandidate.uasset": "684a039bf44763ad0fd63e547cdb91bc68b4f68a6272385f325fe76d440c5f31",
+      "Art/Investigations/PCL_BP_GridWallCandidate.uasset": "c011b10df2c1d90866aff98d1ebb6f9a52eafc12e1d4dd0dfc1e327afe89cd8f",
+      "Art/Investigations/PCL_BP_NativeVisualWallCandidate.uasset": "123ce537399e2a7874d83dc3ace37d3c392d1ac2289a2501619e77516e002b19",
+      "Art/Investigations/PCL_BP_PlayerBuildablePropCandidate.uasset": "fad14a6a04e1adf9ac96bbc13c3d1ccd55af134c01eeb4c18280b9fcd44dbd70",
+      "Art/PCL_M_Master.uasset": "63d6d2c2d120a9166133e13b8f43156173545afccd369c6eb5b6e79b9c09e8ff",
+      "Art/PCL_MI_Amber.uasset": "66bdfd5cc6a4aff21fe46669acf9e462e27a1c8c4ccb5fcf073fe89ab19ca355",
+      "Art/PCL_MI_Campus.uasset": "62d5f114df3b48c143dbc68dcd1e8506e0320ad237e1ca28181ba697d177d9f4",
+      "Art/PCL_MI_Cyan.uasset": "6a685b9d450b342f80ccff9df50442dc65c3e3b01476eb0685b1cdfb5f903d99",
+      "Art/PCL_MI_Lime.uasset": "086a7b25fc8bfcccba4a3c9c614de53701bde4caf89a240f1ce9f9e74b4b9690",
+      "Art/PCL_MI_Slate.uasset": "56ed95f84e8f8a9e4a519d0c5a58ada8031bb4c519923b4d56506a9cc3874a38",
+      "Art/PCL_MI_Violet.uasset": "500b317d45a603db44fca47a42b61becef5cb3bb65edc17d18abf6f2f707f18e",
+      "Art/PCL_MI_White.uasset": "93bbf9ef325f31378517da542934163de8ac693d18c7f2e19d5195b07cb046c2",
+      "Art/TeachingKit/PCL_BP_DemoCone.uasset": "a5a24085685e1a1d9dc0270773125db9ce89f1aad38e57fa09417b5246e686b8",
+      "Art/TeachingKit/PCL_BP_DemoFloor.uasset": "3bb2de88338f2f7b91ee0eece3fc20102a557c3e0c8edb679dae6ab5189a8330",
+      "Art/TeachingKit/PCL_BP_DemoMarker.uasset": "f04b742c85a8e804913d9402e4c9896713718cfef69f1825ab8e20ad49580bb5",
+      "Art/TeachingKit/PCL_BP_DemoRamp.uasset": "a652da20166c5d29ea64a75785a317b08a9c4999de2421770db99a24493ce789",
+      "Art/TeachingKit/PCL_BP_DemoWall.uasset": "d04ed7191dd554ff1d5f925c990b753dd3c379e35f49e04c6cc1f6012b3313df",
+      "Art/TeachingKit/PCL_SM_TeachingConeRaisedLeft.uasset": "ec21d3f62a6d642baea7fa06fb106abfa10f991b51a6171d7a67efa2e9b4374b",
+      "Art/TeachingKit/PCL_SM_TeachingWallSide.uasset": "6335e54ecf0503460f61e0f7ac6918f06f2f65387ed1c05dd7d17e1d8ee99024",
+      "Art/TrainingKit/PCL_BP_LessonWall.uasset": "4be07c70efff9029a475363b287a4e6c1d25b28d194b683993df176f6f80edc9",
+      "Art/TrainingKit/PCL_BP_TrainingCone.uasset": "eefa1e3679ee23e0a24f121250876f7784052fe4901891405690e47f9b3254cd",
+      "Art/TrainingKit/PCL_BP_TrainingFloor.uasset": "90cb983b41e1f7f0bdf9ed811cc9f2987394b502a8b7094917a178cc61dd7798",
+      "Art/TrainingKit/PCL_BP_TrainingRamp.uasset": "24ff4ec2725fd16d8d314199dbca555c1e34044a576370ac9bebcbb69f022ec7",
+      "Art/TrainingKit/PCL_BP_TrainingWall.uasset": "2cf5298711e35f916f0f159b9ffa0119efa4a5e3d13b0230e0594bc173cdda01",
+      "Art/TrainingKit/PCL_SM_Cone.uasset": "80a7a6696142ff416fee8eeb27be7ef882b5f20880a2cd37ecf3c3be0d6f5eac",
+      "Art/TrainingKit/PCL_SM_Floor.uasset": "217895ad3b83c112e1fa30ec0a74893a9999424340e25fcaee0dc6f021f5a962",
+      "Art/TrainingKit/PCL_SM_Ramp.uasset": "c1cf3d943dec71d818c58c92c47e5759a9b25a544d4a2feb387bd95f5042b092",
+      "Art/TrainingKit/PCL_SM_WallDoor.uasset": "4cc77b9ade9c1c19efe702755a12b8aa93bdd78801d9c3e92700bc0c4bebb466",
+      "Art/TrainingKit/PCL_SM_WallSolid.uasset": "718ce1d4ece4022c8df7c92abfc44e6c98539d0e3f685523bc741a4518117b73",
+      "Art/TrainingKit/PCL_SM_WallWindow.uasset": "4998aea9273e623f807c974decc6dac5f686d87a82eaea8c9b229e45361a5903",
+      "NPC/CoachDamageShooter.uasset": "c95c9da0f919306b75102bb4aa406ce5f12bf4381750439784168f41a7d389b7",
+      "NPC/CoachDemonstrator.uasset": "8567bf3e4e05f50b05936b4e283992b8bc5d794046f14ba01eb0e20ff18e492c",
+      "NPC/CoachOpponent.uasset": "3878699657e1b0115e6d2b2527397ee191218b8693231fb9b49ae71368fe7a3d",
+      "NPC/CoachParticipantCandidate.uasset": "ecbde809307e7173a9228e64f46142482452631d3b23e93bf82daaf90786099f",
+      "NPC/CoachSpeaker.uasset": "4ef5aad7a3ddaf83380de059ef93b8747467c6d3f1431c173c0544e65f2456a8"
+    }
+  },
+  "entries": [
+    {
+      "sequence": 811,
+      "timestamp": "2026-11-07T14:28:51.092Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|native_pool_fixture_ready|health_initialization_complete=1|health_enabled=0",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 138
+    },
+    {
+      "sequence": 812,
+      "timestamp": "2026-11-07T14:28:51.093Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|native_pool_registered|available=2|duplicate_configuration_rejected=1",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 155
+    },
+    {
+      "sequence": 813,
+      "timestamp": "2026-11-07T14:28:51.110Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|native_pool_shape|stage=0|old_cells=0|new_cells=9|same_lease=1|query_yaw=0.000000|native_edit_not_invoked",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 172
+    },
+    {
+      "sequence": 814,
+      "timestamp": "2026-11-07T14:28:51.304Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|native_pool_shape|stage=1|old_cells=0|new_cells=8|same_lease=1|query_yaw=0.000000|native_edit_not_invoked",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 172
+    },
+    {
+      "sequence": 815,
+      "timestamp": "2026-11-07T14:28:51.503Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|native_pool_shape|stage=2|old_cells=0|new_cells=7|same_lease=1|query_yaw=0.000000|native_edit_not_invoked",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 172
+    },
+    {
+      "sequence": 816,
+      "timestamp": "2026-11-07T14:28:51.704Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|native_pool_shape|stage=3|old_cells=0|new_cells=9|same_lease=1|query_yaw=0.000000|native_edit_not_invoked",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 172
+    },
+    {
+      "sequence": 817,
+      "timestamp": "2026-11-07T14:28:51.901Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|native_pool_retired|cells=0|parking_error=0.000000|state_spent=1|available=1|wrong_encounter_ignored=1",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 186
+    },
+    {
+      "sequence": 818,
+      "timestamp": "2026-11-07T14:28:52.104Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|native_pool_second|cells=9|distinct_lease=1|third_rejected=1|available=0",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 198
+    },
+    {
+      "sequence": 819,
+      "timestamp": "2026-11-07T14:28:52.301Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|native_pool_finished|cells=0|available=0|spent_not_reissued=1|no_heal_dispose_or_damage|native_slots_and_ownership_unmeasured",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 206
+    },
+    {
+      "sequence": 820,
+      "timestamp": "2026-11-07T14:28:52.301Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|automatic_sequence_finished|native_pool|results_require_review",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 207
+    }
+  ],
+  "cleanup": {
+    "run": "114",
+    "scope": "Automatic two-native-wall pool lease/movement/same-instance mesh-change/retirement/exhaustion control. No firing, direct Damage, healing, Dispose, NPC actuation, native edit command, slot/ownership or publication acceptance. Main backend disabled.",
+    "source_preparation": "final-run-114-preparation.json",
+    "started_at_utc": "2026-11-07T14:28:55.076618+00:00",
+    "started_game_by_tool": false,
+    "sequence_finished": true,
+    "keep_edit_session_requested": true,
+    "initial_session_state": "Connected",
+    "readiness_observations": [
+      {
+        "at_utc": "2026-11-07T14:28:55.833040+00:00",
+        "session": "Connected"
+      }
+    ],
+    "ready_session_state": "Connected",
+    "initial_game_state": "Running",
+    "native_visual_captures": {},
+    "stop_game_result": "Completed",
+    "combat_gates_after_run": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "restored_flags": {
+      "Enabled": false,
+      "AutoRun": false,
+      "NativePoolControl": false
+    },
+    "final_game_state": "CanStart",
+    "final_session_state": "Connected",
+    "kept_edit_session": true,
+    "ended_at_utc": "2026-11-07T14:29:01.307961+00:00"
+  },
+  "full_goal_complete": false,
+  "native_build_edit_or_slot_acceptance": false
+}

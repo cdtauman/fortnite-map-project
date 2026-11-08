@@ -1,0 +1,51 @@
+{
+  "checkpoint": "84",
+  "latest_runtime": "83",
+  "at_utc": "2026-11-07T08:37:31.732931+00:00",
+  "editor_evidence_sha256": "c47d2121193126988984e79e1aa90a9da449df44f524dcd639139613d345d76e",
+  "editor_build": "npc-initial-release84-rollback-build.json",
+  "runtime_evidence": "NPC_INITIAL_RELEASE_EVIDENCE_83.json",
+  "scope": "Compiled rollback/editor verification; no runtime84. All18 source snapshots match82 exactly.",
+  "flags": {
+    "enabled": false,
+    "autoRun": false,
+    "calibrationNativeTimer": false,
+    "useWeaponCalibration": false,
+    "useCharacterTargetControl": false,
+    "isolatedWallControl": false,
+    "spawnedWallControl": false,
+    "nPCEquippedAttackControl": false,
+    "visualUseViewportCamera": false
+  },
+  "scalars": {
+    "visualToolCaptureSeconds": 0,
+    "visualRifleCaptureSeconds": 0,
+    "visualNativeCaptureSeconds": 0,
+    "meshChangeAfterPlayerHits": 0
+  },
+  "gates": {
+    "candidateCombatEnabled": false,
+    "queryCoverageConfirmed": false,
+    "healthContinuityConfirmed": false,
+    "nativeSlotInteroperationConfirmed": false
+  },
+  "session": "Connected",
+  "game": "CanStart",
+  "level_dirty": false,
+  "assets": {
+    "numChecked": 54,
+    "numValid": 54,
+    "numInvalid": 0,
+    "numWarnings": 0,
+    "numSkipped": 0,
+    "bAssetLimitReached": false,
+    "errors": [],
+    "warnings": []
+  },
+  "computer_control_used": false,
+  "owned_prefab_visible_restored": false,
+  "editor_differs_from_cooked83": true,
+  "full_content_push_required": true,
+  "next": "Separate default torch pose from runtime map pose; no repeated initial outgoing release/camera-only controls.",
+  "full_goal_complete": false
+}

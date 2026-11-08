@@ -1,0 +1,46 @@
+{
+  "at_utc": "2026-11-07T06:43:27.135557+00:00",
+  "checkpoint": "74",
+  "latest_runtime": "74",
+  "latest_compile": "npc-tool-reconcile74-release-build.json",
+  "input_sha256": {
+    "docs/HEALTH_RUNTIME_EVIDENCE_71.json": "3a57a8f93c8ed3306b89c44e6eaabd80b021d8fc0c244326358e4da8a3ad8171",
+    "docs/HEALTH_RUNTIME_EVIDENCE_72.json": "51b1f6b30f1bc3f016358ef87b46c2eacad6a5f9f70fe95b84f93c344af03171",
+    "docs/HEALTH_RUNTIME_EVIDENCE_73.json": "620d7a4b662a1229112a2c08b29d2ee94db4d90ce1b8c47c973f435dcbd9282a",
+    "docs/HEALTH_RUNTIME_EVIDENCE_74.json": "611f06814cafbe70e039276e1e7713d434e34672af5943712c6c2a9b537dbb25",
+    "docs/NPC_TOOL_INTENT_CHECKS_73.json": "78f1ee3094eba896f90f6f573a6a7b4fc2c4cc76982078a27d18d4071f3c502d",
+    "docs/NPC_TOOL_INTENT_CHECKS_74.json": "5b116873a3c596ac9a899c5aed19e5b7012494abdfe7d7ce0fe1a90125267467",
+    "docs/ACADEMY_EDITOR_EVIDENCE.json": "fea012d84432e105866da31cc789ef87228a931546edc6b9306cd27f0a08179d"
+  },
+  "experimental_query_guards_default": false,
+  "experimental_reconciliation_default": false,
+  "private74scoped_checks_pass": true,
+  "private73scoped_checks_pass": false,
+  "native_build_gates_accepted": false,
+  "rendered_fidelity_verified": false,
+  "full_product_complete": false,
+  "editor": {
+    "actor_refs": 149,
+    "sources": 18,
+    "assets": {
+      "numChecked": 54,
+      "numValid": 54,
+      "numInvalid": 0,
+      "numWarnings": 0,
+      "numSkipped": 0,
+      "bAssetLimitReached": false,
+      "errors": [],
+      "warnings": []
+    },
+    "level_dirty": false,
+    "game_state": "CanStart",
+    "session_state": "Connected"
+  },
+  "computer_control_used_this_checkpoint": false,
+  "workers_remaining": false,
+  "next_scope": [
+    "Rendered pose/flash evidence without computer input, using public client-routed SceneCapture only if available.",
+    "Short product windows and cancellation/round/death lifecycle.",
+    "Native/custom building damage, resources, ownership, structural grid and slot interoperability; do not substitute inventory/mesh evidence for native semantics."
+  ]
+}

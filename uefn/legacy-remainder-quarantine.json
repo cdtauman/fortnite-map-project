@@ -1,0 +1,1274 @@
+{
+  "scope": "Reversible quarantine of23 manually authored legacy pieces; protect the current course and all named product actors.",
+  "actors": [
+    {
+      "label": "PBWA_W1_StairW_C18",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairW_C_2147482629"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_StairW.PBWA_W1_StairW_C",
+      "original": {
+        "location": {
+          "x": 0.0,
+          "y": -9472.0,
+          "z": 1152.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 180.0,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -90000,
+          "y": -90000,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 180.0,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_W1_Floor_C9",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_Floor_C_2147482637"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C",
+      "original": {
+        "location": {
+          "x": 0.0,
+          "y": -10496.0,
+          "z": 768.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 180.0,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -91024,
+          "y": -90000,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 180.0,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_S1_Floor_C2",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_S1_Floor_C_2147482645"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_Floor.PBWA_S1_Floor_C",
+      "original": {
+        "location": {
+          "x": -4352.0,
+          "y": 1024.0,
+          "z": 768.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -92048,
+          "y": -90000,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_W1_Floor_C10",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_Floor_C_2147482635"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C",
+      "original": {
+        "location": {
+          "x": 0.0,
+          "y": -9984.0,
+          "z": 1152.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 180.0,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -93072,
+          "y": -90000,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 180.0,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_W1_StairW_C5",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairW_C_2147482642"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_StairW.PBWA_W1_StairW_C",
+      "original": {
+        "location": {
+          "x": 0.0,
+          "y": -9984.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -94096,
+          "y": -90000,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_S1_StairW_C",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_S1_StairW_C_2147482646"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_StairW.PBWA_S1_StairW_C",
+      "original": {
+        "location": {
+          "x": -7424.0,
+          "y": -1024.0,
+          "z": 384.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -95120,
+          "y": -90000,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_W1_Floor_C9",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_Floor_C_2147482638"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C",
+      "original": {
+        "location": {
+          "x": 0.0,
+          "y": -14080.0,
+          "z": 768.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -96144,
+          "y": -90000,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_W1_StairW_C16",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairW_C_2147482631"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_StairW.PBWA_W1_StairW_C",
+      "original": {
+        "location": {
+          "x": 0.0,
+          "y": -11008.0,
+          "z": 384.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 180.0,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -97168,
+          "y": -90000,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 180.0,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_W1_Floor_C5",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_Floor_C_2147482642"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C",
+      "original": {
+        "location": {
+          "x": -512.0,
+          "y": -8960.0,
+          "z": 384.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -90000,
+          "y": -91024,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_S1_Floor_C4",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_S1_Floor_C_2147482643"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_Floor.PBWA_S1_Floor_C",
+      "original": {
+        "location": {
+          "x": -3328.0,
+          "y": 1024.0,
+          "z": 1152.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -91024,
+          "y": -91024,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_W1_Floor_C11",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_Floor_C_2147482633"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_Floor.PBWA_W1_Floor_C",
+      "original": {
+        "location": {
+          "x": 0.0,
+          "y": -9472.0,
+          "z": 1152.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 180.0,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -92048,
+          "y": -91024,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 180.0,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_W1_StairW_C17",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairW_C_2147482630"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_StairW.PBWA_W1_StairW_C",
+      "original": {
+        "location": {
+          "x": 0.0,
+          "y": -10496.0,
+          "z": 768.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 180.0,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -93072,
+          "y": -91024,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 180.0,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_S1_StairW_C2",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_S1_StairW_C_2147482645"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_StairW.PBWA_S1_StairW_C",
+      "original": {
+        "location": {
+          "x": -5888.0,
+          "y": 1024.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -94096,
+          "y": -91024,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_W1_StairW_C12",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairW_C_2147482635"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_StairW.PBWA_W1_StairW_C",
+      "original": {
+        "location": {
+          "x": 4864.0,
+          "y": 3072.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 90.00000000000001,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -95120,
+          "y": -91024,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 90.00000000000001,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_S1_Floor_C",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_S1_Floor_C_2147482646"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_Floor.PBWA_S1_Floor_C",
+      "original": {
+        "location": {
+          "x": -5376.0,
+          "y": 1024.0,
+          "z": 384.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -96144,
+          "y": -91024,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_S1_StairW_C3",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_S1_StairW_C_2147482644"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_StairW.PBWA_S1_StairW_C",
+      "original": {
+        "location": {
+          "x": -4864.0,
+          "y": 1024.0,
+          "z": 384.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -97168,
+          "y": -91024,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_S1_Floor_C3",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_S1_Floor_C_2147482644"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_Floor.PBWA_S1_Floor_C",
+      "original": {
+        "location": {
+          "x": -3840.0,
+          "y": 1024.0,
+          "z": 768.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -90000,
+          "y": -92048,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_W1_BalconyS_C3",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_BalconyS_C_2147482644"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_BalconyS.PBWA_W1_BalconyS_C",
+      "original": {
+        "location": {
+          "x": 3328.0,
+          "y": 3072.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -90.00000000000001,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -91024,
+          "y": -92048,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -90.00000000000001,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_S1_StairW_C4",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_S1_StairW_C_2147482643"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Stone/L1/PBWA_S1_StairW.PBWA_S1_StairW_C",
+      "original": {
+        "location": {
+          "x": -3840.0,
+          "y": 1024.0,
+          "z": 768.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -92048,
+          "y": -92048,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_W1_StairW_C14",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairW_C_2147482633"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_StairW.PBWA_W1_StairW_C",
+      "original": {
+        "location": {
+          "x": 0.0,
+          "y": -13568.0,
+          "z": 384.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -93072,
+          "y": -92048,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_W1_BalconyS_C4",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_BalconyS_C_2147482643"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_BalconyS.PBWA_W1_BalconyS_C",
+      "original": {
+        "location": {
+          "x": 0.0,
+          "y": -8960.0,
+          "z": 384.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -94096,
+          "y": -92048,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_W1_StairF_C",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairF_C_2147482646"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_StairF.PBWA_W1_StairF_C",
+      "original": {
+        "location": {
+          "x": -256.0,
+          "y": -12800.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -90.00000000000001,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -95120,
+          "y": -92048,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -90.00000000000001,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    },
+    {
+      "label": "PBWA_W1_StairF_C2",
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairF_C_2147482645"
+      },
+      "class": "/Game/Building/ActorBlueprints/Player/Wood/L1/PBWA_W1_StairF.PBWA_W1_StairF_C",
+      "original": {
+        "location": {
+          "x": 255.99999999999997,
+          "y": -11776.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "original_hidden": false,
+      "original_collision_enabled": true,
+      "quarantine": {
+        "location": {
+          "x": -96144,
+          "y": -92048,
+          "z": -20480
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      }
+    }
+  ],
+  "protected_course_count": 25,
+  "readback": [
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairW_C_2147482629"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -90000.0,
+        -90000.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_Floor_C_2147482637"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -91024.0,
+        -90000.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_S1_Floor_C_2147482645"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -92048.0,
+        -90000.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_Floor_C_2147482635"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -93072.0,
+        -90000.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairW_C_2147482642"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -94096.0,
+        -90000.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_S1_StairW_C_2147482646"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -95120.0,
+        -90000.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_Floor_C_2147482638"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -96144.0,
+        -90000.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairW_C_2147482631"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -97168.0,
+        -90000.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_Floor_C_2147482642"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -90000.0,
+        -91024.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_S1_Floor_C_2147482643"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -91024.0,
+        -91024.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_Floor_C_2147482633"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -92048.0,
+        -91024.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairW_C_2147482630"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -93072.0,
+        -91024.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_S1_StairW_C_2147482645"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -94096.0,
+        -91024.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairW_C_2147482635"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -95120.0,
+        -91024.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_S1_Floor_C_2147482646"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -96144.0,
+        -91024.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_S1_StairW_C_2147482644"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -97168.0,
+        -91024.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_S1_Floor_C_2147482644"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -90000.0,
+        -92048.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_BalconyS_C_2147482644"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -91024.0,
+        -92048.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_S1_StairW_C_2147482643"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -92048.0,
+        -92048.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairW_C_2147482633"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -93072.0,
+        -92048.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_BalconyS_C_2147482643"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -94096.0,
+        -92048.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairF_C_2147482646"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -95120.0,
+        -92048.0,
+        -20480.0
+      ]
+    },
+    {
+      "actor": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PBWA_W1_StairF_C_2147482645"
+      },
+      "hidden": true,
+      "collision": false,
+      "location": [
+        -96144.0,
+        -92048.0,
+        -20480.0
+      ]
+    }
+  ],
+  "save": true
+}

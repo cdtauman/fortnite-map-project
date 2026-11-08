@@ -1,0 +1,41 @@
+{
+  "scope": "Fixture authoring plus automatic server experiments 01–03; no client gameplay input. Native edit/grid/ownership/health interoperability remains unverified; combat acceptance gates stay false.",
+  "actor": {
+    "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075591203_1214106664"
+  },
+  "properties": {
+    "enabled": false,
+    "structures": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075391203_2089996912"
+    },
+    "resetControl": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Button_V2_C_UAID_30E3A4101075311203_2007829469"
+    },
+    "shapeControl": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Button_V2_C_UAID_30E3A4101075311203_2008133470"
+    },
+    "autoRun": false,
+    "preplacedWall": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_CourseWall_C_UAID_30E3A41010754D1203_2129977492"
+    }
+  },
+  "origin": {
+    "x": -1536,
+    "y": -1024,
+    "z": 0
+  },
+  "reset_control": {
+    "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Button_V2_C_UAID_30E3A4101075311203_2007829469"
+  },
+  "shape_control": {
+    "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Button_V2_C_UAID_30E3A4101075311203_2008133470"
+  },
+  "control_visibility": "False",
+  "legacy_lab_enabled": false,
+  "current_build": ".local/structure-probe-native-control-build.json",
+  "runtime_evidence": [
+    "docs/STRUCTURE_RUNTIME_EVIDENCE_01.json",
+    "docs/STRUCTURE_RUNTIME_EVIDENCE_02.json",
+    "docs/STRUCTURE_RUNTIME_EVIDENCE_03.json"
+  ]
+}

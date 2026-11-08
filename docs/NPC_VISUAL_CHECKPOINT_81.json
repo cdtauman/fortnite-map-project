@@ -1,0 +1,56 @@
+{
+  "at_utc": "2026-11-07T08:13:00.038868+00:00",
+  "checkpoint": "81",
+  "latest_runtime": "81",
+  "latest_compile": "npc-managed-viewport80-build.json",
+  "input_sha256": {
+    "docs/ACADEMY_EDITOR_EVIDENCE.json": "046d24d6bd2ba5f31381a3100c0842357bf060ece0705406f2eee14a0955a438",
+    "docs/NPC_NATIVE_VIEWPORT_EVIDENCE_79.json": "1cc56d0d4ba87be400d5e1c0a01761e17309db222008d6748df8e7d956d52676",
+    "docs/NPC_MANAGED_VIEWPORT_EVIDENCE_80.json": "51ece323cfef1f98712499c10716d7ae3c3eadf82f83b4f7714fa47b7cc2dcdf",
+    "docs/NPC_MANAGED_VIEWPORT_EVIDENCE_81.json": "068367b81680ef727ca4471d73129b5d750736d9a814fb5047248cce442d870f",
+    "docs/NPC_CAPTURE_FRESHNESS_REPLAY_80.json": "94bfdc281cc104099a1e3bc0d6c1ddc1c0cea2578ab428cfd86d26f3f28da576",
+    "docs/NPC_TOOL_INTENT_CHECKS_81.json": "029595022a4d3497fc3630b081669b317a035e585cde0ec869e319ad96c0a723"
+  },
+  "flags": {
+    "enabled": false,
+    "autoRun": false,
+    "calibrationNativeTimer": false,
+    "useWeaponCalibration": false,
+    "useCharacterTargetControl": false,
+    "isolatedWallControl": false,
+    "spawnedWallControl": false,
+    "nPCEquippedAttackControl": false,
+    "visualUseViewportCamera": false
+  },
+  "durations": {
+    "visualNativeCaptureSeconds": 0,
+    "visualToolCaptureSeconds": 0,
+    "visualRifleCaptureSeconds": 0
+  },
+  "native_original_static_pose_observed": true,
+  "managed_rifle_static_firing_pose_observed": true,
+  "held_build_plan_appearance_accepted": false,
+  "full_scoped81equipment_checks_pass": false,
+  "native_build_gates_accepted": false,
+  "full_product_complete": false,
+  "editor": {
+    "actors": 149,
+    "sources": 18,
+    "assets": {
+      "numChecked": 54,
+      "numValid": 54,
+      "numInvalid": 0,
+      "numWarnings": 0,
+      "numSkipped": 0,
+      "bAssetLimitReached": false,
+      "errors": [],
+      "warnings": []
+    },
+    "map_dirty": false,
+    "game": "CanStart",
+    "session": "Connected"
+  },
+  "computer_input_used": false,
+  "workers_remaining": false,
+  "next": "Read runtime pose/root mesh state and perform one backed-up root-visible/held-template reference control on owned PCL_BuildPlan before choosing a proper root model. Fresh source/API investigation before any NPC limitation claim. New asset changes need a full content push and new binary hash snapshots before future warm reuse."
+}

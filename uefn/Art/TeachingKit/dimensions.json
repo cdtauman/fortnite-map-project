@@ -1,0 +1,38 @@
+{
+  "units": "centimeters",
+  "source_axes": "Unreal XYZ",
+  "obj_y_flipped": true,
+  "scope": "Owned visual teaching states. Correspondence to native edit tile selections must be verified in the final gameplay checks.",
+  "meshes": {
+    "WallSide": {
+      "bounds": {
+        "min": [
+          -85.33333333333333,
+          -10,
+          0
+        ],
+        "max": [
+          256,
+          14,
+          384
+        ]
+      },
+      "triangles": 84
+    },
+    "ConeRaisedLeft": {
+      "bounds": {
+        "min": [
+          -256,
+          0,
+          -12.0
+        ],
+        "max": [
+          256,
+          512,
+          388.0
+        ]
+      },
+      "triangles": 108
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-06",
+  "build": "UEFN 43.00 CL-59596594",
+  "run": "automatic-22",
+  "scope": "Session observation found Unconnected or start command unavailable; no gameplay success inferred from StartSession acknowledgement.",
+  "preparation": {
+    "prepared_at_utc": "2026-11-06T20:51:09.438417+00:00",
+    "source_build": "health-probe-agent-inventory-build.json",
+    "source_build_sha256": "e692693ede169df54495f4515c7b2ae63072627f74202d5e4f06b2887e076ab8",
+    "probe": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567"
+    },
+    "probe_label": "PCL_Health_Probe",
+    "log_pattern": "PCL\\|health_probe",
+    "test_flags": {
+      "Enabled": true,
+      "AutoRun": true
+    },
+    "combat_gates": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "input_requested": false,
+    "calibration_native_timer": false,
+    "calibration_blast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075661203_1497102807"
+    },
+    "calibration_objective": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+    },
+    "weapon_calibration": true,
+    "calibration_shooter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075671203_1509093984"
+    },
+    "source_archive": {
+      "path": ".local\\evidence\\health-22\\sources.zip",
+      "sha256": "ecf0860f6305f34aa30774259f3651faadac923e42b9133a97125ad69e37b94b"
+    },
+    "fixture_archive": {
+      "path": ".local\\evidence\\health-22\\health-probe-layout.json",
+      "sha256": "8b18710376bdf17fd3a8f8dfb8ad6f65c8ffee3334fff061f1d7c80313ee7fe6"
+    }
+  },
+  "start_result": "Completed",
+  "observer_result": {
+    "run": "22",
+    "scope": "Automatic native NPC weapon calibration against an objective with numeric health. Spawn, inventory access, equip, native firing state and HP are separate observations. This mode makes no Explode or direct Damage call. No client gameplay input or acceptance-gate change.",
+    "source_preparation": "final-run-22-preparation.json",
+    "started_at_utc": "2026-11-06T20:55:50.583937+00:00",
+    "started_game_by_tool": false,
+    "sequence_finished": false,
+    "initial_session_state": "Disconnected",
+    "observer_error": "Session is not connected: Disconnected",
+    "observations": [],
+    "combat_gates_after_run": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "restored_flags": {
+      "Enabled": false,
+      "AutoRun": false,
+      "UseWeaponCalibration": false
+    },
+    "final_game_state": "Unconnected",
+    "final_session_state": "Disconnected",
+    "ended_at_utc": "2026-11-06T20:55:54.638075+00:00"
+  },
+  "fresh_recovery_entries": [],
+  "gates_accepted": false
+}

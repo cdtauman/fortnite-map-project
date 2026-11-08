@@ -1,0 +1,18 @@
+{
+  "editor_compile": "70",
+  "last_runtime": "69",
+  "runtime70_verified": false,
+  "source_build": "npc-query-guards-isolated70-build.json",
+  "matching_sources": 18,
+  "valid_assets": 54,
+  "warnings": 0,
+  "map_saved": true,
+  "session": "Connected",
+  "game": "CanStart",
+  "edit_connection_intentionally_retained": true,
+  "experimental_query_guards_main_default": false,
+  "experimental_query_guards_private_fixture": true,
+  "stable_tool_retention_verified": false,
+  "native_build_gates_accepted": false,
+  "full_goal_complete": false
+}

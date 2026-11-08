@@ -1,0 +1,10 @@
+{
+  "scope": "Authored dimensions and layout only; native edit, collision, traversal and runtime reset remain unverified.",
+  "checks": {
+    "all_pieces_share_lane_center": true,
+    "floor_overhead_on_ramp_cell": true,
+    "cone_above_same_floor_cell": true,
+    "wall_at_ramp_exit": true,
+    "landing_beyond_exit": true
+  }
+}

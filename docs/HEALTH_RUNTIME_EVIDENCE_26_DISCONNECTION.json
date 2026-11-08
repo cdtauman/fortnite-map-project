@@ -1,0 +1,452 @@
+{
+  "date": "2026-11-06",
+  "build": "UEFN 43.00 CL-59596594",
+  "run": "automatic-26",
+  "scope": "Session observation found Unconnected or start command unavailable; no gameplay success inferred from StartSession acknowledgement.",
+  "preparation": {
+    "prepared_at_utc": "2026-11-06T21:42:21.846521+00:00",
+    "source_build": "health-probe-native-combat-build.json",
+    "source_build_sha256": "8646f4b0849cb9edf184ac2261dc33044bef523d38ff31da1de7eb4631a57ac9",
+    "probe": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567"
+    },
+    "probe_label": "PCL_Health_Probe",
+    "log_pattern": "PCL\\|health_probe",
+    "test_flags": {
+      "Enabled": true,
+      "AutoRun": true
+    },
+    "combat_gates": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "input_requested": false,
+    "calibration_native_timer": false,
+    "calibration_blast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075661203_1497102807"
+    },
+    "calibration_objective": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+    },
+    "weapon_calibration": true,
+    "calibration_shooter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075671203_1509093984"
+    },
+    "source_archive": {
+      "path": ".local\\evidence\\health-26\\sources.zip",
+      "sha256": "1ddee6f7150743f053cfc2f61a362b2d10e6ead1f0eab2912921abbd96a0d8f2"
+    },
+    "fixture_archive": {
+      "path": ".local\\evidence\\health-26\\health-probe-layout.json",
+      "sha256": "8a63415b845eaac1be39151b1b3b8b3fb34959c19b0d3143e0cc24e040b2a4f0"
+    }
+  },
+  "start_result": "Completed",
+  "observer_result": {
+    "run": "26",
+    "scope": "Automatic NPC/player rifle comparison, native/zero shot-cost phases and native guard Attack against a detected hostile NPC. The target health is initialized before measurement; no direct Damage or Explode call is used. Holster/firing, actual health, baseline AI and attack requests are separate observations. Player position/equipment and shot cost are restored. No user/computer-use input or acceptance-gate change.",
+    "source_preparation": "final-run-26-preparation.json",
+    "started_at_utc": "2026-11-06T21:46:44.034039+00:00",
+    "started_game_by_tool": false,
+    "sequence_finished": false,
+    "initial_session_state": "Disconnected",
+    "readiness_observations": [
+      {
+        "at_utc": "2026-11-06T21:46:45.990212+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:46:47.311935+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:46:48.646319+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:46:49.689253+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:46:51.013820+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:46:52.058617+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:46:53.386200+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:46:54.702335+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:46:56.033716+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:46:57.110893+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:46:58.439653+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:46:59.772888+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:00.803686+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:02.176988+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:03.505639+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:04.848680+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:06.199723+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:07.548688+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:08.929809+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:10.209537+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:11.556794+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:12.875538+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:14.220619+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:15.546054+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:16.919317+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:18.222472+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:19.581005+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:20.944668+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:22.082993+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:23.408954+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:24.862226+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:26.204422+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:27.552514+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:28.592145+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:29.757882+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:31.046364+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:32.466867+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:33.843022+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:35.107815+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:36.465749+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:37.793328+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:39.106700+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:40.445486+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:41.776433+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:42.800624+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:43.933205+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:45.315534+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:46.416144+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:47.642071+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:49.050216+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:50.351255+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:51.646707+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:52.998108+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:54.394092+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:55.443137+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:56.747032+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:58.103751+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:47:59.522729+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:00.736724+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:02.069468+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:03.099188+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:04.119597+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:05.442724+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:06.840686+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:07.886120+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:09.103454+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:10.649361+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:11.983378+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:13.330644+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:14.786977+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:15.918345+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:17.331674+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:18.567615+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:19.589340+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:20.889522+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:21.979792+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:23.491997+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:25.459602+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:26.794322+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:27.915148+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:29.246631+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:30.610529+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:31.919199+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:33.279565+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:34.587092+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:35.954892+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:37.272087+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:38.626578+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:40.031429+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:41.273897+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:42.637036+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:43.968640+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:45.281268+00:00",
+        "session": "Disconnected"
+      },
+      {
+        "at_utc": "2026-11-06T21:48:46.640716+00:00",
+        "session": "Disconnected"
+      }
+    ],
+    "observer_error": "Session is not connected: Disconnected",
+    "observations": [],
+    "combat_gates_after_run": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "restored_flags": {
+      "Enabled": false,
+      "AutoRun": false,
+      "UseWeaponCalibration": false
+    },
+    "final_game_state": "Unconnected",
+    "final_session_state": "Disconnected",
+    "ended_at_utc": "2026-11-06T21:49:00.455034+00:00"
+  },
+  "fresh_recovery_entries": [],
+  "gates_accepted": false
+}

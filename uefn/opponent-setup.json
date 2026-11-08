@@ -1,0 +1,39 @@
+{
+  "scope": "Editor configuration evidence, not runtime behavior or pro-quality acceptance.",
+  "spawner": {
+    "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075341203_1976870016"
+  },
+  "definition": {
+    "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/NPC/CoachOpponent.CoachOpponent"
+  },
+  "script_binding": {
+    "nPCBehaviorScript": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075341203_1976870016.NPCBehaviorScriptComponent.coach_opponent_behavior_0"
+    }
+  },
+  "transform": {
+    "location": {
+      "x": 1536,
+      "y": 0,
+      "z": 20
+    },
+    "rotation": {
+      "pitch": 0,
+      "yaw": 180,
+      "roll": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "guard_settings": {
+    "bEnableLeash": false,
+    "leashDistance": 35,
+    "accuracy": "HIGH",
+    "bCanBeDownButNotOut": false
+  },
+  "movement_authority": "Scripted arena targets and action cancellation; native guard leash disabled.",
+  "restoration_record": ".local/opponent169-authoring.json"
+}

@@ -1,0 +1,971 @@
+{
+  "date": "2026-11-06",
+  "build": "UEFN 43.00 CL-59596594",
+  "run": "automatic-03",
+  "scope": "Automatic server sequence; no client/gameplay input; not publication or native player-edit verification.",
+  "preparation": {
+    "prepared_at_utc": "2026-11-06T17:06:57.792130+00:00",
+    "source_build": "structure-probe-native-control-build.json",
+    "source_build_sha256": "2c83643b4e69c146a0e7470fa765243376de0ded2be0421bd7fa504da58ea86e",
+    "probe": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075591203_1214106664"
+    },
+    "test_flags": {
+      "Enabled": true,
+      "AutoRun": true
+    },
+    "combat_gates": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "baseline": {
+      "entries": [
+        {
+          "sequence": 1,
+          "timestamp": "2026-11-06T16:57:34.765Z",
+          "severity": "Normal",
+          "channel": "",
+          "message": "PCL|structure_probe|ready|combat_gates=false|runtime_semantics_unverified",
+          "sourceFile": "coach_structure_probe.verse",
+          "sourceLine": 66
+        }
+      ],
+      "nextCursor": 1,
+      "runId": "bc1137c3-4201-930c-bd6f-8cb49165e0ec",
+      "bHasMore": true,
+      "bEntriesDropped": false,
+      "bCursorReset": false
+    },
+    "input_requested": false,
+    "asset_bindings_before_run": {
+      "DemoAsset": {
+        "wrapper": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075391203_2089996912.coach_structure_device_0.Devices_creative_prop_asset_2"
+        },
+        "value": {
+          "assetForEditor": {
+            "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_LessonWall.PCL_BP_LessonWall_C"
+          }
+        }
+      },
+      "ConeAsset": {
+        "wrapper": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075391203_2089996912.coach_structure_device_0.Devices_creative_prop_asset_0"
+        },
+        "value": {
+          "assetForEditor": {
+            "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/TrainingKit/PCL_BP_TrainingCone.PCL_BP_TrainingCone_C"
+          }
+        }
+      }
+    },
+    "asset_bindings_saved_at_utc": "2026-11-06T17:11:26.360155+00:00"
+  },
+  "source_snapshot": {
+    "mount": "/eda26a53-42c0-4b9e-8f62-31719aef6889",
+    "sourceSnapshot": [
+      {
+        "file": "coach_building.verse",
+        "sha256_utf8_lf": "a775601e27bf79afe2d13d6f55b1290ea6a6102818544098a76712b8cb527f46"
+      },
+      {
+        "file": "coach_commerce.verse",
+        "sha256_utf8_lf": "5100ec94e41a912eeeb878cd7ec0cd5da700e1cad608e247dfdea3989d61ef80"
+      },
+      {
+        "file": "coach_course_device.verse",
+        "sha256_utf8_lf": "e3004e7305f4ec76b0a4203e088615094c079cd25da09920f7b69e12479402c4"
+      },
+      {
+        "file": "coach_demonstration.verse",
+        "sha256_utf8_lf": "90e0f3dc1d35f68a72dd23ed8438de7077d6d58cd769ea61d25b27ec645cb87f"
+      },
+      {
+        "file": "coach_equipment.verse",
+        "sha256_utf8_lf": "4fd8c98bcbec00a9e3bcb5e359aae900dc0ba3ea8f291a44a4cefb04da3a4714"
+      },
+      {
+        "file": "coach_geometry.verse",
+        "sha256_utf8_lf": "fccb4bb713266ad9d85bdd1b2bfc96852a08eb6cae57f2b78fb9f850b3ea5056"
+      },
+      {
+        "file": "coach_lab_device.verse",
+        "sha256_utf8_lf": "4814473c661c33ed43d9ce96d7e4c5468c8b79fb3c948cc9be4ee6486a6f9d78"
+      },
+      {
+        "file": "coach_learning.verse",
+        "sha256_utf8_lf": "14e14984fecc0577b22c312ebecdbd75e4abc9404cb50dc502a350ae88597793"
+      },
+      {
+        "file": "coach_lessons.verse",
+        "sha256_utf8_lf": "f08fa3f55113f3f7427e5fa36c352c90a63053bd728daba67b10e953d5c1027d"
+      },
+      {
+        "file": "coach_model.verse",
+        "sha256_utf8_lf": "89ef2962fed400bd0219b0009cb7be2ee0db8666ca2f3b61a47d2c1602c87387"
+      },
+      {
+        "file": "coach_opponent_behavior.verse",
+        "sha256_utf8_lf": "36d1d499191e3bd9ef7dcfe4e284ebfa410ea20fc6030f30345e5c7e4c1f5621"
+      },
+      {
+        "file": "coach_portal_device.verse",
+        "sha256_utf8_lf": "cb164a077771af4f1f8f266cef0dba9d7aaf43fb010e094db2f01a178f556637"
+      },
+      {
+        "file": "coach_practice.verse",
+        "sha256_utf8_lf": "e49b9484048a0df68ff53a7b92d7b2256f61c9c5732ff576abbdb42996ac09ad"
+      },
+      {
+        "file": "coach_structure_probe.verse",
+        "sha256_utf8_lf": "8744f51a56d8a783ab65618ae878f31e9a151ee1194bfd78beb756319be93c3d"
+      },
+      {
+        "file": "coach_telemetry.verse",
+        "sha256_utf8_lf": "c3d1176381cc5aaf12c05740a115b6f097afd1d25cf6e43e2ffbdb53ed6e625a"
+      },
+      {
+        "file": "coach_ui.verse",
+        "sha256_utf8_lf": "3677157c19932831c11ad0c6790e3abde100bf908495737458172b2e07c7f7c3"
+      },
+      {
+        "file": "coach_voice.verse",
+        "sha256_utf8_lf": "69a15f843a59cad448086a769777f77e9bed57697bbefc2131fcc5d9604b60e9"
+      }
+    ],
+    "buildObservedAtUtc": "2026-11-06T17:06:07.974903+00:00",
+    "scope": "Files sent before this BuildAll result. Compilation is separate from runtime and publication."
+  },
+  "fresh_runtime_entries": [
+    {
+      "sequence": 25,
+      "timestamp": "2026-11-06T17:15:33.136Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|ready|combat_gates=false|runtime_semantics_unverified",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 67
+    },
+    {
+      "sequence": 26,
+      "timestamp": "2026-11-06T17:15:33.136Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|spawn|generation=1|kind=0|result=ok",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 190
+    },
+    {
+      "sequence": 27,
+      "timestamp": "2026-11-06T17:15:33.136Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|spawn_transform|generation=1|kind=0|x=-1280.000000|y=-1024.000000|z=0.000000",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 194
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-11-06T17:15:33.136Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|spawn|generation=1|kind=1|result=ok",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 190
+    },
+    {
+      "sequence": 29,
+      "timestamp": "2026-11-06T17:15:33.136Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|spawn_transform|generation=1|kind=1|x=-512.000000|y=-1280.000000|z=0.000000",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 194
+    },
+    {
+      "sequence": 30,
+      "timestamp": "2026-11-06T17:15:33.136Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|spawn|generation=1|kind=2|result=ok",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 190
+    },
+    {
+      "sequence": 31,
+      "timestamp": "2026-11-06T17:15:33.136Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|spawn_transform|generation=1|kind=2|x=256.000000|y=-1024.000000|z=0.000000",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 194
+    },
+    {
+      "sequence": 32,
+      "timestamp": "2026-11-06T17:15:33.136Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|spawn|generation=1|kind=3|result=ok",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 190
+    },
+    {
+      "sequence": 33,
+      "timestamp": "2026-11-06T17:15:33.136Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|spawn_transform|generation=1|kind=3|x=1536.000000|y=-1280.000000|z=0.000000",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 194
+    },
+    {
+      "sequence": 34,
+      "timestamp": "2026-11-06T17:15:33.136Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|demo_spawn|result=ok|building_prop_control_only",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 199
+    },
+    {
+      "sequence": 35,
+      "timestamp": "2026-11-06T17:15:33.136Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|valid_props|generation=1|count=5",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 261
+    },
+    {
+      "sequence": 36,
+      "timestamp": "2026-11-06T17:15:33.136Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|build_inventory|generation=1|at=1752.452015|slots=0|equipped_mask=",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 287
+    },
+    {
+      "sequence": 38,
+      "timestamp": "2026-11-06T17:15:33.331Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|query|generation=1|command=1|shape=0|occupied=1|mask=010000000|control=0",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 241
+    },
+    {
+      "sequence": 39,
+      "timestamp": "2026-11-06T17:15:33.331Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|demo_query|generation=1|command=1|occupied=9|generated_class_binding_control",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 243
+    },
+    {
+      "sequence": 40,
+      "timestamp": "2026-11-06T17:15:33.331Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|preplaced_course_wall|generation=1|command=1|occupied=9",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 246
+    },
+    {
+      "sequence": 41,
+      "timestamp": "2026-11-06T17:15:34.121Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|shape_requested|generation=1|command=2|shape=1|health_unmeasured",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 221
+    },
+    {
+      "sequence": 42,
+      "timestamp": "2026-11-06T17:15:34.331Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|query|generation=1|command=2|shape=1|occupied=8|mask=111101111|control=0",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 241
+    },
+    {
+      "sequence": 43,
+      "timestamp": "2026-11-06T17:15:34.331Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|demo_query|generation=1|command=2|occupied=9|generated_class_binding_control",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 243
+    },
+    {
+      "sequence": 44,
+      "timestamp": "2026-11-06T17:15:34.331Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|preplaced_course_wall|generation=1|command=2|occupied=9",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 246
+    },
+    {
+      "sequence": 45,
+      "timestamp": "2026-11-06T17:15:35.122Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|shape_requested|generation=1|command=3|shape=2|health_unmeasured",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 221
+    },
+    {
+      "sequence": 46,
+      "timestamp": "2026-11-06T17:15:35.333Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|query|generation=1|command=3|shape=2|occupied=7|mask=101101111|control=0",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 241
+    },
+    {
+      "sequence": 47,
+      "timestamp": "2026-11-06T17:15:35.333Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|demo_query|generation=1|command=3|occupied=9|generated_class_binding_control",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 243
+    },
+    {
+      "sequence": 48,
+      "timestamp": "2026-11-06T17:15:35.333Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|preplaced_course_wall|generation=1|command=3|occupied=9",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 246
+    },
+    {
+      "sequence": 49,
+      "timestamp": "2026-11-06T17:15:36.123Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|shape_requested|generation=1|command=4|shape=0|health_unmeasured",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 221
+    },
+    {
+      "sequence": 50,
+      "timestamp": "2026-11-06T17:15:36.335Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|query|generation=1|command=4|shape=0|occupied=9|mask=111111111|control=0",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 241
+    },
+    {
+      "sequence": 51,
+      "timestamp": "2026-11-06T17:15:36.335Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|demo_query|generation=1|command=4|occupied=9|generated_class_binding_control",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 243
+    },
+    {
+      "sequence": 52,
+      "timestamp": "2026-11-06T17:15:36.335Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|preplaced_course_wall|generation=1|command=4|occupied=9",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 246
+    },
+    {
+      "sequence": 53,
+      "timestamp": "2026-11-06T17:15:36.729Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|preplaced_moved|old=0|new=9|health_and_grid_unmeasured",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 135
+    },
+    {
+      "sequence": 54,
+      "timestamp": "2026-11-06T17:15:36.928Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|preplaced_mesh|stage=1|occupied=8|native_edit_not_invoked",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 149
+    },
+    {
+      "sequence": 55,
+      "timestamp": "2026-11-06T17:15:37.128Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|preplaced_mesh|stage=2|occupied=7|native_edit_not_invoked",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 149
+    },
+    {
+      "sequence": 56,
+      "timestamp": "2026-11-06T17:15:37.329Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|preplaced_mesh|stage=3|occupied=9|native_edit_not_invoked",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 149
+    },
+    {
+      "sequence": 57,
+      "timestamp": "2026-11-06T17:15:37.329Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|preplaced_restored",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 111
+    },
+    {
+      "sequence": 58,
+      "timestamp": "2026-11-06T17:15:37.329Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|automatic_sequence_finished|generation=1|results_require_review",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 85
+    }
+  ],
+  "runtime_result": {
+    "run": "03",
+    "scope": "Automatic structure creation, mesh change, query and lifetime only; no human/client input",
+    "source_preparation": "final-run-03-preparation.json",
+    "started_at_utc": "2026-11-06T17:15:55.489254+00:00",
+    "started_game_by_tool": false,
+    "sequence_finished": true,
+    "initial_game_state": "Running",
+    "observations": [
+      {
+        "entries": [
+          {
+            "sequence": 2,
+            "timestamp": "2026-11-06T16:57:34.765Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|spawn|generation=1|kind=0|result=ok",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 134
+          },
+          {
+            "sequence": 3,
+            "timestamp": "2026-11-06T16:57:34.765Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|spawn_transform|generation=1|kind=0|x=-1280.000000|y=-1024.000000|z=0.000000",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 138
+          },
+          {
+            "sequence": 4,
+            "timestamp": "2026-11-06T16:57:34.765Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|spawn|generation=1|kind=1|result=ok",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 134
+          },
+          {
+            "sequence": 5,
+            "timestamp": "2026-11-06T16:57:34.765Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|spawn_transform|generation=1|kind=1|x=-512.000000|y=-1280.000000|z=0.000000",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 138
+          },
+          {
+            "sequence": 6,
+            "timestamp": "2026-11-06T16:57:34.765Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|spawn|generation=1|kind=2|result=ok",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 134
+          },
+          {
+            "sequence": 7,
+            "timestamp": "2026-11-06T16:57:34.765Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|spawn_transform|generation=1|kind=2|x=256.000000|y=-1024.000000|z=0.000000",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 138
+          },
+          {
+            "sequence": 8,
+            "timestamp": "2026-11-06T16:57:34.765Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|spawn|generation=1|kind=3|result=ok",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 134
+          },
+          {
+            "sequence": 9,
+            "timestamp": "2026-11-06T16:57:34.765Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|spawn_transform|generation=1|kind=3|x=1536.000000|y=-1280.000000|z=0.000000",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 138
+          },
+          {
+            "sequence": 10,
+            "timestamp": "2026-11-06T16:57:34.765Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|valid_props|generation=1|count=4",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 198
+          },
+          {
+            "sequence": 11,
+            "timestamp": "2026-11-06T16:57:34.765Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|build_inventory|generation=1|at=803.397129|slots=0|equipped_mask=",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 224
+          },
+          {
+            "sequence": 13,
+            "timestamp": "2026-11-06T16:57:35.161Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|query|generation=1|command=1|shape=0|occupied=1|mask=010000000|control=0",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 180
+          },
+          {
+            "sequence": 14,
+            "timestamp": "2026-11-06T16:57:35.161Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|preplaced_course_wall|generation=1|command=1|occupied=9",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 183
+          },
+          {
+            "sequence": 15,
+            "timestamp": "2026-11-06T16:57:35.749Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|shape_requested|generation=1|command=2|shape=1|health_unmeasured",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 160
+          },
+          {
+            "sequence": 16,
+            "timestamp": "2026-11-06T16:57:35.957Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|query|generation=1|command=2|shape=1|occupied=8|mask=111101111|control=0",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 180
+          },
+          {
+            "sequence": 17,
+            "timestamp": "2026-11-06T16:57:35.957Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|preplaced_course_wall|generation=1|command=2|occupied=9",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 183
+          },
+          {
+            "sequence": 18,
+            "timestamp": "2026-11-06T16:57:36.751Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|shape_requested|generation=1|command=3|shape=2|health_unmeasured",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 160
+          },
+          {
+            "sequence": 19,
+            "timestamp": "2026-11-06T16:57:36.958Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|query|generation=1|command=3|shape=2|occupied=7|mask=101101111|control=0",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 180
+          },
+          {
+            "sequence": 20,
+            "timestamp": "2026-11-06T16:57:36.958Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|preplaced_course_wall|generation=1|command=3|occupied=9",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 183
+          },
+          {
+            "sequence": 21,
+            "timestamp": "2026-11-06T16:57:37.753Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|shape_requested|generation=1|command=4|shape=0|health_unmeasured",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 160
+          },
+          {
+            "sequence": 22,
+            "timestamp": "2026-11-06T16:57:37.961Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|query|generation=1|command=4|shape=0|occupied=9|mask=111111111|control=0",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 180
+          },
+          {
+            "sequence": 23,
+            "timestamp": "2026-11-06T16:57:37.961Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|preplaced_course_wall|generation=1|command=4|occupied=9",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 183
+          },
+          {
+            "sequence": 24,
+            "timestamp": "2026-11-06T16:57:38.153Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|automatic_sequence_finished|generation=1|results_require_review",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 83
+          },
+          {
+            "sequence": 25,
+            "timestamp": "2026-11-06T17:15:33.136Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|ready|combat_gates=false|runtime_semantics_unverified",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 67
+          },
+          {
+            "sequence": 26,
+            "timestamp": "2026-11-06T17:15:33.136Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|spawn|generation=1|kind=0|result=ok",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 190
+          },
+          {
+            "sequence": 27,
+            "timestamp": "2026-11-06T17:15:33.136Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|spawn_transform|generation=1|kind=0|x=-1280.000000|y=-1024.000000|z=0.000000",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 194
+          },
+          {
+            "sequence": 28,
+            "timestamp": "2026-11-06T17:15:33.136Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|spawn|generation=1|kind=1|result=ok",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 190
+          },
+          {
+            "sequence": 29,
+            "timestamp": "2026-11-06T17:15:33.136Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|spawn_transform|generation=1|kind=1|x=-512.000000|y=-1280.000000|z=0.000000",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 194
+          },
+          {
+            "sequence": 30,
+            "timestamp": "2026-11-06T17:15:33.136Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|spawn|generation=1|kind=2|result=ok",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 190
+          },
+          {
+            "sequence": 31,
+            "timestamp": "2026-11-06T17:15:33.136Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|spawn_transform|generation=1|kind=2|x=256.000000|y=-1024.000000|z=0.000000",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 194
+          },
+          {
+            "sequence": 32,
+            "timestamp": "2026-11-06T17:15:33.136Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|spawn|generation=1|kind=3|result=ok",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 190
+          },
+          {
+            "sequence": 33,
+            "timestamp": "2026-11-06T17:15:33.136Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|spawn_transform|generation=1|kind=3|x=1536.000000|y=-1280.000000|z=0.000000",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 194
+          },
+          {
+            "sequence": 34,
+            "timestamp": "2026-11-06T17:15:33.136Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|demo_spawn|result=ok|building_prop_control_only",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 199
+          },
+          {
+            "sequence": 35,
+            "timestamp": "2026-11-06T17:15:33.136Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|valid_props|generation=1|count=5",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 261
+          },
+          {
+            "sequence": 36,
+            "timestamp": "2026-11-06T17:15:33.136Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|build_inventory|generation=1|at=1752.452015|slots=0|equipped_mask=",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 287
+          },
+          {
+            "sequence": 38,
+            "timestamp": "2026-11-06T17:15:33.331Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|query|generation=1|command=1|shape=0|occupied=1|mask=010000000|control=0",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 241
+          },
+          {
+            "sequence": 39,
+            "timestamp": "2026-11-06T17:15:33.331Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|demo_query|generation=1|command=1|occupied=9|generated_class_binding_control",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 243
+          },
+          {
+            "sequence": 40,
+            "timestamp": "2026-11-06T17:15:33.331Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|preplaced_course_wall|generation=1|command=1|occupied=9",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 246
+          },
+          {
+            "sequence": 41,
+            "timestamp": "2026-11-06T17:15:34.121Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|shape_requested|generation=1|command=2|shape=1|health_unmeasured",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 221
+          },
+          {
+            "sequence": 42,
+            "timestamp": "2026-11-06T17:15:34.331Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|query|generation=1|command=2|shape=1|occupied=8|mask=111101111|control=0",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 241
+          },
+          {
+            "sequence": 43,
+            "timestamp": "2026-11-06T17:15:34.331Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|demo_query|generation=1|command=2|occupied=9|generated_class_binding_control",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 243
+          },
+          {
+            "sequence": 44,
+            "timestamp": "2026-11-06T17:15:34.331Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|preplaced_course_wall|generation=1|command=2|occupied=9",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 246
+          },
+          {
+            "sequence": 45,
+            "timestamp": "2026-11-06T17:15:35.122Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|shape_requested|generation=1|command=3|shape=2|health_unmeasured",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 221
+          },
+          {
+            "sequence": 46,
+            "timestamp": "2026-11-06T17:15:35.333Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|query|generation=1|command=3|shape=2|occupied=7|mask=101101111|control=0",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 241
+          },
+          {
+            "sequence": 47,
+            "timestamp": "2026-11-06T17:15:35.333Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|demo_query|generation=1|command=3|occupied=9|generated_class_binding_control",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 243
+          },
+          {
+            "sequence": 48,
+            "timestamp": "2026-11-06T17:15:35.333Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|preplaced_course_wall|generation=1|command=3|occupied=9",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 246
+          },
+          {
+            "sequence": 49,
+            "timestamp": "2026-11-06T17:15:36.123Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|shape_requested|generation=1|command=4|shape=0|health_unmeasured",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 221
+          },
+          {
+            "sequence": 50,
+            "timestamp": "2026-11-06T17:15:36.335Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|query|generation=1|command=4|shape=0|occupied=9|mask=111111111|control=0",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 241
+          },
+          {
+            "sequence": 51,
+            "timestamp": "2026-11-06T17:15:36.335Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|demo_query|generation=1|command=4|occupied=9|generated_class_binding_control",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 243
+          },
+          {
+            "sequence": 52,
+            "timestamp": "2026-11-06T17:15:36.335Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|preplaced_course_wall|generation=1|command=4|occupied=9",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 246
+          },
+          {
+            "sequence": 53,
+            "timestamp": "2026-11-06T17:15:36.729Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|preplaced_moved|old=0|new=9|health_and_grid_unmeasured",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 135
+          },
+          {
+            "sequence": 54,
+            "timestamp": "2026-11-06T17:15:36.928Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|preplaced_mesh|stage=1|occupied=8|native_edit_not_invoked",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 149
+          },
+          {
+            "sequence": 55,
+            "timestamp": "2026-11-06T17:15:37.128Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|preplaced_mesh|stage=2|occupied=7|native_edit_not_invoked",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 149
+          },
+          {
+            "sequence": 56,
+            "timestamp": "2026-11-06T17:15:37.329Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|preplaced_mesh|stage=3|occupied=9|native_edit_not_invoked",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 149
+          },
+          {
+            "sequence": 57,
+            "timestamp": "2026-11-06T17:15:37.329Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|preplaced_restored",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 111
+          },
+          {
+            "sequence": 58,
+            "timestamp": "2026-11-06T17:15:37.329Z",
+            "severity": "Normal",
+            "channel": "",
+            "message": "PCL|structure_probe|automatic_sequence_finished|generation=1|results_require_review",
+            "sourceFile": "coach_structure_probe.verse",
+            "sourceLine": 85
+          }
+        ],
+        "nextCursor": 58,
+        "runId": "bc1137c3-4201-930c-bd6f-8cb49165e0ec",
+        "bHasMore": false,
+        "bEntriesDropped": false,
+        "bCursorReset": false
+      }
+    ],
+    "stop_game_result": "Completed",
+    "restored_flags": {
+      "Enabled": false,
+      "AutoRun": false
+    },
+    "final_game_state": "Unconnected",
+    "final_session_state": "Disconnected",
+    "ended_at_utc": "2026-11-06T17:16:07.126261+00:00"
+  },
+  "findings": [
+    "The native picker-bound BuildingProp demonstration wall spawned successfully and returned 9/9 in four samples.",
+    "The preplaced owned BuildingWall course control moved: its old location returned 0, destination 9.",
+    "SetMesh on that same preplaced reference returned window 8, passage 7, solid 9. TeleportTo restoring the original transform returned success.",
+    "Initial structure WallAsset still spawned the wrong geometry (1/9); its native spawn binding remains unresolved.",
+    "No native edit command was invoked. Structural-grid updates, ownership, wall replacement, health continuity, damage, traversal and player native interoperability are unverified.",
+    "No combat acceptance gate was enabled. The game and session stopped; Enabled and AutoRun were restored to false."
+  ]
+}

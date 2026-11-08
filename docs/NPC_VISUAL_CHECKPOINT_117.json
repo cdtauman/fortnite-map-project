@@ -1,0 +1,61 @@
+{
+  "checkpoint": "117",
+  "latest_runtime": "114",
+  "at_utc": "2026-11-07T14:54:50.630608+00:00",
+  "editor_evidence_sha256": "d4a2272c1bfb977c51161b36d58d6b53b5ab0223019468bd6d43a8702533557d",
+  "editor_build": "native-ledger117-membership-build.json",
+  "scope": "Compiled editor verification; no new runtime from this checkpoint. Inspect the report for source changes or rollback scope.",
+  "flags": {
+    "enabled": false,
+    "autoRun": false,
+    "calibrationNativeTimer": false,
+    "useWeaponCalibration": false,
+    "useCharacterTargetControl": false,
+    "isolatedWallControl": false,
+    "spawnedWallControl": false,
+    "nPCEquippedAttackControl": false,
+    "visualUseViewportCamera": false,
+    "nativeBuildToolReference": false,
+    "nativeBuildToolLease": false,
+    "nativeBuildCameraBypass": false,
+    "nativeBuildMenuOnly": false,
+    "nativeTeamWallControl": false
+  },
+  "structure_probe_flags": {
+    "enabled": false,
+    "autoRun": false,
+    "nativePoolControl": false
+  },
+  "native_piece_pool_backend_enabled": false,
+  "scalars": {
+    "visualToolCaptureSeconds": 0,
+    "visualRifleCaptureSeconds": 0,
+    "visualNativeCaptureSeconds": 0,
+    "meshChangeAfterPlayerHits": 0
+  },
+  "gates": {
+    "candidateCombatEnabled": false,
+    "queryCoverageConfirmed": false,
+    "healthContinuityConfirmed": false,
+    "nativeSlotInteroperationConfirmed": false
+  },
+  "session": "Connected",
+  "game": "CanStart",
+  "level_dirty": false,
+  "assets": {
+    "numChecked": 56,
+    "numValid": 56,
+    "numInvalid": 0,
+    "numWarnings": 0,
+    "numSkipped": 0,
+    "bAssetLimitReached": false,
+    "errors": [],
+    "warnings": []
+  },
+  "source_or_owned_asset_differs_from_cooked_runtime": true,
+  "full_content_push_required": true,
+  "computer_control_used": false,
+  "computer_control_field_scope": "Checkpoint collection only; preparation and recovery UI are recorded separately.",
+  "computer_control_active": false,
+  "full_goal_complete": false
+}

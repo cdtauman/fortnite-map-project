@@ -1,0 +1,33 @@
+{
+  "run": "80",
+  "views": [
+    {
+      "phase": "tool",
+      "image": "docs\\images\\npc-managed-tool-late-viewport-80.png",
+      "sha256": "db12ef8fb124a96932837b5349bc1ca791c6b6797152d6d3c8385a11288345c6",
+      "source_ready_at": "2026-11-07T07:42:14.824Z",
+      "source_window_finished_at": "2026-11-07T07:42:54.897Z",
+      "capture_request_started_at": "2026-11-07T07:42:54.985936+00:00",
+      "capture_started_after_window_end_seconds": 0.088936,
+      "scope_accepted": false
+    },
+    {
+      "phase": "rifle",
+      "image": "docs\\images\\npc-managed-rifle-late-viewport-80.png",
+      "sha256": "c9cf081b07a6e09a4c705e2ebd4d54bbab1c9f1318181cd67baacdddd6e3c7f7",
+      "source_ready_at": "2026-11-07T07:42:57.769Z",
+      "source_window_finished_at": "2026-11-07T07:43:05.784Z",
+      "capture_request_started_at": "2026-11-07T07:43:15.251155+00:00",
+      "capture_started_after_window_end_seconds": 9.467155,
+      "scope_accepted": false
+    }
+  ],
+  "visual_observation": "Both captured frames contain the hub menu/local player view. They were requested after their source windows ended and do not establish managed rifle or build-plan visibility/attachment.",
+  "observer_initial_game_state": "Running",
+  "observer_started_game": false,
+  "cause_scope": "Observer startup/routing occurred after the upload-associated running game had already consumed the diagnostic windows. Exact editor Auto Start preference was not read or changed.",
+  "next": "Reuse identical loaded content and fixture in the retained CanStart session; complete routing before observer explicitly StartGame. Track ready/finished events, drain pages, and reject expired ready windows.",
+  "native_build_gates_accepted": false,
+  "managed_visual_pose_accepted": false,
+  "computer_input_used": false
+}

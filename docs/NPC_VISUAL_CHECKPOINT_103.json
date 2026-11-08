@@ -1,0 +1,52 @@
+{
+  "checkpoint": "103",
+  "latest_runtime": "103",
+  "at_utc": "2026-11-07T11:41:44.150163+00:00",
+  "editor_evidence_sha256": "f12b4ae5742d85cc6d6f4d056e22d46945e7675c9da5862fd37eed5e4f15339f",
+  "editor_build": "npc-native-build-candidate103-restore-read-build.json",
+  "scope": "Editor verification after observed same-numbered runtime; compiled sources and owned Art/NPC hashes match run preparation.",
+  "flags": {
+    "enabled": false,
+    "autoRun": false,
+    "calibrationNativeTimer": false,
+    "useWeaponCalibration": false,
+    "useCharacterTargetControl": false,
+    "isolatedWallControl": false,
+    "spawnedWallControl": false,
+    "nPCEquippedAttackControl": false,
+    "visualUseViewportCamera": false,
+    "nativeBuildToolReference": false,
+    "nativeBuildToolLease": false,
+    "nativeBuildCameraBypass": false,
+    "nativeBuildMenuOnly": false
+  },
+  "scalars": {
+    "visualToolCaptureSeconds": 0,
+    "visualRifleCaptureSeconds": 0,
+    "visualNativeCaptureSeconds": 0,
+    "meshChangeAfterPlayerHits": 0
+  },
+  "gates": {
+    "candidateCombatEnabled": false,
+    "queryCoverageConfirmed": false,
+    "healthContinuityConfirmed": false,
+    "nativeSlotInteroperationConfirmed": false
+  },
+  "session": "Connected",
+  "game": "CanStart",
+  "level_dirty": false,
+  "assets": {
+    "numChecked": 54,
+    "numValid": 54,
+    "numInvalid": 0,
+    "numWarnings": 0,
+    "numSkipped": 0,
+    "bAssetLimitReached": false,
+    "errors": [],
+    "warnings": []
+  },
+  "source_or_owned_asset_differs_from_cooked_runtime": false,
+  "full_content_push_required": false,
+  "computer_control_used": false,
+  "full_goal_complete": false
+}

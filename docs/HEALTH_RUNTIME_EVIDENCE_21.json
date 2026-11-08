@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-06",
+  "build": "UEFN 43.00 CL-59596594",
+  "run": "automatic-21",
+  "scope": "Native NPC weapon/inventory calibration. No explosive activation, direct Damage call, client gameplay input or acceptance-gate change. A finished diagnostic sequence does not establish successful equipping or firing; inspect the actual entries.",
+  "preparation": {
+    "prepared_at_utc": "2026-11-06T20:43:18.863924+00:00",
+    "source_build": "health-probe-inventory-scope-build.json",
+    "source_build_sha256": "d215c67eb66a8a7dc54b9e99ea7716511074d0e5f7d078ec4429ea153063a84e",
+    "probe": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567"
+    },
+    "probe_label": "PCL_Health_Probe",
+    "log_pattern": "PCL\\|health_probe",
+    "test_flags": {
+      "Enabled": true,
+      "AutoRun": true
+    },
+    "combat_gates": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "input_requested": false,
+    "calibration_native_timer": false,
+    "calibration_blast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075661203_1497102807"
+    },
+    "calibration_objective": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+    },
+    "weapon_calibration": true,
+    "calibration_shooter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075671203_1509093984"
+    },
+    "source_archive": {
+      "path": ".local\\evidence\\health-21\\sources.zip",
+      "sha256": "e745c8d1aac05daa761d75299c13619383f2d4fa7aac8d67d2e64043ff5d4f7a"
+    },
+    "fixture_archive": {
+      "path": ".local\\evidence\\health-21\\health-probe-layout.json",
+      "sha256": "8b18710376bdf17fd3a8f8dfb8ad6f65c8ffee3334fff061f1d7c80313ee7fe6"
+    }
+  },
+  "start_session": "Completed",
+  "entries": [
+    {
+      "sequence": 866,
+      "timestamp": "2026-11-06T20:47:18.344Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|ready|combat_gates=false|health_interface_probe=true|ordinary_prop_control_unvalidated=true",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 104
+    },
+    {
+      "sequence": 868,
+      "timestamp": "2026-11-06T20:47:19.014Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|weapon_shooter_spawned",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 184
+    },
+    {
+      "sequence": 869,
+      "timestamp": "2026-11-06T20:47:19.033Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|weapon_shooter_friendly_team_confirmed",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 260
+    },
+    {
+      "sequence": 870,
+      "timestamp": "2026-11-06T20:47:19.033Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|inventory_scope|name=character|direct=0|descendants=0|hotbars=0|items=0|trace_weapons=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 208
+    },
+    {
+      "sequence": 871,
+      "timestamp": "2026-11-06T20:47:19.033Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|inventory_scope|name=agent|direct=0|descendants=8|hotbars=0|items=3|trace_weapons=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 208
+    },
+    {
+      "sequence": 872,
+      "timestamp": "2026-11-06T20:47:19.033Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|rifle_components|item=1|trace=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 221
+    },
+    {
+      "sequence": 873,
+      "timestamp": "2026-11-06T20:47:19.525Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|weapon_not_run|equipped_trace_weapon_unavailable",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 297
+    },
+    {
+      "sequence": 874,
+      "timestamp": "2026-11-06T20:47:19.525Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|automatic_sequence_finished|results_require_review",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 328
+    }
+  ],
+  "cleanup": {
+    "run": "21",
+    "scope": "Automatic native NPC weapon calibration against an objective with numeric health. Spawn, inventory access, equip, native firing state and HP are separate observations. This mode makes no Explode or direct Damage call. No client gameplay input or acceptance-gate change.",
+    "source_preparation": "final-run-21-preparation.json",
+    "started_at_utc": "2026-11-06T20:48:08.618333+00:00",
+    "started_game_by_tool": false,
+    "sequence_finished": true,
+    "initial_session_state": "Connected",
+    "initial_game_state": "Running",
+    "stop_game_result": "Completed",
+    "stop_session_result": null,
+    "combat_gates_after_run": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "restored_flags": {
+      "Enabled": false,
+      "AutoRun": false,
+      "UseWeaponCalibration": false
+    },
+    "final_game_state": "Unconnected",
+    "final_session_state": "Disconnected",
+    "ended_at_utc": "2026-11-06T20:48:18.193699+00:00"
+  },
+  "gates_accepted": false
+}

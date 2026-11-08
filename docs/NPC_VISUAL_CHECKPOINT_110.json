@@ -1,0 +1,55 @@
+{
+  "checkpoint": "110",
+  "latest_runtime": "110",
+  "at_utc": "2026-11-07T13:59:32.841812+00:00",
+  "editor_evidence_sha256": "2d03701ed4f3815f833afefb29f66fb373c2f6c11327bbc8e173a611e7f3e694",
+  "editor_build": "native-team-wall109-stable-pose-build.json",
+  "scope": "Editor verification after observed same-numbered runtime; compiled sources and owned Art/NPC hashes match run preparation.",
+  "flags": {
+    "enabled": false,
+    "autoRun": false,
+    "calibrationNativeTimer": false,
+    "useWeaponCalibration": false,
+    "useCharacterTargetControl": false,
+    "isolatedWallControl": false,
+    "spawnedWallControl": false,
+    "nPCEquippedAttackControl": false,
+    "visualUseViewportCamera": false,
+    "nativeBuildToolReference": false,
+    "nativeBuildToolLease": false,
+    "nativeBuildCameraBypass": false,
+    "nativeBuildMenuOnly": false,
+    "nativeTeamWallControl": false
+  },
+  "scalars": {
+    "visualToolCaptureSeconds": 0,
+    "visualRifleCaptureSeconds": 0,
+    "visualNativeCaptureSeconds": 0,
+    "meshChangeAfterPlayerHits": 0
+  },
+  "gates": {
+    "candidateCombatEnabled": false,
+    "queryCoverageConfirmed": false,
+    "healthContinuityConfirmed": false,
+    "nativeSlotInteroperationConfirmed": false
+  },
+  "session": "Connected",
+  "game": "CanStart",
+  "level_dirty": false,
+  "assets": {
+    "numChecked": 56,
+    "numValid": 56,
+    "numInvalid": 0,
+    "numWarnings": 0,
+    "numSkipped": 0,
+    "bAssetLimitReached": false,
+    "errors": [],
+    "warnings": []
+  },
+  "source_or_owned_asset_differs_from_cooked_runtime": false,
+  "full_content_push_required": false,
+  "computer_control_used": false,
+  "computer_control_field_scope": "Checkpoint collection only; preparation and recovery UI are recorded separately.",
+  "computer_control_active": false,
+  "full_goal_complete": false
+}

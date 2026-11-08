@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "scope": "Prepared source workflow. Gameplay, persistence reload and teaching quality await final acceptance.",
+  "sources": ["Verse/coach_training_plan.verse", "Verse/coach_model.verse", "Verse/coach_portal_device.verse", "Verse/coach_personal_start_flow.verse", "Verse/coach_ui.verse"],
+  "storage": "Defaulted TrainingPlan field on the existing per-player coach_profile; copied by CopyCoachProfile. No new weak_map or profile reset.",
+  "entry_points": ["Round analysis: save recommendation", "Lobby coach menu: my training plan", "Training progress: continue my plan"],
+  "stages": {
+    "0": "No saved plan",
+    "1": "Chosen lesson; player decides when to practice",
+    "2": "Five qualifying exchanges in the matching focused exercise",
+    "3": "A separate application round without the exercise counter",
+    "4": "Workflow completed; no mastery claim"
+  },
+  "reason_codes": {
+    "0": "General practice starting point",
+    "1": "Opponent height advantage near the selected damage event",
+    "2": "Long observed sight interval before the selected damage event",
+    "3": "Historical lateral movement preference"
+  },
+  "progress": "Checkpoint matching exercise progress 1..4 when it changes. Five completed exchanges advance to application through the existing completion handler.",
+  "continuation": "Restore stage and exercise progress. A resumed angle exercise establishes a fresh positional reference before counting its next qualifying angle change.",
+  "application_completion": "A finished personal round explicitly bound to this plan revision, with attributed incoming or outgoing damage. Winning and proof of using the exact technique are not asserted.",
+  "revision_guards": "Practice and application bind to a saved plan revision. Replacing a plan requires an explicit product choice while reviewing a round. New recommendations do not silently replace an active plan.",
+  "automatic_rounds": "A matching unfinished plan exercise can continue across automatic rounds when PreserveExercise is requested. A separate application round starts from the plan action.",
+  "authoring_evidence": ".local/training-plan158-authoring.json",
+  "gameplay_launched": false
+}

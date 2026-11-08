@@ -1,0 +1,108 @@
+{
+  "build": "UEFN43.00 CL59596594",
+  "records": {
+    "93": {
+      "evidence": "NPC_NATIVE_BUILD_LEASE_EXTENDED_93.json",
+      "sha256": "e53a0d54d6611b9df151ff5582c38c625259eda0a0c700a4a7033a3572897cf1",
+      "visual_samples": 40,
+      "visual_equipped": 0,
+      "idle_samples": 0,
+      "idle_equipped": 0,
+      "restored": [
+        {
+          "items": "14",
+          "unchanged_identity_parent_equipped": "14",
+          "source_count": "4",
+          "cleanup_ok": "1",
+          "repeat_cleanup_ok": "1",
+          "guard_hotbars_after": "0"
+        }
+      ],
+      "checks": {
+        "temporary_hotbar_initially_empty": true,
+        "single_item_transfer_parent_and_counts": true,
+        "native_equip_succeeded": true,
+        "eight_equipped_parent_matching_samples": true,
+        "same_item_return_and_original_guard_equipment": true,
+        "all14_item_identity_parent_equipped_restored": true,
+        "cleanup_repeated_and_temporary_hotbar_absent": true,
+        "no_pending_cleanup": true,
+        "sequence_finished": true,
+        "test_flags_and_native_build_gates_off": true,
+        "visual_window_all40_sampled_equipped_and_parent_matching": false,
+        "camera_stack_bypass_and_no_image_request": true
+      }
+    },
+    "94": {
+      "evidence": "NPC_NATIVE_BUILD_LEASE_94.json",
+      "sha256": "a1074fc96a629b72f8f70c3df460f6fc48e0ab9f95499c4d31a13cabdb209f45",
+      "visual_samples": 0,
+      "visual_equipped": 0,
+      "idle_samples": 40,
+      "idle_equipped": 40,
+      "restored": [
+        {
+          "items": "14",
+          "unchanged_identity_parent_equipped": "14",
+          "source_count": "4",
+          "cleanup_ok": "1",
+          "repeat_cleanup_ok": "1",
+          "guard_hotbars_after": "0"
+        }
+      ],
+      "checks": {
+        "temporary_hotbar_initially_empty": true,
+        "single_item_transfer_parent_and_counts": true,
+        "native_equip_succeeded": true,
+        "eight_equipped_parent_matching_samples": true,
+        "same_item_return_and_original_guard_equipment": true,
+        "all14_item_identity_parent_equipped_restored": true,
+        "cleanup_repeated_and_temporary_hotbar_absent": true,
+        "no_pending_cleanup": true,
+        "sequence_finished": true,
+        "test_flags_and_native_build_gates_off": true,
+        "menu_only_window_all40_sampled_equipped_and_parent_matching": true,
+        "same_menu_removed_and_restored": true
+      }
+    },
+    "95": {
+      "evidence": "NPC_NATIVE_BUILD_LEASE_95.json",
+      "sha256": "6c8811088d363c72bb18c00b006390c63647c2ac3658e790d706e8dfe8cc3f95",
+      "visual_samples": 40,
+      "visual_equipped": 40,
+      "idle_samples": 0,
+      "idle_equipped": 0,
+      "restored": [
+        {
+          "items": "14",
+          "unchanged_identity_parent_equipped": "14",
+          "source_count": "4",
+          "cleanup_ok": "1",
+          "repeat_cleanup_ok": "1",
+          "guard_hotbars_after": "0"
+        }
+      ],
+      "checks": {
+        "temporary_hotbar_initially_empty": true,
+        "single_item_transfer_parent_and_counts": true,
+        "native_equip_succeeded": true,
+        "eight_equipped_parent_matching_samples": true,
+        "same_item_return_and_original_guard_equipment": true,
+        "all14_item_identity_parent_equipped_restored": true,
+        "cleanup_repeated_and_temporary_hotbar_absent": true,
+        "no_pending_cleanup": true,
+        "sequence_finished": true,
+        "test_flags_and_native_build_gates_off": true,
+        "visual_window_all40_sampled_equipped_and_parent_matching": true,
+        "camera_stack_bypass_and_no_image_request": true
+      }
+    }
+  },
+  "finding": "93camera-stack bypass still lost equipment;94menu-only retained40/40;95moving StopNavigation/Tether+settle before native Tool.Equip retained40/40 with remaining93setup. Scoped ordering repair, not proof of sole engine cause.",
+  "observer95_post_sequence_error": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\cdtauman\\\\Documents\\\\הפרויקטים שלי\\\\fortnite\\\\.local\\\\native-client-capture95-view-schema.json'",
+  "observer95_error_scope": "Optional post-sequence camera-view inspection required an absent routing file even with camera stack bypassed. Sequence finished and cleanup are saved independently; parent observer exited1. Do not label entire observer successful. Future observer now skips this unused camera inspection in bypass mode.",
+  "native_build_item_discovery": ".local/native-build-item-discovery95.json",
+  "rendered_grip_verified": false,
+  "native_building_verified": false,
+  "full_goal_complete": false
+}

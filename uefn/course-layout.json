@@ -1,0 +1,283 @@
+{
+  "coordinate_space": "Unreal XYZ centimeters; native-style mesh pivots",
+  "scope": "Owned authored geometry, not yet verified native editing/reset",
+  "pieces": [
+    {
+      "label": "PCL_Edit_Grid_Wall_01",
+      "kind": "Wall",
+      "transform": {
+        "location": {
+          "x": -46080,
+          "y": -768,
+          "z": 0
+        },
+        "rotation": {
+          "yaw": 0,
+          "pitch": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Edit_Grid_Wall_02",
+      "kind": "Wall",
+      "transform": {
+        "location": {
+          "x": -46080,
+          "y": -256,
+          "z": 0
+        },
+        "rotation": {
+          "yaw": 0,
+          "pitch": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Edit_Grid_Wall_03",
+      "kind": "Wall",
+      "transform": {
+        "location": {
+          "x": -46080,
+          "y": 256,
+          "z": 0
+        },
+        "rotation": {
+          "yaw": 0,
+          "pitch": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Edit_Grid_Wall_04",
+      "kind": "Wall",
+      "transform": {
+        "location": {
+          "x": -46080,
+          "y": 768,
+          "z": 0
+        },
+        "rotation": {
+          "yaw": 0,
+          "pitch": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Edit_Grid_Wall_05",
+      "kind": "Wall",
+      "transform": {
+        "location": {
+          "x": -46080,
+          "y": 1280,
+          "z": 0
+        },
+        "rotation": {
+          "yaw": 0,
+          "pitch": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Triple_Ramp",
+      "kind": "Ramp",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": -1280,
+          "z": 0
+        },
+        "rotation": {
+          "yaw": 0,
+          "pitch": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Triple_Floor",
+      "kind": "Floor",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": -1280,
+          "z": 384
+        },
+        "rotation": {
+          "yaw": 0,
+          "pitch": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Triple_Cone",
+      "kind": "Cone",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": -1280,
+          "z": 384
+        },
+        "rotation": {
+          "yaw": 0,
+          "pitch": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Triple_Wall",
+      "kind": "Wall",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": -768,
+          "z": 384
+        },
+        "rotation": {
+          "yaw": 0,
+          "pitch": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "label": "PCL_Triple_Landing",
+      "kind": "Floor",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": -768,
+          "z": 384
+        },
+        "rotation": {
+          "yaw": 0,
+          "pitch": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    }
+  ],
+  "triple_corridor": [
+    {
+      "label": "PCL_Triple_Lane_Left",
+      "transform": {
+        "location": {
+          "x": -45360,
+          "y": -928,
+          "z": 400
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.24,
+          "y": 13.44,
+          "z": 8
+        }
+      }
+    },
+    {
+      "label": "PCL_Triple_Lane_Right",
+      "transform": {
+        "location": {
+          "x": -44752,
+          "y": -928,
+          "z": 400
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.24,
+          "y": 13.44,
+          "z": 8
+        }
+      }
+    },
+    {
+      "label": "PCL_Triple_Lane_Ceiling",
+      "transform": {
+        "location": {
+          "x": -45056,
+          "y": -928,
+          "z": 808
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 6.32,
+          "y": 13.44,
+          "z": 0.16
+        }
+      }
+    }
+  ],
+  "origin_center": [
+    -45056,
+    0,
+    0
+  ]
+}

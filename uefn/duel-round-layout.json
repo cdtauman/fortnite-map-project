@@ -1,0 +1,64 @@
+{
+  "scope": "Prepared editor wiring and round-flow policy. Multiplayer acceptance is deferred.",
+  "controller_source": "Verse/coach_duel_flow.verse",
+  "integration_recipe": "tools/author_duel_rounds.py",
+  "preparation_zone": {
+    "label": "PCL_Duel_Preparation_Zone",
+    "center_xyz_cm": [
+      0,
+      45056,
+      0
+    ],
+    "width_tiles": 22,
+    "depth_tiles": 22,
+    "height_tiles": 100,
+    "allow_building": false,
+    "allow_editing": false,
+    "allow_weapon_fire": false,
+    "enabled_during": [
+      "Waiting",
+      "Preparing",
+      "Countdown"
+    ]
+  },
+  "round": {
+    "capacity": 2,
+    "countdown_seconds": 3,
+    "respawn_wait_limit_seconds": 12,
+    "volume_readiness_limit_seconds": 2,
+    "restart_result_delay_seconds": 2,
+    "spawn_offsets_xyz_cm": [
+      [
+        -768,
+        0,
+        100
+      ],
+      [
+        768,
+        0,
+        100
+      ]
+    ],
+    "facing_yaw_degrees": [
+      0,
+      180
+    ],
+    "score": "Session wins; attributed opposing participant only."
+  },
+  "acceptance_pending": [
+    "Respawn and complete weapon restoration",
+    "Zone effects fully removed on fight admission and mode exit",
+    "No player action before the shared countdown ends",
+    "Leave, replacement player and interrupted countdown",
+    "Team assignment, teleport, reset boundaries and score attribution",
+    "Both starting ramps support ordinary player builds for either team, retain intended collision and remain intact through resets."
+  ],
+  "opening_vitals": {
+    "health": 100,
+    "shield": 100,
+    "shared_method": "coach_portal_device.RestoreRoundVitals",
+    "admission_readback": true,
+    "scope": "Prepared runtime policy, not observed gameplay balance or health evidence."
+  },
+  "start_geometry_manifest": "duel-start-layout.json"
+}

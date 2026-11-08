@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-06",
+  "build": "UEFN 43.00 CL-59596594",
+  "run": "06-start-failure-only",
+  "scope": "The corrected Reset sequence compiled, but no gameplay execution of it is established. Two native StartSession requests failed with HTTP 502 before the test. These are upload failures, not negative damage-capability results.",
+  "source_build_file": ".local/health-probe-reset-timing-build.json",
+  "preparation_file": ".local/final-run-06-preparation.json",
+  "source_archive": ".local/evidence/health-06/sources.zip",
+  "fixture_archive": ".local/evidence/health-06/health-probe-layout.json",
+  "compile_diagnostics": [],
+  "source_count_in_build_snapshot": 18,
+  "start_attempts": [
+    {
+      "attempt": 1,
+      "outcome": "terminal_failure",
+      "error": "Failed to sync ProCoachLab with the Epic content service: HTTP 502.",
+      "evidence": ".local/final-run-06-start-attempt-1-error.json",
+      "observed_exec_handle": 41996,
+      "exec_exit_code": 1
+    },
+    {
+      "attempt": 2,
+      "outcome": "terminal_failure",
+      "error": "Failed to sync ProCoachLab with the Epic content service: HTTP 502.",
+      "observed_exec_handle": 29891,
+      "exec_exit_code": 1
+    }
+  ],
+  "gameplay_result": null,
+  "cleanup_evidence": ".local/final-run-06-failed-start-cleanup.json",
+  "cleanup_readback": {
+    "session": "Disconnected",
+    "game": "Unconnected",
+    "health_probe_enabled": false,
+    "health_probe_auto_run": false,
+    "structure_probe_enabled": false,
+    "structure_probe_auto_run": false,
+    "candidate_combat_enabled": false,
+    "query_coverage_confirmed": false,
+    "health_continuity_confirmed": false,
+    "native_slot_interoperation_confirmed": false,
+    "map_dirty": false
+  },
+  "computer_use": "Only the observed Unable to Play dialogs and subsequent Changes While Offline advisory were acknowledged. Runtime bindings were reset immediately after each necessary UI operation. No game-client input was used.",
+  "offline_route_investigation": {
+    "checked_on": "2026-11-06",
+    "queries_executed": [
+      "site:dev.epicgames.com/documentation/fortnite UEFN test offline play in editor local session",
+      "site:dev.epicgames.com/documentation/fortnite UEFN MCP StartSession PlayInEditor",
+      "site:dev.epicgames.com/documentation/fortnite \"43.00\" \"offline\"",
+      "site:forums.unrealengine.com UEFN content service 502 test locally offline PIE"
+    ],
+    "primary_pages_opened": [
+      "https://dev.epicgames.com/documentation/fortnite/playtesting-your-island-in-unreal-editor-for-fortnite",
+      "https://dev.epicgames.com/documentation/fortnite/uefn-mcp",
+      "https://dev.epicgames.com/documentation/en-us/fortnite/user-interface-reference-for-unreal-editor-for-fortnite"
+    ],
+    "installed_schema_evidence": [
+      ".local/EditorAppToolset-offline-investigation.json",
+      ".local/SessionToolset-offline-investigation.json"
+    ],
+    "finding": "The documented UEFN play loop uploads to the content service and uses Fortnite Play-in-Client. PC/console are destinations for that flow. Installed EditorApp exposed no PIE-start tool; StartSession explicitly uploads, and its optional location selects Play From Here. No offline native-damage route has been verified. Two failed requests do not establish a global Epic outage or a universal platform impossibility."
+  },
+  "next_action": "Recheck the actual editor/service state, then prepare a fresh run 07 against health-probe-reset-timing-build.json using PCL_Health_Probe. Observe it and restore flags only after a successful session start. Preserve run 06 as a failed-start record.",
+  "goal_audit": "This is the first goal continuation affected by the content-service blocker. Two attempts within one continuation do not satisfy the three-consecutive-turn blocked threshold. The overall goal remains incomplete and active."
+}

@@ -1,0 +1,85 @@
+{
+  "scope": "Two authored teaching bays. NPC movement, firing, speed scaling and native edit correspondence await final gameplay verification.",
+  "stations": [
+    {
+      "slot": "One",
+      "origin": {
+        "x": 6000,
+        "y": 6500,
+        "z": 0
+      },
+      "station": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075561203_1832929114"
+      },
+      "spawner": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075561203_1833597115"
+      },
+      "camera": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928"
+      },
+      "parts": {
+        "Wall": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoWall_C_UAID_30E3A4101075561203_1834274116"
+        },
+        "FloorPart": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoFloor_C_UAID_30E3A4101075561203_1838683117"
+        },
+        "Cone": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoCone_C_UAID_30E3A4101075561203_1844714118"
+        },
+        "Ramp": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoRamp_C_UAID_30E3A4101075561203_1850074119"
+        },
+        "Landing": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoFloor_C_UAID_30E3A4101075561203_1855179120"
+        },
+        "TargetMarker": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoMarker_C_UAID_30E3A4101075561203_1860552121"
+        },
+        "CursorMarker": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoMarker_C_UAID_30E3A4101075561203_1865875122"
+        }
+      }
+    },
+    {
+      "slot": "Two",
+      "origin": {
+        "x": 9000,
+        "y": 6500,
+        "z": 0
+      },
+      "station": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075571203_1268369301"
+      },
+      "spawner": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075571203_1269772302"
+      },
+      "camera": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075561203_1232751105"
+      },
+      "parts": {
+        "Wall": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoWall_C_UAID_30E3A4101075571203_1270536303"
+        },
+        "FloorPart": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoFloor_C_UAID_30E3A4101075571203_1277870304"
+        },
+        "Cone": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoCone_C_UAID_30E3A4101075571203_1283557305"
+        },
+        "Ramp": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoRamp_C_UAID_30E3A4101075571203_1289169306"
+        },
+        "Landing": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoFloor_C_UAID_30E3A4101075571203_1294670307"
+        },
+        "TargetMarker": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoMarker_C_UAID_30E3A4101075571203_1300057308"
+        },
+        "CursorMarker": {
+          "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.PCL_BP_DemoMarker_C_UAID_30E3A4101075571203_1305449309"
+        }
+      }
+    }
+  ]
+}

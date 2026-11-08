@@ -1,0 +1,30 @@
+{
+  "run": "128",
+  "build": "43.00 CL59596594",
+  "scope": "Protocol and cleanup checks, not building success. Action guard failed before Attack; no placement attempt reached its measured action window.",
+  "checks": {
+    "one_exact_wood500_stack_observed": true,
+    "action_stopped_at_explicit_los_guard": true,
+    "no_attack_request_sent": true,
+    "no_action_window_claimed": true,
+    "equipment_teams_pose_resources_restored": true,
+    "owned_guard_despawn_observed": true,
+    "test_player_profile_restored": true,
+    "debug_restored_off": true,
+    "restored_flags_false": true,
+    "combat_gates_false": true,
+    "game_stopped_edit_connection_retained": true,
+    "archived_source_digest_matches": true
+  },
+  "action_result": "not_sent_missing_observed_hostile_los",
+  "native_placement_verified": false,
+  "native_edit_verified": false,
+  "publication_verified": false,
+  "action_records": [
+    "PCL|health_probe|participant_action_grant|resource_items=1|known_stacks=1|total=500|expected_wood500",
+    "PCL|health_probe|participant_action_abort|hostile_current_los_unconfirmed",
+    "PCL|health_probe|participant_action_cleanup|teams=2|original_equipped=1|equipped_restored=1|poses=2|removed_granted_resource_items=1|remaining_resources=0|no_human_state_mutated"
+  ],
+  "test_player_removal_scope": "Still registered before game stop. StopGame Completed is recorded separately, not an independent post-stop participant census.",
+  "next_route": "Documented Participant custom npc_behavior; compiled narrow idle behavior129. Native allowed Verse Behavior selection not persisted through computer UI; public abstract base construction rejected; no class/filter bypass. One manual native selection request pending."
+}

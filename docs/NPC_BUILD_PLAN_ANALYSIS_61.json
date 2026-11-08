@@ -1,0 +1,76 @@
+{
+  "run": "61",
+  "build": "UEFN 43.00 CL-59596594",
+  "scope": "Private native Idle control for first-created and reused build-plan stability. Production coach_equipment unchanged: one isolated equipped native rifle, exact perceived hostile stationary5000HP target,2s baseline,three cycles. Each plan equip/four0.25s plan-rifle-state samples runs concurrently with native Actions.Idle(Duration2s), followed by SelectWeapon and16rifle samples in shared hold/Focus/Attack. Hypothesis: native idle action suppresses the initial autonomous rifle re-equip observed59; no causal claim until actual samples. Explicit parent hold-release added after each rifle sampling race, matching main parent cleanup correction. Native rifle stats unchanged; remove managed tool/rifle, restore originals and repeat cleanup. No direct damage, explicit BeginFire, measured-phase teleports, player state changes or computer input. Native tool pose/build/edit fidelity remain unverified.",
+  "evidence_sha256": "2781636ba5d0b2c0952ca11ab6944b4f73766b80e3c0c5b09236e4d0730f976f",
+  "cycles": [
+    {
+      "cycle": 1,
+      "equip_request_success": true,
+      "existing_plan_reused": false,
+      "plan_samples": 4,
+      "plan_equipped_samples": 0,
+      "rifle_equipped_during_plan_samples": 4,
+      "rifle_firing_during_plan_samples": 0,
+      "damage_between_first_last_plan_samples": 0.0,
+      "rifle_select_request_success": true,
+      "plan_still_equipped_at_rifle_select": "0",
+      "rifle_samples": 16,
+      "rifle_equipped_samples": 16,
+      "rifle_holstered_samples": 0,
+      "rifle_firing_samples": 15,
+      "source_hits_after_last_plan_sample": 2,
+      "damage_after_last_plan_sample": 70.0
+    },
+    {
+      "cycle": 2,
+      "equip_request_success": true,
+      "existing_plan_reused": true,
+      "plan_samples": 4,
+      "plan_equipped_samples": 0,
+      "rifle_equipped_during_plan_samples": 4,
+      "rifle_firing_during_plan_samples": 0,
+      "damage_between_first_last_plan_samples": 0.0,
+      "rifle_select_request_success": true,
+      "plan_still_equipped_at_rifle_select": "0",
+      "rifle_samples": 16,
+      "rifle_equipped_samples": 16,
+      "rifle_holstered_samples": 0,
+      "rifle_firing_samples": 5,
+      "source_hits_after_last_plan_sample": 2,
+      "damage_after_last_plan_sample": 70.0
+    },
+    {
+      "cycle": 3,
+      "equip_request_success": true,
+      "existing_plan_reused": true,
+      "plan_samples": 4,
+      "plan_equipped_samples": 0,
+      "rifle_equipped_during_plan_samples": 4,
+      "rifle_firing_during_plan_samples": 0,
+      "damage_between_first_last_plan_samples": 0.0,
+      "rifle_select_request_success": true,
+      "plan_still_equipped_at_rifle_select": "0",
+      "rifle_samples": 16,
+      "rifle_equipped_samples": 16,
+      "rifle_holstered_samples": 0,
+      "rifle_firing_samples": 15,
+      "source_hits_after_last_plan_sample": 2,
+      "damage_after_last_plan_sample": 70.0
+    }
+  ],
+  "shared_hold_tether_begin_logs": 3,
+  "shared_hold_deferred_release_logs": 0,
+  "cleanup": [
+    "PCL|health_probe|npc_equipped_cleanup|parked=2|restored=2|original_ranged_items_returned_before_despawn|managed_rifle_removed=1|idempotent_cleanup=1"
+  ],
+  "finished": [
+    "PCL|health_probe|npc_equipped_finished|target_health=4755.000000|source_hits=7|no_direct_damage_or_legacy_attack_phase"
+  ],
+  "limits": [
+    "Native equip state is separate from rendered map pose, native building/editing, ownership and slot behavior.",
+    "Sampling may miss transition transients; source-attributed damage is distinct from firing samples.",
+    "Private stationary NPC target; short product windows, player combat and publication remain unverified."
+  ],
+  "native_build_gates_accepted": false
+}

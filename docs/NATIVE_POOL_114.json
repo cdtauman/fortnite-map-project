@@ -1,0 +1,87 @@
+{
+  "run": "114",
+  "checks": {
+    "two_private_walls_and_duplicate_configuration_rejection": true,
+    "same_lease_four_shapes_9_8_7_9": true,
+    "old_location_clear_during_shapes": true,
+    "wrong_encounter_does_not_retire_live_lease": true,
+    "retired_hidden_parked_spent_one_remaining": true,
+    "second_distinct_lease_geometry_and_exhaustion": true,
+    "spent_pool_not_reissued_after_retire_all": true,
+    "sequence_finished_without_abort": true,
+    "no_runtime_error_entries": true,
+    "flags_restored_and_game_stopped": true,
+    "no_output_entries_dropped": true,
+    "shared_health_fixture_initialization_observed_before_pool_registration": true
+  },
+  "protocol_complete": true,
+  "registration": [
+    {
+      "available": "2",
+      "duplicate_configuration_rejected": "1"
+    }
+  ],
+  "shapes": [
+    {
+      "stage": "0",
+      "old_cells": "0",
+      "new_cells": "9",
+      "same_lease": "1",
+      "query_yaw": "0.000000"
+    },
+    {
+      "stage": "1",
+      "old_cells": "0",
+      "new_cells": "8",
+      "same_lease": "1",
+      "query_yaw": "0.000000"
+    },
+    {
+      "stage": "2",
+      "old_cells": "0",
+      "new_cells": "7",
+      "same_lease": "1",
+      "query_yaw": "0.000000"
+    },
+    {
+      "stage": "3",
+      "old_cells": "0",
+      "new_cells": "9",
+      "same_lease": "1",
+      "query_yaw": "0.000000"
+    }
+  ],
+  "retired": [
+    {
+      "cells": "0",
+      "parking_error": "0.000000",
+      "state_spent": "1",
+      "available": "1",
+      "wrong_encounter_ignored": "1"
+    }
+  ],
+  "second": [
+    {
+      "cells": "9",
+      "distinct_lease": "1",
+      "third_rejected": "1",
+      "available": "0"
+    }
+  ],
+  "finished": [
+    {
+      "cells": "0",
+      "available": "0",
+      "spent_not_reissued": "1"
+    }
+  ],
+  "source_evidence_sha256": "1f9dd417e1c6028e407a9c185bf18019906646c766450c8b4f65e58b8fa2b4ec",
+  "limits": [
+    "Two preplaced native walls only; no floor/ramp/cone runtime acceptance.",
+    "Same-instance mesh commands, not native edit input or owner/slot/structural support proof.",
+    "No damage/healing/Dispose call in this diagnostic route; no partial-damage continuity measurement.",
+    "Pool capacity is finite per game; replenishment after destruction remains unresolved.",
+    "Main production backend remains disabled; NPC execution/quality and publication remain unverified."
+  ],
+  "full_goal_complete": false
+}

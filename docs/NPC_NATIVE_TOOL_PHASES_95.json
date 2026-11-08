@@ -1,0 +1,501 @@
+{
+  "run": "95",
+  "evidence_sha256": "197266b19eacc5f10dff85a066c9d2e063c187b5b4f44e4d4fc46de00e50bbc2",
+  "scope": "Read-only item state and native ChangeEquippedEvent observations on90noFocus camera path. No independent causal replacement control in this report.",
+  "states": [
+    {
+      "phase": "before_stop_navigation",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24389.321792",
+      "timestamp": "2026-11-07T10:24:03.087Z",
+      "sequence": 6429
+    },
+    {
+      "phase": "after_stop_navigation",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24389.321792",
+      "timestamp": "2026-11-07T10:24:03.087Z",
+      "sequence": 6430
+    },
+    {
+      "phase": "before_tether",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24389.321792",
+      "timestamp": "2026-11-07T10:24:03.087Z",
+      "sequence": 6431
+    },
+    {
+      "phase": "after_tether",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24389.321792",
+      "timestamp": "2026-11-07T10:24:03.087Z",
+      "sequence": 6432
+    },
+    {
+      "phase": "navigation_settle_before_tool_equip",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24389.321792",
+      "timestamp": "2026-11-07T10:24:03.087Z",
+      "sequence": 6433
+    },
+    {
+      "phase": "navigation_settled_before_tool_equip",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24390.590903",
+      "timestamp": "2026-11-07T10:24:04.355Z",
+      "sequence": 6434
+    },
+    {
+      "phase": "navigation_settled_before_tool_equip",
+      "reason": "equipment_event",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24390.590903",
+      "timestamp": "2026-11-07T10:24:04.355Z",
+      "sequence": 6436
+    },
+    {
+      "phase": "short_window_start",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24390.590903",
+      "timestamp": "2026-11-07T10:24:04.355Z",
+      "sequence": 6438
+    },
+    {
+      "phase": "short_window_end",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24392.728320",
+      "timestamp": "2026-11-07T10:24:06.490Z",
+      "sequence": 6447
+    },
+    {
+      "phase": "before_menu_remove",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24392.728320",
+      "timestamp": "2026-11-07T10:24:06.490Z",
+      "sequence": 6448
+    },
+    {
+      "phase": "after_menu_remove",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24392.728320",
+      "timestamp": "2026-11-07T10:24:06.490Z",
+      "sequence": 6449
+    },
+    {
+      "phase": "before_settle_wait",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24392.728320",
+      "timestamp": "2026-11-07T10:24:06.490Z",
+      "sequence": 6451
+    },
+    {
+      "phase": "after_settle_wait",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24392.995490",
+      "timestamp": "2026-11-07T10:24:06.758Z",
+      "sequence": 6452
+    },
+    {
+      "phase": "before_initial_camera_placement",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24392.995490",
+      "timestamp": "2026-11-07T10:24:06.758Z",
+      "sequence": 6453
+    },
+    {
+      "phase": "after_initial_camera_placement",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24392.995490",
+      "timestamp": "2026-11-07T10:24:06.758Z",
+      "sequence": 6455
+    },
+    {
+      "phase": "before_camera_add",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24392.995490",
+      "timestamp": "2026-11-07T10:24:06.758Z",
+      "sequence": 6456
+    },
+    {
+      "phase": "after_camera_add",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24392.995490",
+      "timestamp": "2026-11-07T10:24:06.758Z",
+      "sequence": 6458
+    },
+    {
+      "phase": "before_camera_blend_wait",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24392.995490",
+      "timestamp": "2026-11-07T10:24:06.758Z",
+      "sequence": 6459
+    },
+    {
+      "phase": "after_camera_blend_wait",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24393.997390",
+      "timestamp": "2026-11-07T10:24:07.757Z",
+      "sequence": 6460
+    },
+    {
+      "phase": "after_camera_reframe",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24393.997390",
+      "timestamp": "2026-11-07T10:24:07.758Z",
+      "sequence": 6462
+    },
+    {
+      "phase": "before_visual_ready",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24394.264573",
+      "timestamp": "2026-11-07T10:24:08.024Z",
+      "sequence": 6463
+    },
+    {
+      "phase": "before_menu_restore",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24434.340211",
+      "timestamp": "2026-11-07T10:24:48.100Z",
+      "sequence": 6507
+    },
+    {
+      "phase": "after_menu_restore",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24434.340211",
+      "timestamp": "2026-11-07T10:24:48.100Z",
+      "sequence": 6508
+    },
+    {
+      "phase": "cleanup_begin",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "24434.340211",
+      "timestamp": "2026-11-07T10:24:48.106Z",
+      "sequence": 6510
+    }
+  ],
+  "equipment_events": [
+    {
+      "phase": "navigation_settled_before_tool_equip",
+      "payload_equipped": "1",
+      "time": "24390.590903",
+      "timestamp": "2026-11-07T10:24:04.355Z",
+      "sequence": 6435
+    }
+  ],
+  "last_equipped_before_first_loss": null,
+  "first_observed_loss": null,
+  "subscription_canceled_before_restoration": true,
+  "first_loss_phase": null,
+  "phase_markers": [
+    {
+      "phase": "before_stop_navigation",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "time": "24389.321792",
+      "sequence": 6429
+    },
+    {
+      "phase": "after_stop_navigation",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "time": "24389.321792",
+      "sequence": 6430
+    },
+    {
+      "phase": "before_tether",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "time": "24389.321792",
+      "sequence": 6431
+    },
+    {
+      "phase": "after_tether",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "time": "24389.321792",
+      "sequence": 6432
+    },
+    {
+      "phase": "navigation_settle_before_tool_equip",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "time": "24389.321792",
+      "sequence": 6433
+    },
+    {
+      "phase": "navigation_settled_before_tool_equip",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "time": "24390.590903",
+      "sequence": 6434
+    },
+    {
+      "phase": "short_window_start",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "24390.590903",
+      "sequence": 6438
+    },
+    {
+      "phase": "short_window_end",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "24392.728320",
+      "sequence": 6447
+    },
+    {
+      "phase": "before_menu_remove",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "24392.728320",
+      "sequence": 6448
+    },
+    {
+      "phase": "after_menu_remove",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "24392.728320",
+      "sequence": 6449
+    },
+    {
+      "phase": "before_settle_wait",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "24392.728320",
+      "sequence": 6451
+    },
+    {
+      "phase": "after_settle_wait",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "24392.995490",
+      "sequence": 6452
+    },
+    {
+      "phase": "before_initial_camera_placement",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "24392.995490",
+      "sequence": 6453
+    },
+    {
+      "phase": "after_initial_camera_placement",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "24392.995490",
+      "sequence": 6455
+    },
+    {
+      "phase": "before_camera_add",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "24392.995490",
+      "sequence": 6456
+    },
+    {
+      "phase": "after_camera_add",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "24392.995490",
+      "sequence": 6458
+    },
+    {
+      "phase": "before_camera_blend_wait",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "24392.995490",
+      "sequence": 6459
+    },
+    {
+      "phase": "after_camera_blend_wait",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "24393.997390",
+      "sequence": 6460
+    },
+    {
+      "phase": "after_camera_reframe",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "24393.997390",
+      "sequence": 6462
+    },
+    {
+      "phase": "before_visual_ready",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "24394.264573",
+      "sequence": 6463
+    },
+    {
+      "phase": "before_menu_restore",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "24434.340211",
+      "sequence": 6507
+    },
+    {
+      "phase": "after_menu_restore",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "24434.340211",
+      "sequence": 6508
+    },
+    {
+      "phase": "cleanup_begin",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "24434.340211",
+      "sequence": 6510
+    }
+  ],
+  "limits": [
+    "First observed transition narrows the boundary; asynchronous native processing or elapsed time still require a discriminating follow-up.",
+    "Inventory flags/event payloads do not prove render, native placement/edit/reset or production allocation.",
+    "Normal subscription cancellation observed here; interruption/death/disconnect case remains separate."
+  ],
+  "native_build_gates_accepted": false,
+  "project_complete": false
+}

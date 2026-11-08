@@ -1,0 +1,36 @@
+{
+  "at_utc": "2026-11-07T16:12:27.470740+00:00",
+  "scope": "Same actual Verse test harness in two cooked runs; original119 learning model reproduced8 failures in121, corrected model122 passes11 cases. Only telemetry and portal caller differ between runs. This does not prove full combat quality or native construction.",
+  "original119_model_used_in121": true,
+  "same_harness": true,
+  "changed_sources": [
+    "coach_portal_device.verse",
+    "coach_telemetry.verse"
+  ],
+  "before_failed": [
+    "short_hidden_gap_not_bridged",
+    "visible_learning_recovers",
+    "short_unknown_gap_not_bridged",
+    "hidden_cancels_pending_reward",
+    "unknown_cancels_pending_reward",
+    "long_gap_cancels_pending_reward",
+    "teleport_cancels_pending_reward",
+    "reordered_frame_cancels_pending_reward"
+  ],
+  "after_passed": [
+    "visible_pair_learns",
+    "reward_is_time_separated",
+    "short_hidden_gap_not_bridged",
+    "visible_learning_recovers",
+    "short_unknown_gap_not_bridged",
+    "hidden_cancels_pending_reward",
+    "unknown_cancels_pending_reward",
+    "long_gap_cancels_pending_reward",
+    "teleport_cancels_pending_reward",
+    "reordered_frame_cancels_pending_reward",
+    "reset_cancels_pending_reward"
+  ],
+  "diff": "--- 121/coach_portal_device.verse\n+++ 122/coach_portal_device.verse\n@@ -154,7 +154,7 @@\n                         Training.ObserveExposure(Seen, Clamp(Now - LastAt, 0.0, 0.25))\n                 else:\n                     set Training.ExposureRun = 0.0\n-                    set Training.HumanPatterns.StudyFrame = false\n+                    Training.HumanPatterns.ResetObservation()\n                 Training.History.Add(Frame)\n                 Training.HumanPatterns.ObserveVisibleFrame(Frame)\n                 Training.Practice.Observe(Frame)\n--- 121/coach_telemetry.verse\n+++ 122/coach_telemetry.verse\n@@ -98,13 +98,28 @@\n         set LastRewardAt = -100.0\n \n     ObserveVisibleFrame(Current : coach_combat_frame):void =\n+        # Visibility discontinuities must be handled before the movement sampling interval.\n+        # Otherwise a brief hidden/unknown frame can be skipped and bridged by visible endpoints.\n+        var VisibleNow : logic = false\n+        if (Visible := Current.VisibleToOpponent?, Visible?):\n+            set VisibleNow = true\n+        if (not VisibleNow?):\n+            set StudyFrame = false\n+            set RecentAt = -100.0\n+            return\n         if (Previous := StudyFrame?):\n+            if (Current.At <= Previous.At):\n+                set StudyFrame = false\n+                set RecentAt = -100.0\n+                return\n             if (Current.At - Previous.At < 0.15):\n                 return\n             Observe(Previous, Current)\n         set StudyFrame = option{Current}\n \n     Observe(Previous : coach_combat_frame, Current : coach_combat_frame):void =\n+        # An invalid candidate interval cannot leave an older movement eligible for a new hit.\n+        set RecentAt = -100.0\n         if (Visible := Current.VisibleToOpponent?, Visible?, BeforeVisible := Previous.VisibleToOpponent?, BeforeVisible?):\n             DeltaTime := Current.At - Previous.At\n             Delta := Current.PlayerPosition - Previous.PlayerPosition\n",
+  "publication_verified": false,
+  "full_goal_complete": false
+}

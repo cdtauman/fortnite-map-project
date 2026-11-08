@@ -1,0 +1,49 @@
+{
+  "checkpoint": "86",
+  "latest_runtime": "85",
+  "at_utc": "2026-11-07T08:48:21.124263+00:00",
+  "editor_evidence_sha256": "8cef789c9cef41b31aea0de3ee57d1dd5bd1db31fca85c249915bdc04e04eb04",
+  "editor_build": "npc-authored-pose86-rollback-build.json",
+  "scope": "Compiled rollback/editor verification, no new runtime from this checkpoint.",
+  "flags": {
+    "enabled": false,
+    "autoRun": false,
+    "calibrationNativeTimer": false,
+    "useWeaponCalibration": false,
+    "useCharacterTargetControl": false,
+    "isolatedWallControl": false,
+    "spawnedWallControl": false,
+    "nPCEquippedAttackControl": false,
+    "visualUseViewportCamera": false
+  },
+  "scalars": {
+    "visualToolCaptureSeconds": 0,
+    "visualRifleCaptureSeconds": 0,
+    "visualNativeCaptureSeconds": 0,
+    "meshChangeAfterPlayerHits": 0
+  },
+  "gates": {
+    "candidateCombatEnabled": false,
+    "queryCoverageConfirmed": false,
+    "healthContinuityConfirmed": false,
+    "nativeSlotInteroperationConfirmed": false
+  },
+  "session": "Connected",
+  "game": "CanStart",
+  "level_dirty": false,
+  "assets": {
+    "numChecked": 54,
+    "numValid": 54,
+    "numInvalid": 0,
+    "numWarnings": 0,
+    "numSkipped": 0,
+    "bAssetLimitReached": false,
+    "errors": [],
+    "warnings": []
+  },
+  "owned_root_visible_restored_value": false,
+  "source_or_owned_asset_differs_from_cooked_runtime": true,
+  "full_content_push_required": true,
+  "computer_control_used": false,
+  "full_goal_complete": false
+}

@@ -1,0 +1,70 @@
+{
+  "run": "79",
+  "image": "docs\\images\\npc-native-game-viewport-79.png",
+  "sha256": "773b281429058a80ce7ab06f26f323ce31674ff238c7af55af209eb49ca79b05",
+  "capture_metadata": {
+    "path": "GameViewport",
+    "world": {
+      "world": {
+        "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+      },
+      "worldType": "Game",
+      "mapPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport",
+      "pIEInstance": -1,
+      "bCanCapture": true
+    },
+    "viewSource": "",
+    "mode": "",
+    "visualizationSubMode": "",
+    "requestFrameNumber": 247816,
+    "worldTimeSeconds": 13026.167752172798
+  },
+  "visual_observation": "Actual Game viewport shows the friendly Shadow Guard centered, with a clearly visible native original rifle, both arms in an aiming/holding pose and both hands on the weapon. No hub menu obscures the subject. This is one native-original-loadout still, not a temporal/transition or managed-tool acceptance.",
+  "placements": [
+    {
+      "phase": "initial_after_hold",
+      "npc_x": "-2848.000000",
+      "npc_y": "-2999.202449",
+      "npc_z": "77.149998",
+      "x": "-2960.000000",
+      "y": "-2775.202449",
+      "z": "147.149998",
+      "yaw": "-63.434949",
+      "pitch": "-11.290590"
+    },
+    {
+      "phase": "reframed_after_blend",
+      "npc_x": "-2848.000000",
+      "npc_y": "-2999.202449",
+      "npc_z": "77.149998",
+      "x": "-2960.000000",
+      "y": "-2775.202449",
+      "z": "147.149998",
+      "yaw": "-63.434949",
+      "pitch": "-11.290590"
+    }
+  ],
+  "ready_log": {
+    "phase": "native_original",
+    "x": "-2848.000000",
+    "y": "-2999.202449",
+    "z": "77.149998",
+    "target_x": "-2848.000000",
+    "target_y": "-2400.000000",
+    "target_z": "96.000000",
+    "duration": "40.000000",
+    "time": "14245.095928",
+    "capture_route": "game_viewport"
+  },
+  "reframe_to_ready_npc_xy_drift_cm": 0.0,
+  "native_original_static_weapon_pose_observed": true,
+  "managed_rifle_pose_accepted": false,
+  "managed_build_tool_pose_accepted": false,
+  "native_build_gates_accepted": false,
+  "pro_quality_accepted": false,
+  "computer_input_used": false,
+  "limits": [
+    "The viewport tool does not identify originating GPU frame/camera; subject/framing and weapon pose were visually inspected.",
+    "No pro animation continuity, short-window action cancellation, native building/editing or ownership acceptance."
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "run": "66",
+  "build": "UEFN 43.00 CL-59596594",
+  "scope": "Private build-plan precreation timing control. Shared PrepareBuildPlan creates/poses/adds the owned held-item template without an Equip call, before hostile target spawn and existing2s detection baseline; main opponent invokes same method after rifle initialization. EquipBuildPlan later equips the existing item. Query-veto component/unlock behavior from65unchanged. Measure preparation success/tool equip flag, age since creation attempt at each of3equip cycles, four0.25s tool/rifle/lock/veto samples, explicit first-cycle Unequip positive control, then SelectWeapon unlock and16native held-attack rifle samples per cycle. Final equip0.5s actual held/locked-state cleanup check and restoration of original2items/repeated cleanup. No added waiting timer for preparation, Idle, Focus or rifle parking during tool hold. Native rifle stats unchanged; no direct damage/explicit BeginFire/measurement teleports/player state changes/computer input. This tests initialization timing, not an asserted root cause or rendered pose/native build-edit/pro/publication acceptance.",
+  "evidence_sha256": "d73a0278e98b6fe34e79ab98dd3e6796f44a188e34a0ffb84eb5ba0b784c2ac0",
+  "cycles": [
+    {
+      "cycle": 1,
+      "equip_request_success": true,
+      "existing_plan_reused": true,
+      "plan_samples": 4,
+      "age_since_create_attempt_seconds": 3.580177,
+      "parked_for_tool_at_request": null,
+      "repeat_initialize_while_tool_held_success": null,
+      "plan_available_ranged_item_counts": [
+        1
+      ],
+      "plan_equipped_samples": 1,
+      "lock_active_samples": 4,
+      "veto_counts": [
+        1
+      ],
+      "rifle_equipped_during_plan_samples": 3,
+      "rifle_firing_during_plan_samples": 0,
+      "damage_between_first_last_plan_samples": 0.0,
+      "rifle_select_request_success": true,
+      "plan_still_equipped_at_rifle_select": "0",
+      "lock_after_rifle_select": "0",
+      "rifle_samples": 16,
+      "rifle_equipped_samples": 16,
+      "rifle_holstered_samples": 0,
+      "rifle_firing_samples": 16,
+      "source_hits_after_last_plan_sample": 2,
+      "damage_after_last_plan_sample": 70.0
+    },
+    {
+      "cycle": 2,
+      "equip_request_success": true,
+      "existing_plan_reused": true,
+      "plan_samples": 4,
+      "age_since_create_attempt_seconds": 8.923624,
+      "parked_for_tool_at_request": null,
+      "repeat_initialize_while_tool_held_success": null,
+      "plan_available_ranged_item_counts": [
+        1
+      ],
+      "plan_equipped_samples": 4,
+      "lock_active_samples": 4,
+      "veto_counts": [
+        1
+      ],
+      "rifle_equipped_during_plan_samples": 0,
+      "rifle_firing_during_plan_samples": 0,
+      "damage_between_first_last_plan_samples": 0.0,
+      "rifle_select_request_success": true,
+      "plan_still_equipped_at_rifle_select": "0",
+      "lock_after_rifle_select": "0",
+      "rifle_samples": 16,
+      "rifle_equipped_samples": 16,
+      "rifle_holstered_samples": 0,
+      "rifle_firing_samples": 5,
+      "source_hits_after_last_plan_sample": 1,
+      "damage_after_last_plan_sample": 35.0
+    },
+    {
+      "cycle": 3,
+      "equip_request_success": true,
+      "existing_plan_reused": true,
+      "plan_samples": 4,
+      "age_since_create_attempt_seconds": 14.267061,
+      "parked_for_tool_at_request": null,
+      "repeat_initialize_while_tool_held_success": null,
+      "plan_available_ranged_item_counts": [
+        1
+      ],
+      "plan_equipped_samples": 4,
+      "lock_active_samples": 4,
+      "veto_counts": [
+        1
+      ],
+      "rifle_equipped_during_plan_samples": 0,
+      "rifle_firing_during_plan_samples": 0,
+      "damage_between_first_last_plan_samples": 0.0,
+      "rifle_select_request_success": true,
+      "plan_still_equipped_at_rifle_select": "0",
+      "lock_after_rifle_select": "0",
+      "rifle_samples": 16,
+      "rifle_equipped_samples": 16,
+      "rifle_holstered_samples": 0,
+      "rifle_firing_samples": 15,
+      "source_hits_after_last_plan_sample": 1,
+      "damage_after_last_plan_sample": 35.0
+    }
+  ],
+  "shared_hold_tether_begin_logs": 3,
+  "shared_hold_deferred_release_logs": 0,
+  "cleanup": [
+    "PCL|health_probe|npc_equipped_cleanup|parked=2|restored=2|original_ranged_items_returned_before_despawn|managed_rifle_removed=1|idempotent_cleanup=1|tool_lock_removed=1"
+  ],
+  "finished": [
+    "PCL|health_probe|npc_equipped_finished|target_health=4825.000000|source_hits=5|no_direct_damage_or_legacy_attack_phase"
+  ],
+  "cleanup_from_tool_state": [
+    "PCL|health_probe|npc_build_plan_cleanup_ready|plan_equipped=1|lock_active=1|cleanup_from_tool_intended"
+  ],
+  "parent_release_logs": [
+    "PCL|combat_action|owner_release|scope=build_cycle_parent",
+    "PCL|combat_action|owner_release|scope=build_cycle_parent",
+    "PCL|combat_action|owner_release|scope=build_cycle_parent"
+  ],
+  "explicit_lock_controls": [
+    {
+      "was_equipped": "1",
+      "explicit_unequip_rejected": "1",
+      "veto_count": "1"
+    }
+  ],
+  "preparation_before_target": [
+    {
+      "prepare_ok": "1",
+      "plan_equipped": "0",
+      "ranged_items": "1"
+    }
+  ],
+  "limits": [
+    "Native equip state is separate from rendered map pose, native building/editing, ownership and slot behavior.",
+    "Sampling may miss transition transients; source-attributed damage is distinct from firing samples.",
+    "Private stationary NPC target; short product windows, player combat and publication remain unverified."
+  ],
+  "native_build_gates_accepted": false
+}

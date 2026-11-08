@@ -1,0 +1,13 @@
+{
+  "run": "69",
+  "analysis_sha256": "b35d98ce33e68f584e4e2d92fd779bedc1d4215163d21cebdd31fedd4274fedb",
+  "explicit_public_query_rejection_unlock_and_cleanup_verified": true,
+  "stable_first_tool_retention_verified": false,
+  "observed_first_cycle_tool_equipped_samples": 1,
+  "intended_first_cycle_samples": 4,
+  "scope": "Only explicit public item query rejections, own-NPC command acknowledgments, dual unlock and held-tool cleanup. First autonomous tool override remains reproduced.",
+  "native_guard_override_root_cause_verified": false,
+  "rendered_pose_verified": false,
+  "native_build_gates_accepted": false,
+  "publication_verified": false
+}

@@ -1,0 +1,198 @@
+{
+  "run": "119",
+  "scope": "Paired native200HP-configured walls: pause-only control versus native-pool lease with move/return/window/solid after exactly3 player callbacks, fire stopped during both transitions. Same native class/team/instance flags/solid mesh/monitor health settings/rifle stats. No health write during phases, no direct Damage/Explode/Dispose or native owner/edit/slot acceptance. Callbacks are not numeric wall HP. Editor-only matched profile must be restored after the trial.",
+  "checks": {
+    "same_native_wall_instance_flags_and_monitor_options": true,
+    "two_phases_started_ended": true,
+    "same_rifle_stats": true,
+    "both_player_controls_ready_without_pose_failures": true,
+    "both_paused_at_exactly_three_attributed_callbacks": true,
+    "no_wall_or_objective_damage_during_pause": true,
+    "exact_pause_move_return_window_reset_geometry": true,
+    "native_pool_lease_used_for_changed_wall": true,
+    "both_transitions_completed_and_walls_destroyed": true,
+    "same_six_callbacks_until_destruction": true,
+    "wall_geometry_9_to_0_each_phase": true,
+    "independent_objective_damage_after_each_wall": true,
+    "all_eighty_samples_nonholstered_simulating_outside_no_fire": true,
+    "stable_pose_observed_before_placement_and_aim": true,
+    "original_items_identity_parent_equipped_restored": true,
+    "no_abort_foreign_callback_or_runtime_error": true,
+    "probe_cleanup_game_stopped_gates_false": true,
+    "firing_start_stop_resume_observed_twice_consecutively": true
+  },
+  "protocol_complete": true,
+  "begins": {
+    "1": {
+      "phase": "1",
+      "case": "3",
+      "damage": "35.000000",
+      "fire_rate": "3.900000",
+      "environment_multiplier": "1.000000",
+      "objective_health": "5000.000000"
+    },
+    "2": {
+      "phase": "2",
+      "case": "3",
+      "damage": "35.000000",
+      "fire_rate": "3.900000",
+      "environment_multiplier": "1.000000",
+      "objective_health": "4370.000000"
+    }
+  },
+  "ends": {
+    "1": {
+      "phase": "1",
+      "ready_delta": "1",
+      "pose_failures_delta": "0",
+      "transition_completed": "1",
+      "wall_invalid": "1",
+      "wall_damage_events": "6",
+      "wall_player_hits": "6",
+      "wall_destroyed_events": "1",
+      "objective_player_hits": "18",
+      "objective_health": "4370.000000"
+    },
+    "2": {
+      "phase": "2",
+      "ready_delta": "1",
+      "pose_failures_delta": "0",
+      "transition_completed": "1",
+      "wall_invalid": "1",
+      "wall_damage_events": "6",
+      "wall_player_hits": "6",
+      "wall_destroyed_events": "1",
+      "objective_player_hits": "18",
+      "objective_health": "3740.000000"
+    }
+  },
+  "pauses": {
+    "1": {
+      "phase": "1",
+      "case": "3",
+      "player_hits": "3",
+      "wall_events": "3",
+      "objective_health": "5000.000000",
+      "is_firing": "0"
+    },
+    "2": {
+      "phase": "2",
+      "case": "3",
+      "player_hits": "3",
+      "wall_events": "3",
+      "objective_health": "4370.000000",
+      "is_firing": "0"
+    }
+  },
+  "resumes": {
+    "1": {
+      "phase": "1",
+      "case": "3",
+      "player_hits": "3",
+      "wall_events": "3",
+      "objective_health": "5000.000000"
+    },
+    "2": {
+      "phase": "2",
+      "case": "3",
+      "player_hits": "3",
+      "wall_events": "3",
+      "objective_health": "4370.000000"
+    }
+  },
+  "geometry": {
+    "1": [
+      {
+        "phase": "1",
+        "stage": "pause_before",
+        "here": "9",
+        "moved": "0",
+        "expected_here": "9",
+        "expected_moved": "0",
+        "query_yaw": "90"
+      },
+      {
+        "phase": "1",
+        "stage": "pause_after",
+        "here": "9",
+        "moved": "0",
+        "expected_here": "9",
+        "expected_moved": "0",
+        "query_yaw": "90"
+      }
+    ],
+    "2": [
+      {
+        "phase": "2",
+        "stage": "pause_before",
+        "here": "9",
+        "moved": "0",
+        "expected_here": "9",
+        "expected_moved": "0",
+        "query_yaw": "90"
+      },
+      {
+        "phase": "2",
+        "stage": "moved",
+        "here": "0",
+        "moved": "9",
+        "expected_here": "0",
+        "expected_moved": "9",
+        "query_yaw": "90"
+      },
+      {
+        "phase": "2",
+        "stage": "returned",
+        "here": "9",
+        "moved": "0",
+        "expected_here": "9",
+        "expected_moved": "0",
+        "query_yaw": "90"
+      },
+      {
+        "phase": "2",
+        "stage": "window",
+        "here": "8",
+        "moved": "0",
+        "expected_here": "8",
+        "expected_moved": "0",
+        "query_yaw": "90"
+      },
+      {
+        "phase": "2",
+        "stage": "solid_reset",
+        "here": "9",
+        "moved": "0",
+        "expected_here": "9",
+        "expected_moved": "0",
+        "query_yaw": "90"
+      },
+      {
+        "phase": "2",
+        "stage": "pause_after",
+        "here": "9",
+        "moved": "0",
+        "expected_here": "9",
+        "expected_moved": "0",
+        "query_yaw": "90"
+      }
+    ]
+  },
+  "cleanup": [
+    {
+      "player_snapshot_items": "10",
+      "unchanged_identity_parent_equipped": "10"
+    }
+  ],
+  "failure_messages": [],
+  "source_evidence_sha256": "1d1fe15e4c312b35dcc6412947d7d896e9301df2edf7a0afb49272bfa0fd3b16",
+  "limits": [
+    "Configured200HP and equal damage/destruction callbacks, not direct numeric wall HP or per-hit wall amounts.",
+    "One pause-only wall versus one native-pool wall with combined movement/mesh round trip.",
+    "Same-reference mesh changes, not native edit input or ownership/slot/support acceptance.",
+    "Finite native pool, no destroyed-piece replenishment acceptance.",
+    "No actual NPC combat execution, forced interruptions, final player experience or publication acceptance."
+  ],
+  "building_gates_accepted": false,
+  "full_goal_complete": false
+}

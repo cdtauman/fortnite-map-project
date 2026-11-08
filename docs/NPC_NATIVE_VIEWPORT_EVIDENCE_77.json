@@ -1,0 +1,104 @@
+{
+  "run": "77",
+  "image": "docs\\images\\npc-native-game-viewport-77.png",
+  "sha256": "80932124821c57cecd4648fb421c861019f0c28e20519bc50ffddba8170274a1",
+  "capture_metadata": {
+    "path": "GameViewport",
+    "world": {
+      "world": {
+        "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+      },
+      "worldType": "Game",
+      "mapPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport",
+      "pIEInstance": -1,
+      "bCanCapture": true
+    },
+    "viewSource": "",
+    "mode": "",
+    "visualizationSubMode": "",
+    "requestFrameNumber": 227268,
+    "worldTimeSeconds": 11907.654873169959
+  },
+  "visual_observation": "Actual game framebuffer contains the hub mode menu and a player-facing third-person view; diagnostic NPC framing/held-native-weapon pose is not established. Do not use the foreground player avatar as NPC visual acceptance.",
+  "camera_during": {
+    "world": {
+      "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+    },
+    "name": "Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928",
+    "camera": {
+      "location": {
+        "x": -2959.9999999093725,
+        "y": -2775.328533185906,
+        "z": 147.14999884183612
+      },
+      "rotation": {
+        "pitch": -11.290589797438658,
+        "yaw": -63.43494880908731,
+        "roll": 5.675815734554817e-15
+      },
+      "projectionMode": "Perspective",
+      "fOV": 70,
+      "orthoWidth": 1024
+    },
+    "source": "ActorCamera",
+    "sourceActor": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab_LevelInstance_47.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928"
+    },
+    "sourceDimensions": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  "camera_after_sequence": {
+    "world": {
+      "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+    },
+    "name": "Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928",
+    "camera": {
+      "location": {
+        "x": 4700,
+        "y": 5900,
+        "z": 900
+      },
+      "rotation": {
+        "pitch": -19.999999999999996,
+        "yaw": 35,
+        "roll": 1.1846364586551879e-14
+      },
+      "projectionMode": "Perspective",
+      "fOV": 70,
+      "orthoWidth": 1024
+    },
+    "source": "ActorCamera",
+    "sourceActor": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab_LevelInstance_47.ProCoachLab:PersistentLevel.Device_CameraModes_FixedPoint_C_UAID_30E3A4101075551203_1703317928"
+    },
+    "sourceDimensions": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  "camera_actor_restored_position_max_error_cm": 0,
+  "camera_stack_remove_and_transform_restore_log": [
+    "PCL|health_probe|native_visual_camera_restored|removed_from_viewer=1|transform_restored=1"
+  ],
+  "local_player_pawn_position_unchanged_during_capture": true,
+  "local_control_rotation_before": {
+    "pitch": 0,
+    "yaw": 296.5650525238611,
+    "roll": 0
+  },
+  "local_control_rotation_after": {
+    "pitch": 0,
+    "yaw": 296.5650525238611,
+    "roll": 0
+  },
+  "scope_limits": [
+    "Framebuffer metadata does not identify the originating GPU frame/camera.",
+    "Camera actor transform and stack API call evidence are separate from visible framing.",
+    "Native original-loadout gameplay checks passed; held-NPC pose and root cause remain unverified."
+  ],
+  "held_npc_weapon_accepted": false,
+  "computer_input_used": false,
+  "next": "Temporarily remove the existing hub menu widget through its player UI while preserving its object/subscriptions; restore only if still current, then compare the actual game viewport."
+}

@@ -1,0 +1,1206 @@
+{
+  "reference_size": 64,
+  "line_height": 84,
+  "font_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/heebo/Heebo%5Bwght%5D.ttf",
+  "font_sha256": "18f930b583fa8fe6b40b2f8263b7ac6afbac07adc91a12467874e7467d3ace30",
+  "license": "../Fonts/Heebo/OFL.txt",
+  "glyphs": [
+    {
+      "char": "a",
+      "name": "PCL_Glyph_0061",
+      "advance": 34.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "b",
+      "name": "PCL_Glyph_0062",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "c",
+      "name": "PCL_Glyph_0063",
+      "advance": 34.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "d",
+      "name": "PCL_Glyph_0064",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "e",
+      "name": "PCL_Glyph_0065",
+      "advance": 34.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "f",
+      "name": "PCL_Glyph_0066",
+      "advance": 23.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "g",
+      "name": "PCL_Glyph_0067",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "h",
+      "name": "PCL_Glyph_0068",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "i",
+      "name": "PCL_Glyph_0069",
+      "advance": 16.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "j",
+      "name": "PCL_Glyph_006A",
+      "advance": 17.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "k",
+      "name": "PCL_Glyph_006B",
+      "advance": 33.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "l",
+      "name": "PCL_Glyph_006C",
+      "advance": 16.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "m",
+      "name": "PCL_Glyph_006D",
+      "advance": 56.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "n",
+      "name": "PCL_Glyph_006E",
+      "advance": 35.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "o",
+      "name": "PCL_Glyph_006F",
+      "advance": 37.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "p",
+      "name": "PCL_Glyph_0070",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "q",
+      "name": "PCL_Glyph_0071",
+      "advance": 37.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "r",
+      "name": "PCL_Glyph_0072",
+      "advance": 22.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "s",
+      "name": "PCL_Glyph_0073",
+      "advance": 34.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "t",
+      "name": "PCL_Glyph_0074",
+      "advance": 22.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "u",
+      "name": "PCL_Glyph_0075",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "v",
+      "name": "PCL_Glyph_0076",
+      "advance": 31.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "w",
+      "name": "PCL_Glyph_0077",
+      "advance": 48.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "x",
+      "name": "PCL_Glyph_0078",
+      "advance": 32.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "y",
+      "name": "PCL_Glyph_0079",
+      "advance": 31.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "z",
+      "name": "PCL_Glyph_007A",
+      "advance": 32.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "A",
+      "name": "PCL_Glyph_0041",
+      "advance": 42.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "B",
+      "name": "PCL_Glyph_0042",
+      "advance": 40.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "C",
+      "name": "PCL_Glyph_0043",
+      "advance": 41.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "D",
+      "name": "PCL_Glyph_0044",
+      "advance": 41.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "E",
+      "name": "PCL_Glyph_0045",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "F",
+      "name": "PCL_Glyph_0046",
+      "advance": 35.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "G",
+      "name": "PCL_Glyph_0047",
+      "advance": 44.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "H",
+      "name": "PCL_Glyph_0048",
+      "advance": 46.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "I",
+      "name": "PCL_Glyph_0049",
+      "advance": 17.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "J",
+      "name": "PCL_Glyph_004A",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "K",
+      "name": "PCL_Glyph_004B",
+      "advance": 40.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "L",
+      "name": "PCL_Glyph_004C",
+      "advance": 35.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "M",
+      "name": "PCL_Glyph_004D",
+      "advance": 56.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "N",
+      "name": "PCL_Glyph_004E",
+      "advance": 46.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "O",
+      "name": "PCL_Glyph_004F",
+      "advance": 43.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "P",
+      "name": "PCL_Glyph_0050",
+      "advance": 40.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "Q",
+      "name": "PCL_Glyph_0051",
+      "advance": 44.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "R",
+      "name": "PCL_Glyph_0052",
+      "advance": 40.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "S",
+      "name": "PCL_Glyph_0053",
+      "advance": 38.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "T",
+      "name": "PCL_Glyph_0054",
+      "advance": 39.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "U",
+      "name": "PCL_Glyph_0055",
+      "advance": 41.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "V",
+      "name": "PCL_Glyph_0056",
+      "advance": 41.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "W",
+      "name": "PCL_Glyph_0057",
+      "advance": 57.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "X",
+      "name": "PCL_Glyph_0058",
+      "advance": 40.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "Y",
+      "name": "PCL_Glyph_0059",
+      "advance": 39.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "Z",
+      "name": "PCL_Glyph_005A",
+      "advance": 38.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "0",
+      "name": "PCL_Glyph_0030",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "1",
+      "name": "PCL_Glyph_0031",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "2",
+      "name": "PCL_Glyph_0032",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "3",
+      "name": "PCL_Glyph_0033",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "4",
+      "name": "PCL_Glyph_0034",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "5",
+      "name": "PCL_Glyph_0035",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "6",
+      "name": "PCL_Glyph_0036",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "7",
+      "name": "PCL_Glyph_0037",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "8",
+      "name": "PCL_Glyph_0038",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "9",
+      "name": "PCL_Glyph_0039",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": true
+    },
+    {
+      "char": "!",
+      "name": "PCL_Glyph_0021",
+      "advance": 17.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "\"",
+      "name": "PCL_Glyph_0022",
+      "advance": 21.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "#",
+      "name": "PCL_Glyph_0023",
+      "advance": 39.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "$",
+      "name": "PCL_Glyph_0024",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "%",
+      "name": "PCL_Glyph_0025",
+      "advance": 47.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "&",
+      "name": "PCL_Glyph_0026",
+      "advance": 41.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "'",
+      "name": "PCL_Glyph_0027",
+      "advance": 11.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "(",
+      "name": "PCL_Glyph_0028",
+      "advance": 22.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": ")",
+      "name": "PCL_Glyph_0029",
+      "advance": 23.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "*",
+      "name": "PCL_Glyph_002A",
+      "advance": 28.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "+",
+      "name": "PCL_Glyph_002B",
+      "advance": 35.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": ",",
+      "name": "PCL_Glyph_002C",
+      "advance": 14.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "-",
+      "name": "PCL_Glyph_002D",
+      "advance": 20.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": ".",
+      "name": "PCL_Glyph_002E",
+      "advance": 17.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "/",
+      "name": "PCL_Glyph_002F",
+      "advance": 26.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": ":",
+      "name": "PCL_Glyph_003A",
+      "advance": 16.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": ";",
+      "name": "PCL_Glyph_003B",
+      "advance": 14.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "<",
+      "name": "PCL_Glyph_003C",
+      "advance": 35.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "=",
+      "name": "PCL_Glyph_003D",
+      "advance": 35.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": ">",
+      "name": "PCL_Glyph_003E",
+      "advance": 35.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "?",
+      "name": "PCL_Glyph_003F",
+      "advance": 31.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "@",
+      "name": "PCL_Glyph_0040",
+      "advance": 57.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "[",
+      "name": "PCL_Glyph_005B",
+      "advance": 17.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "\\",
+      "name": "PCL_Glyph_005C",
+      "advance": 27.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "]",
+      "name": "PCL_Glyph_005D",
+      "advance": 17.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "^",
+      "name": "PCL_Glyph_005E",
+      "advance": 35.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "_",
+      "name": "PCL_Glyph_005F",
+      "advance": 31.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "`",
+      "name": "PCL_Glyph_0060",
+      "advance": 20.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "{",
+      "name": "PCL_Glyph_007B",
+      "advance": 22.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "|",
+      "name": "PCL_Glyph_007C",
+      "advance": 15.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "}",
+      "name": "PCL_Glyph_007D",
+      "advance": 22.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "~",
+      "name": "PCL_Glyph_007E",
+      "advance": 41.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": " ",
+      "name": "PCL_Glyph_0020",
+      "advance": 16.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "א",
+      "name": "PCL_Glyph_05D0",
+      "advance": 42.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ב",
+      "name": "PCL_Glyph_05D1",
+      "advance": 34.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ג",
+      "name": "PCL_Glyph_05D2",
+      "advance": 26.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ד",
+      "name": "PCL_Glyph_05D3",
+      "advance": 34.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ה",
+      "name": "PCL_Glyph_05D4",
+      "advance": 39.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ו",
+      "name": "PCL_Glyph_05D5",
+      "advance": 19.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ז",
+      "name": "PCL_Glyph_05D6",
+      "advance": 23.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ח",
+      "name": "PCL_Glyph_05D7",
+      "advance": 39.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ט",
+      "name": "PCL_Glyph_05D8",
+      "advance": 39.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "י",
+      "name": "PCL_Glyph_05D9",
+      "advance": 20.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ך",
+      "name": "PCL_Glyph_05DA",
+      "advance": 32.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "כ",
+      "name": "PCL_Glyph_05DB",
+      "advance": 34.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ל",
+      "name": "PCL_Glyph_05DC",
+      "advance": 33.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ם",
+      "name": "PCL_Glyph_05DD",
+      "advance": 41.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "מ",
+      "name": "PCL_Glyph_05DE",
+      "advance": 41.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ן",
+      "name": "PCL_Glyph_05DF",
+      "advance": 19.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "נ",
+      "name": "PCL_Glyph_05E0",
+      "advance": 23.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ס",
+      "name": "PCL_Glyph_05E1",
+      "advance": 41.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ע",
+      "name": "PCL_Glyph_05E2",
+      "advance": 37.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ף",
+      "name": "PCL_Glyph_05E3",
+      "advance": 39.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "פ",
+      "name": "PCL_Glyph_05E4",
+      "advance": 41.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ץ",
+      "name": "PCL_Glyph_05E5",
+      "advance": 35.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "צ",
+      "name": "PCL_Glyph_05E6",
+      "advance": 36.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ק",
+      "name": "PCL_Glyph_05E7",
+      "advance": 40.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ר",
+      "name": "PCL_Glyph_05E8",
+      "advance": 31.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ש",
+      "name": "PCL_Glyph_05E9",
+      "advance": 52.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "ת",
+      "name": "PCL_Glyph_05EA",
+      "advance": 41.0,
+      "width": 128,
+      "height": 128,
+      "rtl": true,
+      "latin": false
+    },
+    {
+      "char": "׳",
+      "name": "PCL_Glyph_05F3",
+      "advance": 12.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "״",
+      "name": "PCL_Glyph_05F4",
+      "advance": 24.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "־",
+      "name": "PCL_Glyph_05BE",
+      "advance": 17.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "–",
+      "name": "PCL_Glyph_2013",
+      "advance": 42.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "—",
+      "name": "PCL_Glyph_2014",
+      "advance": 49.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "…",
+      "name": "PCL_Glyph_2026",
+      "advance": 44.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "’",
+      "name": "PCL_Glyph_2019",
+      "advance": 14.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "‘",
+      "name": "PCL_Glyph_2018",
+      "advance": 14.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "“",
+      "name": "PCL_Glyph_201C",
+      "advance": 24.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "”",
+      "name": "PCL_Glyph_201D",
+      "advance": 25.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    },
+    {
+      "char": "×",
+      "name": "PCL_Glyph_00D7",
+      "advance": 35.0,
+      "width": 128,
+      "height": 128,
+      "rtl": false,
+      "latin": false
+    }
+  ]
+}

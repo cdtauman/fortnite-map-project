@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-06",
+  "build": "UEFN 43.00 CL-59596594",
+  "run": "automatic-17",
+  "scope": "Session observation found Unconnected; no gameplay success inferred from StartSession acknowledgement.",
+  "preparation": {
+    "prepared_at_utc": "2026-11-06T19:59:45.944366+00:00",
+    "source_build": "health-probe-native-weapon-build.json",
+    "source_build_sha256": "e3afe236105ca66cf5ca5b6fd34bb32fd6dc07b77847beed5cae83a415e24d94",
+    "probe": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567"
+    },
+    "probe_label": "PCL_Health_Probe",
+    "log_pattern": "PCL\\|health_probe",
+    "test_flags": {
+      "Enabled": true,
+      "AutoRun": true
+    },
+    "combat_gates": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "input_requested": false,
+    "calibration_native_timer": false,
+    "calibration_blast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075661203_1497102807"
+    },
+    "calibration_objective": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+    },
+    "weapon_calibration": true,
+    "calibration_shooter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075671203_1509093984"
+    },
+    "source_archive": {
+      "path": ".local\\evidence\\health-17\\sources.zip",
+      "sha256": "0955364dc6b0c7af59c0a14c0391eb4f87335b78a786f47527f1609f4ab08527"
+    },
+    "fixture_archive": {
+      "path": ".local\\evidence\\health-17\\health-probe-layout.json",
+      "sha256": "8b18710376bdf17fd3a8f8dfb8ad6f65c8ffee3334fff061f1d7c80313ee7fe6"
+    }
+  },
+  "start_result": "Completed",
+  "observer_result": {
+    "run": "17",
+    "scope": "Automatic damage calibration on matched owned BuildingWall candidates, an unvalidated ordinary BuildingProp and a separate native objective with numeric health. Explosion damage and the final direct objective Damage call are recorded separately. No human/client input, native edit command or acceptance-gate change. Source and fixture archives define the exact tested setup.",
+    "source_preparation": "final-run-17-preparation.json",
+    "started_at_utc": "2026-11-06T20:02:54.666340+00:00",
+    "started_game_by_tool": false,
+    "sequence_finished": false,
+    "initial_game_state": "Unconnected",
+    "observer_error": "Session is not ready: Unconnected",
+    "observations": [],
+    "combat_gates_after_run": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "restored_flags": {
+      "Enabled": false,
+      "AutoRun": false,
+      "UseWeaponCalibration": false
+    },
+    "final_game_state": "Unconnected",
+    "final_session_state": "Disconnected",
+    "ended_at_utc": "2026-11-06T20:03:04.580703+00:00"
+  },
+  "fresh_recovery_entries": [],
+  "gates_accepted": false
+}

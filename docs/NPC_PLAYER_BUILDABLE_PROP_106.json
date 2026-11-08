@@ -1,0 +1,269 @@
+{
+  "run": "106",
+  "checked_at_utc": "2026-11-07T12:42:07.887789+00:00",
+  "scope": "Owned TrainingWall-derived BuildingProp with bIsPlayerBuildable=true: automatic SpawnProp, sampled collision, validity loss under native fire and bounded replacement. Not native ownership/edit/slot acceptance.",
+  "selected_class": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/Investigations/PCL_BP_PlayerBuildablePropCandidate.PCL_BP_PlayerBuildablePropCandidate_C",
+  "selected_template_defaults": {
+    "bIsPlayerBuildable": true,
+    "bPlayerPlaced": false,
+    "bRegisterWithStructuralGrid": true,
+    "bDestroyOnPlayerBuildingPlacement": false,
+    "buildingType": "Wall"
+  },
+  "source_build": "player-buildable-candidate105-editor-build.json",
+  "asset_archive": {
+    "path": ".local\\evidence\\health-106\\PCL_BP_PlayerBuildablePropCandidate.uasset",
+    "sha256": "b4029e998b784ba5184f8798e0a53b4763c07b5233394311cbecc2eae8570f40",
+    "scope": "Immutable local test backup only; native binaries remain Lore-owned."
+  },
+  "identity_evidence": "Native saved selection before upload and after runtime, archived owned asset, matching current source/asset checkpoint. No direct per-instance native class introspection.",
+  "observed": {
+    "allocations": 2,
+    "invalidity_events": 2,
+    "initial_and_replacement_query_cells": 9,
+    "query_cells_after_each_observed_invalidity": 0,
+    "objective_attributed_player_hits": 27,
+    "player_cleanup_owned_rifle_removed": true,
+    "runtime_sequence_finished": true
+  },
+  "events": [
+    {
+      "sequence": 12,
+      "timestamp": "2026-11-07T12:33:36.458Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|spawned_wall_allocated|generation=1|can_be_damaged=1|native_picker_asset|no_health_write|not_native_build_edit",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 13,
+      "timestamp": "2026-11-07T12:33:36.723Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|control_wall_state|phase=spawned_initial_settled|valid=1|cells=9|x=-1536.000000|y=-3072.000000|z=0.000000|health=healthful_cast_unavailable|damage_events=0|player_hits=0|destroyed_events=0|query_yaw=90",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 28,
+      "timestamp": "2026-11-07T12:33:39.209Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|player_control_ready|same_owned_rifle|view_yaw=89.237949|view_pitch=-2.803412|no_client_input",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 32,
+      "timestamp": "2026-11-07T12:33:39.209Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|control_wall_state|phase=player_native_cost_before|valid=1|cells=9|x=-1536.000000|y=-3072.000000|z=0.000000|health=healthful_cast_unavailable|damage_events=0|player_hits=0|destroyed_events=0|query_yaw=90",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 33,
+      "timestamp": "2026-11-07T12:33:39.474Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|spawned_wall_became_invalid|generation=1|native_fire_only|no_Dispose_or_Damage_during_trial",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 34,
+      "timestamp": "2026-11-07T12:33:39.474Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|control_wall_state|phase=spawned_destroyed_before_replacement|valid=0|cells=0|x=-1536.000000|y=-3072.000000|z=0.000000|health=unavailable|damage_events=0|player_hits=0|destroyed_events=0|query_yaw=90",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 35,
+      "timestamp": "2026-11-07T12:33:39.474Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|spawned_wall_allocated|generation=2|can_be_damaged=1|native_picker_asset|no_health_write|not_native_build_edit",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 36,
+      "timestamp": "2026-11-07T12:33:39.741Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|control_wall_state|phase=spawned_replacement_settled|valid=1|cells=9|x=-1536.000000|y=-3072.000000|z=0.000000|health=healthful_cast_unavailable|damage_events=0|player_hits=0|destroyed_events=0|query_yaw=90",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 38,
+      "timestamp": "2026-11-07T12:33:40.007Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|spawned_wall_became_invalid|generation=2|native_fire_only|no_Dispose_or_Damage_during_trial",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 39,
+      "timestamp": "2026-11-07T12:33:40.007Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|control_wall_state|phase=spawned_destroyed_before_replacement|valid=0|cells=0|x=-1536.000000|y=-3072.000000|z=0.000000|health=unavailable|damage_events=0|player_hits=0|destroyed_events=0|query_yaw=90",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 72,
+      "timestamp": "2026-11-07T12:33:44.817Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|control_wall_state|phase=player_native_cost_after|valid=0|cells=0|x=-1536.000000|y=-3072.000000|z=0.000000|health=unavailable|damage_events=0|player_hits=0|destroyed_events=0|query_yaw=90",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 74,
+      "timestamp": "2026-11-07T12:33:44.820Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|control_wall_state|phase=player_zero_cost_before|valid=0|cells=0|x=-1536.000000|y=-3072.000000|z=0.000000|health=unavailable|damage_events=0|player_hits=0|destroyed_events=0|query_yaw=90",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 109,
+      "timestamp": "2026-11-07T12:33:50.158Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|control_wall_state|phase=player_zero_cost_after|valid=0|cells=0|x=-1536.000000|y=-3072.000000|z=0.000000|health=unavailable|damage_events=0|player_hits=0|destroyed_events=0|query_yaw=90",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 111,
+      "timestamp": "2026-11-07T12:33:50.659Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|player_control_cleanup|previous_equipped=1|owned_rifle_removed=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 112,
+      "timestamp": "2026-11-07T12:33:50.666Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|spawned_wall_trial_finished|allocations=2|observed_invalid=2|no_native_slot_acceptance",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 113,
+      "timestamp": "2026-11-07T12:33:50.666Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|isolated_wall_finished|objective_health=4055.000000|no_direct_damage_called|no_acceptance_gate_changed",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    },
+    {
+      "sequence": 114,
+      "timestamp": "2026-11-07T12:33:50.666Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|automatic_sequence_finished|results_require_review",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 19
+    }
+  ],
+  "runtime_entry": {
+    "initial_game_state": "Running",
+    "started_game_by_tool": false,
+    "start_game_requested_at_utc": null
+  },
+  "not_verified": [
+    "Numeric wall HP and exact per-hit damage/instigator on the spawned wall.",
+    "Partial-damage continuity through mesh changes on this class.",
+    "Native player build slot, support/ownership, edit selection and reset.",
+    "NPC-native placement, edit actions and pro-level movement/combat.",
+    "Publication or final player experience."
+  ],
+  "comparison_limit": "No matched native-fire baseline of the original TrainingWall was run here. This does not prove the flag fixes any behavior relative to its false value.",
+  "computer_control": {
+    "used_for_native_picker_before_run": true,
+    "used_for_session_recovery_before_run": true,
+    "used_during_runtime_probe": false,
+    "active_at_checkpoint": false,
+    "checkpoint_legacy_field_scope": "computer_control_used=false in checkpoint106 refers to checkpoint collection, not all preceding preparation/recovery."
+  },
+  "failed_attempt_105": {
+    "game_started": false,
+    "fresh_verse_entries": 0,
+    "reason": "Server shut down with no connected game clients; later native UI showed Leave match to join edit session confirmation.",
+    "evidence": "HEALTH_RUNTIME_EVIDENCE_105_DISCONNECTION.json"
+  },
+  "checkpoint": {
+    "checkpoint": "106",
+    "latest_runtime": "106",
+    "at_utc": "2026-11-07T12:36:55.743395+00:00",
+    "editor_evidence_sha256": "e5f4c1622cc7bf718b17b2450a19517ac05261f97a23fb26bb6479934ed0ce86",
+    "editor_build": "player-buildable-candidate105-editor-build.json",
+    "scope": "Editor verification after observed same-numbered runtime; compiled sources and owned Art/NPC hashes match run preparation.",
+    "flags": {
+      "enabled": false,
+      "autoRun": false,
+      "calibrationNativeTimer": false,
+      "useWeaponCalibration": false,
+      "useCharacterTargetControl": false,
+      "isolatedWallControl": false,
+      "spawnedWallControl": false,
+      "nPCEquippedAttackControl": false,
+      "visualUseViewportCamera": false,
+      "nativeBuildToolReference": false,
+      "nativeBuildToolLease": false,
+      "nativeBuildCameraBypass": false,
+      "nativeBuildMenuOnly": false
+    },
+    "scalars": {
+      "visualToolCaptureSeconds": 0,
+      "visualRifleCaptureSeconds": 0,
+      "visualNativeCaptureSeconds": 0,
+      "meshChangeAfterPlayerHits": 0
+    },
+    "gates": {
+      "candidateCombatEnabled": false,
+      "queryCoverageConfirmed": false,
+      "healthContinuityConfirmed": false,
+      "nativeSlotInteroperationConfirmed": false
+    },
+    "session": "Connected",
+    "game": "CanStart",
+    "level_dirty": false,
+    "assets": {
+      "numChecked": 55,
+      "numValid": 55,
+      "numInvalid": 0,
+      "numWarnings": 0,
+      "numSkipped": 0,
+      "bAssetLimitReached": false,
+      "errors": [],
+      "warnings": []
+    },
+    "source_or_owned_asset_differs_from_cooked_runtime": false,
+    "full_content_push_required": false,
+    "computer_control_used": false,
+    "full_goal_complete": false
+  },
+  "full_goal_complete": false,
+  "integrity": {
+    "docs\\HEALTH_RUNTIME_EVIDENCE_106.json": "d4ddcd21fc7a35287ade7f328a97d425b98b257dd487c72b1cf6055cdfc62ec6",
+    "docs\\HEALTH_RUNTIME_EVIDENCE_106_LIFETIME_ANALYSIS.json": "8b8f63b758b0ae2e20018e4aa56860ff1af9ada6a48ad875e23153506e4eabae",
+    "docs\\NPC_VISUAL_CHECKPOINT_106.json": "adb056eda28d5fdfaa47074e5e7984edee5fa43e6404e4d7126ac405dbd6d211",
+    "docs\\ACADEMY_EDITOR_EVIDENCE.json": "e5f4c1622cc7bf718b17b2450a19517ac05261f97a23fb26bb6479934ed0ce86"
+  }
+}

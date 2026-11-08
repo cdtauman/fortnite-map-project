@@ -1,0 +1,343 @@
+{
+  "date": "2026-11-07",
+  "build": "UEFN 43.00 CL-59596594",
+  "run": "automatic-44",
+  "scope": "Isolated player-wielded native rifle against runtime SpawnProp instances of the native-picker-bound owned LessonWall. Native CanBeDamaged enabled; owned solid grid mesh applied. Original preplaced wall hidden, explicit preplaced-only monitor disabled, no hostile NPC spawn or NPC fire. Observe IsValid and independent collision; permit at most2 allocations and record any replacement only after invalidity. No wall HP initialization, direct Damage or in-trial Dispose. Numeric HP, exact wall instigator, native build/edit/ownership and slot interoperability remain unverified. Cleanup may Dispose a surviving owned allocation only after the trial.",
+  "preparation": {
+    "prepared_at_utc": "2026-11-07T02:02:50.387635+00:00",
+    "source_build": "health-probe-spawned-lifetime-build.json",
+    "source_build_sha256": "277a7a11bb4a040e76d4a909c9967b269370ac77f1924c7fa732e1c239c6e343",
+    "probe": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A41010755F1203_1602592567"
+    },
+    "probe_label": "PCL_Health_Probe",
+    "log_pattern": "PCL\\|health_probe",
+    "test_flags": {
+      "Enabled": true,
+      "AutoRun": true
+    },
+    "combat_gates": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "input_requested": false,
+    "connection_reused": false,
+    "wall_occlusion_control": true,
+    "wall_occlusion_scope": "Native Prop Manipulator initial-health control200 configured before gameplay; explicit AdditionalProps reference is the owned ControlWall and volume mode is off. No scripted health changes or synthetic damage during firing. This does not establish default Fortnite wall health or edit-health continuity.",
+    "mesh_change_after_player_hits": 0,
+    "isolated_wall_control": true,
+    "spawned_wall_control": true,
+    "spawned_wall_context": {
+      "configured_at_utc": "2026-11-07T02:02:41.989315+00:00",
+      "scope": "Isolated player-wielded native rifle against runtime SpawnProp instances of the native-picker-bound owned LessonWall. Native CanBeDamaged enabled; owned solid grid mesh applied. Original preplaced wall hidden, explicit preplaced-only monitor disabled, no hostile NPC spawn or NPC fire. Observe IsValid and independent collision; permit at most2 allocations and record any replacement only after invalidity. No wall HP initialization, direct Damage or in-trial Dispose. Numeric HP, exact wall instigator, native build/edit/ownership and slot interoperability remain unverified. Cleanup may Dispose a surviving owned allocation only after the trial.",
+      "aim_offset": {
+        "x": -220,
+        "y": 0,
+        "z": -32
+      },
+      "allocation_limit": 2,
+      "monitor_scope": "preplaced-only,disabled during trial",
+      "native_initial_health": "not read or assigned",
+      "native_edit_semantics": false,
+      "properties": {
+        "Enabled": false,
+        "AutoRun": false,
+        "UseWeaponCalibration": true,
+        "UseCharacterTargetControl": false,
+        "IsolatedWallControl": true,
+        "SpawnedWallControl": true,
+        "MeshChangeAfterPlayerHits": 0,
+        "CalibrationAimOffset": {
+          "x": -220,
+          "y": 0,
+          "z": -32
+        }
+      }
+    },
+    "calibration_native_timer": false,
+    "calibration_blast": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_ExplosiveBarrel_V2_C_UAID_30E3A4101075661203_1497102807"
+    },
+    "calibration_objective": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Objective_V2_C_UAID_30E3A4101075661203_1486347806"
+    },
+    "weapon_calibration": true,
+    "character_target_control": false,
+    "calibration_shooter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075671203_1509093984"
+    },
+    "calibration_player_teleporter": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_Teleporter_V2_C_UAID_30E3A4101075711203_1580237745"
+    },
+    "calibration_no_fire_zone": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MutatorVolume_V2_C_UAID_30E3A4101075491203_1921501775"
+    },
+    "source_archive": {
+      "path": ".local\\evidence\\health-44\\sources.zip",
+      "sha256": "82777777b775f384f9b118858fbbdd7424ae0853472510cc3ff0649170b44583"
+    },
+    "fixture_archive": {
+      "path": ".local\\evidence\\health-44\\health-probe-layout.json",
+      "sha256": "c3f69c064146cfcadda3faee9de95aca6fa0f0aedaaaef392a2c98e7ae7ae2d4"
+    }
+  },
+  "start_session": "Completed",
+  "entries": [
+    {
+      "sequence": 1819,
+      "timestamp": "2026-11-07T02:04:41.486Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|ready|combat_gates=false|health_interface_probe=true|ordinary_prop_control_unvalidated=true",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1821,
+      "timestamp": "2026-11-07T02:04:42.258Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|weapon_shooter_spawned",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1822,
+      "timestamp": "2026-11-07T02:04:42.285Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|weapon_shooter_friendly_team_confirmed",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1823,
+      "timestamp": "2026-11-07T02:04:42.285Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|inventory_scope|name=character|direct=0|descendants=0|hotbars=0|items=0|trace_weapons=0|ranged_items=0|resources=0|resource_stacks=0|resource_quantity=0|resource_inventories=0",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1824,
+      "timestamp": "2026-11-07T02:04:42.285Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|inventory_scope|name=agent|direct=0|descendants=8|hotbars=0|items=4|trace_weapons=0|ranged_items=2|resources=1|resource_stacks=1|resource_quantity=500|resource_inventories=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1825,
+      "timestamp": "2026-11-07T02:04:42.285Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|initial_ranged_selection|selected=1|before_template_addition",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1826,
+      "timestamp": "2026-11-07T02:04:42.285Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|rifle_components|item=1|trace=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1827,
+      "timestamp": "2026-11-07T02:04:42.285Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|weapon_add_returned_ok",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1828,
+      "timestamp": "2026-11-07T02:04:42.285Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|weapon_native_template_equipped|firing_unconfirmed",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1829,
+      "timestamp": "2026-11-07T02:04:42.285Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|spawned_wall_allocated|generation=1|can_be_damaged=true|owned_DemoAsset|no_health_write|not_native_build_edit",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1830,
+      "timestamp": "2026-11-07T02:04:42.548Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|control_wall_state|phase=spawned_initial_settled|valid=1|cells=9|x=-1536.000000|y=-3072.000000|z=0.000000|health=healthful_cast_unavailable|damage_events=0|player_hits=0|destroyed_events=0|query_yaw=90",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1831,
+      "timestamp": "2026-11-07T02:04:42.548Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|isolated_wall_baseline|wall_damage_events=0|wall_destroyed_events=0|objective_health=5000.000000|no_hostile_spawn_or_NPC_fire",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1832,
+      "timestamp": "2026-11-07T02:04:42.548Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|native_player_teleport_event|count=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1833,
+      "timestamp": "2026-11-07T02:04:42.548Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|player_placement_sample|pass=1|x=-1536.000000|y=-4096.000000|z=96.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1834,
+      "timestamp": "2026-11-07T02:04:42.895Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|player_placement_sample|pass=2|x=-1536.000000|y=-4096.000000|z=77.149999",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1835,
+      "timestamp": "2026-11-07T02:04:43.262Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|player_placement_sample|pass=3|x=-1536.000000|y=-4096.000000|z=77.149999",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1836,
+      "timestamp": "2026-11-07T02:04:44.001Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|player_control_pose|body_x=-1536.000000|body_y=-4096.000000|body_z=77.149999|view_x=-242.000000|view_y=-6958.000000|view_z=179.000000",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1837,
+      "timestamp": "2026-11-07T02:04:44.001Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|player_control_velocity|forward=0.000000|left=0.000000|up=0.000000|meters_per_second",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1838,
+      "timestamp": "2026-11-07T02:04:44.001Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|player_control_not_run|view_position_not_ready",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1839,
+      "timestamp": "2026-11-07T02:04:44.001Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|player_control_position_restore_returned_ok",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1840,
+      "timestamp": "2026-11-07T02:04:44.001Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|player_control_cleanup|previous_equipped=1|owned_rifle_removed=1",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1841,
+      "timestamp": "2026-11-07T02:04:44.007Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|spawned_wall_trial_finished|allocations=1|observed_invalid=0|no_native_slot_acceptance",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1842,
+      "timestamp": "2026-11-07T02:04:44.007Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|isolated_wall_finished|objective_health=5000.000000|no_direct_damage_called|no_acceptance_gate_changed",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1843,
+      "timestamp": "2026-11-07T02:04:44.007Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|automatic_sequence_finished|results_require_review",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    }
+  ],
+  "cleanup": {
+    "run": "44",
+    "scope": "Isolated player-wielded native rifle against runtime SpawnProp instances of the native-picker-bound owned LessonWall. Native CanBeDamaged enabled; owned solid grid mesh applied. Original preplaced wall hidden, explicit preplaced-only monitor disabled, no hostile NPC spawn or NPC fire. Observe IsValid and independent collision; permit at most2 allocations and record any replacement only after invalidity. No wall HP initialization, direct Damage or in-trial Dispose. Numeric HP, exact wall instigator, native build/edit/ownership and slot interoperability remain unverified. Cleanup may Dispose a surviving owned allocation only after the trial.",
+    "source_preparation": "final-run-44-preparation.json",
+    "started_at_utc": "2026-11-07T02:05:05.535186+00:00",
+    "started_game_by_tool": false,
+    "sequence_finished": true,
+    "keep_edit_session_requested": true,
+    "initial_session_state": "Connected",
+    "readiness_observations": [
+      {
+        "at_utc": "2026-11-07T02:05:06.499712+00:00",
+        "session": "Connected"
+      }
+    ],
+    "ready_session_state": "Connected",
+    "initial_game_state": "Running",
+    "stop_game_result": "Completed",
+    "restored_mesh_change_threshold": 0,
+    "combat_gates_after_run": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "restored_flags": {
+      "Enabled": false,
+      "AutoRun": false,
+      "UseWeaponCalibration": false,
+      "IsolatedWallControl": false,
+      "SpawnedWallControl": false
+    },
+    "final_game_state": "CanStart",
+    "final_session_state": "Connected",
+    "kept_edit_session": true,
+    "ended_at_utc": "2026-11-07T02:05:12.574062+00:00"
+  },
+  "gates_accepted": false
+}

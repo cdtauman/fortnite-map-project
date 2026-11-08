@@ -1,0 +1,51 @@
+{
+  "run": "122",
+  "at_utc": "2026-11-07T16:12:16.608454+00:00",
+  "scope": "Deterministic sequences against the real Verse learning model: visibility discontinuities, delayed rewards and recovery. Standard private fixture hiding only; no character/item/weapon actuation. This is not NPC construction, pro skill, real-player quality or publication acceptance.",
+  "protocol_checks": {
+    "all_cases_once": true,
+    "summary_matches_actual_failures": true,
+    "no_character_item_weapon_calls_in_test": true,
+    "no_runtime_error": true,
+    "flags_and_gates_restored": true,
+    "game_stopped_connected": true
+  },
+  "protocol_complete": true,
+  "cases": {
+    "visible_pair_learns": true,
+    "reward_is_time_separated": true,
+    "short_hidden_gap_not_bridged": true,
+    "visible_learning_recovers": true,
+    "short_unknown_gap_not_bridged": true,
+    "hidden_cancels_pending_reward": true,
+    "unknown_cancels_pending_reward": true,
+    "long_gap_cancels_pending_reward": true,
+    "teleport_cancels_pending_reward": true,
+    "reordered_frame_cancels_pending_reward": true,
+    "reset_cancels_pending_reward": true
+  },
+  "failed_cases": [],
+  "all_cases_passed": true,
+  "source_sha256": {
+    "coach_building.verse": "dbe74a5110522f089ec1413921d25bf33d2f79bc27639637928bb1173aed1806",
+    "coach_commerce.verse": "5100ec94e41a912eeeb878cd7ec0cd5da700e1cad608e247dfdea3989d61ef80",
+    "coach_course_device.verse": "e3004e7305f4ec76b0a4203e088615094c079cd25da09920f7b69e12479402c4",
+    "coach_demonstration.verse": "28b58557d214e6cef9124bdb98ecbb8789537a2f88fcad8241877ae4b1bb34f4",
+    "coach_equipment.verse": "73d925338cecf3bcd4770851101d785df072595cdb9f3e031c2f5201c646d911",
+    "coach_geometry.verse": "fccb4bb713266ad9d85bdd1b2bfc96852a08eb6cae57f2b78fb9f850b3ea5056",
+    "coach_health_probe.verse": "f222401e581397d7de2e3aa2e381dde9095d6f4824f747a2b4eaa70f8732db9e",
+    "coach_lab_device.verse": "4814473c661c33ed43d9ce96d7e4c5468c8b79fb3c948cc9be4ee6486a6f9d78",
+    "coach_learning.verse": "14e14984fecc0577b22c312ebecdbd75e4abc9404cb50dc502a350ae88597793",
+    "coach_lessons.verse": "f08fa3f55113f3f7427e5fa36c352c90a63053bd728daba67b10e953d5c1027d",
+    "coach_model.verse": "89ef2962fed400bd0219b0009cb7be2ee0db8666ca2f3b61a47d2c1602c87387",
+    "coach_opponent_behavior.verse": "b3348bbacd37697a47bad8ef5080a5da4266fbd44797e5289155ab1e22595944",
+    "coach_portal_device.verse": "9f11d47ddef9235bc1b0cbf95f17ca3d50de2270961c377adfe4f4da43c50711",
+    "coach_practice.verse": "e49b9484048a0df68ff53a7b92d7b2256f61c9c5732ff576abbdb42996ac09ad",
+    "coach_structure_probe.verse": "8b7b22e5de248a471cd4a919cbaefeefa1ebede07b943f7f0348d428c5eccd8e",
+    "coach_telemetry.verse": "90c4c7d6ba731aae199d946fc0bca515eb767822f11e85c23d01866d0f22a4d0",
+    "coach_ui.verse": "3677157c19932831c11ad0c6790e3abde100bf908495737458172b2e07c7f7c3",
+    "coach_voice.verse": "69a15f843a59cad448086a769777f77e9bed57697bbefc2131fcc5d9604b60e9"
+  },
+  "forbidden_calls": [],
+  "acceptance_gates_changed": false
+}

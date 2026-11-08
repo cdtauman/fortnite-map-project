@@ -1,0 +1,41 @@
+{
+  "runs": [
+    "91",
+    "92"
+  ],
+  "source_evidence": [
+    "NPC_NATIVE_TOOL_PHASES_91.json",
+    "NPC_NATIVE_BUILD_LEASE_91.json",
+    "NPC_NATIVE_TOOL_PHASES_92.json",
+    "NPC_NATIVE_BUILD_LEASE_92.json"
+  ],
+  "evidence_sha256": {
+    "NPC_NATIVE_TOOL_PHASES_91.json": "89baf8511b31b891a5347a6f70544f63d9f2c5f6b915c5f94cfda60077537ce3",
+    "NPC_NATIVE_BUILD_LEASE_92.json": "e0054e0dbd7c01eeffb78d6ca100de70cb3d5ab1c1c18cd8fa5601f86586f858",
+    "NPC_NATIVE_TOOL_PHASES_92.json": "13155d47729614986a48cad901c912a4d4394205654098943595304b5439be02"
+  },
+  "visual_setup91": {
+    "equip_before_after_StopNavigation_Tether_menu_removal_settle_camera_placement_and_AddTo": "1 at all immediate phase markers",
+    "loss_phase": "before_camera_blend_wait",
+    "first_loss_delay_after_camera_add_seconds": 0.3673589999998512,
+    "first_loss_original_guard_equipped_count": "0",
+    "after_blend_original_guard_equipped_count": "1",
+    "visual_hold_equipped": "0/40"
+  },
+  "neutral92": {
+    "extra_hold_seconds": 40,
+    "equipped_parent_matching_samples": "40/40",
+    "native_equip_loss_events_observed": 0,
+    "setup_actions": "No StopNavigation,Tether,menu,camera,Focus,Attack or input changes during hold.",
+    "original_guard_equipped_count_at_end": "0",
+    "all14_original_items_restored": true,
+    "subscription_canceled_before_restore": true
+  },
+  "inference": "Long holding itself works in this neutral configuration. The visual setup group is implicated by the contrast; camera activation alone is not yet established as the cause. Native processing latency and run variability are not excluded.",
+  "next_control": "Same91visual setup with only camera stack activation/removal bypassed; retain StopNavigation/Tether,menu removal/restore,camera actor placement/blend waits and40sstate sampling. No framebuffer capture claimed when camera is not active.",
+  "native_tool_rendered_grip_accepted": false,
+  "native_placement_edit_reset_verified": false,
+  "production_allocation_verified": false,
+  "native_build_gates_accepted": false,
+  "project_complete": false
+}

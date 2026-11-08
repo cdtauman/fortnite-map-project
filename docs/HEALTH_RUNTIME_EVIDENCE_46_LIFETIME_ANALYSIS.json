@@ -1,0 +1,88 @@
+{
+  "run": "46",
+  "checked_at_utc": "2026-11-07T02:20:23.736637+00:00",
+  "scope": "Isolated player-wielded native rifle against runtime SpawnProp instances of the native-picker-bound owned DamageSpawnWall, a LessonWall duplicate with bCanBeDamaged=True before spawning. Native CanBeDamaged enabled; owned solid grid mesh applied. Original preplaced wall hidden, explicit preplaced-only monitor disabled, no hostile NPC spawn or NPC fire. Observe IsValid and independent collision; permit at most2 allocations and record any replacement only after invalidity. No wall HP initialization, direct Damage or in-trial Dispose. Numeric HP, exact wall instigator, native build/edit/ownership and slot interoperability remain unverified. Cleanup may Dispose a surviving owned allocation only after the trial.",
+  "player_control_ran": true,
+  "abort_messages": [],
+  "allocations": [
+    {
+      "sequence": 1931,
+      "timestamp": "2026-11-07T02:19:32.310Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|spawned_wall_allocated|generation=1|can_be_damaged=1|native_picker_asset|no_health_write|not_native_build_edit",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    }
+  ],
+  "invalidity_events": [],
+  "wall_states": [
+    {
+      "sequence": 1932,
+      "timestamp": "2026-11-07T02:19:32.572Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|control_wall_state|phase=spawned_initial_settled|valid=1|cells=9|x=-1536.000000|y=-3072.000000|z=0.000000|health=healthful_cast_unavailable|damage_events=0|player_hits=0|destroyed_events=0|query_yaw=90",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1949,
+      "timestamp": "2026-11-07T02:19:35.060Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|control_wall_state|phase=player_native_cost_before|valid=1|cells=9|x=-1536.000000|y=-3072.000000|z=0.000000|health=healthful_cast_unavailable|damage_events=0|player_hits=0|destroyed_events=0|query_yaw=90",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1970,
+      "timestamp": "2026-11-07T02:19:40.401Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|control_wall_state|phase=player_native_cost_after|valid=1|cells=9|x=-1536.000000|y=-3072.000000|z=0.000000|health=healthful_cast_unavailable|damage_events=0|player_hits=0|destroyed_events=0|query_yaw=90",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1972,
+      "timestamp": "2026-11-07T02:19:40.405Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|control_wall_state|phase=player_zero_cost_before|valid=1|cells=9|x=-1536.000000|y=-3072.000000|z=0.000000|health=healthful_cast_unavailable|damage_events=0|player_hits=0|destroyed_events=0|query_yaw=90",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    },
+    {
+      "sequence": 1993,
+      "timestamp": "2026-11-07T02:19:45.745Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|control_wall_state|phase=player_zero_cost_after|valid=1|cells=9|x=-1536.000000|y=-3072.000000|z=0.000000|health=healthful_cast_unavailable|damage_events=0|player_hits=0|destroyed_events=0|query_yaw=90",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    }
+  ],
+  "trial_finished": [
+    {
+      "sequence": 1996,
+      "timestamp": "2026-11-07T02:19:46.251Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|health_probe|spawned_wall_trial_finished|allocations=1|observed_invalid=0|no_native_slot_acceptance",
+      "sourceFile": "coach_health_probe.verse",
+      "sourceLine": 16
+    }
+  ],
+  "objective_player_damage_events": 0,
+  "two_native_destruction_allocation_lifetimes_observed": false,
+  "limits": [
+    "Numeric wall HP was not read or assigned.",
+    "Explicit preplaced-only monitor disabled during spawned trial: its callbacks are not spawn damage evidence.",
+    "Native weapon was the controlled damage route; validity/collision observations are separate from exact per-hit amount/instigator.",
+    "At most2 allocations; no load/performance or unbounded replenishment proof.",
+    "Owned generic BuildingProp with an owned mesh is not native player build/edit/ownership or slot interoperability.",
+    "No publication or pro-level quality acceptance."
+  ],
+  "acceptance_gates_enabled": false
+}

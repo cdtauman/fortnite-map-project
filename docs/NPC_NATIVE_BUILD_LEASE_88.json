@@ -1,0 +1,113 @@
+{
+  "run": "88",
+  "evidence_sha256": "9d117cf5cfa0abc68691f6bcc2d64414c7afd1152d62689bcfab102bf8daa53d",
+  "scope": "Native build-tool lease control after read-only topology/preflight. Create one temporary public build-hotbar component under the observed single Guard inventory root, require empty after scene setup and direct CanAdd/CanRemove success, transfer one originally unequipped player build tool via AddItem without merging, check exact parent, release original Guard equipped items, Equip native tool and sample8x0.25s. Restore same native item to source, source count and original Guard equipment before empty temporary inventory removal/despawn; retain NPC if restoration is pending. Device OnEnd and outer cleanup retry idempotent restoration. No direct damage/fire/camera/input or native placement/edit/reset. Snapshot exact identities/parents/equipped before/after; main equipment code unchanged.",
+  "checks": {
+    "temporary_hotbar_initially_empty": true,
+    "single_item_transfer_parent_and_counts": true,
+    "native_equip_succeeded": true,
+    "eight_equipped_parent_matching_samples": true,
+    "same_item_return_and_original_guard_equipment": true,
+    "all14_item_identity_parent_equipped_restored": true,
+    "cleanup_repeated_and_temporary_hotbar_absent": true,
+    "no_pending_cleanup": true,
+    "sequence_finished": true,
+    "test_flags_and_native_build_gates_off": true
+  },
+  "all_scoped_checks_pass": true,
+  "transfer": [
+    {
+      "same_item_parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    }
+  ],
+  "samples": [
+    {
+      "tick": "1",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "2",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "3",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "4",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "5",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "6",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "7",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "8",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    }
+  ],
+  "restored": [
+    {
+      "same_item_source_parent": "1",
+      "source_count": "4",
+      "temporary_inventory_empty_remove_requested": "1",
+      "original_guard_equipment_restored": "1"
+    }
+  ],
+  "snapshot": [
+    {
+      "items": "14",
+      "unchanged_identity_parent_equipped": "14",
+      "source_count": "4",
+      "cleanup_ok": "1",
+      "repeat_cleanup_ok": "1",
+      "guard_hotbars_after": "0"
+    }
+  ],
+  "not_run": [],
+  "rejections": [],
+  "rendered_blueprint_pose_verified": false,
+  "native_placement_edit_reset_verified": false,
+  "native_build_gates_accepted": false,
+  "pro_quality_verified": false,
+  "project_complete": false,
+  "limits": [
+    "Two-second eight-poll isolated native item lease; no native placement/edit/reset requested.",
+    "Native item identity/parent/equipped evidence does not prove rendered grip, between-poll continuity, ownership, structural occupancy or building actuation.",
+    "Normal completion restoration and repeat cleanup are observed only if the corresponding checks pass; forced game-end/death during lease remains a separate case."
+  ]
+}

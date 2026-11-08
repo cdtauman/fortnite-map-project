@@ -1,0 +1,72 @@
+{
+  "scope": "Editor-authored static start ramps. Native building attachment, controls and fair multiplayer start are not runtime accepted.",
+  "ramps": [
+    {
+      "name": "PCL_Duel_StartingRamp_Left",
+      "transform": {
+        "location": {
+          "x": -512,
+          "y": 45056,
+          "z": 0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": -90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    },
+    {
+      "name": "PCL_Duel_StartingRamp_Right",
+      "transform": {
+        "location": {
+          "x": 512,
+          "y": 45056,
+          "z": 0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        }
+      }
+    }
+  ],
+  "asset": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/AcademyKit/PCL_BP_DuelStartingRamp",
+  "default_policy": {
+    "bDoNotBlockBuildings": true,
+    "bStructurallySupportOverlappingActors": true,
+    "bCanBeDamaged": false,
+    "bForceBlockBuildings": false,
+    "bDestroyOnPlayerBuildingPlacement": false
+  },
+  "player_offsets_xyz_cm": [
+    [
+      -768,
+      0,
+      100
+    ],
+    [
+      768,
+      0,
+      100
+    ]
+  ],
+  "old_block": {
+    "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.FortStaticMeshActor_UAID_30E3A4101075341203_1986949029"
+  },
+  "restoration_record": ".local/duel-start178-authoring.json",
+  "source_geometry": "GridKit ramp; local Y0..512, X-256..256, Z0..384.",
+  "final_pose_record": ".local/duel-start178-authoring.json:final_placement",
+  "native_support_scope": "Configured on a preplaced owned starting prop; not evidence of NPC construction, native ownership or build-slot interoperability."
+}

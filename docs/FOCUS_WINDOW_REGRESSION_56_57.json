@@ -1,0 +1,52 @@
+{
+  "build": "UEFN 43.00 CL-59596594",
+  "date": "2026-11-07",
+  "scope": "Native runtime regression for completed Focus ending a sibling action race. Scoped to the shared companion and private NPC; main short tactical windows still need end-to-end verification.",
+  "evidence": {
+    "56": {
+      "path": "docs\\HEALTH_RUNTIME_EVIDENCE_56.json",
+      "sha256": "9db77a6f3e1161f73ad3320f10ce7a1e159128b957987cc615604ae63d5e88ca",
+      "source_build": "npc-perceived-target56-fixed-build.json"
+    },
+    "57": {
+      "path": "docs\\HEALTH_RUNTIME_EVIDENCE_57.json",
+      "sha256": "555665e25a2797ace43a8d5f6f50d1acbadbac269b8c8e69fe34d77fa9fe0d98",
+      "source_build": "npc-focus-window57-build.json"
+    }
+  },
+  "before": {
+    "run": "56",
+    "focus_returned": true,
+    "combined_phase_samples": 0
+  },
+  "after": {
+    "run": "57",
+    "shared_focus_request_returned": true,
+    "combined_phase": {
+      "samples": 48,
+      "hp_start": 4790.0,
+      "hp_end": 4615.0,
+      "source_attributed_hits": 5,
+      "equipped_samples": 48,
+      "holstered_samples": 0,
+      "firing_samples": 28,
+      "all_samples_one_ranged_item": true,
+      "all_samples_hostile_los": true,
+      "any_sample_in_no_fire_volume": false,
+      "shooter_xy_bounding_diagonal_cm": 1861.7704107950851,
+      "target_pose_count": 1,
+      "view_aim_dot_range_not_ballistic_ray": [
+        0.982124,
+        0.997406
+      ]
+    },
+    "cleanup": "PCL|health_probe|npc_equipped_cleanup|parked=2|restored=2|original_ranged_items_returned_before_despawn|managed_rifle_removed=1|idempotent_cleanup=1"
+  },
+  "limits": [
+    "This does not prove native Focus remains active after it returns.",
+    "Shot counts and per-shot accuracy were not measured; actor motion varies.",
+    "Main movement/peek/obstacle wrappers compiled but were not independently exercised in this fixture.",
+    "No native build/edit/ownership/slots, human-player aim, publication or pro-level acceptance."
+  ],
+  "native_build_gates_accepted": false
+}

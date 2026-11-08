@@ -1,0 +1,76 @@
+{
+  "runtime": "85",
+  "comparison": "82",
+  "tested_build": "npc-authored-pose85-build.json",
+  "editor_rollback_build": "npc-authored-pose86-rollback-build.json",
+  "runtime_evidence_sha256": "9eb8a5988c6cc67b6988763f85e0665dcb0a95fe5166167f4b6503b6283e6b72",
+  "single_behavior_change": "Private UseAuthoredBuildPlanPose suppresses runtime map setter; saved default torch pose retained. Same root Visible=true and equipment sequence as82. Extra read-only torch class logging.",
+  "components": {
+    "tool": {
+      "visible=1,enabled=1,map=0,torch=1": 40
+    },
+    "rifle": {
+      "visible=1,enabled=0,map=0,torch=1": 8
+    }
+  },
+  "views": [
+    {
+      "phase": "tool",
+      "image": "docs\\images\\npc-authored-pose-tool-85.png",
+      "sha256": "16a14bc28e1a1bbba60b22af3ef7126dd512e32e22d6c35235fb747ff583c40e",
+      "metadata": ".local/visual-evidence85/tool.json",
+      "source_ready": "2026-11-07T08:44:08.637Z",
+      "source_finished": "2026-11-07T08:44:48.711Z",
+      "capture_requested_at": "2026-11-07T08:44:21.120448+00:00",
+      "request_in_source_window": true,
+      "ready_age_at_scheduling_seconds": 12.165317,
+      "remaining_at_scheduling_seconds": 27.834683
+    },
+    {
+      "phase": "rifle",
+      "image": "docs\\images\\npc-authored-pose-rifle-85.png",
+      "sha256": "e18f3fd57727fbf02175c9e88b1ccba0cfa90ec3aa3d69d81e447fed93a678f5",
+      "metadata": ".local/visual-evidence85/rifle.json",
+      "source_ready": "2026-11-07T08:44:51.582Z",
+      "source_finished": "2026-11-07T08:44:59.598Z",
+      "capture_requested_at": "2026-11-07T08:44:52.547853+00:00",
+      "request_in_source_window": true,
+      "ready_age_at_scheduling_seconds": 0.741371,
+      "remaining_at_scheduling_seconds": 7.258629
+    }
+  ],
+  "tool_frame_observed": "Cyan geometry at waist and arms lowered. No clear native torch or proper grip; rifle absent in this frame, unlike82/83. One frame does not establish cause or continuity.",
+  "rifle_frame_observed": "Arms in two-hand holding stance but no clearly visible rifle. Do not accept managed rifle rendered fidelity from server firing/equipped flags.",
+  "tool_grip_accepted": false,
+  "rifle_static_mesh_accepted": false,
+  "scoped_equipment_checks": "NPC_TOOL_INTENT_CHECKS_85.json",
+  "all_scoped_checks_pass": false,
+  "tool_equipped_unholstered": "58/60 (20/18/20),60/60equipped",
+  "rifle_return_samples": "48/48equipped/unholstered;hits each return",
+  "source_callbacks": 8,
+  "native_damage": 280.0,
+  "cleanup": "Four subscriptions canceled;original2ranged returned;managed items removed;repeat cleanup passed;all test flags off;game stopped.",
+  "action": "Private authored-pose switch removed and map setter restored.86differs from84 only by read-only torch diagnostic in private health probe; equipment code identical.86compiled/editor-only, no runtime86/cook. Owned root Visible restoredfalse, requires new full content push.",
+  "interpretation": "Suppressing runtime pose override alone did not produce the intended custom held-item grip in this control. No platform capability verdict; do not repeat pose-property-only or initial-release-only changes as an untested solution.",
+  "next_control": "Native build-tool inventory lease/reference, fresh public inventory API, explicit return of same item and original equipped state. Native holding is distinct from native placement/edit/reset.",
+  "source_refresh": [
+    {
+      "url": "https://dev.epicgames.com/documentation/fortnite/fort-inventory-component-in-fortnite",
+      "checked": "2026-11-07",
+      "scope": "Inventory root/edit tool/build hotbar/harvest tool prerequisites; public add/remove route, not NPC actuation proof."
+    },
+    {
+      "url": "https://dev.epicgames.com/documentation/fortnite/verse-api/fortnitedotcom/itemization/fort_inventory_build_hotbar_component",
+      "checked": "2026-11-07",
+      "scope": "Public inventory interface; local native lease not yet compiled/run."
+    },
+    {
+      "url": "https://forums.unrealengine.com/t/uefn-43-00-can-npcs-use-native-building-wall-replacement-edits-and-resets/2850177",
+      "checked": "2026-11-07",
+      "scope": "Creator question/report, not an Epic capability answer or independent project verification."
+    }
+  ],
+  "native_build_gates_accepted": false,
+  "project_complete": false,
+  "metadata_caveat": "Current framebuffer; originating GPU frame/camera not independently identified."
+}

@@ -1,0 +1,311 @@
+{
+  "scope": "Visual overlays without collision; original ground and arena platforms provide physics. Player-camera review remains pending.",
+  "actors": [
+    {
+      "name": "PCL_Path_South",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": -3856,
+          "z": 0.12
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 5.12,
+          "y": 31.68,
+          "z": 1
+        }
+      },
+      "material": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/PCL_MI_Slate.PCL_MI_Slate"
+      },
+      "shape": "Plane"
+    },
+    {
+      "name": "PCL_Pathline_South",
+      "transform": {
+        "location": {
+          "x": -240,
+          "y": -3856,
+          "z": 0.18
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.07,
+          "y": 31.68,
+          "z": 1
+        }
+      },
+      "material": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/PCL_MI_Cyan.PCL_MI_Cyan"
+      },
+      "shape": "Plane"
+    },
+    {
+      "name": "PCL_Path_North",
+      "transform": {
+        "location": {
+          "x": 0,
+          "y": 3500,
+          "z": 0.12
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 5.12,
+          "y": 28.8,
+          "z": 1
+        }
+      },
+      "material": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/PCL_MI_Slate.PCL_MI_Slate"
+      },
+      "shape": "Plane"
+    },
+    {
+      "name": "PCL_Pathline_North",
+      "transform": {
+        "location": {
+          "x": -240,
+          "y": 3500,
+          "z": 0.18
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.07,
+          "y": 28.8,
+          "z": 1
+        }
+      },
+      "material": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/PCL_MI_Amber.PCL_MI_Amber"
+      },
+      "shape": "Plane"
+    },
+    {
+      "name": "PCL_Path_West",
+      "transform": {
+        "location": {
+          "x": -3500,
+          "y": 0,
+          "z": 0.12
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 28.8,
+          "y": 5.12,
+          "z": 1
+        }
+      },
+      "material": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/PCL_MI_Slate.PCL_MI_Slate"
+      },
+      "shape": "Plane"
+    },
+    {
+      "name": "PCL_Pathline_West",
+      "transform": {
+        "location": {
+          "x": -3500,
+          "y": -240,
+          "z": 0.18
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 28.8,
+          "y": 0.07,
+          "z": 1
+        }
+      },
+      "material": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/PCL_MI_Violet.PCL_MI_Violet"
+      },
+      "shape": "Plane"
+    },
+    {
+      "name": "PCL_Path_East",
+      "transform": {
+        "location": {
+          "x": 3500,
+          "y": 0,
+          "z": 0.12
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 28.8,
+          "y": 5.12,
+          "z": 1
+        }
+      },
+      "material": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/PCL_MI_Slate.PCL_MI_Slate"
+      },
+      "shape": "Plane"
+    },
+    {
+      "name": "PCL_Pathline_East",
+      "transform": {
+        "location": {
+          "x": 3500,
+          "y": -240,
+          "z": 0.18
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 28.8,
+          "y": 0.07,
+          "z": 1
+        }
+      },
+      "material": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/PCL_MI_Lime.PCL_MI_Lime"
+      },
+      "shape": "Plane"
+    },
+    {
+      "name": "PCL_Waypoint_South",
+      "transform": {
+        "location": {
+          "x": -480,
+          "y": -5200,
+          "z": 55
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.12,
+          "z": 1.1
+        }
+      },
+      "material": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/PCL_MI_Cyan.PCL_MI_Cyan"
+      },
+      "shape": "Cube"
+    },
+    {
+      "name": "PCL_Waypoint_North",
+      "transform": {
+        "location": {
+          "x": -480,
+          "y": 4900,
+          "z": 55
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.12,
+          "z": 1.1
+        }
+      },
+      "material": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/PCL_MI_Amber.PCL_MI_Amber"
+      },
+      "shape": "Cube"
+    },
+    {
+      "name": "PCL_Waypoint_West",
+      "transform": {
+        "location": {
+          "x": -4900,
+          "y": -480,
+          "z": 55
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.12,
+          "z": 1.1
+        }
+      },
+      "material": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/PCL_MI_Violet.PCL_MI_Violet"
+      },
+      "shape": "Cube"
+    },
+    {
+      "name": "PCL_Waypoint_East",
+      "transform": {
+        "location": {
+          "x": 4900,
+          "y": -480,
+          "z": 55
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": {
+          "x": 0.12,
+          "y": 0.12,
+          "z": 1.1
+        }
+      },
+      "material": {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/PCL_MI_Lime.PCL_MI_Lime"
+      },
+      "shape": "Cube"
+    }
+  ],
+  "foundationMaterial": {
+    "material": "/eda26a53-42c0-4b9e-8f62-31719aef6889/Art/PCL_MI_Campus.PCL_MI_Campus",
+    "actors": [
+      {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.GridPlane2"
+      },
+      {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.GridPlane1"
+      },
+      {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.GridPlane3"
+      },
+      {
+        "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.GridPlane4"
+      }
+    ],
+    "scope": "Material overrides only. Original grid-plane transforms and physics are retained."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "at_utc": "2026-11-07T03:39:11.455035+00:00",
+  "scope": "Owned main NPC spawner inventory only;500 native medium ammo. No weapon statistics, foreign definitions, player inventory or game input changes. Editor configuration, not reload/runtime proof.",
+  "spawner": {
+    "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075341203_1976870016"
+  },
+  "definition": {
+    "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075341203_1976870016.NPCCharacterDefinitionComponent"
+  },
+  "inventory": {
+    "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_CharacterSpawner_C_UAID_30E3A4101075341203_1976870016.NPCCharacterDefinitionComponent.CoachInventoryInstance"
+  },
+  "before": {
+    "items": [
+      {
+        "itemDefinition": {
+          "refPath": "/Game/Athena/Items/Weapons/WID_Assault_Auto_Athena_R_Ore_T03.WID_Assault_Auto_Athena_R_Ore_T03"
+        },
+        "itemQuantity": 1
+      },
+      {
+        "itemDefinition": {
+          "refPath": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_SR_Ore_T03.WID_Shotgun_Standard_Athena_SR_Ore_T03"
+        },
+        "itemQuantity": 1
+      },
+      {
+        "itemDefinition": {
+          "refPath": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData"
+        },
+        "itemQuantity": 500
+      }
+    ],
+    "canDropLoot": false
+  },
+  "after": {
+    "items": [
+      {
+        "itemDefinition": {
+          "refPath": "/Game/Athena/Items/Weapons/WID_Assault_Auto_Athena_R_Ore_T03.WID_Assault_Auto_Athena_R_Ore_T03"
+        },
+        "itemQuantity": 1
+      },
+      {
+        "itemDefinition": {
+          "refPath": "/Game/Athena/Items/Weapons/WID_Shotgun_Standard_Athena_SR_Ore_T03.WID_Shotgun_Standard_Athena_SR_Ore_T03"
+        },
+        "itemQuantity": 1
+      },
+      {
+        "itemDefinition": {
+          "refPath": "/Game/Items/ResourcePickups/WoodItemData.WoodItemData"
+        },
+        "itemQuantity": 500
+      },
+      {
+        "itemDefinition": {
+          "refPath": "/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsMedium.AthenaAmmoDataBulletsMedium"
+        },
+        "itemQuantity": 500
+      }
+    ],
+    "canDropLoot": false
+  }
+}

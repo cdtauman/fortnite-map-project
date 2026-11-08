@@ -1,0 +1,122 @@
+{
+  "at_utc": "2026-11-07T06:58:30.413558+00:00",
+  "run": "75",
+  "views": [
+    {
+      "requested_phase": "tool",
+      "image": "docs\\images\\npc-tool-offscreen-75.png",
+      "image_sha256": "a9c5ccbf1adfc5c01c41fa88a19af4705ab9f28eec090cde2fba3fe2cb796956",
+      "raw_capture_record_sha256": "24e475a623c2b5a31b7038ac95ab5b0a7d0ee2072a1de22fac4605c07752307e",
+      "ready_log": {
+        "phase": "tool",
+        "x": "-3231.062150",
+        "y": "-2540.066363",
+        "z": "77.149999",
+        "duration": "40.000000",
+        "time": "11659.042511"
+      },
+      "capture_metadata": {
+        "path": "Offscreen",
+        "world": {
+          "world": {
+            "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+          },
+          "worldType": "Game",
+          "mapPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport",
+          "pIEInstance": -1,
+          "bCanCapture": true
+        },
+        "camera": {
+          "location": {
+            "x": -3491.06215,
+            "y": -2220.066363,
+            "z": 147.14999899999998
+          },
+          "rotation": {
+            "pitch": -6.914371772152123,
+            "yaw": -50.906141113770495,
+            "roll": 0
+          },
+          "projectionMode": "Perspective",
+          "fOV": 54,
+          "orthoWidth": 512
+        },
+        "viewSource": "Explicit camera snapshot",
+        "mode": "Lit",
+        "visualizationSubMode": "",
+        "screenPercentage": 1,
+        "requestFrameNumber": 200192,
+        "worldTimeSeconds": 10473.127113342285
+      },
+      "warnings": [],
+      "wall_seconds_not_game_frame_time": 32.31200000003446,
+      "local_player_pawn_position_control_rotation_unchanged": true
+    },
+    {
+      "requested_phase": "rifle",
+      "image": "docs\\images\\npc-rifle-offscreen-75.png",
+      "image_sha256": "a0e9bd8cc4c93b1aae5e971424b9e9c876e8b3db29e3aebff5aa9f72df73cc10",
+      "raw_capture_record_sha256": "fdf2ef0bd0e7f0c80102e63627e91f14418b81855bfeba6d629ccbe7ad17d614",
+      "ready_log": {
+        "phase": "rifle",
+        "x": "-3250.707888",
+        "y": "-2520.509332",
+        "z": "77.149999",
+        "duration": "8.000000",
+        "time": "11700.453137"
+      },
+      "capture_metadata": {
+        "path": "Offscreen",
+        "world": {
+          "world": {
+            "refPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport.VKEdit_EmptyOcean_VolumeSupport"
+          },
+          "worldType": "Game",
+          "mapPath": "/VKEdit/Maps/VKEdit_EmptyOcean_VolumeSupport",
+          "pIEInstance": -1,
+          "bCanCapture": true
+        },
+        "camera": {
+          "location": {
+            "x": -3510.707888,
+            "y": -2200.509332,
+            "z": 147.14999899999998
+          },
+          "rotation": {
+            "pitch": -6.914371772152123,
+            "yaw": -50.906141113770495,
+            "roll": 0
+          },
+          "projectionMode": "Perspective",
+          "fOV": 54,
+          "orthoWidth": 512
+        },
+        "viewSource": "Explicit camera snapshot",
+        "mode": "Lit",
+        "visualizationSubMode": "",
+        "screenPercentage": 1,
+        "requestFrameNumber": 200729,
+        "worldTimeSeconds": 10505.996228411794
+      },
+      "warnings": [],
+      "wall_seconds_not_game_frame_time": 28.531000000075437,
+      "local_player_pawn_position_control_rotation_unchanged": true
+    }
+  ],
+  "visual_observation": "Foreground NPC visible in both offscreen captures, without a clearly visible item held in its hands. A rifle-like object is visible farther behind the foreground body; its identity/owner is not established by the image. Do not classify the root cause from these stills.",
+  "native_cosmetic_readback": {
+    "artifact": ".local/npc-cosmetic76-properties.json",
+    "scope": "Read-only after75; no asset mutations. GuardSpawn modifier already contains FortniteCharacter/HenchmanBad CID and Default movement for both definitions; absence of a separately named Cosmetic modifier does not mean cosmetic is unset."
+  },
+  "scope_limits": [
+    "Offscreen client-world re-render, not a player viewport screenshot.",
+    "The tool does not promise current animation evaluation, temporal history or request-frame/GPU-frame equivalence.",
+    "Server ready time and client world time have different origins; phase assignment does not establish synchronized rendered state.",
+    "Need a native original-loadout reference and/or independent camera route before attributing missing visuals to custom-item attachment or a platform limitation.",
+    "No native build/edit/ownership or pro/publication acceptance."
+  ],
+  "rendered_held_tool_accepted": false,
+  "rendered_held_rifle_accepted": false,
+  "all_native_build_gates_accepted": false,
+  "input_used": false
+}

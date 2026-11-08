@@ -1,0 +1,44 @@
+[
+  {
+    "name": "PCL_Sign_Personal",
+    "mode": "Personal",
+    "file": "PCL_Sign_Personal.png",
+    "hebrew": "מאמן אישי",
+    "english": "PERSONAL COACH"
+  },
+  {
+    "name": "PCL_Sign_Duel",
+    "mode": "Duel",
+    "file": "PCL_Sign_Duel.png",
+    "hebrew": "אחד על אחד",
+    "english": "1V1 ARENA"
+  },
+  {
+    "name": "PCL_Sign_FreeBuild",
+    "mode": "FreeBuild",
+    "file": "PCL_Sign_FreeBuild.png",
+    "hebrew": "בנייה חופשית",
+    "english": "FREE BUILD"
+  },
+  {
+    "name": "PCL_Sign_EditTraining",
+    "mode": "EditTraining",
+    "file": "PCL_Sign_EditTraining.png",
+    "hebrew": "אימון עריכות",
+    "english": "EDIT TRAINING"
+  },
+  {
+    "name": "PCL_Sign_Return",
+    "mode": "Return",
+    "file": "PCL_Sign_Return.png",
+    "hebrew": "חזרה ללובי",
+    "english": "RETURN TO LOBBY"
+  },
+  {
+    "name": "PCL_Sign_Academy",
+    "mode": "Academy",
+    "file": "PCL_Sign_Academy.png",
+    "hebrew": "האקדמיה לאימון אישי",
+    "english": "PROCOACH ACADEMY"
+  }
+]

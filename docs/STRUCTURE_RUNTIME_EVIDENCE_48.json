@@ -1,0 +1,378 @@
+{
+  "date": "2026-11-07",
+  "build": "UEFN43.00 CL59596594",
+  "run": "automatic-48",
+  "scope": "Owned prop classes and correct mesh bindings: four-piece spawn/lifetime and same-wall solid/window/passage/solid geometry. No native edit, numeric HP, ownership, native build-slot or publication acceptance.",
+  "preparation": {
+    "prepared_at_utc": "2026-11-07T02:43:09.475501+00:00",
+    "source_build": "health-probe-spawn-asset-control-build.json",
+    "source_build_sha256": "3a7c64d7c643988d1ccfcf5ddf65e9e65fb38a29905a9de095ff72c2eaa8ec85",
+    "probe": {
+      "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.VerseDevice_C_UAID_30E3A4101075591203_1214106664"
+    },
+    "probe_label": "PCL_Structure_Probe",
+    "log_pattern": "PCL\\|structure_probe",
+    "test_flags": {
+      "Enabled": true,
+      "AutoRun": true
+    },
+    "combat_gates": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "input_requested": false,
+    "connection_reused": false
+  },
+  "entries": [
+    {
+      "sequence": 2099,
+      "timestamp": "2026-11-07T02:45:15.080Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|ready|combat_gates=false|runtime_semantics_unverified",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 67
+    },
+    {
+      "sequence": 2100,
+      "timestamp": "2026-11-07T02:45:15.080Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|spawn|generation=1|kind=0|result=ok",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 190
+    },
+    {
+      "sequence": 2101,
+      "timestamp": "2026-11-07T02:45:15.080Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|spawn_transform|generation=1|kind=0|x=-1280.000000|y=-1024.000000|z=0.000000",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 194
+    },
+    {
+      "sequence": 2102,
+      "timestamp": "2026-11-07T02:45:15.080Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|spawn|generation=1|kind=1|result=ok",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 190
+    },
+    {
+      "sequence": 2103,
+      "timestamp": "2026-11-07T02:45:15.080Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|spawn_transform|generation=1|kind=1|x=-512.000000|y=-1280.000000|z=0.000000",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 194
+    },
+    {
+      "sequence": 2104,
+      "timestamp": "2026-11-07T02:45:15.080Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|spawn|generation=1|kind=2|result=ok",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 190
+    },
+    {
+      "sequence": 2105,
+      "timestamp": "2026-11-07T02:45:15.081Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|spawn_transform|generation=1|kind=2|x=256.000000|y=-1024.000000|z=0.000000",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 194
+    },
+    {
+      "sequence": 2106,
+      "timestamp": "2026-11-07T02:45:15.081Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|spawn|generation=1|kind=3|result=ok",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 190
+    },
+    {
+      "sequence": 2107,
+      "timestamp": "2026-11-07T02:45:15.081Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|spawn_transform|generation=1|kind=3|x=1536.000000|y=-1280.000000|z=0.000000",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 194
+    },
+    {
+      "sequence": 2108,
+      "timestamp": "2026-11-07T02:45:15.081Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|demo_spawn|result=ok|building_prop_control_only",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 199
+    },
+    {
+      "sequence": 2109,
+      "timestamp": "2026-11-07T02:45:15.081Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|valid_props|generation=1|count=5",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 261
+    },
+    {
+      "sequence": 2110,
+      "timestamp": "2026-11-07T02:45:15.081Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|build_inventory|generation=1|at=357.507481|slots=0|equipped_mask=",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 287
+    },
+    {
+      "sequence": 2112,
+      "timestamp": "2026-11-07T02:45:15.280Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|query|generation=1|command=1|shape=0|occupied=9|mask=111111111|control=0",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 241
+    },
+    {
+      "sequence": 2113,
+      "timestamp": "2026-11-07T02:45:15.280Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|demo_query|generation=1|command=1|occupied=9|generated_class_binding_control",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 243
+    },
+    {
+      "sequence": 2114,
+      "timestamp": "2026-11-07T02:45:15.280Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|preplaced_course_wall|generation=1|command=1|occupied=9",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 246
+    },
+    {
+      "sequence": 2115,
+      "timestamp": "2026-11-07T02:45:16.067Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|shape_requested|generation=1|command=2|shape=1|health_unmeasured",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 221
+    },
+    {
+      "sequence": 2116,
+      "timestamp": "2026-11-07T02:45:16.278Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|query|generation=1|command=2|shape=1|occupied=8|mask=111101111|control=0",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 241
+    },
+    {
+      "sequence": 2117,
+      "timestamp": "2026-11-07T02:45:16.278Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|demo_query|generation=1|command=2|occupied=9|generated_class_binding_control",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 243
+    },
+    {
+      "sequence": 2118,
+      "timestamp": "2026-11-07T02:45:16.278Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|preplaced_course_wall|generation=1|command=2|occupied=9",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 246
+    },
+    {
+      "sequence": 2119,
+      "timestamp": "2026-11-07T02:45:17.068Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|shape_requested|generation=1|command=3|shape=2|health_unmeasured",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 221
+    },
+    {
+      "sequence": 2120,
+      "timestamp": "2026-11-07T02:45:17.279Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|query|generation=1|command=3|shape=2|occupied=7|mask=101101111|control=0",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 241
+    },
+    {
+      "sequence": 2121,
+      "timestamp": "2026-11-07T02:45:17.279Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|demo_query|generation=1|command=3|occupied=9|generated_class_binding_control",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 243
+    },
+    {
+      "sequence": 2122,
+      "timestamp": "2026-11-07T02:45:17.279Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|preplaced_course_wall|generation=1|command=3|occupied=9",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 246
+    },
+    {
+      "sequence": 2123,
+      "timestamp": "2026-11-07T02:45:18.069Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|shape_requested|generation=1|command=4|shape=0|health_unmeasured",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 221
+    },
+    {
+      "sequence": 2124,
+      "timestamp": "2026-11-07T02:45:18.281Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|query|generation=1|command=4|shape=0|occupied=9|mask=111111111|control=0",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 241
+    },
+    {
+      "sequence": 2125,
+      "timestamp": "2026-11-07T02:45:18.281Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|demo_query|generation=1|command=4|occupied=9|generated_class_binding_control",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 243
+    },
+    {
+      "sequence": 2126,
+      "timestamp": "2026-11-07T02:45:18.281Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|preplaced_course_wall|generation=1|command=4|occupied=9",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 246
+    },
+    {
+      "sequence": 2127,
+      "timestamp": "2026-11-07T02:45:18.675Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|preplaced_moved|old=0|new=9|health_and_grid_unmeasured",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 135
+    },
+    {
+      "sequence": 2128,
+      "timestamp": "2026-11-07T02:45:18.873Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|preplaced_mesh|stage=1|occupied=8|native_edit_not_invoked",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 149
+    },
+    {
+      "sequence": 2129,
+      "timestamp": "2026-11-07T02:45:19.074Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|preplaced_mesh|stage=2|occupied=7|native_edit_not_invoked",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 149
+    },
+    {
+      "sequence": 2130,
+      "timestamp": "2026-11-07T02:45:19.275Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|preplaced_mesh|stage=3|occupied=9|native_edit_not_invoked",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 149
+    },
+    {
+      "sequence": 2131,
+      "timestamp": "2026-11-07T02:45:19.275Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|preplaced_restored",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 111
+    },
+    {
+      "sequence": 2132,
+      "timestamp": "2026-11-07T02:45:19.275Z",
+      "severity": "Normal",
+      "channel": "",
+      "message": "PCL|structure_probe|automatic_sequence_finished|generation=1|results_require_review",
+      "sourceFile": "coach_structure_probe.verse",
+      "sourceLine": 85
+    }
+  ],
+  "cleanup": {
+    "run": "48",
+    "scope": "Automatic structure creation, mesh change, query and lifetime only; no human/client input",
+    "source_preparation": "final-run-48-preparation.json",
+    "started_at_utc": "2026-11-07T02:47:11.384866+00:00",
+    "started_game_by_tool": false,
+    "sequence_finished": true,
+    "keep_edit_session_requested": true,
+    "initial_session_state": "Connected",
+    "readiness_observations": [
+      {
+        "at_utc": "2026-11-07T02:47:12.198454+00:00",
+        "session": "Connected"
+      }
+    ],
+    "ready_session_state": "Connected",
+    "initial_game_state": "Running",
+    "stop_game_result": "Completed",
+    "combat_gates_after_run": {
+      "CandidateCombatEnabled": false,
+      "QueryCoverageConfirmed": false,
+      "HealthContinuityConfirmed": false,
+      "NativeSlotInteroperationConfirmed": false
+    },
+    "restored_flags": {
+      "Enabled": false,
+      "AutoRun": false
+    },
+    "final_game_state": "CanStart",
+    "final_session_state": "Connected",
+    "kept_edit_session": true,
+    "ended_at_utc": "2026-11-07T02:47:17.949327+00:00"
+  },
+  "explicit_session_closure": {
+    "at_utc": "2026-11-07T02:50:07.322333+00:00",
+    "mesh_change_threshold": 0,
+    "stop_session_result": null,
+    "session": "Disconnected",
+    "game": "Unconnected",
+    "probe_flags": {
+      "Enabled": false,
+      "AutoRun": false,
+      "UseWeaponCalibration": false,
+      "UseCharacterTargetControl": false,
+      "IsolatedWallControl": false,
+      "SpawnedWallControl": false
+    }
+  },
+  "fixture_archive": ".local/evidence/structure-48/manifest.json",
+  "native_prop_bindings": "docs/OWNED_PROP_BINDINGS_48.json",
+  "gates_accepted": false
+}

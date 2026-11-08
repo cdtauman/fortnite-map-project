@@ -1,0 +1,128 @@
+{
+  "run": "101",
+  "evidence_sha256": "4695552789e3a4fa31534b04f0987ca3d5d84646c756c6459fb8ebb6ff118cb4",
+  "scope": "Control101executes one public Guard.Attack against a second native Guard after hostile team/detection/LOS, native build-tool equip+parent and publicly read resource stacks(total>=10) are confirmed. Target initialized5000HP/shield0/stasis before measurement; damage attribution/subscription/team cleanup separate. Same100native player-tool diagnostic lease/8short samples and temporary inventory restoration. Control100adds explicit native original-ranged RemoveItem before parking AddItem. Control98parks both original ranged items OUTSIDE Guard. Control97adds3temporary query guards; all removed before item return.99read-only current Guard inventory/reference census retained.40long samples now run during the attack control, with fixed2048x2048x1536 collision-entity census relative to a post-detection baseline, resources/tool/HP/source hits. A new body is only a candidate, not a native building/type/ownership/slot proof. Actual GameViewport phase native_build_attack while camera/menu temporarily leased. No computer input/player teleport, BeginFire or direct Damage; health set only before measurement. Native tool kind not identified; no native edit/reset command. End cancels attack task and damage binding, restores target team/stasis/vulnerability then same original14identities/parents/equipped,source4,2rangeditems,empty hotbar/parking removal and repeat cleanup. This is an actuation investigation, not native placement/edit/reset acceptance, a pro-quality or publication promise.",
+  "short_lease_checks_pass": true,
+  "visual_window_samples": 0,
+  "visual_window_equipped_samples": 0,
+  "neutral_window_samples": 0,
+  "neutral_window_equipped_samples": 0,
+  "checks": {
+    "temporary_hotbar_initially_empty": true,
+    "single_item_transfer_parent_and_counts": true,
+    "native_equip_succeeded": true,
+    "eight_equipped_parent_matching_samples": true,
+    "same_item_return_and_original_guard_equipment": true,
+    "all14_item_identity_parent_equipped_restored": true,
+    "cleanup_repeated_and_temporary_hotbar_absent": true,
+    "no_pending_cleanup": true,
+    "sequence_finished": true,
+    "test_flags_and_native_build_gates_off": true,
+    "visual_window_all40_sampled_equipped_and_parent_matching": false,
+    "native_item_query_guards_installed_and_removed": true,
+    "borrowed_tool_and_original_gear_have_no_hold_guards_after_return": true,
+    "query_guards_released_before_native_item_return": true,
+    "both_original_ranged_items_parked_outside_guard": true,
+    "original_ranged_items_remain_parked_and_unequipped_during48samples": false,
+    "both_original_ranged_items_returned_and_empty_parking_removed": true,
+    "both_original_ranged_explicitly_removed_before_parking": true
+  },
+  "all_scoped_checks_pass": false,
+  "transfer": [
+    {
+      "same_item_parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    }
+  ],
+  "samples": [
+    {
+      "tick": "1",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "2",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "3",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "4",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "5",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "6",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "7",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    },
+    {
+      "tick": "8",
+      "equipped": "1",
+      "parent_matches": "1",
+      "source_count": "3",
+      "destination_count": "1"
+    }
+  ],
+  "restored": [
+    {
+      "same_item_source_parent": "1",
+      "source_count": "4",
+      "temporary_inventory_empty_remove_requested": "1",
+      "original_guard_equipment_restored": "1"
+    }
+  ],
+  "snapshot": [
+    {
+      "items": "14",
+      "unchanged_identity_parent_equipped": "14",
+      "source_count": "4",
+      "cleanup_ok": "1",
+      "repeat_cleanup_ok": "1",
+      "guard_hotbars_after": "0",
+      "tool_hold_guards_after": "0",
+      "ranged_hold_guards_after": "0"
+    }
+  ],
+  "not_run": [],
+  "rejections": [],
+  "rendered_blueprint_pose_verified": false,
+  "native_placement_edit_reset_verified": false,
+  "native_build_gates_accepted": false,
+  "pro_quality_verified": false,
+  "project_complete": false,
+  "limits": [
+    "Two-second eight-poll isolated native item lease; no native placement/edit/reset requested.",
+    "Native item identity/parent/equipped evidence does not prove rendered grip, between-poll continuity, ownership, structural occupancy or building actuation.",
+    "Normal completion restoration and repeat cleanup are observed only if the corresponding checks pass; forced game-end/death during lease remains a separate case."
+  ]
+}

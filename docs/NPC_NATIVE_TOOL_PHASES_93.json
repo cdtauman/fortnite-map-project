@@ -1,0 +1,502 @@
+{
+  "run": "93",
+  "evidence_sha256": "ec04ce38c9742541f08f6299a30f12f5f1128785dde6a696a4fde60aba499481",
+  "scope": "Read-only item state and native ChangeEquippedEvent observations on90noFocus camera path. No independent causal replacement control in this report.",
+  "states": [
+    {
+      "phase": "lease_setup",
+      "reason": "equipment_event",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23337.916211",
+      "timestamp": "2026-11-07T10:06:31.247Z",
+      "sequence": 6173
+    },
+    {
+      "phase": "short_window_start",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23337.916211",
+      "timestamp": "2026-11-07T10:06:31.247Z",
+      "sequence": 6175
+    },
+    {
+      "phase": "short_window_end",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23340.053535",
+      "timestamp": "2026-11-07T10:06:33.379Z",
+      "sequence": 6184
+    },
+    {
+      "phase": "before_stop_navigation",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23340.053535",
+      "timestamp": "2026-11-07T10:06:33.379Z",
+      "sequence": 6185
+    },
+    {
+      "phase": "after_stop_navigation",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23340.053535",
+      "timestamp": "2026-11-07T10:06:33.380Z",
+      "sequence": 6186
+    },
+    {
+      "phase": "before_tether",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23340.053535",
+      "timestamp": "2026-11-07T10:06:33.380Z",
+      "sequence": 6187
+    },
+    {
+      "phase": "after_tether",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23340.053535",
+      "timestamp": "2026-11-07T10:06:33.380Z",
+      "sequence": 6188
+    },
+    {
+      "phase": "before_menu_remove",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23340.053535",
+      "timestamp": "2026-11-07T10:06:33.380Z",
+      "sequence": 6189
+    },
+    {
+      "phase": "after_menu_remove",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23340.053535",
+      "timestamp": "2026-11-07T10:06:33.380Z",
+      "sequence": 6190
+    },
+    {
+      "phase": "before_settle_wait",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23340.053535",
+      "timestamp": "2026-11-07T10:06:33.380Z",
+      "sequence": 6192
+    },
+    {
+      "phase": "after_settle_wait",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23340.320711",
+      "timestamp": "2026-11-07T10:06:33.648Z",
+      "sequence": 6193
+    },
+    {
+      "phase": "before_initial_camera_placement",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23340.320711",
+      "timestamp": "2026-11-07T10:06:33.648Z",
+      "sequence": 6194
+    },
+    {
+      "phase": "after_initial_camera_placement",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23340.320711",
+      "timestamp": "2026-11-07T10:06:33.648Z",
+      "sequence": 6196
+    },
+    {
+      "phase": "before_camera_add",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23340.320711",
+      "timestamp": "2026-11-07T10:06:33.648Z",
+      "sequence": 6197
+    },
+    {
+      "phase": "after_camera_add",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23340.320711",
+      "timestamp": "2026-11-07T10:06:33.648Z",
+      "sequence": 6199
+    },
+    {
+      "phase": "before_camera_blend_wait",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23340.320711",
+      "timestamp": "2026-11-07T10:06:33.648Z",
+      "sequence": 6200
+    },
+    {
+      "phase": "before_camera_blend_wait",
+      "reason": "equipment_event",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23340.921809",
+      "timestamp": "2026-11-07T10:06:34.247Z",
+      "sequence": 6202
+    },
+    {
+      "phase": "after_camera_blend_wait",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23341.322571",
+      "timestamp": "2026-11-07T10:06:34.649Z",
+      "sequence": 6203
+    },
+    {
+      "phase": "after_camera_reframe",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23341.322571",
+      "timestamp": "2026-11-07T10:06:34.649Z",
+      "sequence": 6205
+    },
+    {
+      "phase": "before_visual_ready",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23341.589721",
+      "timestamp": "2026-11-07T10:06:34.914Z",
+      "sequence": 6206
+    },
+    {
+      "phase": "before_menu_restore",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23381.664428",
+      "timestamp": "2026-11-07T10:07:14.988Z",
+      "sequence": 6250
+    },
+    {
+      "phase": "after_menu_restore",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23381.664428",
+      "timestamp": "2026-11-07T10:07:14.988Z",
+      "sequence": 6251
+    },
+    {
+      "phase": "cleanup_begin",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "23381.664428",
+      "timestamp": "2026-11-07T10:07:14.992Z",
+      "sequence": 6253
+    }
+  ],
+  "equipment_events": [
+    {
+      "phase": "lease_setup",
+      "payload_equipped": "1",
+      "time": "23337.916211",
+      "timestamp": "2026-11-07T10:06:31.247Z",
+      "sequence": 6172
+    },
+    {
+      "phase": "before_camera_blend_wait",
+      "payload_equipped": "0",
+      "time": "23340.921809",
+      "timestamp": "2026-11-07T10:06:34.247Z",
+      "sequence": 6201
+    }
+  ],
+  "last_equipped_before_first_loss": {
+    "phase": "before_camera_blend_wait",
+    "reason": "phase",
+    "equipped": "1",
+    "parent_matches": "1",
+    "original_guard_equipped_now": "0",
+    "source_count": "3",
+    "destination_count": "1",
+    "time": "23340.320711",
+    "timestamp": "2026-11-07T10:06:33.648Z",
+    "sequence": 6200
+  },
+  "first_observed_loss": {
+    "phase": "before_camera_blend_wait",
+    "reason": "equipment_event",
+    "equipped": "0",
+    "parent_matches": "1",
+    "original_guard_equipped_now": "0",
+    "source_count": "3",
+    "destination_count": "1",
+    "time": "23340.921809",
+    "timestamp": "2026-11-07T10:06:34.247Z",
+    "sequence": 6202
+  },
+  "subscription_canceled_before_restoration": true,
+  "first_loss_phase": "before_camera_blend_wait",
+  "phase_markers": [
+    {
+      "phase": "short_window_start",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23337.916211",
+      "sequence": 6175
+    },
+    {
+      "phase": "short_window_end",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23340.053535",
+      "sequence": 6184
+    },
+    {
+      "phase": "before_stop_navigation",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23340.053535",
+      "sequence": 6185
+    },
+    {
+      "phase": "after_stop_navigation",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23340.053535",
+      "sequence": 6186
+    },
+    {
+      "phase": "before_tether",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23340.053535",
+      "sequence": 6187
+    },
+    {
+      "phase": "after_tether",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23340.053535",
+      "sequence": 6188
+    },
+    {
+      "phase": "before_menu_remove",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23340.053535",
+      "sequence": 6189
+    },
+    {
+      "phase": "after_menu_remove",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23340.053535",
+      "sequence": 6190
+    },
+    {
+      "phase": "before_settle_wait",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23340.053535",
+      "sequence": 6192
+    },
+    {
+      "phase": "after_settle_wait",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23340.320711",
+      "sequence": 6193
+    },
+    {
+      "phase": "before_initial_camera_placement",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23340.320711",
+      "sequence": 6194
+    },
+    {
+      "phase": "after_initial_camera_placement",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23340.320711",
+      "sequence": 6196
+    },
+    {
+      "phase": "before_camera_add",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23340.320711",
+      "sequence": 6197
+    },
+    {
+      "phase": "after_camera_add",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23340.320711",
+      "sequence": 6199
+    },
+    {
+      "phase": "before_camera_blend_wait",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "23340.320711",
+      "sequence": 6200
+    },
+    {
+      "phase": "after_camera_blend_wait",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "time": "23341.322571",
+      "sequence": 6203
+    },
+    {
+      "phase": "after_camera_reframe",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "time": "23341.322571",
+      "sequence": 6205
+    },
+    {
+      "phase": "before_visual_ready",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "time": "23341.589721",
+      "sequence": 6206
+    },
+    {
+      "phase": "before_menu_restore",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "time": "23381.664428",
+      "sequence": 6250
+    },
+    {
+      "phase": "after_menu_restore",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "time": "23381.664428",
+      "sequence": 6251
+    },
+    {
+      "phase": "cleanup_begin",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "time": "23381.664428",
+      "sequence": 6253
+    }
+  ],
+  "limits": [
+    "First observed transition narrows the boundary; asynchronous native processing or elapsed time still require a discriminating follow-up.",
+    "Inventory flags/event payloads do not prove render, native placement/edit/reset or production allocation.",
+    "Normal subscription cancellation observed here; interruption/death/disconnect case remains separate."
+  ],
+  "native_build_gates_accepted": false,
+  "project_complete": false
+}

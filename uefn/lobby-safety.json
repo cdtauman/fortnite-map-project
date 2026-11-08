@@ -1,0 +1,14 @@
+{
+  "scope": "Current authoring configuration, not runtime proof. No building/editing/fire in the lobby, including pre-game.",
+  "revision": 203,
+  "actor": {
+    "refPath": "/eda26a53-42c0-4b9e-8f62-31719aef6889/ProCoachLab.ProCoachLab:PersistentLevel.Device_MutatorVolume_V2_C_UAID_30E3A4101075BC1203_1566827237"
+  },
+  "options": {
+    "EnabledOnPhase": "Always",
+    "bAllowBuilding": "False",
+    "bAllowEditing": "False",
+    "bAllowWeaponFire": "False"
+  },
+  "evidence": ".local/lobby203-entry-authoring.json"
+}

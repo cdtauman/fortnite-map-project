@@ -1,0 +1,53 @@
+{
+  "at_utc": "2026-11-07T07:30:15.109369+00:00",
+  "checkpoint": "78",
+  "latest_runtime": "78",
+  "latest_compile": "npc-native-viewport78-menu-build.json",
+  "input_sha256": {
+    "docs/ACADEMY_EDITOR_EVIDENCE.json": "bdb30cdb53caf9f58cb1aded6f7efcd20d5fcbb69128596fee6fa9341b43aedc",
+    "docs/HEALTH_RUNTIME_EVIDENCE_76.json": "98ffd04b6101e80a06ac6086ce4c00dbd171a62aeb70530d3ad5ab2acdfa27c0",
+    "docs/HEALTH_RUNTIME_EVIDENCE_77.json": "283ea05b9b9925bb55519a1bead11fed1df3346a1edc129928cfefb0923d0d22",
+    "docs/HEALTH_RUNTIME_EVIDENCE_78.json": "40671e3a81e22cdefc2589162594680e71cc8c511f67557f22d661b77ee14a86",
+    "docs/NPC_NATIVE_VIEWPORT_EVIDENCE_78.json": "a01210b9dbf5e64560013daa707c07475a8ca67f042119af98cefdf2b5816868"
+  },
+  "flags": {
+    "enabled": false,
+    "autoRun": false,
+    "calibrationNativeTimer": false,
+    "useWeaponCalibration": false,
+    "useCharacterTargetControl": false,
+    "isolatedWallControl": false,
+    "spawnedWallControl": false,
+    "nPCEquippedAttackControl": false,
+    "visualUseViewportCamera": false
+  },
+  "capture_durations": {
+    "visualNativeCaptureSeconds": 0,
+    "visualToolCaptureSeconds": 0,
+    "visualRifleCaptureSeconds": 0
+  },
+  "native_original_inventory_gameplay_controls_pass": true,
+  "native_held_weapon_pose_accepted": false,
+  "native_build_gates_accepted": false,
+  "full_product_complete": false,
+  "editor": {
+    "actors": 149,
+    "sources": 18,
+    "assets": {
+      "numChecked": 54,
+      "numValid": 54,
+      "numInvalid": 0,
+      "numWarnings": 0,
+      "numSkipped": 0,
+      "bAssetLimitReached": false,
+      "errors": [],
+      "warnings": []
+    },
+    "map_dirty": false,
+    "game": "CanStart",
+    "session": "Connected"
+  },
+  "computer_input_used": false,
+  "workers_remaining": false,
+  "next": "Stabilize owned hold before camera placement/1s delay; reframe from observed pose and inspect a correctly framed native-reference image, then compare managed rifle/tool. Do not mutate valid cosmetics or infer unsupported native gameplay from these stills."
+}

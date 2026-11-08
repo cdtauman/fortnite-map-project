@@ -1,0 +1,562 @@
+{
+  "run": "98",
+  "evidence_sha256": "5b8ea75df19c4398c0c804c465212458addf09506b5c9bc2b7bc8afd9d3a2266",
+  "scope": "Native build-tool inventory lease, same88transfer/Equip/8quarter-second polls and source/original Guard equipment restoration. Extra40sactual GameViewport reference: stop navigation+tether, NO Focus/Attack requests; camera from observed character forward, settled/reframed temporary existing camera+same-widget menu lease.1Hz native tool equipped/parent/destination samples; no placement/edit/reset. Source parent/unequipped rechecked after setup wait; untransferred source change is not forcibly unequipped by rollback. Native item source is diagnostic only; not a production allocation solution. No computer input/player teleport, firing request or direct damage;14original identities/parents/equipped checked and temporary hotbar0after cleanup. Forced game-end/death during lease remains separate. Control91adds read-only phase-state snapshots before/after StopNavigation,Tether,menu removal/restore,camera placement/activation/blend/reframe and a single native item ChangeEquippedEvent subscription. Logs current exact parent, equip, source/destination count and originally equipped Guard items; cancels subscription before native lease restoration. No gameplay timing/action change from90intended. Control95moves StopNavigation/Tether before native Tool.Equip, waits1.25s for navigation setup to settle, then releases original Guard gear, equips the native tool and runs the same8short/40long samples. No post-equip navigation setup. Held actions are unwound before native item restoration. Compare93same camera-stack bypass setup versus95ordering; menu-only94passed40/40. This tests ordering, not a universal cause or native build actuation. Control97adds temporary public inventory query guards: veto unequipping the borrowed native tool while in the exact destination, and veto equipping each original Guard ranged item while it remains under the observed Guard inventory. Same existing coach_tool_hold_component, no repeated equip or firing. Native lease Restore first unlocks/removes ALL added guards before item return, including OnEnd/retry paths; logs guard counts/vetoes and confirms no tool/ranged hold components after cleanup. Preexisting hold components refuse installation.96lost native tool during initial short window BEFORE camera, so95ordering alone is not established as robust; this tests public inventory arbitration on native items. Control98parks both original Guard ranged items, after successful Unequip, into one owned temporary inventory under the simulation root OUTSIDE Guard inventory. AddItem(no merge), checked original parents, partial-transfer restoration tracking BEFORE mutation. Require0ranged left under Guard before same97guards/tool equip/8short+40long frame. Restore removes query guards, returns native tool, returns exact original ranged items to original parents, removes only empty parking entity, restores original equipped gear; OnEnd/retry use same lease Restore. No copying/deleting original items or protected asset changes. Compare97versus98parking, not a universal native restriction or actuation result. Read-only item-state/native ChangeEquippedEvent transition analysis; first observed boundary is not proof of sole cause.",
+  "states": [
+    {
+      "phase": "before_stop_navigation",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25838.113917",
+      "timestamp": "2026-11-07T10:48:12.498Z",
+      "sequence": 6847
+    },
+    {
+      "phase": "after_stop_navigation",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25838.113917",
+      "timestamp": "2026-11-07T10:48:12.498Z",
+      "sequence": 6848
+    },
+    {
+      "phase": "before_tether",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25838.113917",
+      "timestamp": "2026-11-07T10:48:12.498Z",
+      "sequence": 6849
+    },
+    {
+      "phase": "after_tether",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25838.113917",
+      "timestamp": "2026-11-07T10:48:12.498Z",
+      "sequence": 6850
+    },
+    {
+      "phase": "navigation_settle_before_tool_equip",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25838.113917",
+      "timestamp": "2026-11-07T10:48:12.498Z",
+      "sequence": 6851
+    },
+    {
+      "phase": "navigation_settled_before_tool_equip",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25839.382961",
+      "timestamp": "2026-11-07T10:48:13.772Z",
+      "sequence": 6852
+    },
+    {
+      "phase": "original_ranged_parked_before_tool_equip",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25839.382961",
+      "timestamp": "2026-11-07T10:48:13.772Z",
+      "sequence": 6854
+    },
+    {
+      "phase": "original_ranged_parked_before_tool_equip",
+      "reason": "equipment_event",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25839.382961",
+      "timestamp": "2026-11-07T10:48:13.773Z",
+      "sequence": 6857
+    },
+    {
+      "phase": "short_window_start",
+      "reason": "phase",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25839.382961",
+      "timestamp": "2026-11-07T10:48:13.773Z",
+      "sequence": 6859
+    },
+    {
+      "phase": "short_window_start",
+      "reason": "equipment_event",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25839.549933",
+      "timestamp": "2026-11-07T10:48:13.929Z",
+      "sequence": 6861
+    },
+    {
+      "phase": "short_window_end",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25841.520242",
+      "timestamp": "2026-11-07T10:48:15.901Z",
+      "sequence": 6878
+    },
+    {
+      "phase": "before_menu_remove",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25841.520242",
+      "timestamp": "2026-11-07T10:48:15.901Z",
+      "sequence": 6879
+    },
+    {
+      "phase": "after_menu_remove",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25841.520242",
+      "timestamp": "2026-11-07T10:48:15.901Z",
+      "sequence": 6880
+    },
+    {
+      "phase": "before_settle_wait",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25841.520242",
+      "timestamp": "2026-11-07T10:48:15.901Z",
+      "sequence": 6882
+    },
+    {
+      "phase": "after_settle_wait",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25841.787400",
+      "timestamp": "2026-11-07T10:48:16.170Z",
+      "sequence": 6883
+    },
+    {
+      "phase": "before_initial_camera_placement",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25841.787400",
+      "timestamp": "2026-11-07T10:48:16.170Z",
+      "sequence": 6884
+    },
+    {
+      "phase": "after_initial_camera_placement",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25841.787400",
+      "timestamp": "2026-11-07T10:48:16.170Z",
+      "sequence": 6886
+    },
+    {
+      "phase": "before_camera_add",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25841.787400",
+      "timestamp": "2026-11-07T10:48:16.170Z",
+      "sequence": 6887
+    },
+    {
+      "phase": "after_camera_add",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25841.787400",
+      "timestamp": "2026-11-07T10:48:16.170Z",
+      "sequence": 6888
+    },
+    {
+      "phase": "before_camera_blend_wait",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25841.787400",
+      "timestamp": "2026-11-07T10:48:16.170Z",
+      "sequence": 6889
+    },
+    {
+      "phase": "after_camera_blend_wait",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25842.789231",
+      "timestamp": "2026-11-07T10:48:17.169Z",
+      "sequence": 6890
+    },
+    {
+      "phase": "after_camera_reframe",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25842.789231",
+      "timestamp": "2026-11-07T10:48:17.169Z",
+      "sequence": 6892
+    },
+    {
+      "phase": "before_visual_ready",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25843.056396",
+      "timestamp": "2026-11-07T10:48:17.435Z",
+      "sequence": 6893
+    },
+    {
+      "phase": "before_menu_restore",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25883.130876",
+      "timestamp": "2026-11-07T10:48:57.510Z",
+      "sequence": 6977
+    },
+    {
+      "phase": "after_menu_restore",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25883.130876",
+      "timestamp": "2026-11-07T10:48:57.511Z",
+      "sequence": 6978
+    },
+    {
+      "phase": "cleanup_begin",
+      "reason": "phase",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "source_count": "3",
+      "destination_count": "1",
+      "time": "25883.130876",
+      "timestamp": "2026-11-07T10:48:57.524Z",
+      "sequence": 6980
+    }
+  ],
+  "equipment_events": [
+    {
+      "phase": "original_ranged_parked_before_tool_equip",
+      "payload_equipped": "1",
+      "time": "25839.382961",
+      "timestamp": "2026-11-07T10:48:13.773Z",
+      "sequence": 6856
+    },
+    {
+      "phase": "short_window_start",
+      "payload_equipped": "0",
+      "time": "25839.549933",
+      "timestamp": "2026-11-07T10:48:13.929Z",
+      "sequence": 6860
+    }
+  ],
+  "last_equipped_before_first_loss": {
+    "phase": "short_window_start",
+    "reason": "phase",
+    "equipped": "1",
+    "parent_matches": "1",
+    "original_guard_equipped_now": "0",
+    "source_count": "3",
+    "destination_count": "1",
+    "time": "25839.382961",
+    "timestamp": "2026-11-07T10:48:13.773Z",
+    "sequence": 6859
+  },
+  "first_observed_loss": {
+    "phase": "short_window_start",
+    "reason": "equipment_event",
+    "equipped": "0",
+    "parent_matches": "1",
+    "original_guard_equipped_now": "0",
+    "source_count": "3",
+    "destination_count": "1",
+    "time": "25839.549933",
+    "timestamp": "2026-11-07T10:48:13.929Z",
+    "sequence": 6861
+  },
+  "subscription_canceled_before_restoration": true,
+  "first_loss_phase": "short_window_start",
+  "phase_markers": [
+    {
+      "phase": "before_stop_navigation",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "time": "25838.113917",
+      "sequence": 6847
+    },
+    {
+      "phase": "after_stop_navigation",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "time": "25838.113917",
+      "sequence": 6848
+    },
+    {
+      "phase": "before_tether",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "time": "25838.113917",
+      "sequence": 6849
+    },
+    {
+      "phase": "after_tether",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "time": "25838.113917",
+      "sequence": 6850
+    },
+    {
+      "phase": "navigation_settle_before_tool_equip",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "time": "25838.113917",
+      "sequence": 6851
+    },
+    {
+      "phase": "navigation_settled_before_tool_equip",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "1",
+      "time": "25839.382961",
+      "sequence": 6852
+    },
+    {
+      "phase": "original_ranged_parked_before_tool_equip",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "25839.382961",
+      "sequence": 6854
+    },
+    {
+      "phase": "short_window_start",
+      "equipped": "1",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "25839.382961",
+      "sequence": 6859
+    },
+    {
+      "phase": "short_window_end",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "25841.520242",
+      "sequence": 6878
+    },
+    {
+      "phase": "before_menu_remove",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "25841.520242",
+      "sequence": 6879
+    },
+    {
+      "phase": "after_menu_remove",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "25841.520242",
+      "sequence": 6880
+    },
+    {
+      "phase": "before_settle_wait",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "25841.520242",
+      "sequence": 6882
+    },
+    {
+      "phase": "after_settle_wait",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "25841.787400",
+      "sequence": 6883
+    },
+    {
+      "phase": "before_initial_camera_placement",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "25841.787400",
+      "sequence": 6884
+    },
+    {
+      "phase": "after_initial_camera_placement",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "25841.787400",
+      "sequence": 6886
+    },
+    {
+      "phase": "before_camera_add",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "25841.787400",
+      "sequence": 6887
+    },
+    {
+      "phase": "after_camera_add",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "25841.787400",
+      "sequence": 6888
+    },
+    {
+      "phase": "before_camera_blend_wait",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "25841.787400",
+      "sequence": 6889
+    },
+    {
+      "phase": "after_camera_blend_wait",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "25842.789231",
+      "sequence": 6890
+    },
+    {
+      "phase": "after_camera_reframe",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "25842.789231",
+      "sequence": 6892
+    },
+    {
+      "phase": "before_visual_ready",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "25843.056396",
+      "sequence": 6893
+    },
+    {
+      "phase": "before_menu_restore",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "25883.130876",
+      "sequence": 6977
+    },
+    {
+      "phase": "after_menu_restore",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "25883.130876",
+      "sequence": 6978
+    },
+    {
+      "phase": "cleanup_begin",
+      "equipped": "0",
+      "parent_matches": "1",
+      "original_guard_equipped_now": "0",
+      "time": "25883.130876",
+      "sequence": 6980
+    }
+  ],
+  "limits": [
+    "First observed transition narrows the boundary; asynchronous native processing or elapsed time still require a discriminating follow-up.",
+    "Inventory flags/event payloads do not prove render, native placement/edit/reset or production allocation.",
+    "Normal subscription cancellation observed here; interruption/death/disconnect case remains separate."
+  ],
+  "native_build_gates_accepted": false,
+  "project_complete": false
+}
