@@ -160,6 +160,7 @@ coach_portal_device := class(creative_device):
     ArenaAccess : coach_arena_access = coach_arena_access{}
     DuelFlow : coach_duel_round_flow = coach_duel_round_flow{}
     DuelSettings : coach_duel_settings = coach_duel_settings{}
+    DuelReview : coach_duel_recorder = coach_duel_recorder{}
     var Views : [player]coach_player_view = map{}
     var PlayerBindings : [player][]cancelable = map{}
     var PlayerBodies : [player]coach_player_body_state = map{}
@@ -375,6 +376,7 @@ coach_portal_device := class(creative_device):
         set PlayerBindings = RemainingBindings
         set PlayerBodies = RemainingBodies
         set DuelWins = RemainingWins
+        DuelReview.Forget(Player)
 
     OnPlayerSpawned(Agent : agent):void =
         if (Player := player[Agent]):
@@ -515,6 +517,16 @@ coach_portal_device := class(creative_device):
                 coach_menu_entry{Label := CoachLanguage("Back", "חזרה", H), Action := 20}
             }
             View.ShowMenu(CoachLanguage("Your loadout", "הנשקים שלך", H), CoachLanguage("Select a slot to switch its weapon. Your choice is saved and used from the next round.", "בחר משבצת כדי להחליף את הנשק שבה. הבחירה נשמרת ותופעל מהסיבוב הבא.", H), Entries)
+
+    ShowDuelReview(Player : player):void =
+        if (Training := Runtime.Players[Player], View := Views[Player], Review := DuelReview.Reviews[Player]):
+            H := Training.HebrewText
+            Drill := CoachDuelDrillName(Review.Drill, H)
+            Practice := CoachPick("Practice", "לתרגל", H)
+            View.ShowMenu(CoachLanguage("Your round review", "ניתוח הסיבוב שלך", H), CoachLanguage("{Review.English}", "{Review.Hebrew}", H), array{
+                coach_menu_entry{Label := CoachMessage("{Practice}: {Drill}"), Action := 204},
+                coach_menu_entry{Label := CoachLanguage("Back", "חזרה", H), Action := 20}
+            })
 
     ShowDuelSettings(Player : player):void =
         if (Training := Runtime.Players[Player], View := Views[Player]):
@@ -852,6 +864,15 @@ coach_portal_device := class(creative_device):
             ShowDuelLoadout(Player)
         else if (Action = 201):
             ShowDuelSettings(Player)
+        else if (Action = 203):
+            ShowDuelReview(Player)
+        else if (Action = 204):
+            if (Training := Runtime.Players[Player], Review := DuelReview.Reviews[Player]):
+                Drill := CoachDuelDrillName(Review.Drill, Training.HebrewText)
+                EnterMode(Player, coach_mode.FreeBuild)
+                if (View := Views[Player]):
+                    Practice := CoachPick("Practice", "תרגול", Training.HebrewText)
+                    View.SetCaption(CoachMessage("{Practice}: {Drill}"))
         else if (Action = 202):
             if (Training := Runtime.Players[Player]):
                 Training.SaveDuelLoadout(CoachRandomLoadout())
@@ -1048,6 +1069,8 @@ coach_portal_device := class(creative_device):
                 coach_menu_entry{Label := CoachLanguage("My training plan", "תוכנית האימון שלי", H), Action := 91},
                 coach_menu_entry{Label := CoachLanguage("Explore the academy", "סיור באקדמיה", H), Action := 8}
             }
+            if (Training.Mode = coach_mode.Duel, DuelReview.Reviews[Player]):
+                set Entries = array{coach_menu_entry{Label := CoachLanguage("Last round review", "ניתוח הסיבוב האחרון", H), Action := 203}} + Entries
             if (Training.Mode = coach_mode.Duel):
                 set Entries = array{
                     coach_menu_entry{Label := CoachLanguage("Choose your loadout", "בחירת נשקים", H), Action := 200},

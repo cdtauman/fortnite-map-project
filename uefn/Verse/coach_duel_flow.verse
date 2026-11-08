@@ -186,6 +186,8 @@ coach_duel_round_flow := class:
             Body.SetVulnerability(true)
             if (View := Portal.Views[Player]):
                 View.SetCaption(CoachLanguage("Fight!", "הקרב התחיל!", Training.HebrewText))
+        Portal.DuelReview.Reset(Players, Ticket)
+        spawn { Portal.DuelReview.Record(Self, Ticket, Bodies) }
 
     Say(Portal : coach_portal_device, Player : player, English : string, Hebrew : string):void =
         if (Training := Portal.Runtime.Players[Player], View := Portal.Views[Player]):
@@ -197,7 +199,9 @@ coach_duel_round_flow := class:
         if (Phase <> coach_duel_phase.Fighting or Participants(Portal).Length <> 2):
             return
         if (Training := Portal.Runtime.Players[Loser], Training.Mode = coach_mode.Duel, Portal.ArenaAccess.Holds(Loser, coach_mode.Duel)?):
+            var Scored : logic = false
             if (Character := Killer?, Agent := Character.GetAgent[], Winner := player[Agent], Winner <> Loser, Winning := Portal.Runtime.Players[Winner], Winning.Mode = coach_mode.Duel, Portal.ArenaAccess.Holds(Winner, coach_mode.Duel)?):
+                set Scored = true
                 var Wins : int = 1
                 if (Previous := Portal.DuelWins[Winner]):
                     set Wins = Previous + 1
@@ -214,5 +218,6 @@ coach_duel_round_flow := class:
                     if (set Portal.DuelWins[Winner] = 0, set Portal.DuelWins[Loser] = 0) {}
                 else:
                     Say(Portal, Winner, "Round won. Score {Wins}-{Other} ({TargetEnglish})", "ניצחת בסיבוב. תוצאה {Wins}-{Other} ({TargetHebrew})")
-                    Say(Portal, Loser, "Round lost. Score {Other}-{Wins} ({TargetEnglish})", "הפסדת בסיבוב. תוצאה {Other}-{Wins} ({TargetHebrew})")
+                    Say(Portal, Loser, "Round lost. Score {Other}-{Wins} ({TargetEnglish}). Your review is in the menu.", "הפסדת בסיבוב. תוצאה {Other}-{Wins} ({TargetHebrew}). הניתוח שלך בתפריט.")
+            Portal.DuelReview.Analyze(Loser, Scored)
             Begin(Portal, 2.0)
