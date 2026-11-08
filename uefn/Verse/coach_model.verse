@@ -70,6 +70,8 @@ coach_profile := class<final><persistable>:
     CompletedCoverSessions : int = 0
     CompletedAngleSessions : int = 0
     TrainingPlan : coach_training_plan = coach_training_plan{}
+    # Five slot choices (catalog index or -1); see coach_duel_match.verse.
+    DuelLoadout : []int = array{}
 
 var CoachProfiles : weak_map(player, coach_profile) = map{}
 
@@ -106,6 +108,7 @@ CopyCoachProfile<constructor>(Source : coach_profile)<transacts> := coach_profil
     CompletedCoverSessions := Source.CompletedCoverSessions
     CompletedAngleSessions := Source.CompletedAngleSessions
     TrainingPlan := Source.TrainingPlan
+    DuelLoadout := Source.DuelLoadout
 
 LoadCoachProfile(Player : player)<transacts>:coach_profile =
     if (Player.IsActive[], Existing := CoachProfiles[Player]):
@@ -464,6 +467,10 @@ coach_training_session := class:
             TacticTrials := Tactics.Trials
             TacticValues := Tactics.Values
             CopyCoachProfile<constructor>(Profile)
+        Saved := StoreCoachProfile(Owner, Profile)
+
+    SaveDuelLoadout(Loadout : []int):void =
+        set Profile = coach_profile{DuelLoadout := Loadout, CopyCoachProfile<constructor>(Profile)}
         Saved := StoreCoachProfile(Owner, Profile)
 
     RecordDrill(Kind : coach_course_kind, Elapsed : float, ?Segments : []float = array{}):void =

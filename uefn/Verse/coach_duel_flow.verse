@@ -88,7 +88,7 @@ coach_duel_round_flow := class:
                 Position := CoachDuelStart(Index)
                 Facing := MakeRotationFromYawPitchRollDegrees(Index * 180.0, 0.0, 0.0)
                 if (Character.TeleportTo[Position, Facing], Distance(Character.GetTransform().Translation, Position) < 100.0):
-                    Portal.RestoreRoundVitals(Character)
+                    Portal.RestoreDuelVitals(Character)
                 else:
                     return false
             else:
@@ -99,7 +99,7 @@ coach_duel_round_flow := class:
         if (not Current(Portal, Ticket)? or Bodies.Length <> 2):
             return false
         for (Index -> Player : Players):
-            if (Original := Bodies[Index], Body := Player.GetFortCharacter[], Body = Original, Body.IsActive[], Portal.DuelPreparationZone.IsInVolume[Player], Portal.RoundVitalsReady(Body)?) {}
+            if (Original := Bodies[Index], Body := Player.GetFortCharacter[], Body = Original, Body.IsActive[], Portal.DuelPreparationZone.IsInVolume[Player], Portal.DuelVitalsReady(Body)?) {}
             else:
                 return false
         return true
@@ -153,7 +153,7 @@ coach_duel_round_flow := class:
         var Bodies : []fort_character = array{}
         for (Player : Players, Body := Player.GetFortCharacter[], Body.IsActive[]):
             set Bodies += array{Body}
-            Portal.LoadoutGranter.GrantItem(Player)
+            Portal.GrantDuelLoadout(Player)
             if (View := Portal.Views[Player]):
                 View.CloseMenu()
         var VolumeAttempt : int = 0
@@ -187,6 +187,12 @@ coach_duel_round_flow := class:
             if (View := Portal.Views[Player]):
                 View.SetCaption(CoachLanguage("Fight!", "הקרב התחיל!", Training.HebrewText))
 
+    Say(Portal : coach_portal_device, Player : player, English : string, Hebrew : string):void =
+        if (Training := Portal.Runtime.Players[Player], View := Portal.Views[Player]):
+            View.SetCaption(CoachLanguage(English, Hebrew, Training.HebrewText))
+
+    # Scores the round for the attributed winner and ends the match at the chosen target
+    # (first to N). The next round, or the next match, starts automatically.
     Finish(Portal : coach_portal_device, Loser : player, Killer : ?fort_character):void =
         if (Phase <> coach_duel_phase.Fighting or Participants(Portal).Length <> 2):
             return
@@ -196,6 +202,17 @@ coach_duel_round_flow := class:
                 if (Previous := Portal.DuelWins[Winner]):
                     set Wins = Previous + 1
                 if (set Portal.DuelWins[Winner] = Wins) {}
-                if (View := Portal.Views[Winner]):
-                    View.SetCaption(CoachLanguage("Round won. Session wins: {Wins}", "ניצחת בסיבוב. ניצחונות במפגש: {Wins}", Winning.HebrewText))
+                var Other : int = 0
+                if (Value := Portal.DuelWins[Loser]):
+                    set Other = Value
+                Target := Portal.DuelSettings.Target()
+                TargetEnglish := Portal.DuelSettings.TargetLabel(false)
+                TargetHebrew := Portal.DuelSettings.TargetLabel(true)
+                if (Target > 0 and Wins >= Target):
+                    Say(Portal, Winner, "You won the match {Wins}-{Other}! A new match starts now.", "ניצחת במשחק {Wins}-{Other}! משחק חדש מתחיל עכשיו.")
+                    Say(Portal, Loser, "Match lost {Other}-{Wins}. A new match starts now.", "הפסדת במשחק {Other}-{Wins}. משחק חדש מתחיל עכשיו.")
+                    if (set Portal.DuelWins[Winner] = 0, set Portal.DuelWins[Loser] = 0) {}
+                else:
+                    Say(Portal, Winner, "Round won. Score {Wins}-{Other} ({TargetEnglish})", "ניצחת בסיבוב. תוצאה {Wins}-{Other} ({TargetHebrew})")
+                    Say(Portal, Loser, "Round lost. Score {Other}-{Wins} ({TargetEnglish})", "הפסדת בסיבוב. תוצאה {Other}-{Wins} ({TargetHebrew})")
             Begin(Portal, 2.0)

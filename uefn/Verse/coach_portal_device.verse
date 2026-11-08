@@ -31,6 +31,13 @@ coach_portal_device := class(creative_device):
     VoiceReady : logic = false
     @editable
     LoadoutGranter : item_granter_device = item_granter_device{}
+    # One granter per CoachWeaponCatalog entry (same order) plus a "Clear Items" granter.
+    @editable
+    WeaponGranters : []item_granter_device = array{}
+    @editable
+    LoadoutClear : item_granter_device = item_granter_device{}
+    @editable
+    DuelLoadoutConfigured : logic = false
     @editable
     SpawnPadOne : player_spawner_device = player_spawner_device{}
     @editable
@@ -103,6 +110,7 @@ coach_portal_device := class(creative_device):
     PersonalFlow : coach_personal_start_flow = coach_personal_start_flow{}
     ArenaAccess : coach_arena_access = coach_arena_access{}
     DuelFlow : coach_duel_round_flow = coach_duel_round_flow{}
+    DuelSettings : coach_duel_settings = coach_duel_settings{}
     var Views : [player]coach_player_view = map{}
     var PlayerBindings : [player][]cancelable = map{}
     var PlayerBodies : [player]coach_player_body_state = map{}
@@ -412,6 +420,65 @@ coach_portal_device := class(creative_device):
         Body.SetMaxShield(100.0)
         Body.SetHealth(100.0)
         Body.SetShield(100.0)
+
+    RestoreDuelVitals(Body : fort_character):void =
+        Health := DuelSettings.MaxHealth()
+        Shield := DuelSettings.MaxShield()
+        Body.SetMaxHealth(Health)
+        Body.SetMaxShield(Shield)
+        Body.SetHealth(Health)
+        Body.SetShield(Shield)
+
+    DuelVitalsReady(Body : fort_character)<transacts>:logic =
+        Health := DuelSettings.MaxHealth()
+        Shield := DuelSettings.MaxShield()
+        if (Body.IsActive[], Abs(Body.GetMaxHealth() - Health) < 0.1, Abs(Body.GetMaxShield() - Shield) < 0.1, Abs(Body.GetHealth() - Health) < 0.1, Abs(Body.GetShield() - Shield) < 0.1):
+            return true
+        return false
+
+    DuelLoadout(Player : player)<transacts>:[]int =
+        if (Training := Runtime.Players[Player]):
+            return CoachNormalizeLoadout(Training.Profile.DuelLoadout)
+        CoachDefaultLoadout()
+
+    # Clears the previous round's items (resources stay), then grants each chosen slot.
+    # Falls back to the original fixed loadout until the granters are wired in the editor.
+    GrantDuelLoadout(Player : player):void =
+        if (not DuelLoadoutConfigured? or WeaponGranters.Length <> CoachWeaponCatalog.Length):
+            LoadoutGranter.GrantItem(Player)
+            return
+        LoadoutClear.GrantItem(Player)
+        for (Choice : DuelLoadout(Player), Granter := WeaponGranters[Choice]):
+            Granter.GrantItem(Player)
+
+    ShowDuelLoadout(Player : player):void =
+        if (Training := Runtime.Players[Player], View := Views[Player]):
+            H := Training.HebrewText
+            var Entries : []coach_menu_entry = array{}
+            for (Slot -> Choice : DuelLoadout(Player)):
+                set Entries += array{coach_menu_entry{Label := CoachMessage("{CoachWeaponSlotName(Slot, H)}: {CoachWeaponLabel(Choice, H)}"), Action := 210 + Slot}}
+            set Entries += array{
+                coach_menu_entry{Label := CoachLanguage("Random loadout", "נשקים אקראיים", H), Action := 202},
+                coach_menu_entry{Label := CoachLanguage("Back", "חזרה", H), Action := 20}
+            }
+            View.ShowMenu(CoachLanguage("Your loadout", "הנשקים שלך", H), CoachLanguage("Select a slot to switch its weapon. Your choice is saved and used from the next round.", "בחר משבצת כדי להחליף את הנשק שבה. הבחירה נשמרת ותופעל מהסיבוב הבא.", H), Entries)
+
+    ShowDuelSettings(Player : player):void =
+        if (Training := Runtime.Players[Player], View := Views[Player]):
+            H := Training.HebrewText
+            WinLabel := CoachPick("Win condition", "תנאי ניצחון", H)
+            HealthLabel := CoachPick("Health", "חיים", H)
+            View.ShowMenu(CoachLanguage("Match settings", "הגדרות המשחק", H), CoachLanguage("Shared by both players. Changes apply from the next round. Building materials and reserve ammo are unlimited.", "משותף לשני השחקנים. שינויים חלים מהסיבוב הבא. חומרי הבנייה והתחמושת ללא הגבלה.", H), array{
+                coach_menu_entry{Label := CoachMessage("{WinLabel}: {DuelSettings.TargetLabel(H)}"), Action := 220},
+                coach_menu_entry{Label := CoachMessage("{HealthLabel}: {DuelSettings.VitalsLabel(H)}"), Action := 221},
+                coach_menu_entry{Label := CoachLanguage("Back", "חזרה", H), Action := 20}
+            })
+
+    AnnounceDuelSettings(Changer : player):void =
+        for (Other : DuelFlow.Participants(Self), Other <> Changer, Training := Runtime.Players[Other], View := Views[Other]):
+            H := Training.HebrewText
+            Changed := CoachPick("Match settings changed", "הגדרות המשחק שונו", H)
+            View.SetCaption(CoachMessage("{Changed}: {DuelSettings.TargetLabel(H)} / {DuelSettings.VitalsLabel(H)}"))
 
     RoundVitalsReady(Body : fort_character)<transacts>:logic =
         if (Body.IsActive[], Abs(Body.GetMaxHealth() - 100.0) < 0.1, Abs(Body.GetMaxShield() - 100.0) < 0.1, Abs(Body.GetHealth() - 100.0) < 0.1, Abs(Body.GetShield() - 100.0) < 0.1):
@@ -728,6 +795,28 @@ coach_portal_device := class(creative_device):
                 View.CloseMenu()
         else if (Action >= 10 and Action <= 16):
             UpdateSettings(Player, Action)
+        else if (Action = 200):
+            ShowDuelLoadout(Player)
+        else if (Action = 201):
+            ShowDuelSettings(Player)
+        else if (Action = 202):
+            if (Training := Runtime.Players[Player]):
+                Training.SaveDuelLoadout(CoachRandomLoadout())
+            ShowDuelLoadout(Player)
+        else if (Action >= 210 and Action <= 214):
+            if (Training := Runtime.Players[Player]):
+                Slot := Action - 210
+                var Loadout : []int = DuelLoadout(Player)
+                if (Current := Loadout[Slot], set Loadout[Slot] = CoachNextWeapon(Slot, Current)):
+                    Training.SaveDuelLoadout(Loadout)
+            ShowDuelLoadout(Player)
+        else if (Action = 220 or Action = 221):
+            if (Action = 220):
+                DuelSettings.NextTarget()
+            else:
+                DuelSettings.NextVitals()
+            AnnounceDuelSettings(Player)
+            ShowDuelSettings(Player)
         else if (Action = 20):
             ShowHub(Player)
         else if (Action = 21):
@@ -906,6 +995,11 @@ coach_portal_device := class(creative_device):
                 coach_menu_entry{Label := CoachLanguage("My training plan", "תוכנית האימון שלי", H), Action := 91},
                 coach_menu_entry{Label := CoachLanguage("Explore the academy", "סיור באקדמיה", H), Action := 8}
             }
+            if (Training.Mode = coach_mode.Duel):
+                set Entries = array{
+                    coach_menu_entry{Label := CoachLanguage("Choose your loadout", "בחירת נשקים", H), Action := 200},
+                    coach_menu_entry{Label := CoachLanguage("Match settings", "הגדרות המשחק", H), Action := 201}
+                } + Entries
             if (Training.Mode <> coach_mode.Hub):
                 set Entries += array{coach_menu_entry{Label := CoachLanguage("Reset builds in this area", "איפוס הבנייה באזור הזה", H), Action := 30}}
             if (Training.Mode = coach_mode.EditTraining):
