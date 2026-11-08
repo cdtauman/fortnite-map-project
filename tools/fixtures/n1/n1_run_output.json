@@ -1,0 +1,1361 @@
+[
+ {
+  "sequence": 1,
+  "timestamp": "2026-11-08T22:03:57.073Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 fixture started",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 23
+ },
+ {
+  "sequence": 2,
+  "timestamp": "2026-11-08T22:03:57.129Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "PCL|portal|ready",
+  "sourceFile": "coach_portal_device.verse",
+  "sourceLine": 157
+ },
+ {
+  "sequence": 3,
+  "timestamp": "2026-11-08T22:03:57.569Z",
+  "severity": "Warning",
+  "channel": "Game_teleport_to_debug_log",
+  "message": "(Rolling Back) TeleportTo error: An unknown error occurred. If this happens frequently, contact Epic support.",
+  "sourceFile": "TeleportToResult.native.verse",
+  "sourceLine": 46
+ },
+ {
+  "sequence": 4,
+  "timestamp": "2026-11-08T22:03:57.570Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 teleport rejected",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 36
+ },
+ {
+  "sequence": 5,
+  "timestamp": "2026-11-08T22:04:00.080Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=2 entities=0 hits=0",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 6,
+  "timestamp": "2026-11-08T22:04:00.080Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=2 blocked=0 mask=...../...../...../...../...../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 7,
+  "timestamp": "2026-11-08T22:04:01.476Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "PCL|player_body|loadout_requested|inventory_acceptance_pending",
+  "sourceFile": "coach_portal_device.verse",
+  "sourceLine": 362
+ },
+ {
+  "sequence": 8,
+  "timestamp": "2026-11-08T22:04:01.594Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=5 entities=5 hits=5 [510,-7000,10]x1 [0,-7000,10]x1 [0,-7000,110]x1 [0,-7000,-300]x1 [-300,-7100,-200]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 9,
+  "timestamp": "2026-11-08T22:04:01.594Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=5 blocked=3 mask=...../..#../..#../..#../...../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 10,
+  "timestamp": "2026-11-08T22:04:08.597Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=19 blocked=2 mask=...../...../...../.#.../.#.../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 11,
+  "timestamp": "2026-11-08T22:04:09.099Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=20 blocked=3 mask=...../...../.#.../.#.../.#.../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 12,
+  "timestamp": "2026-11-08T22:14:23.257Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1246 entities=5 hits=5 [510,-7000,10]x1 [0,-7000,10]x1 [10,-6970,110]x1 [0,-7000,-300]x1 [-300,-7100,-200]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 13,
+  "timestamp": "2026-11-08T22:14:23.757Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1247 entities=5 hits=5 [510,-7000,10]x1 [0,-7000,10]x1 [50,-6960,110]x1 [0,-7000,-300]x1 [-300,-7100,-200]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 14,
+  "timestamp": "2026-11-08T22:14:24.258Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1248 entities=5 hits=5 [510,-7000,10]x1 [0,-7000,10]x1 [340,-6440,80]x1 [0,-7000,-300]x1 [-300,-7100,-200]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 15,
+  "timestamp": "2026-11-08T22:14:24.760Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1249 entities=4 hits=4 [510,-7000,10]x1 [0,-7000,10]x1 [630,-6380,80]x1 [0,-7000,-300]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 16,
+  "timestamp": "2026-11-08T22:14:25.261Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1250 entities=3 hits=3 [1360,-6500,160]x1 [510,-7000,10]x1 [1070,-6370,290]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 17,
+  "timestamp": "2026-11-08T22:14:25.761Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1251 entities=2 hits=2 [1470,-6400,90]x1 [1360,-6500,160]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 18,
+  "timestamp": "2026-11-08T22:14:25.955Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "PCL|portal|entry_requested|mode=free_build",
+  "sourceFile": "coach_portal_device.verse",
+  "sourceLine": 676
+ },
+ {
+  "sequence": 19,
+  "timestamp": "2026-11-08T22:14:26.261Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1252 entities=1 hits=1 [45220,-10,80]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 20,
+  "timestamp": "2026-11-08T22:14:26.261Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1252 blocked=3 mask=...../...../..#../..#../..#../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 21,
+  "timestamp": "2026-11-08T22:14:26.780Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1253 entities=1 hits=1 [45450,-20,80]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 22,
+  "timestamp": "2026-11-08T22:14:26.781Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1253 blocked=3 mask=...../...../.#.../.#.../.#.../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 23,
+  "timestamp": "2026-11-08T22:14:28.281Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1256 entities=1 hits=1 [45450,-30,80]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 24,
+  "timestamp": "2026-11-08T22:14:36.795Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1273 entities=2 hits=2 [45440,-30,80]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 25,
+  "timestamp": "2026-11-08T22:14:37.296Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1274 entities=2 hits=2 [45820,0,0]x1 [45300,-30,80]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 26,
+  "timestamp": "2026-11-08T22:14:37.796Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1275 entities=2 hits=2 [45820,0,0]x1 [45150,-40,80]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 27,
+  "timestamp": "2026-11-08T22:14:38.297Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1276 entities=1 hits=1 [45000,-40,80]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 28,
+  "timestamp": "2026-11-08T22:14:38.798Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1277 entities=1 hits=1 [44950,-40,80]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 29,
+  "timestamp": "2026-11-08T22:14:42.304Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1284 entities=1 hits=1 [44980,-40,80]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 30,
+  "timestamp": "2026-11-08T22:14:44.309Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1288 entities=1 hits=1 [45000,-40,80]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 31,
+  "timestamp": "2026-11-08T22:14:46.814Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1293 entities=2 hits=2 [45820,0,0]x1 [45000,-40,80]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 32,
+  "timestamp": "2026-11-08T22:14:47.314Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1294 entities=2 hits=2 [45030,-40,80]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 33,
+  "timestamp": "2026-11-08T22:14:47.817Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1295 entities=3 hits=3 [45120,-40,80]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 34,
+  "timestamp": "2026-11-08T22:14:47.817Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1295 blocked=7 mask=...../...../.#.../.#.../#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 35,
+  "timestamp": "2026-11-08T22:14:48.818Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1297 entities=3 hits=3 [45140,-40,80]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 36,
+  "timestamp": "2026-11-08T22:14:49.319Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1298 entities=3 hits=3 [45820,0,0]x1 [45820,0,0]x1 [45150,-40,80]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 37,
+  "timestamp": "2026-11-08T22:14:52.325Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1304 entities=3 hits=3 [45200,-40,80]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 38,
+  "timestamp": "2026-11-08T22:14:52.825Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1305 entities=3 hits=3 [45820,0,0]x1 [45820,0,0]x1 [45250,-40,80]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 39,
+  "timestamp": "2026-11-08T22:14:54.333Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1308 entities=4 hits=4 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1 [45250,-40,80]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 40,
+  "timestamp": "2026-11-08T22:14:54.333Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1308 blocked=15 mask=...../...../#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 41,
+  "timestamp": "2026-11-08T22:14:54.833Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1309 entities=4 hits=4 [45300,-40,90]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 42,
+  "timestamp": "2026-11-08T22:14:55.333Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1310 entities=4 hits=4 [45510,-40,250]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 43,
+  "timestamp": "2026-11-08T22:14:55.835Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1311 entities=3 hits=3 [45820,0,0]x1 [45820,0,0]x1 [45660,-40,360]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 44,
+  "timestamp": "2026-11-08T22:15:06.856Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1333 entities=3 hits=3 [45660,-40,360]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 45,
+  "timestamp": "2026-11-08T22:15:07.858Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1335 entities=3 hits=3 [45820,0,0]x1 [45820,0,0]x1 [45660,-40,360]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 46,
+  "timestamp": "2026-11-08T22:15:08.860Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1337 entities=3 hits=3 [45660,-40,360]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 47,
+  "timestamp": "2026-11-08T22:15:09.360Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1338 entities=3 hits=3 [45720,-30,410]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 48,
+  "timestamp": "2026-11-08T22:15:09.360Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1338 blocked=11 mask=...../...../.#.../#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 49,
+  "timestamp": "2026-11-08T22:15:09.860Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1339 blocked=12 mask=...../...../.#.#./#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 50,
+  "timestamp": "2026-11-08T22:15:10.363Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1340 entities=3 hits=3 [45820,0,0]x1 [45820,0,0]x1 [45680,-60,380]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 51,
+  "timestamp": "2026-11-08T22:15:10.363Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1340 blocked=15 mask=...../...../#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 52,
+  "timestamp": "2026-11-08T22:15:10.869Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1341 entities=5 hits=5 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1 [45550,-110,280]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 53,
+  "timestamp": "2026-11-08T22:15:10.869Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1341 blocked=25 mask=#####/#####/#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 54,
+  "timestamp": "2026-11-08T22:15:11.367Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1342 entities=5 hits=5 [45550,-110,280]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 55,
+  "timestamp": "2026-11-08T22:15:11.367Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1342 blocked=23 mask=.####/#####/#####/.####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 56,
+  "timestamp": "2026-11-08T22:15:11.867Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1343 blocked=24 mask=.####/#####/#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 57,
+  "timestamp": "2026-11-08T22:15:12.367Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1344 blocked=18 mask=#####/#..##/.#..#/.####/.####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 58,
+  "timestamp": "2026-11-08T22:15:12.866Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1345 entities=5 hits=5 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1 [45540,-170,270]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 59,
+  "timestamp": "2026-11-08T22:15:12.866Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1345 blocked=14 mask=###../...##/.#..#/.#.##/.####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 60,
+  "timestamp": "2026-11-08T22:15:13.367Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1346 entities=5 hits=5 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1 [45520,-290,260]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 61,
+  "timestamp": "2026-11-08T22:15:13.367Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1346 blocked=12 mask=...../#####/.#.../.#..#/.####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 62,
+  "timestamp": "2026-11-08T22:15:13.865Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1347 entities=5 hits=5 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1 [45650,-550,80]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 63,
+  "timestamp": "2026-11-08T22:15:13.865Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1347 blocked=3 mask=...../...../.#.../.#.../.#.../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 64,
+  "timestamp": "2026-11-08T22:15:14.366Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1348 entities=5 hits=5 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1 [45910,-580,80]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 65,
+  "timestamp": "2026-11-08T22:15:14.867Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1349 entities=5 hits=5 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1 [46150,-450,80]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 66,
+  "timestamp": "2026-11-08T22:15:15.367Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1350 entities=5 hits=5 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1 [46170,-260,80]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 67,
+  "timestamp": "2026-11-08T22:15:15.367Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1350 blocked=2 mask=...../...../...../.#.../.#.../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 68,
+  "timestamp": "2026-11-08T22:15:15.869Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1351 entities=5 hits=5 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1 [46130,-230,80]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 69,
+  "timestamp": "2026-11-08T22:15:15.869Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1351 blocked=3 mask=...../...../.#.../.#.../.#.../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 70,
+  "timestamp": "2026-11-08T22:15:16.372Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1352 entities=5 hits=5 [46060,-90,80]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 71,
+  "timestamp": "2026-11-08T22:15:16.372Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1352 blocked=13 mask=...##/...##/.#.##/.#.##/.#.##/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 72,
+  "timestamp": "2026-11-08T22:15:16.870Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1353 entities=5 hits=5 [46090,-20,80]x1 [45820,0,0]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 73,
+  "timestamp": "2026-11-08T22:15:16.870Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1353 blocked=4 mask=...../...../.#.../.#.../.#..#/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 74,
+  "timestamp": "2026-11-08T22:15:17.371Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1354 entities=5 hits=5 [46060,50,80]x1 [45820,0,0]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 75,
+  "timestamp": "2026-11-08T22:15:17.371Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1354 blocked=3 mask=...../...../.#.../.#.../.#.../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 76,
+  "timestamp": "2026-11-08T22:15:17.877Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1355 entities=5 hits=5 [46010,60,80]x1 [45820,0,0]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 77,
+  "timestamp": "2026-11-08T22:15:17.877Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1355 blocked=25 mask=#####/#####/#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 78,
+  "timestamp": "2026-11-08T22:15:20.883Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1361 entities=5 hits=5 [45820,0,0]x1 [46010,60,80]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 79,
+  "timestamp": "2026-11-08T22:15:20.883Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1361 blocked=19 mask=####./#...#/##..#/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 80,
+  "timestamp": "2026-11-08T22:15:21.383Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1362 entities=5 hits=5 [46010,60,80]x1 [45820,0,0]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 81,
+  "timestamp": "2026-11-08T22:15:21.884Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1363 blocked=16 mask=.####/.#.../.#.../#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 82,
+  "timestamp": "2026-11-08T22:15:22.383Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1364 blocked=14 mask=..###/..#../.##../.####/.####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 83,
+  "timestamp": "2026-11-08T22:15:24.389Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1368 blocked=18 mask=..###/..###/.####/.####/.####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 84,
+  "timestamp": "2026-11-08T22:15:24.890Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1369 entities=5 hits=5 [46020,80,80]x1 [45820,0,0]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 85,
+  "timestamp": "2026-11-08T22:15:25.386Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1370 entities=5 hits=5 [46060,180,80]x1 [45820,0,0]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 86,
+  "timestamp": "2026-11-08T22:15:25.386Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1370 blocked=3 mask=...../...../.#.../.#.../.#.../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 87,
+  "timestamp": "2026-11-08T22:15:26.388Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1372 blocked=5 mask=#..../#..../.#.../.#.../.#.../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 88,
+  "timestamp": "2026-11-08T22:15:26.889Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1373 entities=5 hits=5 [46050,180,80]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 89,
+  "timestamp": "2026-11-08T22:15:26.889Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1373 blocked=3 mask=...../...../.#.../.#.../.#.../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 90,
+  "timestamp": "2026-11-08T22:15:27.392Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1374 entities=5 hits=5 [45950,140,80]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 91,
+  "timestamp": "2026-11-08T22:15:27.392Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1374 blocked=11 mask=###../.##../.###./.#.#./.#.../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 92,
+  "timestamp": "2026-11-08T22:15:27.895Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1375 entities=5 hits=5 [46010,-10,80]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 93,
+  "timestamp": "2026-11-08T22:15:27.895Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1375 blocked=11 mask=#..../##.../##.../###../###../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 94,
+  "timestamp": "2026-11-08T22:15:28.394Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1376 entities=5 hits=5 [46050,-100,80]x1 [45820,0,0]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 95,
+  "timestamp": "2026-11-08T22:15:28.394Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1376 blocked=6 mask=...../...../.#.../##.../###../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 96,
+  "timestamp": "2026-11-08T22:15:28.894Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1377 blocked=7 mask=...../...../.#.../.#.../#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 97,
+  "timestamp": "2026-11-08T22:15:29.395Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1378 blocked=6 mask=...../...../.#.../.#.../####./",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 98,
+  "timestamp": "2026-11-08T22:15:29.896Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1379 blocked=10 mask=..###/...##/...##/.#..#/.#.../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 99,
+  "timestamp": "2026-11-08T22:15:30.398Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1380 blocked=14 mask=..###/..###/.#.##/.#.##/.#..#/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 100,
+  "timestamp": "2026-11-08T22:15:31.399Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1382 entities=5 hits=5 [46050,-100,80]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 101,
+  "timestamp": "2026-11-08T22:15:31.399Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1382 blocked=4 mask=...../...../.#.../.#.../.#..#/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 102,
+  "timestamp": "2026-11-08T22:15:31.898Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1383 blocked=2 mask=...../...../...../.#.../.#.../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 103,
+  "timestamp": "2026-11-08T22:15:32.400Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1384 entities=5 hits=5 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1 [46050,-100,80]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 104,
+  "timestamp": "2026-11-08T22:15:32.400Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1384 blocked=3 mask=...../...../.#.../.#.../.#.../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 105,
+  "timestamp": "2026-11-08T22:15:32.900Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1385 entities=5 hits=5 [46050,-100,80]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 106,
+  "timestamp": "2026-11-08T22:15:32.900Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1385 blocked=2 mask=...../...../...../.#.../.#.../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 107,
+  "timestamp": "2026-11-08T22:15:33.403Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1386 entities=5 hits=5 [46080,-70,80]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 108,
+  "timestamp": "2026-11-08T22:15:33.403Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1386 blocked=6 mask=...../...../....#/.#..#/.#.##/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 109,
+  "timestamp": "2026-11-08T22:15:33.902Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1387 entities=5 hits=5 [46120,60,80]x1 [45820,0,0]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 110,
+  "timestamp": "2026-11-08T22:15:33.902Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1387 blocked=2 mask=...../...../...../.#.../.#.../",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 111,
+  "timestamp": "2026-11-08T22:15:34.407Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1388 entities=5 hits=5 [46030,90,80]x1 [45820,0,0]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 112,
+  "timestamp": "2026-11-08T22:15:34.407Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1388 blocked=18 mask=...../..###/#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 113,
+  "timestamp": "2026-11-08T22:15:34.911Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1389 entities=5 hits=5 [45980,90,210]x1 [45820,0,0]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 114,
+  "timestamp": "2026-11-08T22:15:34.911Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1389 blocked=25 mask=#####/#####/#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 115,
+  "timestamp": "2026-11-08T22:15:35.411Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1390 entities=4 hits=4 [45860,90,390]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 116,
+  "timestamp": "2026-11-08T22:15:35.411Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1390 blocked=19 mask=...../.####/#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 117,
+  "timestamp": "2026-11-08T22:15:35.909Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1391 entities=4 hits=4 [45770,90,520]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 118,
+  "timestamp": "2026-11-08T22:15:35.909Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1391 blocked=17 mask=...../..###/.####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 119,
+  "timestamp": "2026-11-08T22:15:36.412Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1392 entities=4 hits=4 [45800,90,500]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 120,
+  "timestamp": "2026-11-08T22:15:36.412Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1392 blocked=20 mask=...##/..###/#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 121,
+  "timestamp": "2026-11-08T22:15:36.912Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1393 entities=4 hits=4 [45800,90,460]x1 [45820,0,380]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 122,
+  "timestamp": "2026-11-08T22:15:36.912Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1393 blocked=18 mask=#####/.####/.#.##/.#..#/####./",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 123,
+  "timestamp": "2026-11-08T22:15:37.409Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1394 entities=3 hits=3 [45790,90,460]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 124,
+  "timestamp": "2026-11-08T22:15:37.410Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1394 blocked=7 mask=...../...../.#.../.#.../#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 125,
+  "timestamp": "2026-11-08T22:15:37.911Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1395 entities=3 hits=3 [45690,110,380]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 126,
+  "timestamp": "2026-11-08T22:15:38.412Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1396 blocked=10 mask=...../...../.#.../.####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 127,
+  "timestamp": "2026-11-08T22:15:39.415Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1398 blocked=18 mask=...##/..###/.####/#####/####./",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 128,
+  "timestamp": "2026-11-08T22:15:39.918Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1399 entities=4 hits=4 [45820,0,0]x1 [45690,110,250]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 129,
+  "timestamp": "2026-11-08T22:15:39.918Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1399 blocked=15 mask=..###/#####/#...#/.#..#/.#.##/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 130,
+  "timestamp": "2026-11-08T22:15:40.419Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1400 entities=4 hits=4 [45820,0,0]x1 [45690,110,90]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 131,
+  "timestamp": "2026-11-08T22:15:40.419Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1400 blocked=17 mask=#...#/....#/#####/#####/####./",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 132,
+  "timestamp": "2026-11-08T22:15:40.920Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1401 blocked=18 mask=..###/..###/..###/.####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 133,
+  "timestamp": "2026-11-08T22:15:41.424Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1402 entities=4 hits=4 [45690,110,90]x1 [45820,0,0]x1 [45820,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 134,
+  "timestamp": "2026-11-08T22:15:41.424Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1402 blocked=25 mask=#####/#####/#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 135,
+  "timestamp": "2026-11-08T22:15:41.923Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1403 blocked=19 mask=..##./#...#/#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 136,
+  "timestamp": "2026-11-08T22:15:42.424Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1404 blocked=17 mask=...##/...../#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 137,
+  "timestamp": "2026-11-08T22:15:42.925Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1405 blocked=20 mask=..###/#...#/#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 138,
+  "timestamp": "2026-11-08T22:15:43.428Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1406 entities=4 hits=4 [45710,70,90]x1 [45820,0,0]x1 [45310,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 139,
+  "timestamp": "2026-11-08T22:15:43.429Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1406 blocked=25 mask=#####/#####/#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 140,
+  "timestamp": "2026-11-08T22:15:43.929Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1407 entities=4 hits=4 [45760,-10,90]x1 [45820,0,0]x1 [45310,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 141,
+  "timestamp": "2026-11-08T22:15:43.929Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1407 blocked=21 mask=..###/###../#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 142,
+  "timestamp": "2026-11-08T22:15:44.430Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1408 entities=4 hits=4 [45780,-40,90]x1 [45820,0,0]x1 [45310,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 143,
+  "timestamp": "2026-11-08T22:15:44.430Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1408 blocked=22 mask=...##/#####/#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 144,
+  "timestamp": "2026-11-08T22:15:44.930Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1409 entities=4 hits=4 [45780,10,90]x1 [45820,0,0]x1 [45310,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 145,
+  "timestamp": "2026-11-08T22:15:44.930Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1409 blocked=22 mask=#####/...##/#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 146,
+  "timestamp": "2026-11-08T22:15:45.431Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1410 entities=4 hits=4 [45710,60,90]x1 [45820,0,0]x1 [45310,0,0]x1 [45820,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 147,
+  "timestamp": "2026-11-08T22:15:45.431Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1410 blocked=25 mask=#####/#####/#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 148,
+  "timestamp": "2026-11-08T22:15:46.432Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1412 blocked=20 mask=#####/...../#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 149,
+  "timestamp": "2026-11-08T22:15:46.935Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1413 entities=4 hits=4 [45740,60,290]x1 [45820,0,0]x1 [45310,0,0]x1 [45310,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ },
+ {
+  "sequence": 150,
+  "timestamp": "2026-11-08T22:15:46.935Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 grid t=1413 blocked=25 mask=#####/#####/#####/#####/#####/",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 48
+ },
+ {
+  "sequence": 151,
+  "timestamp": "2026-11-08T22:15:47.434Z",
+  "severity": "Normal",
+  "channel": "",
+  "message": "N1 box t=1414 entities=4 hits=4 [45600,50,270]x1 [45820,0,0]x1 [45310,0,0]x1 [45310,0,0]x1",
+  "sourceFile": "n1_build_scan_device.verse",
+  "sourceLine": 44
+ }
+]
