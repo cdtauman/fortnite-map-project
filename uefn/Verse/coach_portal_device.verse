@@ -129,6 +129,11 @@ coach_portal_device := class(creative_device):
     Structures : coach_structure_device = coach_structure_device{}
     @editable
     CoachInput : input_trigger_device = input_trigger_device{}
+    # Spec v1 step 2.5: one-key build reset in free build (input trigger on Place Marker).
+    @editable
+    QuickResetInput : input_trigger_device = input_trigger_device{}
+    @editable
+    QuickResetConfigured : logic = false
     @editable
     PersonalReset : explosive_device = explosive_device{}
     @editable
@@ -196,6 +201,7 @@ coach_portal_device := class(creative_device):
             LessonButton.InteractedWithEvent.Subscribe(OnLesson),
             HubButton.InteractedWithEvent.Subscribe(OnHub),
             CoachInput.PressedEvent.Subscribe(OnMenu),
+            QuickResetInput.PressedEvent.Subscribe(OnQuickReset),
             OpponentSpawner.SpawnedEvent.Subscribe(OnOpponentSpawned),
             SpeakerSpawner.SpawnedEvent.Subscribe(OnSpeakerSpawned),
             BaselineSpawner.SpawnedEvent.Subscribe(OnOpponentSpawned)
@@ -316,6 +322,8 @@ coach_portal_device := class(creative_device):
         if (set Runtime.Players[Player] = Training, set Views[Player] = View):
             Commerce.Join(Player)
             CoachInput.Register(Player)
+            if (QuickResetConfigured?):
+                QuickResetInput.Register(Player)
             View.EnsureHUD()
             spawn { InitializePlayer(Player) }
 
@@ -341,6 +349,8 @@ coach_portal_device := class(creative_device):
         LeaveDuel(Player)
         Structures.EndDemo(Player)
         CoachInput.Unregister(Player)
+        if (QuickResetConfigured?):
+            QuickResetInput.Unregister(Player)
         if (Training := Runtime.Players[Player]):
             if (Voice := Training.VoiceLink?):
                 Voice.Dispose()
@@ -751,6 +761,8 @@ coach_portal_device := class(creative_device):
                 SetPlayerTeam(Player, 0)
             if (Mode = coach_mode.FreeBuild):
                 MovePlayer(Player, CoachPlayerStart(coach_mode.FreeBuild))
+                if (QuickResetConfigured?, FreeTraining := Runtime.Players[Player], FreeView := Views[Player]):
+                    FreeView.SetCaption(CoachLanguage("Free build. Use the reset key shown on screen to clear your builds instantly.", "בנייה חופשית. מקש האיפוס שמופיע על המסך מנקה את הבנייה שלך מיד.", FreeTraining.HebrewText))
             else if (Mode = coach_mode.EditTraining):
                 MovePlayer(Player, CoachPlayerStart(coach_mode.EditTraining))
             else if (Mode = coach_mode.Duel):
@@ -1671,6 +1683,12 @@ coach_portal_device := class(creative_device):
             if (Pose := Training.LessonReturn?, Character := Player.GetFortCharacter[]):
                 if (Character.TeleportTo[Pose.Translation, Pose.Rotation]) {}
             set Training.LessonReturn = false
+
+    OnQuickReset(Agent : agent):void =
+        if (QuickResetConfigured?, Player := player[Agent], Training := Runtime.Players[Player], Training.Mode = coach_mode.FreeBuild):
+            ResetArea(Player, coach_mode.FreeBuild)
+            if (View := Views[Player]):
+                View.SetCaption(CoachLanguage("Builds reset.", "הבנייה אופסה.", Training.HebrewText))
 
     ResetArea(Player : player, Mode : coach_mode):void =
         if (not ArenaAccess.Holds(Player, Mode)?):
