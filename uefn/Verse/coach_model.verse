@@ -72,6 +72,11 @@ coach_profile := class<final><persistable>:
     TrainingPlan : coach_training_plan = coach_training_plan{}
     # Five slot choices (catalog index or -1); see coach_duel_match.verse.
     DuelLoadout : []int = array{}
+    # 1V1 career totals (spec v1 step 2.7).
+    DuelRounds : int = 0
+    DuelRoundWins : int = 0
+    DuelMatches : int = 0
+    DuelMatchWins : int = 0
 
 var CoachProfiles : weak_map(player, coach_profile) = map{}
 
@@ -109,6 +114,10 @@ CopyCoachProfile<constructor>(Source : coach_profile)<transacts> := coach_profil
     CompletedAngleSessions := Source.CompletedAngleSessions
     TrainingPlan := Source.TrainingPlan
     DuelLoadout := Source.DuelLoadout
+    DuelRounds := Source.DuelRounds
+    DuelRoundWins := Source.DuelRoundWins
+    DuelMatches := Source.DuelMatches
+    DuelMatchWins := Source.DuelMatchWins
 
 LoadCoachProfile(Player : player)<transacts>:coach_profile =
     if (Player.IsActive[], Existing := CoachProfiles[Player]):
@@ -466,6 +475,24 @@ coach_training_session := class:
             HumanCrouch := HumanPatterns.Crouch
             TacticTrials := Tactics.Trials
             TacticValues := Tactics.Values
+            CopyCoachProfile<constructor>(Profile)
+        Saved := StoreCoachProfile(Owner, Profile)
+
+    RecordDuelRound(WonRound : logic, MatchOver : logic):void =
+        var RoundWins : int = Profile.DuelRoundWins
+        var Matches : int = Profile.DuelMatches
+        var MatchWins : int = Profile.DuelMatchWins
+        if (WonRound?):
+            set RoundWins += 1
+        if (MatchOver?):
+            set Matches += 1
+            if (WonRound?):
+                set MatchWins += 1
+        set Profile = coach_profile:
+            DuelRounds := Profile.DuelRounds + 1
+            DuelRoundWins := RoundWins
+            DuelMatches := Matches
+            DuelMatchWins := MatchWins
             CopyCoachProfile<constructor>(Profile)
         Saved := StoreCoachProfile(Owner, Profile)
 

@@ -212,7 +212,10 @@ coach_duel_round_flow := class:
                 Target := Portal.DuelSettings.Target()
                 TargetEnglish := Portal.DuelSettings.TargetLabel(false)
                 TargetHebrew := Portal.DuelSettings.TargetLabel(true)
-                if (Target > 0 and Wins >= Target):
+                MatchOver := if (Target > 0 and Wins >= Target) then true else false
+                Winning.RecordDuelRound(true, MatchOver)
+                Training.RecordDuelRound(false, MatchOver)
+                if (MatchOver?):
                     Say(Portal, Winner, "You won the match {Wins}-{Other}! A new match starts now.", "ניצחת במשחק {Wins}-{Other}! משחק חדש מתחיל עכשיו.")
                     Say(Portal, Loser, "Match lost {Other}-{Wins}. A new match starts now.", "הפסדת במשחק {Other}-{Wins}. משחק חדש מתחיל עכשיו.")
                     if (set Portal.DuelWins[Winner] = 0, set Portal.DuelWins[Loser] = 0) {}
