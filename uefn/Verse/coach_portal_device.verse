@@ -1177,7 +1177,7 @@ coach_portal_device := class(creative_device):
                 coach_menu_entry{Label := CoachLanguage("1V1 build fights", "1V1 בילד פייטס", H), Action := 1},
                 coach_menu_entry{Label := CoachLanguage("Edit courses", "מסלולי עריכה", H), Action := 3},
                 coach_menu_entry{Label := CoachLanguage("Free build", "בנייה חופשית", H), Action := 2},
-                coach_menu_entry{Label := CoachLanguage("Personal coach", "מאמן אישי", H), Action := 0},
+                coach_menu_entry{Label := CoachLanguage("Warm-up vs bot (aim and movement)", "חימום מול בוט (כיוון ותנועה)", H), Action := 0},
                 coach_menu_entry{Label := CoachLanguage("Coach preferences", "העדפות המאמן", H), Action := 4},
                 coach_menu_entry{Label := CoachLanguage("Your training progress", "ההתקדמות שלך באימון", H), Action := 60},
                 coach_menu_entry{Label := CoachLanguage("My training plan", "תוכנית האימון שלי", H), Action := 91},
