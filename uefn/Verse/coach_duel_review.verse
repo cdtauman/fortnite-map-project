@@ -230,6 +230,12 @@ coach_duel_recorder := class:
         set History = KeptHistory
         set Reviews = KeptReviews
 
+# Voice prompt for the talking coach (spec v1 section 7): the LLM only rephrases the measured
+# review in the chosen personality. Used when the player has a connected voice coach.
+CoachDuelVoicePrompt(Review : coach_duel_review):message =
+    Drill := CoachDuelDrillName(Review.Drill, false)
+    CoachMessage("Summarize this measured 1V1 round review for the player in English, under thirty words, ending with one thing to practice ({Drill}). Use only these facts: {Review.English} Do not invent edits, aim, shot counts or causes.")
+
 CoachDuelDrillName(Drill : int, Hebrew : logic)<transacts>:string =
     if (Drill = 0):
         return CoachPick("Height: 90s and high-ground retakes", "גובה: 90 מעלות ולקיחת גובה בחזרה", Hebrew)

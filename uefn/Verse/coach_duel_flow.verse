@@ -223,4 +223,6 @@ coach_duel_round_flow := class:
                     Say(Portal, Winner, "Round won. Score {Wins}-{Other} ({TargetEnglish})", "ניצחת בסיבוב. תוצאה {Wins}-{Other} ({TargetHebrew})")
                     Say(Portal, Loser, "Round lost. Score {Other}-{Wins} ({TargetEnglish}). Your review is in the menu.", "הפסדת בסיבוב. תוצאה {Other}-{Wins} ({TargetHebrew}). הניתוח שלך בתפריט.")
             Portal.DuelReview.Analyze(Loser, Scored)
+            for (Duelist -> Review : Portal.DuelReview.Reviews, Session := Portal.Runtime.Players[Duelist], Session.VoiceEnabled?, Voice := Session.VoiceLink?):
+                Voice.Say(CoachDuelVoicePrompt(Review), true)
             Begin(Portal, 2.0)
