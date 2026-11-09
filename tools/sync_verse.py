@@ -48,13 +48,18 @@ def main():
         except RuntimeError:
             native = None
         base = head_text(name)
-        if native is not None and base is not None and norm(native) != norm(base) and norm(native) != norm(local):
+        cache = os.path.join(ROOT, ".local", "sync_cache", name)
+        last = open(cache, encoding="utf-8").read() if os.path.exists(cache) else None
+        if (native is not None and base is not None and norm(native) != norm(base) and norm(native) != norm(local)
+                and (last is None or norm(native) != norm(last))):
             print(f"STOP {name}: native copy differs from HEAD and from local; not overwriting")
             sys.exit(2)
         if check_only:
             print(f"{name}: native {'missing' if native is None else 'ok'}")
             continue
         call("VerseToolset.VerseToolset", "WriteFile", {"path": VERSE_ROOT + name, "content": local, "bCreateIfMissing": True})
+        os.makedirs(os.path.dirname(cache), exist_ok=True)
+        open(cache, "w", encoding="utf-8").write(local)
         print(f"wrote {name}")
     if check_only:
         return

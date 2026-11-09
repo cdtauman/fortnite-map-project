@@ -946,6 +946,8 @@ coach_portal_device := class(creative_device):
             Course.Start(Player, Kind)
         else if (Action = 42):
             ShowEditPractice(Player)
+        else if (Action = 205):
+            ShowCourseLeaderboard(Player)
         else if (Action >= 44 and Action <= 46):
             var Kind : coach_course_kind = coach_course_kind.PrecisionWalls
             if (Action = 45):
@@ -1367,6 +1369,25 @@ coach_portal_device := class(creative_device):
                 set Entries += array{coach_menu_entry{Label := CoachLanguage("Return to the academy", "חזרה לאקדמיה", H), Action := 7}}
             View.ShowMenu(CoachLanguage("Your practice result", "תוצאת התרגול שלך", H), Summary, Entries)
 
+    ShowCourseLeaderboard(Player : player):void =
+        if (Training := Runtime.Players[Player], View := Views[Player]):
+            H := Training.HebrewText
+            var Text : string = ""
+            for (Kind := 0..2):
+                var Others : []float = array{}
+                for (Other -> Session : Runtime.Players, Other <> Player, Other.IsActive[], Best := CoachCourseBest(Session.Profile, Kind), Best > 0.0):
+                    set Others += array{Best}
+                Section := CoachLeaderboardSection(Kind, CoachCourseBest(Training.Profile, Kind), Others, H)
+                if (Kind > 0):
+                    set Text += "\n\n"
+                set Text += Section
+            View.ShowMenu(CoachLanguage("Leaderboard / on this island now", "טבלת המובילים / באי עכשיו", H), CoachMessage(Text), array{
+                coach_menu_entry{Label := CoachLanguage("Five-wall precision route", "מסלול דיוק בחמישה קירות", H), Action := 40},
+                coach_menu_entry{Label := CoachLanguage("Floor, cone and wall sequence", "רצף רצפה, גג וקיר", H), Action := 41},
+                coach_menu_entry{Label := CoachLanguage("Advanced: three linked triple edits", "מתקדם: שלוש עליות טריפל רצופות", H), Action := 43},
+                coach_menu_entry{Label := CoachLanguage("Back", "חזרה", H), Action := 42}
+            })
+
     ShowEditPractice(Player : player):void =
         if (Training := Runtime.Players[Player], View := Views[Player]):
             H := Training.HebrewText
@@ -1374,6 +1395,7 @@ coach_portal_device := class(creative_device):
                 coach_menu_entry{Label := CoachLanguage("Five-wall precision route", "מסלול דיוק בחמישה קירות", H), Action := 40},
                 coach_menu_entry{Label := CoachLanguage("Floor, cone and wall sequence", "רצף רצפה, גג וקיר", H), Action := 41},
                 coach_menu_entry{Label := CoachLanguage("Advanced: three linked triple edits", "מתקדם: שלוש עליות טריפל רצופות", H), Action := 43},
+                coach_menu_entry{Label := CoachLanguage("Leaderboard", "טבלת המובילים", H), Action := 205},
                 coach_menu_entry{Label := CoachLanguage("Watch a focused lesson", "צפייה בשיעור ממוקד", H), Action := 6},
                 coach_menu_entry{Label := CoachLanguage("Practice freely", "תרגול חופשי", H), Action := 31},
                 coach_menu_entry{Label := CoachLanguage("Return to the academy", "חזרה לאקדמיה", H), Action := 7}
