@@ -134,6 +134,17 @@ coach_portal_device := class(creative_device):
     QuickResetInput : input_trigger_device = input_trigger_device{}
     @editable
     QuickResetConfigured : logic = false
+    # Spec v1 step 4.1: one pre-placed hologram prop per piece kind (NoCollision, translucent).
+    @editable
+    HoloWall : creative_prop = creative_prop{}
+    @editable
+    HoloFloor : creative_prop = creative_prop{}
+    @editable
+    HoloRamp : creative_prop = creative_prop{}
+    @editable
+    HoloCone : creative_prop = creative_prop{}
+    @editable
+    BuildCoachConfigured : logic = false
     @editable
     PersonalReset : explosive_device = explosive_device{}
     @editable
@@ -166,6 +177,8 @@ coach_portal_device := class(creative_device):
     DuelFlow : coach_duel_round_flow = coach_duel_round_flow{}
     DuelSettings : coach_duel_settings = coach_duel_settings{}
     DuelReview : coach_duel_recorder = coach_duel_recorder{}
+    BuildCoach : coach_build_coach = coach_build_coach{}
+    var PendingDrill : [player]int = map{}
     var Views : [player]coach_player_view = map{}
     var PlayerBindings : [player][]cancelable = map{}
     var PlayerBodies : [player]coach_player_body_state = map{}
@@ -183,6 +196,7 @@ coach_portal_device := class(creative_device):
     OnBegin<override>()<suspends>:void =
         if (PersonalPreparationConfigured?):
             PersonalPreparationZone.Disable()
+        HideHolograms()
         GetPlayspace().GetHUDController().HideElements(array{creative_hud_identifier_minimap{}, creative_hud_identifier_map_prompts{}})
         if (set CoachRuntime[GetSession()] = Runtime) {}
         set Runtime.Structures = option{Structures}
@@ -387,6 +401,8 @@ coach_portal_device := class(creative_device):
         set PlayerBodies = RemainingBodies
         set DuelWins = RemainingWins
         DuelReview.Forget(Player)
+        if (Current := BuildCoach.Owner?, Current = Player):
+            BuildCoach.Stop(Self)
 
     OnPlayerSpawned(Agent : agent):void =
         if (Player := player[Agent]):
@@ -537,6 +553,68 @@ coach_portal_device := class(creative_device):
                 coach_menu_entry{Label := CoachMessage("{Practice}: {Drill}"), Action := 204},
                 coach_menu_entry{Label := CoachLanguage("Back", "חזרה", H), Action := 20}
             })
+
+    HideHolograms():void =
+        if (BuildCoachConfigured?):
+            HoloWall.Hide()
+            HoloFloor.Hide()
+            HoloRamp.Hide()
+            HoloCone.Hide()
+
+    ShowHologram(Kind : int, Pose : transform):void =
+        var Prop : creative_prop = HoloWall
+        if (Kind = 1):
+            set Prop = HoloFloor
+        else if (Kind = 2):
+            set Prop = HoloRamp
+        else if (Kind = 3):
+            set Prop = HoloCone
+        if (Prop.TeleportTo[Pose.Translation, Pose.Rotation]):
+            Prop.Show()
+
+    ShowDrillCaption(Player : player, Text : string):void =
+        if (View := Views[Player]):
+            View.SetCaption(CoachMessage(Text))
+
+    InFreeBuild(Player : player)<transacts>:logic =
+        if (Player.IsActive[], Training := Runtime.Players[Player], Training.Mode = coach_mode.FreeBuild):
+            return true
+        false
+
+    ShowBuildDrills(Player : player):void =
+        if (Training := Runtime.Players[Player], View := Views[Player]):
+            H := Training.HebrewText
+            var Entries : []coach_menu_entry = array{}
+            for (Index -> Drill : CoachDrills, Index <= 8):
+                Best := Training.DrillBest(Index)
+                BestText := if (Best > 0.0) then " / {CoachElapsedText(Best)}" else ""
+                set Entries += array{coach_menu_entry{Label := CoachMessage("{Drill.Code} {CoachPick(Drill.English, Drill.Hebrew, H)}{BestText}"), Action := 231 + Index}}
+            set Entries += array{coach_menu_entry{Label := CoachLanguage("Back", "חזרה", H), Action := 20}}
+            View.ShowMenu(CoachLanguage("Build coach", "מאמן בנייה", H), CoachLanguage("A hologram shows exactly where the next piece goes. Build it and the next step appears. Face the direction you want to build before you start.", "הולוגרמה מראה בדיוק איפה החלק הבא. בנה אותו והשלב הבא יופיע. לפני שמתחילים, הסתובב לכיוון שבו תרצה לבנות.", H), Entries)
+
+    ShowDrillPace(Player : player):void =
+        if (Training := Runtime.Players[Player], View := Views[Player]):
+            H := Training.HebrewText
+            View.ShowMenu(CoachLanguage("Choose a pace", "בחר קצב", H), CoachLanguage("Slow: learn the shape. Normal: beat your best time. Pressure: finish within 115% of your best.", "איטי: ללמוד את הצורה. רגיל: לשבור את השיא שלך. לחץ: לסיים תוך 115% מהשיא.", H), array{
+                coach_menu_entry{Label := CoachLanguage("Slow", "איטי", H), Action := 240},
+                coach_menu_entry{Label := CoachLanguage("Normal", "רגיל", H), Action := 241},
+                coach_menu_entry{Label := CoachLanguage("Pressure", "לחץ", H), Action := 242},
+                coach_menu_entry{Label := CoachLanguage("Back", "חזרה", H), Action := 230}
+            })
+
+    StartDrill(Player : player, Drill : int, Pace : int):void =
+        if (not BuildCoachConfigured? or not InFreeBuild(Player)?):
+            return
+        if (View := Views[Player]):
+            View.CloseMenu()
+            if (BuildCoach.Busy(Player)?, Training := Runtime.Players[Player]):
+                View.SetCaption(CoachLanguage("The build coach is guiding another player. Try again in a moment.", "מאמן הבנייה עובד כרגע עם שחקן אחר. נסה שוב בעוד רגע.", Training.HebrewText))
+                return
+        BuildCoach.Start(Self, Player, Drill, Pace)
+
+    DelayedDrill(Player : player, Drill : int)<suspends>:void =
+        Sleep(2.0)
+        StartDrill(Player, Drill, 0)
 
     ShowDuelSettings(Player : player):void =
         if (Training := Runtime.Players[Player], View := Views[Player]):
@@ -885,6 +963,28 @@ coach_portal_device := class(creative_device):
                 if (View := Views[Player]):
                     Practice := CoachPick("Practice", "תרגול", Training.HebrewText)
                     View.SetCaption(CoachMessage("{Practice}: {Drill}"))
+                var Guided : int = 0
+                if (Review.Drill = 0):
+                    set Guided = 2
+                else if (Review.Drill = 1):
+                    set Guided = 4
+                else if (Review.Drill = 2):
+                    set Guided = 1
+                if (BuildCoachConfigured?):
+                    spawn { DelayedDrill(Player, Guided) }
+        else if (Action = 230):
+            ShowBuildDrills(Player)
+        else if (Action >= 231 and Action <= 239):
+            if (set PendingDrill[Player] = Action - 231):
+                ShowDrillPace(Player)
+        else if (Action >= 240 and Action <= 242):
+            if (Drill := PendingDrill[Player]):
+                StartDrill(Player, Drill, Action - 240)
+        else if (Action = 243):
+            if (Current := BuildCoach.Owner?, Current = Player):
+                BuildCoach.Stop(Self)
+            if (View := Views[Player]):
+                View.CloseMenu()
         else if (Action = 202):
             if (Training := Runtime.Players[Player]):
                 Training.SaveDuelLoadout(CoachRandomLoadout())
@@ -1094,6 +1194,8 @@ coach_portal_device := class(creative_device):
                 set Entries += array{coach_menu_entry{Label := CoachLanguage("Reset builds in this area", "איפוס הבנייה באזור הזה", H), Action := 30}}
             if (Training.Mode = coach_mode.EditTraining):
                 set Entries += array{coach_menu_entry{Label := CoachLanguage("Choose an edit course", "בחירת מסלול עריכות", H), Action := 42}}
+            if (Training.Mode = coach_mode.FreeBuild and BuildCoachConfigured?):
+                set Entries = array{coach_menu_entry{Label := CoachLanguage("Build coach: guided drills", "מאמן בנייה: תרגילים מודרכים", H), Action := 230}} + Entries
             if (Commerce.HasCatalog()? and Training.Mode = coach_mode.Hub):
                 set Entries += array{coach_menu_entry{Label := CoachLanguage("Training content details", "פרטי תוכן נוסף לאימון", H), Action := 80}}
             View.ShowMenu(CoachLanguage("Your next level starts here", "האימון הבא שלך מתחיל כאן", H), CoachLanguage("Fight with purpose. Learn one useful change. Bring it into your next round.", "הילחם עם מטרה. למד שינוי מועיל אחד ויישם אותו בסיבוב הבא.", H), Entries)

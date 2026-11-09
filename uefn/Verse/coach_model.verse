@@ -77,6 +77,8 @@ coach_profile := class<final><persistable>:
     DuelRoundWins : int = 0
     DuelMatches : int = 0
     DuelMatchWins : int = 0
+    # Best time per CoachDrills index (0.0 = not completed yet).
+    DrillBests : []float = array{}
 
 var CoachProfiles : weak_map(player, coach_profile) = map{}
 
@@ -118,6 +120,7 @@ CopyCoachProfile<constructor>(Source : coach_profile)<transacts> := coach_profil
     DuelRoundWins := Source.DuelRoundWins
     DuelMatches := Source.DuelMatches
     DuelMatchWins := Source.DuelMatchWins
+    DrillBests := Source.DrillBests
 
 LoadCoachProfile(Player : player)<transacts>:coach_profile =
     if (Player.IsActive[], Existing := CoachProfiles[Player]):
@@ -495,6 +498,26 @@ coach_training_session := class:
             DuelMatchWins := MatchWins
             CopyCoachProfile<constructor>(Profile)
         Saved := StoreCoachProfile(Owner, Profile)
+
+    DrillBest(Index : int)<transacts>:float =
+        if (Value := Profile.DrillBests[Index]):
+            return Value
+        0.0
+
+    # Stores the time if it beats the saved best; returns true for a new best.
+    RecordDrillBest(Index : int, Elapsed : float):logic =
+        Previous := DrillBest(Index)
+        if (Previous > 0.0 and Previous <= Elapsed):
+            return false
+        var Bests : []float = Profile.DrillBests
+        loop:
+            if (Bests.Length > Index):
+                break
+            set Bests += array{0.0}
+        if (set Bests[Index] = Elapsed) {}
+        set Profile = coach_profile{DrillBests := Bests, CopyCoachProfile<constructor>(Profile)}
+        Saved := StoreCoachProfile(Owner, Profile)
+        true
 
     SaveDuelLoadout(Loadout : []int):void =
         set Profile = coach_profile{DuelLoadout := Loadout, CopyCoachProfile<constructor>(Profile)}
